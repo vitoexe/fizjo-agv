@@ -1,5 +1,6 @@
 ---
 tytul: "Wzmacnianie i mobilność"
+filar: 1-przygotowanie
 czesc_ciala: przekrojowe
 status: szkic
 data: 2026-11-02
@@ -37,7 +38,7 @@ recenzent: ""
 
 ## Dla fizjoterapeuty
 
-- Mierz wspięcia na jednej nodze i porównuj ze zdrową stroną (kryterium ≥90%, zob. `powrot-do-grindow.md`). [S22][S23]
+- Mierz wspięcia na jednej nodze i porównuj ze zdrową stroną (kryterium ≥90%, zob. `../filar-2-rehabilitacja/powrot-do-grindow.md`). [S22][S23]
 
 ## TODO / pytania do researchu
 

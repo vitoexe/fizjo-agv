@@ -1,6 +1,6 @@
 # Fizjo AGV
 
-Otwarta baza wiedzy o fizjoterapii w jeździe na rolkach agresywnych (aggressive inline, AGV): urazy, prewencja, rozgrzewka, wzmacnianie, obciążanie ścięgien i powrót do grindów po kontuzji.
+Otwarta baza wiedzy o przygotowaniu ciała do jazdy na rolkach agresywnych (aggressive inline, AGV) i o fizjoterapii po urazach: prawidłowa pozycja przy grindach, wzmacnianie, stabilizacja, mobilność, rozgrzewka, prewencja, a w drugiej kolejności rehabilitacja i powrót do grindów.
 
 Dla kogo:
 - **rolkarzy**, którzy chcą zrozumieć swój uraz i pokazać materiał fizjoterapeucie lub trenerowi,
@@ -12,27 +12,43 @@ Dla kogo:
 
 Wersja 0.1 (2.11.2026): szkielet + treść przeniesiona z pierwszego researchu o grindach. **Nic tu nie przeszło jeszcze review fizjoterapeuty.** Wszystkie pliki mają `status: szkic`.
 
+## Dwa filary (decyzja z 2.11.2026)
+
+1. **Filar 1 — Przygotowanie do grindów (GŁÓWNY, priorytet researchu).** Anatomicznie prawidłowa pozycja i ustawienie ciała przy grindach (staw skokowy, kolano, biodro, tułów, ugięcie, najazd, lądowanie), trening (wzmacnianie, stabilizacja, propriocepcja, mobilność), rozgrzewka, obciążenie i periodyzacja, prewencja.
+2. **Filar 2 — Rehabilitacja po urazach (mniejszy).** Urazy wg części ciała i powrót do grindów po urazie.
+
+Większość nowego researchu idzie do filaru 1. Filar 2 rozwijamy wolniej i najlepiej z recenzją fizjoterapeuty.
+
 ## Struktura
 
 ```
-czesci-ciala/            # wg części ciała i kontuzji
-  kostka/                skrecenie.md, niestabilnosc.md
-  achilles/              tendinopatia.md
-  piszczelowy-tylny/     tendinopatia.md
-  kolano/                urazy.md
-  nadgarstek-reka/       urazy.md
-przekrojowe/             # tematy wspólne
-  wzorce-urazow-wg-grindow.md
-  rozgrzewka.md
+filar-1-przygotowanie/                 # GŁÓWNY
+  pozycja-przy-grindach/
+    README.md                          zasady ogólne: najazd, ugięcie, balans, zeskok
+    soul-topsoul.md  makio.md  frontside-backside.md  royale.md  unity.md  inne.md
   wzmacnianie.md
-  obciazenie-sciegien.md
+  stabilizacja-i-propriocepcja.md
+  mobilnosc.md
+  rozgrzewka.md
+  obciazenie-i-periodyzacja.md         w tym obciążanie ścięgien
+  prewencja.md
+  wzorce-urazow-wg-grindow.md          które struktury obciąża który grind
+filar-2-rehabilitacja/                 # mniejszy
+  czesci-ciala/
+    kostka/            skrecenie.md, niestabilnosc.md
+    achilles/          tendinopatia.md
+    piszczelowy-tylny/ tendinopatia.md
+    kolano/            urazy.md
+    nadgarstek-reka/   urazy.md
   powrot-do-grindow.md
-_szablon/temat.md        # szablon nowego pliku
-zasoby/                  # blogi, Instagram, specjaliści (opinie praktyków, nie dowody)
-sources.md               # bibliografia (S01, S02, ...)
-CONTRIBUTING.md          # jak dodawać i weryfikować treści
-METHODOLOGY.md           # jak zbieramy wiedzę: narzędzia, zasada 2 źródeł, etykiety
-prompts/batch-1/         # gotowe prompty dla pierwszej partii tematów
+zasoby/                                blogi, Instagram, specjaliści (opinie praktyków, nie dowody)
+prompts/
+  batch-2-przygotowanie/               PRIORYTET: E, F, G (filar 1)
+  batch-1/                             A, B (filar 1, ważne); C, D (filar 2, niższy priorytet)
+_szablon/temat.md                      szablon nowego pliku
+sources.md                             bibliografia (S01, S02, ...)
+CONTRIBUTING.md                        jak dodawać i weryfikować treści
+METHODOLOGY.md                         narzędzia, zasada 2 źródeł, etykiety, priorytety
 ```
 
 ## Jak czytać poziomy dowodów
@@ -73,7 +89,7 @@ Kandydaci do recenzji treści i do kontaktu przy „pigułce wiedzy”/biuletyni
 - **Polska:** Michał Popowski (Warszawa, AvePark; sporty ekstremalne, głównie BMX). Specjalisty od AGV/rolek w PL nie znaleziono.
 - **Skateboarding (zagranica):** dr Kyle Brown (USA), Jeroen Stam i Alex Vos (Holandia), Ben Rowles (UK), Matti Hänninen (Finlandia).
 
-TODO: ustalić, kto mógłby zrecenzować pliki `czesci-ciala/kostka/` i `przekrojowe/powrot-do-grindow.md`.
+TODO: ustalić, kto mógłby zrecenzować `filar-1-przygotowanie/pozycja-przy-grindach/` (trener + fizjo) oraz `filar-2-rehabilitacja/czesci-ciala/kostka/` i `filar-2-rehabilitacja/powrot-do-grindow.md`.
 
 ## Licencja
 

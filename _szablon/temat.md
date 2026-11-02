@@ -1,5 +1,6 @@
 ---
 tytul: ""
+filar: ""               # 1-przygotowanie | 2-rehabilitacja
 czesc_ciala: ""          # kostka | achilles | piszczelowy-tylny | kolano | nadgarstek-reka | przekrojowe
 status: szkic            # szkic | do-review | zweryfikowany
 data: RRRR-MM-DD         # data ostatniej zmiany merytorycznej

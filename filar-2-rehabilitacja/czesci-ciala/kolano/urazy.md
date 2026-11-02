@@ -1,5 +1,6 @@
 ---
 tytul: "Kolano: urazy w AGV"
+filar: 2-rehabilitacja
 czesc_ciala: kolano
 status: szkic
 data: 2026-11-02

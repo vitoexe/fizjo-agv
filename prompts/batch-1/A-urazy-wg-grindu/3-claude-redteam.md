@@ -1,6 +1,6 @@
 # A. Wzorce urazów według typu grindu — Claude (red-teaming)
 
-Rola: krytyczna recenzja, szukanie dziur i przesadzonych twierdzeń. Wklej prompt, a pod nim **zestawienie twierdzeń z Gemini/Cursora** albo plik bazy: `przekrojowe/wzorce-urazow-wg-grindow.md (tabela grind → struktura)`.
+Rola: krytyczna recenzja, szukanie dziur i przesadzonych twierdzeń. Wklej prompt, a pod nim **zestawienie twierdzeń z Gemini/Cursora** albo plik bazy: `filar-1-przygotowanie/wzorce-urazow-wg-grindow.md` (tabela grind → struktura) i `filar-1-przygotowanie/pozycja-przy-grindach/`.
 
 ```
 Act as a sceptical sports-medicine reviewer and methodologist. Below is a draft section of an open-source physiotherapy knowledge base for aggressive inline skaters (AGV). Your job is to ATTACK it, not to improve the prose.

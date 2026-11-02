@@ -1,5 +1,6 @@
 ---
 tytul: "Powrót do grindów po urazie kostki"
+filar: 2-rehabilitacja
 czesc_ciala: przekrojowe
 status: szkic
 data: 2026-11-02
@@ -32,7 +33,7 @@ recenzent: ""
 | 4. Soul i makio | mało powtórzeń, bez rotacji, na świeżej nodze | test wspięć ≥90% zdrowej strony, podskoki na jednej nodze bez bólu | [S22][S23] ⏳ |
 | 5. Topside, royale, unity, zeskoki | pełna sesja | testy skoków ≥90% zdrowej strony, gotowość psychiczna, zgoda lekarza | [S22][S23] ⏳ |
 
-Kolejność grindów (H-block → soul/makio bez rotacji → topside i skrzyżowane) wynika z `wzorce-urazow-wg-grindow.md` — {WNIOSKOWANIE}.
+Kolejność grindów (H-block → soul/makio bez rotacji → topside i skrzyżowane) wynika z `../filar-1-przygotowanie/wzorce-urazow-wg-grindow.md` — {WNIOSKOWANIE}.
 
 ## Praktyka i opinie fizjo
 - Nie wracać za szybko po urazie; wielu skaterów doznaje ponownego urazu, bo wraca za wcześnie. [S29] {OPINIA}{ANALOGIA:skateboarding} ✔

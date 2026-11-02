@@ -2,6 +2,12 @@
 
 Źródło: punkt 9 trackera projektu („Plan zbierania wiedzy z wielu źródeł”, Google Tasks „Fizjo AGV”, 2.11.2026).
 
+## Dwa filary i priorytet (decyzja z 2.11.2026, punkt 12 trackera)
+
+- **Filar 1 — Przygotowanie do grindów: GŁÓWNY.** Anatomicznie prawidłowa pozycja przy grindach (kostka, kolano, biodro, tułów, ugięcie, najazd, lądowanie), wzmacnianie, stabilizacja, propriocepcja, mobilność, rozgrzewka, obciążenie i periodyzacja, prewencja. **Większość researchu ma dotyczyć tego filaru.**
+- **Filar 2 — Rehabilitacja po urazach: mniejszy.** Urazy wg części ciała, powrót do grindów. Rozwijany wolniej, z recenzją fizjoterapeuty.
+- Autor projektu nie jest specjalistą — dlatego tym ważniejsze są etykiety, zasada 2 źródeł i recenzja ekspertów (`zasoby/specjalisci.md`).
+
 ## Zasada nadrzędna: AI to narzędzie, nie źródło
 
 Modele AI służą do **szukania i syntezy**. W bazie nigdy nie cytujemy modelu. Cytujemy badanie, stanowisko lub stronę, które model wskazał — po otwarciu i sprawdzeniu, że mówi to, co model twierdzi.
@@ -42,6 +48,19 @@ Punkt odniesienia: research z 2.11.2026 (23 źródła o grindach) — zob. `sour
 5. **Argon**: tylko nierozstrzygnięte sprzeczności.
 6. **Health**: szybkie dopytania w trakcie.
 7. **Zapis do bazy** według kontuzji i części ciała, z etykietami → review (CONTRIBUTING.md).
+
+## Kolejność partii researchu
+
+1. **`prompts/batch-2-przygotowanie/` E i F** — biomechanika i pozycja przy grindach; program wzmacniania i stabilizacji (filar 1, najwyższy priorytet).
+2. **batch-2 G** — prewencja i periodyzacja sesji.
+3. **batch-1 A i B** — wzorce urazów wg grindu; obciążanie ścięgien (wspierają filar 1).
+4. **batch-1 C i D** — powrót po kostce; screening fizjo (filar 2, niższy priorytet).
+
+## Druga partia tematów (prompty w `prompts/batch-2-przygotowanie/`)
+
+- **E.** Biomechanika i prawidłowa pozycja przy grindach; analogie (skateboarding, narciarstwo freestyle, snowboard, BMX); lądowania z wysokości, kolano w valgus, kostka w inwersji/ewersji.
+- **F.** Program wzmacniania i stabilizacji dla AGV: kostka, łydka, piszczelowy tylny, biodro, core, nadgarstek.
+- **G.** Prewencja i periodyzacja obciążenia sesji.
 
 ## Pierwsza partia tematów (prompty w `prompts/batch-1/`)
 

@@ -1,5 +1,6 @@
 ---
 tytul: "Mięsień piszczelowy tylny: tendinopatia"
+filar: 2-rehabilitacja
 czesc_ciala: piszczelowy-tylny
 status: szkic
 data: 2026-11-02

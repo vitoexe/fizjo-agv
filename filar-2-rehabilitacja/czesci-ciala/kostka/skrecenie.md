@@ -1,5 +1,6 @@
 ---
 tytul: "Kostka: skręcenie"
+filar: 2-rehabilitacja
 czesc_ciala: kostka
 status: szkic
 data: 2026-11-02
@@ -22,7 +23,7 @@ recenzent: ""
 
 ## Wnioskowanie biomechaniczne
 
-- Topside'y ustawiają kostkę na końcu zakresu ruchu — po skręceniu prawdopodobnie najbardziej ryzykowne. {WNIOSKOWANIE} (zob. `przekrojowe/wzorce-urazow-wg-grindow.md`)
+- Topside'y ustawiają kostkę na końcu zakresu ruchu — po skręceniu prawdopodobnie najbardziej ryzykowne. {WNIOSKOWANIE} (zob. `../../../filar-1-przygotowanie/wzorce-urazow-wg-grindow.md` i `../../../filar-1-przygotowanie/pozycja-przy-grindach/`)
 
 ## Praktyka i opinie fizjo
 
@@ -34,7 +35,7 @@ recenzent: ""
 
 ## Dla fizjoterapeuty
 
-- Kryteria powrotu: zob. `przekrojowe/powrot-do-grindow.md`. [S19][S23]
+- Kryteria powrotu: zob. `../../powrot-do-grindow.md`. [S19][S23]
 
 ## TODO / pytania do researchu
 

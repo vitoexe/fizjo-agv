@@ -1,5 +1,6 @@
 ---
 tytul: "Nadgarstek i ręka: urazy przy upadkach"
+filar: 2-rehabilitacja
 czesc_ciala: nadgarstek-reka
 status: szkic
 data: 2026-11-02

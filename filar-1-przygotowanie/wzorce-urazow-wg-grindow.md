@@ -1,5 +1,6 @@
 ---
 tytul: "Wzorce urazów według grindów"
+filar: 1-przygotowanie
 czesc_ciala: przekrojowe
 status: szkic
 data: 2026-11-02

@@ -1,5 +1,6 @@
 ---
 tytul: "Kostka: przewlekła niestabilność"
+filar: 2-rehabilitacja
 czesc_ciala: kostka
 status: szkic
 data: 2026-11-02
