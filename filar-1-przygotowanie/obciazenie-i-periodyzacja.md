@@ -28,11 +28,32 @@ Model monitorowania bólu (Silbernagel, opracowany dla tendinopatii Achillesa) [
 - HSR i ekscentryka dały porównywalne efekty (12 i 52 tyg.). [S09] {DOWÓD:RCT} ⏳ 1/2
 - Reakcję ścięgna oceniaj w ciągu 24–48 h, najlepiej rano; sesja bez bólu może dać sztywność następnego dnia. [S13] {KONSENSUS} ⏳ 1/2
 - Synteza kolagenu w ścięgnie rośnie przez ok. 24 h po wysiłku i utrzymuje się ok. 3 dni, a jego rozpad szczytuje wcześniej — uzasadnienie przerw między ciężkimi sesjami. [S14] {KONSENSUS} ⏳ 1/2
+- Pomiar u ludzi (8 + 6 młodych mężczyzn, 1 h wysiłku nogi): synteza kolagenu w ścięgnie rzepki rośnie od 6 h, szczyt po 24 h, nadal podwyższona po 72 h. [S101] {DOWÓD:obserwacyjne} ✔ 1/2 (ta sama grupa co [S14] — nie niezależne). „Codzienne skakanie przerywa syntezę i prowadzi do chronicznej degradacji” (Deep Research G) — **brak w źródle**, {WNIOSKOWANIE}.
 - Izometria nie była lepsza od ćwiczeń izotonicznych (bezpośrednio i ≤12 tyg.); wcześniejszy silny efekt przeciwbólowy pochodził z bardzo małego badania. [S15] {DOWÓD:przegląd} ✔ (brak przewagi) ⏳ (małe badanie) 1/2
 
 ### Periodyzacja sesji AGV
 
-- **Brak badań periodyzacji w AGV ani w skateboardingu.** TODO — zob. `prompts/batch-2-przygotowanie/G-prewencja-periodyzacja/`.
+- **Brak badań periodyzacji w AGV ani w skateboardingu** (Deep Research G: NO DATA). Poniżej analogie z innych sportów.
+
+### Monitorowanie obciążenia (sRPE, ACWR, liczba skoków)
+
+- sRPE (ocena wysiłku sesji): ocena 0–10 w skali Borg CR-10 × czas sesji w minutach; zgodna z metodą opartą na tętnie (rower, koszykówka). [S91] {DOWÓD:obserwacyjne} ✔ 1/2
+- W zawodowej siatkówce wszystkie badania używały Borg CR-10; pytać 10–30 min po sesji, pytanie „jak ciężka była sesja?”. [S90] {DOWÓD:przegląd}{ANALOGIA:siatkówka} ✔ 1/2
+- „sRPE silnie koreluje z liczbą skoków w siatkówce” (Deep Research G, przypisane PMC10203829) — ✘: ten przegląd [S90] pisze, że **związek z liczbą skoków trzeba dopiero zbadać**.
+- Gabbett proponował „sweet spot” ACWR (stosunek obciążenia z 7 dni do średniej z 28 dni) 0,8–1,3 i „strefę zagrożenia” ≥ 1,5. [S92] {KONSENSUS} ✔ — **zakwestionowane**, zob. niżej.
+- **ACWR nie nadaje się do przewidywania urazów:** wynik to artefakt statystyczny (sprzężenie matematyczne licznika i mianownika); ACWR liczony z losowym lub stałym „obciążeniem przewlekłym” dawał podobne ilorazy szans jak z prawdziwymi danymi, a żaden model nie przewidywał urazów lepiej niż przypadek. [S93][S94] {DOWÓD:obserwacyjne} ✔ 2/2 (niezależne grupy: Impellizzeri — Sydney; Lolli — Liverpool; [S94] tylko tytuł, brak abstraktu)
+- Deep Research G przypisał test z losowym obciążeniem pracy „Impellizzeri 2020” (preprint) — właściwa praca to Impellizzeri 2021, Sports Med [S93].
+- Plyometria a **sztywność kończyny** (meta-analiza): < 250 skoków/tydz. ES 0,50; 250–500 ES 0,36; > 500 ES −0,22 (**nieistotne**, p = 0,63); lepiej ≤ 2 sesje/tydz. i > 7 tygodni. **Nie mierzono urazów ani ścięgien.** [S89] {DOWÓD:przegląd} ✔ 1/2
+- „> 500 skoków/tydz. drastycznie zwiększa ryzyko przeciążeń” (Deep Research G) — ✘ **nadinterpretacja** [S89] (i błędne DOI w raporcie).
+- Kolano skoczka u elitarnych sportowców (Norwegia, 613 osób): 14,2% ogółem, siatkówka 44,6%, koszykówka 31,9%, brak u kolarzy i biegaczy na orientację. [S102] {DOWÓD:obserwacyjne}{ANALOGIA:siatkówka, koszykówka} ✔ 1/2 — **bez liczenia skoków**; powiązanie „> 500 skoków/tydz. → 29–44%” (Deep Research G) ✘.
+- Reguła „+10% na tydzień”: jest w stanowiskach NATA (kat. dowodów C) [S97] i AAP [S98] {KONSENSUS} ✔ 1/2, ale w RCT u 532 początkujących biegaczy program oparty na regule 10% **nie zmniejszył urazów** (20,8% vs 20,3%). [S100] {DOWÓD:RCT}{ANALOGIA:bieganie} ✔ 1/2 — **sprzeczność**: reguła 10% to heurystyka, nie dowód.
+- „910 skoków na sesję w zawodowej siatkówce” (Deep Research G) — NOT FOUND (źródła wtórne).
+
+### Młodzież — odpoczynek i objętość
+
+- Stanowisko NATA: co najmniej 1–2 dni w tygodniu wolne od treningu i zawodów w danym sporcie; 2–3 niekolejne miesiące w roku bez danego sportu, jeśli uprawiany cały rok; kategoria dowodów C (konsensus). [S97][S98] {KONSENSUS} ✔ 1/2 (NATA cytuje AAP — nie niezależne; „żeby chronić chrząstki wzrostowe” — dopisek modelu)
+- Więcej godzin sportu zorganizowanego w tygodniu niż lat życia → większe szanse ciężkiego urazu przeciążeniowego (OR 2,07; 95% CI 1,40–3,05); również sport zorganizowany > 2× czasu wolnej zabawy (OR 1,87). Badanie kliniczno-kontrolne, 1190 osób w wieku 7–18 lat. [S99] {DOWÓD:obserwacyjne} ✔ 1/2
+- W AGV „sport zorganizowany” jest rzadki — sesje to głównie wolna jazda; przeniesienie reguły „godziny ≤ wiek” na AGV jest niepewne. {WNIOSKOWANIE}
 - Przerwy między ciężkimi sesjami uzasadnia czas odpowiedzi kolagenu ścięgna (ok. 24 h – 3 dni). [S14] {KONSENSUS} ⏳ 1/2 (powtórzone z góry)
 
 ### Plyometria (skoki) — dawki i progresja
@@ -51,6 +72,7 @@ Model monitorowania bólu (Silbernagel, opracowany dla tendinopatii Achillesa) [
 - Model nie był testowany po urazach kostki ani w AGV; ostrożniejsza granica (np. 3/10) po złamaniu jest rozsądna, ale to {WNIOSKOWANIE}.
 - Dla AGV zeskoki z przeszkód to też „kontakty z podłożem” — liczenie zeskoków na sesji może być rozsądną miarą obciążenia, ale bez progów z badań. {WNIOSKOWANIE}{PROPOZYCJA} (podstawa: [S69] — inna populacja i inny cel)
 - Zmieniaj jedną zmienną naraz: czas sesji, liczbę soulów albo trudność grindów. {PROPOZYCJA}
+- Dla amatora AGV: sRPE × czas sesji + liczba zeskoków w dzienniku zamiast ACWR. {PROPOZYCJA} (podstawa: [S91][S93]; liczba zeskoków jako miara — niewalidowana). Progi „40–80 zeskoków na sesję, < 250 tygodniowo” (Deep Research G) — **bez źródła**, zob. `propozycje-do-recenzji.md`.
 
 ## Praktyka i opinie fizjo
 
@@ -64,11 +86,12 @@ Model monitorowania bólu (Silbernagel, opracowany dla tendinopatii Achillesa) [
 
 - [ ] Kolagen/żelatyna + witamina C przed wysiłkiem — badania (Shaw 2017 i nowsze), jakość dowodów. **Brak w zalążku.**
 - [ ] Model bólu dla piszczelowego tylnego — czy ktoś go stosował?
-- [ ] Monitorowanie obciążenia w sportach skokowych (ACWR — kontrowersje).
+- [x] Monitorowanie obciążenia w sportach skokowych (ACWR — kontrowersje) — [S92][S93][S94].
+- [ ] Badania liczby skoków a kolano skoczka (np. siatkówka, objętość treningu) — źródło pierwotne z liczbą skoków.
 - [ ] Jak planować tydzień: liczba sesji, sesje „techniczne” vs „wysokie” (zeskoki, duże przeszkody), deload — analogie ze sportów skokowych i park/freestyle.
 - [ ] Czy liczba zeskoków/lądowań na sesję jest gdzieś mierzona w sportach akcji?
 - [ ] Drugie, niezależne od Silbernagel źródło dla modelu bólu.
 
 ## Źródła
 
-[S09] [S11] [S12] [S13] [S14] [S15] [S69] [S75] [S76] [S77] — `sources.md`.
+[S09] [S11] [S12] [S13] [S14] [S15] [S69] [S75] [S76] [S77] [S89] [S90] [S91] [S92] [S93] [S94] [S97] [S98] [S99] [S100] [S101] [S102] — `sources.md`.

@@ -42,6 +42,7 @@ filar-2-rehabilitacja/                 # mniejszy
     piszczelowy-tylny/ tendinopatia.md
     kolano/            urazy.md
     nadgarstek-reka/   urazy.md
+    glowa/             wstrzasnienie.md (powrót po wstrząśnieniu mózgu)
   powrot-do-grindow.md
 zasoby/                                blogi, Instagram, specjaliści (opinie praktyków, nie dowody)
 prompts/

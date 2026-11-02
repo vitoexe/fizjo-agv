@@ -29,6 +29,8 @@ recenzent: ""
 - Pilotaż (n=20 kobiet z koślawieniem, 4 tyg.): ekscentryczny trening odwodzicieli zmniejszył koślawienie w jednonóżnym skoku bardziej niż koncentryczny, ale **nie w lądowaniu z wysokości**; zmiany koślawienia nie korelowały ze wzrostem siły. [S68] {DOWÓD:RCT} ✔ 1/2
 - Wytrzymałość odwodzicieli ważniejsza niż ich siła — tylko z abstraktu konferencyjnego cytowanego w przeglądzie narracyjnym. [S67] {DOWÓD:przegląd} ⏳ 1/2 (oryginał nieodczytany)
 - Zmęczenie zwiększało szczytowe koślawienie kolana tylko w obunóżnym drop jumpie (w innych zadaniach bez efektu); protokoły zmęczenia typu zwinność i schody zwiększały koślawienie we wszystkich zadaniach (29 badań). [S72] {DOWÓD:przegląd} ✔ 1/2
+- Po zmęczeniu mięśni kończyn dolnych sportowcy lądują z **większym zgięciem tułowia** (21 badań); zmęczenie mięśni lędźwiowo-miedniczych nie zmieniało istotnie lądowania. Biodro, kolano i kostka po zmęczeniu — wyniki niespójne (raz sztywniej, raz bardziej zgięte). Autorzy: pochylenie tułowia to raczej **adaptacja ochronna** odciążająca zmęczone nogi; jej brak może zwiększać ryzyko urazu kolana. [S95] {DOWÓD:przegląd} ✔ 1/2 — Deep Research G przedstawił to odwrotnie (zgięcie tułowia jako ryzyko, „mniejsze zgięcie biodra i kolana” jako pewnik).
+- Sportowcy, którzy później zerwali ACL bez kontaktu, mieli wcześniej (w teście przed sezonem) wolniejszy czas reakcji i szybkość przetwarzania oraz gorszą pamięć niż dobrane kontrole (80 vs 80). Nie badano zmęczenia ani lądowania. [S96] {DOWÓD:obserwacyjne} ✔ 1/2 — „zmęczenie opóźnia przetwarzanie wzrokowe o 50 ms” (Deep Research G, za blogiem) — **brak w źródle pierwotnym** ✘.
 - U 30 zdrowych mężczyzn gorszy indeks stabilności core przewidywał większe koślawienie kolana w przysiadzie jednonóż (p = 0,001); indeks łuku stopy — p = 0,09 (nieistotny przy 0,05, choć autorzy go uwzględniają). [S85] {DOWÓD:obserwacyjne} ✔ 1/2
 - Po 4 tygodniach plyometrii i ćwiczeń z perturbacją ukierunkowanych na biodro (21 kobiet, bez grupy kontrolnej) wzrosła siła prostowników i odwodzicieli biodra, kobiety lądowały z większym zgięciem kolana i biodra, mniejszym odwiedzeniem kolana (6,8° → 5,6°) i większym udziałem prostowników biodra. [S86] {DOWÓD:obserwacyjne} ✔ 1/2
 - Trening równowagi poprawia kontrolę posturalną; dla skoków i zwinności wyniki są sprzeczne, a dla siły i sprintu — sprzeczne lub bez efektu (20 RCT, niska jakość). [S84] {DOWÓD:przegląd} ✔ 1/2 — „NMT znacząco poprawia skoki i sprint u wytrenowanych” (Deep Research F) jest przesadzone
@@ -61,4 +63,4 @@ recenzent: ""
 
 ## Źródła
 
-[S02] [S06] [S16] [S18] [S25] [S29] [S53] [S54] [S62] [S63] [S64] [S65] [S66] [S67] [S68] [S72] [S73] [S84] [S85] [S86] — `sources.md`.
+[S02] [S06] [S16] [S18] [S25] [S29] [S53] [S54] [S62] [S63] [S64] [S65] [S66] [S67] [S68] [S72] [S73] [S84] [S85] [S86] [S95] [S96] — `sources.md`.

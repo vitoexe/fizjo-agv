@@ -14,7 +14,8 @@ recenzent: ""
 ## Co wiemy z badań
 
 - Na rolkach inline (ogólnie) 53% urazów w SOR dotyczyło barku, ramienia, łokcia i nadgarstka. [S03] {DOWÓD:obserwacyjne} ✔ 1/2
-- Brak ochraniaczy nadgarstków: iloraz szans urazu nadgarstka 10,4 vs osoby w ochraniaczach. [S04] {DOWÓD:obserwacyjne} ✔ 1/2
+- Brak ochraniaczy nadgarstków: iloraz szans urazu nadgarstka 10,4 (95% CI 2,9–36,9; skorygowany o wiek i płeć) vs osoby w ochraniaczach; urazy nadgarstka — 32% wszystkich urazów, złamania nadgarstka — 25%. Badanie: 161 rannych na SOR w USA 1992–93, **rolki rekreacyjne, nie AGV**. [S04] {DOWÓD:obserwacyjne} ✔ 1/2
+- Brak ochraniaczy łokci: iloraz szans urazu łokcia 9,5 (95% CI 2,6–34,4). [S04] {DOWÓD:obserwacyjne} ✔ 1/2
 - W AGV ochraniacze nadgarstków nosiło tylko 41% skaterów. [S01] {DOWÓD:obserwacyjne} ✔ 1/2
 
 ## Wnioskowanie biomechaniczne

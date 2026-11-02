@@ -16,7 +16,10 @@ recenzent: ""
 - **Brak badań rozgrzewki dla AGV.**
 - Trening nerwowo-mięśniowy/równowagi zmniejsza ryzyko skręceń kostki o ok. 40%. [S16] {DOWÓD:przegląd}{ANALOGIA:ogólnie sportowcy} ⏳ 1/2
 - Izometria nie okazała się lepsza od ćwiczeń izotonicznych ani bezpośrednio po zabiegu, ani krótkoterminowo (≤12 tyg.) — czyli brak mocnych dowodów na silne doraźne działanie przeciwbólowe. [S15] {DOWÓD:przegląd} ✔ 1/2
-- *Research podawał też, że programy rozgrzewki nerwowo-mięśniowej zmniejszały urazy kończyn dolnych u dzieci i młodzieży o 36% — **bez przypisanego źródła**, więc nie przyjmujemy (TODO).*
+- 36% mniej urazów kolana i kostki po 10-minutowej rozgrzewce SHRed (13 ćwiczeń: aerobowe, zwinność, siła, równowaga) w młodzieżowej koszykówce (IRR 0,64; quasi-eksperyment, n=809). [S83] {DOWÓD:obserwacyjne}{ANALOGIA:koszykówka} ✔ 1/2
+- FIFA 11+: 30% mniej urazów (6 RCT, n=6344). [S87] {DOWÓD:przegląd}{ANALOGIA:piłka nożna} ✔ 1/2
+- **Rozgrzewka nerwowo-mięśniowa zmniejsza ryzyko urazów kończyn dolnych o ok. 30–40%.** [S62][S83][S87] {DOWÓD:przegląd}{ANALOGIA:inne sporty} ✔ 2/2 — szczegóły w `prewencja.md`.
+- „Musi zastąpić rozciąganie statyczne” (Deep Research G) — w tych źródłach nie badano; TODO.
 
 ## Wnioskowanie biomechaniczne
 
@@ -40,11 +43,11 @@ Proponowana kolejność ułożona z powyższych zasad — **{PROPOZYCJA}, nie pr
 
 ## TODO / pytania do researchu
 
-- [ ] Źródło dla „36% mniej urazów kończyn dolnych” (FIFA 11+, programy dla młodzieży — metaanalizy).
+- [x] Źródło dla „36% mniej urazów” — SHRed [S83] (nie Junge 2002 — tam 21% [S88]).
 - [ ] Czy statyczne rozciąganie przed sesją szkodzi sile/skokom — dowody ogólnosportowe.
 - [ ] Rozgrzewka w innych sportach ekstremalnych (skate, BMX, snowboard park) — opinie i badania.
 - [ ] Czas trwania i struktura rozgrzewki dla młodzieży (średni wiek w S01: 15 lat).
 
 ## Źródła
 
-[S02] [S06] [S07] [S15] [S16] [S18] — `sources.md`.
+[S02] [S06] [S07] [S15] [S16] [S18] [S62] [S83] [S87] [S88] — `sources.md`.
