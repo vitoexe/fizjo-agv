@@ -25,7 +25,7 @@ Propozycja modelu {PROPOZYCJA}:
 Co ma oparcie w źródłach (spoza AGV):
 - 2–3 sesje NMT w tygodniu po 10–15 min, 30–60 min tygodniowo — meta-analiza u młodzieży [S62] ✔ (zob. `prewencja.md`).
 - Ćwiczenia równowagi — prewencja skręceń [S16][S80][S82] (zob. `prewencja.md`).
-- Ekscentryka odwodzicieli — pilotaż [S68] ✔ 1/2.
+- Ekscentryka odwodzicieli — pilotaż [S68] ✔ 1/2 (po korekcie: spadek koślawienia w obu grupach, bez grupy kontrolnej; zob. niżej „Audyt Argon 1”).
 - Upadanie z przewrotem — meta-analiza upadków zamierzonych [S70] ✔ 1/2 (zob. `technika-upadania.md`).
 
 Czego **nie ma** w źródłach: rozkład dni, przerwa w weekend „dla ścięgien”, wybór ćwiczeń na konkretne dni, dawki dla AGV.
@@ -62,6 +62,16 @@ Pytania do recenzenta:
 - [ ] Czy Nordic hamstring w rozgrzewce przed jazdą nie męczy przed sesją?
 - [ ] Kroki powrotu po wstrząśnieniu w AGV — czy krok 3–4 jest bezpieczny (ryzyko upadku na płaskim)?
 
+## Siła biodra a koślawienie kolana — wniosek dla AGV (audyt Argon 1, 2.11.2026)
+
+Propozycja do oceny przez fizjoterapeutę; brak badań AGV. Weryfikacja: `research-raw/2026-11-02-argon-1-sila-biodra-koslawienie.md`.
+
+- Wzmacnianie biodra traktować jako **jeden element** programu nerwowo-mięśniowego, nie jako samodzielny sposób na koślawienie: łączyć z nauką lądowania (miękko, zgięte biodro i kolano, feedback), plyometrią i core. {WNIOSKOWANIE} (podstawa: [S106][S107][S108] — słaby związek siły z koślawieniem; [S113][S114][S115] — programy wieloskładnikowe poprawiają mechanikę lądowania; inne sporty)
+- Ćwiczyć i testować głównie **lądowanie jednonóż** (zeskoki z przeszkód), bo tam związek siły biodra z koślawieniem był widoczny [S107]. {WNIOSKOWANIE}
+- Nie obiecywać, że mniejsze koślawienie = mniejsze ryzyko ACL: koślawienie nie przewidywało zerwań ACL [S109]; NMT zmniejsza zerwania ACL w sportach drużynowych [S117], ale mechanizm niepewny. {WNIOSKOWANIE}
+- Wytrzymałość odwodzicieli (np. dłuższe serie, ćwiczenia pod koniec sesji) może mieć znaczenie — tylko jedna grupa badań [S119][S120], wyniki zmęczenia sprzeczne [S122][S123]. {SPEKULACJA}
+- Ciężkie buty AGV (Argon: „1,5–2 kg na rolkę” — **bez źródła**) mogą zwiększać obciążenie przy lądowaniu i wymagać kontroli kolana. {SPEKULACJA}
+
 ## Źródła
 
-[S04] [S16] [S62] [S68] [S70] [S80] [S82] [S83] [S87] [S89] [S91] [S93] [S94] [S97] [S98] [S99] [S104] — `sources.md`.
+[S04] [S16] [S62] [S68] [S70] [S80] [S82] [S83] [S87] [S89] [S91] [S93] [S94] [S97] [S98] [S99] [S104] [S106] [S107] [S108] [S109] [S113] [S114] [S115] [S117] [S119] [S120] [S122] [S123] — `sources.md`.

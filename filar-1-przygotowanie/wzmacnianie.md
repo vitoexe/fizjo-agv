@@ -29,8 +29,8 @@ Kostka (dowody spoza AGV):
 - Przy przewlekłej niestabilności kostki siła ewertorów (ekscentryczna i koncentryczna) i inwertorów (ekscentryczna i koncentryczna) jest mniejsza niż u zdrowych; także koncentryczna siła prostowników kolana. Zginacze podeszwowe — w abstrakcie bez danych. [S79] {DOWÓD:przegląd} ✔ 1/2 — dotyczy CAI, nie każdego skręcenia; uzasadnia ćwiczenia ewersji/inwersji w rehabilitacji, nie dawkę prewencyjną u zdrowych (NO DATA)
 
 Biodro (dowody spoza AGV, szczegóły w `stabilizacja-i-propriocepcja.md`):
-- Ekscentryczny trening odwodzicieli biodra (3×/tydz., 4 × 10 maksymalnych powtórzeń, 4 tyg.) zmniejszył koślawienie kolana w jednonóżnym skoku bardziej niż koncentryczny — pilotaż, n=20, bez przewagi w lądowaniu z wysokości. [S68] {DOWÓD:RCT} ✔ 1/2
-- Związek siły biodra z koślawieniem kolana jest niespójny między badaniami. [S73] {DOWÓD:przegląd} ✔ — sprzeczność
+- Ekscentryczny i koncentryczny trening odwodzicieli biodra (3×/tydz., 4 × 10 maksymalnych powtórzeń, 4 tyg.) — koślawienie spadło w obu grupach; przewaga ekscentryki istotna tylko w jednonóżnym skoku, w lądowaniu trend (p = 0,066); pilotaż, n=20, bez grupy bez treningu. [S68] {DOWÓD:RCT} ✔ 1/2
+- Siła biodra jest u zdrowych co najwyżej słabo związana z koślawieniem kolana (wyjątek: balistyczne lądowanie jednonóż); samo wzmacnianie biodra nie ma przekonujących dowodów zmniejszenia koślawienia — lepiej działa w programie z techniką lądowania, plyometrią i core. [S106][S107][S108][S111][S113][S114] {DOWÓD:przegląd} ✔ 2/2 (związek) / 1/2 (izolowane wzmacnianie) — szczegóły w `stabilizacja-i-propriocepcja.md`
 
 ## Wnioskowanie biomechaniczne
 
@@ -57,4 +57,4 @@ Biodro (dowody spoza AGV, szczegóły w `stabilizacja-i-propriocepcja.md`):
 
 ## Źródła
 
-[S02] [S07] [S08] [S09] [S10] [S16] [S18] [S22] [S23] [S68] [S73] [S79] — `sources.md`.
+[S02] [S07] [S08] [S09] [S10] [S16] [S18] [S22] [S23] [S68] [S73] [S79] [S106] [S107] [S108] [S111] [S113] [S114] — `sources.md`.

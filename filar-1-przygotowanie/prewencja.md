@@ -69,6 +69,7 @@ Wstrząśnienie mózgu (szczegóły: [`../filar-2-rehabilitacja/czesci-ciala/glo
 - [ ] Kaski i wstrząśnienia mózgu w AGV — dane (Deep Research G: NO DATA).
 - [x] Źródło dla „36% mniej urazów” — SHRed [S83]; FIFA 11+ [S87].
 - [x] Zmęczenie a koślawienie kolana — meta-analiza [S72] w `stabilizacja-i-propriocepcja.md`. Brak danych o urazach pod koniec sesji w sportach akcji.
+- [x] Siła biodra a koślawienie (audyt Argon 1) — rozstrzygnięte w `stabilizacja-i-propriocepcja.md` [S106]–[S123]; koślawienie nie przewiduje ACL [S109].
 - [x] Technika upadania — meta-analiza [S70], zob. `technika-upadania.md`. Brak badań na rolkach i przy upadkach z prędkością.
 - [x] Prompty G — Deep Research G zweryfikowany: `research-raw/2026-11-02-G-gemini-deep-research.md`. Pozostałe modele (Gemini Pro, Claude red team) — TODO.
 
