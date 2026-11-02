@@ -25,7 +25,7 @@ recenzent: ""
 ## Praktyka i opinie fizjo
 
 - Objawy: ból za kostką przyśrodkową i wzdłuż podbicia, trudność ze wspięciem na palce jednej nogi. [S07] {KONSENSUS:protokół NHS} ⏳ 1/2
-- Fizjoterapeuta skaterów opublikował post o tendinopatii piszczelowego tylnego u skaterów — treści nie odczytano (Instagram wymaga logowania). [S39] {OPINIA}{ANALOGIA:skateboarding} ⏳
+- Fizjoterapeuta skaterów (K. Brown, post z 24.02.2022): ścięgno piszczelowego tylnego jest mocno obciążane podczas jazdy na desce, a leczenie tendinopatii wymaga zorganizowanego programu wzmacniania i stopniowania obciążenia — cyt.: „The posterior tibialis tendon undergoes large amounts of stress during skateboarding... requires an organized strengthening and loading program”. [S39] {OPINIA}{ANALOGIA:skateboarding} ✔ (treść odczytana 2.11.2026)
 
 ## Dla fizjoterapeuty
 

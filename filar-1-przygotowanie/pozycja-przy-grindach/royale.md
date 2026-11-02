@@ -22,6 +22,8 @@ recenzent: ""
 - Ustawienie: stopy skrzyżowane lub mocno skręcone (grupa royale/unity/grindy skrzyżowane). {WNIOSKOWANIE} (z tabeli w `../wzorce-urazow-wg-grindow.md`)
 - Co prawdopodobnie najbardziej obciąża: jednoczesna rotacja w kolanie i kostce; trudniejsze ratowanie się przy zsunięciu. {WNIOSKOWANIE}
 
+- Przy lądowaniu z grindu ze stopą skręconą na zewnątrz (toe-out) moment koślawiący kolana prawdopodobnie rośnie — w zeskokach na jedną nogę toe-out zwiększał szczytowy moment koślawiący, choć kąt koślawienia różnił się tylko o ok. 1°. Wyjście z grindu i lądowanie ze stopą bliżej ustawienia na wprost może być bezpieczniejsze dla kolana. {WNIOSKOWANIE} (podstawa: [S48] — zeskoki u koszykarzy, n=11, nie grind)
+
 ## Praktyka i opinie fizjo
 
 - TODO.
@@ -39,4 +41,4 @@ recenzent: ""
 
 ## Źródła
 
-[S02]  — `sources.md`.
+[S02] [S48] — `sources.md`.

@@ -23,6 +23,8 @@ recenzent: ""
 - Co prawdopodobnie najbardziej obciąża: soul: kontrola skrętu i rotacji stopy (piszczelowy tylny, mięśnie strzałkowe, przyczep Achillesa), jedna noga pracuje dłużej; topside: więzadła i ścięgna kostki na końcu zakresu. {WNIOSKOWANIE}
 - Topside prawdopodobnie najbardziej ryzykowny dla świeżo zrośniętej lub niestabilnej kostki. {WNIOSKOWANIE}
 
+- Profesjonalni skaterzy (deskorolka) mieli mniejszy zakres supinacji stopy dominującej (32,5° vs 37,3°) i lepszą stabilność na platformie Biodex niż amatorzy (n=32). Jeśli podobnie jest w AGV, kontrola kostki w pozycjach soul/topside może być cechą wytrenowaną — ale to inny sport i badanie przekrojowe (nie wiadomo, co jest przyczyną). [S53] {ANALOGIA:skateboarding}{WNIOSKOWANIE} ✔ (liczby z pełnego tekstu)
+
 ## Praktyka i opinie fizjo
 
 - Ćwiczenia pomagające nauczyć się soul grinda (wideo, treść ⏳). [S24] {OPINIA}
@@ -41,4 +43,4 @@ recenzent: ""
 
 ## Źródła
 
-[S02] [S24] — `sources.md`.
+[S02] [S24] [S53] — `sources.md`.
