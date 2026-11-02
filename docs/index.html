@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fizjo AGV — plan i status</title>
+<meta name="description" content="Otwarta baza wiedzy o przygotowaniu ciała do grindów i fizjoterapii w jeździe na rolkach agresywnych (AGV). Plan i status projektu.">
+<style>
+:root{--bg:#fafaf7;--fg:#1d1d1b;--mut:#5c5c57;--card:#fff;--line:#e3e2dc;--acc:#c2410c;
+--done:#15803d;--doing:#b45309;--todo:#64748b;color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root{--bg:#121212;--fg:#ececea;--mut:#a3a39e;--card:#1c1c1c;
+--line:#2e2e2c;--acc:#fb923c;--done:#4ade80;--doing:#fbbf24;--todo:#94a3b8}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
+font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:1.9rem;margin:.2em 0 .1em}h2{font-size:1.2rem;margin:2em 0 .6em;border-bottom:1px solid var(--line);padding-bottom:.3em}
+p{margin:.5em 0}a{color:var(--acc)}.mut{color:var(--mut);font-size:.92rem}
+.warn{border-left:4px solid var(--acc);background:var(--card);padding:10px 14px;border-radius:6px;margin:14px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0}
+.pill{display:inline-block;font-size:.78rem;font-weight:600;padding:2px 9px;border-radius:99px;border:1px solid currentColor;white-space:nowrap}
+.done{color:var(--done)}.doing{color:var(--doing)}.todo{color:var(--todo)}
+ol.plan{list-style:none;padding:0;margin:0}ol.plan li{display:flex;gap:10px;align-items:flex-start;
+background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:8px 0}
+.nr{font-weight:700;min-width:1.8em;color:var(--mut)}.body{flex:1}.t{font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}@media(min-width:600px){.grid{grid-template-columns:repeat(3,1fr)}}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}
+.stat b{display:block;font-size:1.6rem}.stat span{color:var(--mut);font-size:.88rem}
+.bar{height:10px;border-radius:99px;background:var(--line);overflow:hidden;margin:8px 0}.bar i{display:block;height:100%;background:var(--done)}
+code{font-size:.88em;background:var(--line);padding:1px 5px;border-radius:4px}
+ul{padding-left:1.2em}li{margin:.25em 0}footer{margin-top:3em;color:var(--mut);font-size:.85rem}
+</style></head><body><main>
+<h1>Fizjo AGV</h1>
+<p class="mut">Plan i status projektu · ostatnia aktualizacja: <b>02.11.2026, 14:51</b> (czas warszawski)</p>
+
+<h2>O projekcie</h2>
+<p>Otwarta (open source) baza wiedzy o przygotowaniu ciała do jazdy na rolkach agresywnych (aggressive inline, AGV) i o fizjoterapii po urazach. Dla rolkarzy oraz dla fizjoterapeutów i trenerów, którzy prowadzą zawodnika AGV.</p>
+<div class="card"><b>Filar 1 — przygotowanie do grindów</b> <span class="pill done">główny</span>
+<p>Anatomicznie prawidłowa pozycja przy grindach, wzmacnianie, stabilizacja i propriocepcja, mobilność, rozgrzewka, obciążenie, prewencja.</p></div>
+<div class="card"><b>Filar 2 — rehabilitacja</b> <span class="pill todo">mniejszy</span>
+<p>Urazy według części ciała i powrót do grindów po urazie.</p></div>
+<div class="warn"><b>To nie jest diagnoza ani porada medyczna.</b> Baza zbiera i porządkuje źródła; nie zastępuje badania przez lekarza ani fizjoterapeutę. Treści nie przeszły jeszcze recenzji fizjoterapeuty.</div>
+
+<h2>Plan</h2>
+<p class="mut">Zrobione: 0 · w toku: 0 · do zrobienia: 12 (z 12)</p>
+<div class="bar" aria-label="postęp 0%"><i style="width:0%"></i></div>
+<ol class="plan">
+<li><span class="nr">1.</span><div class="body"><div class="t">Bot „fizjo AGV” jako centrum dowodzenia wiedzą o fizjoterapii w AGV</div><div class="mut">Jedno miejsce, które zbiera i porządkuje wiedzę o fizjoterapii w AGV.</div></div><span class="pill todo">do zrobienia</span></li>
+<li><span class="nr">2.</span><div class="body"><div class="t">Nakarmić go pełnym researchem z całego internetu</div><div class="mut">Szeroki research z wielu narzędzi i modeli, weryfikowany w źródłach pierwotnych.</div></div><span class="pill todo">do zrobienia</span></li>
+<li><span class="nr">3.</span><div class="body"><div class="t">„Pigułka wiedzy” albo większy biuletyn dla fizjoterapeutów o AGV</div><div class="mut">Krótka „pigułka wiedzy” albo biuletyn dla fizjoterapeutów prowadzących rolkarzy AGV.</div></div><span class="pill todo">do zrobienia</span></li>
+<li><span class="nr">4.</span><div class="body"><div class="t">Open source dla społeczności</div><div class="mut">Cała baza jest otwarta i dostępna dla społeczności.</div></div><span class="pill todo">do zrobienia</span></li>
+<li><span class="nr">5.</span><div class="body"><div class="t">Strona dla rolkarzy do pokazania fizjo lub trenerowi</div><div class="mut">Strona, którą rolkarz może pokazać fizjoterapeucie lub trenerowi.</div></div><span class="pill todo">do zrobienia</span></li>
+<li><span class="nr">6.</span><div class="body"><div class="t">Obecny research o grindach to zalążek bazy wiedzy</div><div class="mut">Pierwszy research o grindach jako zalążek bazy.</div></div><span class="pill todo">do zrobienia</span></li>
+<li><span class="nr">7.</span><div class="body"><div class="t">Struktura: najpierw uporządkowana baza, potem strona</div><div class="mut">Najpierw uporządkowana baza (wg tematów i części ciała), potem strona.</div></div><span class="pill todo">do zrobienia</span></li>
+<li><span class="nr">8.</span><div class="body"><div class="t">Społeczność może dodawać i weryfikować treści</div><div class="mut">Mechanizm, dzięki któremu społeczność dodaje i weryfikuje treści.</div></div><span class="pill todo">do zrobienia</span></li>
+<li><span class="nr">9.</span><div class="body"><div class="t">Plan zbierania wiedzy z wielu źródeł</div><div class="mut">Metodologia: role narzędzi, etykiety, min. 2 niezależne źródła pierwotne.</div></div><span class="pill todo">do zrobienia</span></li>
+<li><span class="nr">10.</span><div class="body"><div class="t">Baza fizjoterapeutów i blogów o rolkach i AGV</div><div class="mut">Przegląd blogów, kont na Instagramie i specjalistów od rolek i AGV.</div></div><span class="pill todo">do zrobienia</span></li>
+<li><span class="nr">11.</span><div class="body"><div class="t">Publiczna strona statusu projektu Fizjo AGV</div><div class="mut">Ta strona: plan i status projektu, odświeżana automatycznie.</div></div><span class="pill todo">do zrobienia</span></li>
+<li><span class="nr">12.</span><div class="body"><div class="t">Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)</div><div class="mut">Dwa filary: przygotowanie do grindów (główny) i rehabilitacja (mniejszy).</div></div><span class="pill todo">do zrobienia</span></li>
+</ol>
+
+<h2>Stan bazy</h2>
+<div class="grid">
+<div class="stat"><b>20</b><span>plików tematów</span></div>
+<div class="stat"><b>61</b><span>źródeł w bibliografii</span></div>
+<div class="stat"><b>176</b><span>twierdzeń z etykietą</span></div>
+<div class="stat"><b>89</b><span>sprawdzonych w źródle ✔</span></div>
+<div class="stat"><b>43</b><span>do sprawdzenia ⏳</span></div>
+<div class="stat"><b>2</b><span>potwierdzonych 2/2</span></div>
+</div>
+<p class="mut">Filar 1: 13 plików, filar 2: 7 plików. Z 1 źródłem (1/2): 71. Ostatnia zmiana w bazie: 02.11.2026, 14:49 (commit <code>090c2ea</code>).</p>
+
+<h2>Metodologia w skrócie</h2>
+<ul>
+<li>Każde twierdzenie ma źródło i etykietę: <b>dowód</b> (badanie), <b>konsensus</b> (stanowisko ekspertów, protokół), <b>wnioskowanie</b> (biomechaniczne), <b>analogia</b> (inny sport), <b>spekulacja</b>, <b>opinia</b> (praktyk, blog, social media).</li>
+<li>Pełne potwierdzenie (<b>2/2</b>) wymaga co najmniej 2 niezależnych źródeł pierwotnych. Badanie i jego cytowanie to wciąż jedno źródło.</li>
+<li>✔ oznacza sprawdzone w źródle, ⏳ czeka na weryfikację.</li>
+<li>Modele AI to narzędzia do szukania i syntezy, a nie źródła.</li>
+</ul>
+
+<h2>Linki</h2>
+<ul>
+<li><a href="https://github.com/vitoexe/fizjo-agv">Repozytorium na GitHubie</a> · <a href="https://github.com/vitoexe/fizjo-agv/blob/main/README.md">README</a></li>
+<li><a href="https://github.com/vitoexe/fizjo-agv/blob/main/METHODOLOGY.md">Metodologia</a> · <a href="https://github.com/vitoexe/fizjo-agv/blob/main/CONTRIBUTING.md">Jak dołożyć wiedzę</a> · <a href="https://github.com/vitoexe/fizjo-agv/blob/main/sources.md">Bibliografia</a></li>
+<li><a href="https://github.com/vitoexe/fizjo-agv/tree/main/filar-1-przygotowanie">Filar 1: przygotowanie</a> · <a href="https://github.com/vitoexe/fizjo-agv/tree/main/filar-1-przygotowanie/pozycja-przy-grindach">Pozycja przy grindach</a></li>
+<li><a href="https://github.com/vitoexe/fizjo-agv/tree/main/filar-2-rehabilitacja">Filar 2: rehabilitacja</a> · <a href="https://github.com/vitoexe/fizjo-agv/tree/main/zasoby">Zasoby (blogi, specjaliści)</a></li>
+</ul>
+<footer>Fizjo AGV · open source · strona generowana automatycznie z listy zadań projektu i stanu repozytorium.</footer>
+</main></body></html>

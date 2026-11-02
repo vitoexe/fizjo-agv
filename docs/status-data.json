@@ -1,0 +1,77 @@
+{
+  "source": "Google Tasks: lista „Fizjo AGV” (tylko tytuły i statusy)",
+  "tasks": [
+    {
+      "title": "12. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)",
+      "status": "needsAction",
+      "updated": "2026-11-02T13:00:17.397Z",
+      "position": "00000000000000000000"
+    },
+    {
+      "title": "11. Publiczna strona statusu projektu Fizjo AGV",
+      "status": "needsAction",
+      "updated": "2026-11-02T09:30:38.838Z",
+      "position": "00000000000000000001"
+    },
+    {
+      "title": "10. Baza fizjoterapeutów i blogów o rolkach i AGV",
+      "status": "needsAction",
+      "updated": "2026-11-02T09:26:53.460Z",
+      "position": "00000000000000000002"
+    },
+    {
+      "title": "9. Plan zbierania wiedzy z wielu źródeł",
+      "status": "needsAction",
+      "updated": "2026-11-02T09:25:46.487Z",
+      "position": "00000000000000000003"
+    },
+    {
+      "title": "1. Bot „fizjo AGV” jako centrum dowodzenia wiedzą o fizjoterapii w AGV",
+      "status": "needsAction",
+      "updated": "2026-11-02T09:21:46.044Z",
+      "position": "00000000000000000004"
+    },
+    {
+      "title": "2. Nakarmić go pełnym researchem z całego internetu",
+      "status": "needsAction",
+      "updated": "2026-11-02T09:21:42.411Z",
+      "position": "00000000000000000005"
+    },
+    {
+      "title": "3. „Pigułka wiedzy” albo większy biuletyn dla fizjoterapeutów o AGV",
+      "status": "needsAction",
+      "updated": "2026-11-02T09:21:38.489Z",
+      "position": "00000000000000000006"
+    },
+    {
+      "title": "4. Open source dla społeczności",
+      "status": "needsAction",
+      "updated": "2026-11-02T09:21:34.384Z",
+      "position": "00000000000000000007"
+    },
+    {
+      "title": "5. Strona dla rolkarzy do pokazania fizjo lub trenerowi",
+      "status": "needsAction",
+      "updated": "2026-11-02T09:21:31.401Z",
+      "position": "00000000000000000008"
+    },
+    {
+      "title": "6. Obecny research o grindach to zalążek bazy wiedzy",
+      "status": "needsAction",
+      "updated": "2026-11-02T09:21:26.521Z",
+      "position": "00000000000000000009"
+    },
+    {
+      "title": "7. Struktura: najpierw uporządkowana baza, potem strona",
+      "status": "needsAction",
+      "updated": "2026-11-02T09:21:22.485Z",
+      "position": "00000000000000000010"
+    },
+    {
+      "title": "8. Społeczność może dodawać i weryfikować treści",
+      "status": "needsAction",
+      "updated": "2026-11-02T09:21:18.261Z",
+      "position": "00000000000000000011"
+    }
+  ]
+}
