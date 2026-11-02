@@ -27,6 +27,10 @@ recenzent: ""
 ## Praktyka i opinie fizjo
 
 - Utrata czucia ułożenia stawu po urazie sprzyja nawrotom. [S06] {OPINIA}{ANALOGIA:skateboarding} ⏳ 1/2
+- Niedoleczone skręcenie kostki = istotnie większe ryzyko ponownego urazu, a zbyt wczesny powrót na sztywnej, słabej kostce grozi kompensacją i urazem kolana/biodra (np. ACL). [S29] {OPINIA}{ANALOGIA:skateboarding} ✔ 1/2
+- Trening propriocepcji (równowagi) 2–3× w tygodniu i wzmacnianie pośladków jako prewencja skręceń kostki i urazów ACL. [S29] {OPINIA}{ANALOGIA:skateboarding} ✔ — zgodne z dowodami [S16][S18] dla treningu równowagi
+- Fizjoterapeuta-skater opisuje u siebie nawracające skręcenia inwersyjne („tweaked ankles”). [S33] {OPINIA}{ANALOGIA:skateboarding} ✔
+- Rehabilitację warto zacząć po pierwszym skręceniu, a nie po piątym, albo prewencyjnie. [S28] {OPINIA}{ANALOGIA:skateboarding} ✔ 1/2
 
 ## Dla fizjoterapeuty
 

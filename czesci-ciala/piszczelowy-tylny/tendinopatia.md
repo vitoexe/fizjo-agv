@@ -24,7 +24,7 @@ recenzent: ""
 ## Praktyka i opinie fizjo
 
 - Objawy: ból za kostką przyśrodkową i wzdłuż podbicia, trudność ze wspięciem na palce jednej nogi. [S07] {KONSENSUS:protokół NHS} ⏳ 1/2
-- TODO: wspięcia z piłeczką między piętami bywają opisywane jako dociążenie inwersji przy wspięciu — **brak źródła w researchu**, nie przyjmujemy.
+- Fizjoterapeuta skaterów opublikował post o tendinopatii piszczelowego tylnego u skaterów — treści nie odczytano (Instagram wymaga logowania). [S39] {OPINIA}{ANALOGIA:skateboarding} ⏳
 
 ## Dla fizjoterapeuty
 

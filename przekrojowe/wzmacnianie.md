@@ -30,8 +30,10 @@ recenzent: ""
 - Mobilność kostki w zgięciu grzbietowym może ograniczać głębokie ugięcie kolan przy lądowaniu [S02]. {SPEKULACJA}
 
 ## Praktyka i opinie fizjo
-
-- TODO: brak programów siłowych pisanych dla AGV.
+- Ćwiczenia dla skatera powinny odwzorowywać to, co robi na desce (specyficzność). [S29] {OPINIA}{ANALOGIA:skateboarding} ✔
+- 20–30 min treningu równowagi i pośladków kilka razy w tygodniu. [S29] {OPINIA}{ANALOGIA:skateboarding} ✔
+- Trening core dla rolkarzy AGV (wideo, bez opisu ćwiczeń w tekście). [S25] {OPINIA} ✔ (opis)
+- Ćwiczenia wspierające naukę soul grinda (wideo, treść ⏳). [S24] {OPINIA}
 
 ## Dla fizjoterapeuty
 

@@ -31,6 +31,7 @@ Proponowana kolejność ułożona z powyższych zasad — **{PROPOZYCJA}, nie pr
 ## Praktyka i opinie fizjo
 
 - Rozgrzewka spokojną jazdą przed trikami. [S06] {OPINIA}{ANALOGIA:skateboarding} ⏳ 1/2
+- Co najmniej 10 minut dynamicznego rozciągania przed sesją; najgorsze urazy autora zdarzały się na początku sesji bez rozgrzewki. [S29] {OPINIA}{ANALOGIA:skateboarding} ✔ 1/2
 
 ## Dla fizjoterapeuty
 

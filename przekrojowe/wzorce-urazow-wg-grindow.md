@@ -45,15 +45,20 @@ Poniższa tabela **nie jest wynikiem badań**. Wynika z ustawienia stopy w danym
 | Zeskok z grindu / lądowanie | duża siła pionowa | kolano i Achilles; mniejsza siła przy ugiętych kolanach (podstawa: [S02]) | {WNIOSKOWANIE} |
 
 ## Praktyka i opinie fizjo
-
-- TODO: brak opinii fizjoterapeutów pracujących z AGV. Jedyne źródło praktyka to fizjoterapeuta skateboardowy. [S06] {OPINIA}{ANALOGIA:skateboarding}
+- The Blading Physio (fizjoterapeuta i rolkarz AGV) proponuje ćwiczenia jako narzędzie do szybszej nauki soul grinda — „nie tutorial”. Konkretne ćwiczenia są tylko w wideo, niedostępnym do weryfikacji z tekstu; **brak w źródle twierdzeń o urazach przy soulu**. [S24] {OPINIA} ✔ (opis) 1/2
+- Fizjoterapeuta skaterów: najczęstsze urazy skaterów to kostka i stopa, następnie kolano, zwłaszcza ACL. [S29] {OPINIA}{ANALOGIA:skateboarding} ✔ 1/2
+- Wiele urazów w skateboardingu zdarza się przy prostych trikach; nauka nowych trików szybciej lub na trudniejszych przeszkodach zwiększa ryzyko błędu. [S33] {OPINIA}{ANALOGIA:skateboarding} ✔ 1/2
+- Ankieta 801 rolkarzy w Polsce (rolki ogólnie, praca magisterska): prawie 90% miało co najmniej jeden uraz; najczęściej upadali na kolana i dłonie; utrata równowagi była przyczyną 50% urazów. [S36] {DOWÓD:obserwacyjne}{ANALOGIA:rolki rekreacyjne} ✔ 1/2 *(dane, nie opinia — umieszczone tu do czasu przeniesienia do „Co wiemy z badań” po review)*
 
 ## Dla fizjoterapeuty
 
 - Dane o AGV są stare (2004, 2007) i z małych prób; traktuj je jako kierunek. [S01][S02]
+- Skaterzy często unikają lekarzy, którzy każą im przestać jeździć; potrzebują klinicysty, który rozumie sport. [S29] {OPINIA}{ANALOGIA:skateboarding} ✔
 - Pytaj o konkretne grindy, w których pojawia się ból — mapowanie grind → struktura powyżej to hipoteza, ale pomaga zawęzić wywiad. {WNIOSKOWANIE}
 
 ## TODO / pytania do researchu
+
+- [ ] Obejrzeć wideo The Blading Physio o soul grindzie [S24] i podcast [S26]; spisać ćwiczenia i ewentualne twierdzenia o urazach.
 
 - [ ] Czy istnieją nowsze (po 2007) badania epidemiologiczne AGV lub trick skatingu? Zawody (np. WRS), kluby, ankiety społeczności.
 - [ ] Pomiary sił/kinematyki dla soul/topsoul/makio/royale/unity — czy ktokolwiek je mierzył (prace inżynierskie, magisterki)?

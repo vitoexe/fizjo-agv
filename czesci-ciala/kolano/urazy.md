@@ -22,8 +22,8 @@ recenzent: ""
 - Frontside/backside przenoszą obciążenie bardziej na kolana i biodra. {WNIOSKOWANIE}
 
 ## Praktyka i opinie fizjo
-
-- TODO.
+- U skaterów urazy kolana, zwłaszcza ACL, są drugie po kostce/stopie; często po zbyt wczesnym powrocie po skręceniu kostki. [S29] {OPINIA}{ANALOGIA:skateboarding} ✔ 1/2
+- Ankieta 801 rolkarzy (PL, rolki ogólnie): kolano było najczęściej wskazywanym stawem urazu, a upadki najczęściej na kolana i dłonie. [S36] {DOWÓD:obserwacyjne}{ANALOGIA:rolki rekreacyjne} ✔ — niezależne od [S01]; razem **2/2 dla „kolano często uszkadzane u rolkarzy”** (różne populacje: AGV vs rekreacyjne)
 
 ## Dla fizjoterapeuty
 

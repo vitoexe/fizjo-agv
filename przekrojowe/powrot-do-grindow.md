@@ -35,8 +35,8 @@ recenzent: ""
 Kolejność grindów (H-block → soul/makio bez rotacji → topside i skrzyżowane) wynika z `wzorce-urazow-wg-grindow.md` — {WNIOSKOWANIE}.
 
 ## Praktyka i opinie fizjo
-
-- TODO: brak opinii fizjo prowadzących powrót skaterów AGV.
+- Nie wracać za szybko po urazie; wielu skaterów doznaje ponownego urazu, bo wraca za wcześnie. [S29] {OPINIA}{ANALOGIA:skateboarding} ✔
+- Powrót po dużym urazie bywa straszny; ćwiczenia specyficzne dla sportu poprawiają pewność siebie przy powrocie. [S29] {OPINIA}{ANALOGIA:skateboarding} ✔
 
 ## Dla fizjoterapeuty
 

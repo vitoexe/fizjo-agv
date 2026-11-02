@@ -28,6 +28,7 @@ przekrojowe/             # tematy wspólne
   obciazenie-sciegien.md
   powrot-do-grindow.md
 _szablon/temat.md        # szablon nowego pliku
+zasoby/                  # blogi, Instagram, specjaliści (opinie praktyków, nie dowody)
 sources.md               # bibliografia (S01, S02, ...)
 CONTRIBUTING.md          # jak dodawać i weryfikować treści
 METHODOLOGY.md           # jak zbieramy wiedzę: narzędzia, zasada 2 źródeł, etykiety
@@ -63,6 +64,16 @@ W każdym pliku sekcje są rozdzielone: **Co wiemy z badań** → **Wnioskowanie
 ## Ważne o AGV
 
 Badań stricte o AGV jest bardzo mało i są stare (Hilgert 2004, Major 2007). Żadna znaleziona praca nie rozbija urazów na typy grindów. Duża część bazy to analogie ze skateboardingu, z ogólnej rehabilitacji kostki i ścięgien, oznaczone `[A]`.
+
+## Do biuletynu: lista ekspertów
+
+Kandydaci do recenzji treści i do kontaktu przy „pigułce wiedzy”/biuletynie dla fizjoterapeutów (szczegóły i źródła: `zasoby/specjalisci.md`, `zasoby/instagram.md`, materiały: `zasoby/blogi-i-artykuly.md`). Kontakt tylko przez kanały z ich publicznych stron.
+
+- **AGV:** The Blading Physio (nazwisko nieznane; publikował 2020–2021) — jedyny znaleziony fizjo piszący stricte o AGV.
+- **Polska:** Michał Popowski (Warszawa, AvePark; sporty ekstremalne, głównie BMX). Specjalisty od AGV/rolek w PL nie znaleziono.
+- **Skateboarding (zagranica):** dr Kyle Brown (USA), Jeroen Stam i Alex Vos (Holandia), Ben Rowles (UK), Matti Hänninen (Finlandia).
+
+TODO: ustalić, kto mógłby zrecenzować pliki `czesci-ciala/kostka/` i `przekrojowe/powrot-do-grindow.md`.
 
 ## Licencja
 

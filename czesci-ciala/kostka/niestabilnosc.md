@@ -23,6 +23,7 @@ recenzent: ""
 ## Praktyka i opinie fizjo
 
 - Utrata czucia ułożenia stawu (propriocepcji) po urazie sprzyja nawrotom. [S06] {OPINIA}{ANALOGIA:skateboarding} ⏳ 1/2
+- Nawracające skręcenia u skaterów: zachęta do ćwiczeń już po pierwszym urazie lub prewencyjnie (poradnik 30 stron, 4 filmy z ćwiczeniami). [S28] {OPINIA}{ANALOGIA:skateboarding} ✔ (opis), treść PDF ⏳
 
 ## Dla fizjoterapeuty
 

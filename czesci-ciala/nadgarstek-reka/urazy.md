@@ -21,8 +21,8 @@ recenzent: ""
 - TODO.
 
 ## Praktyka i opinie fizjo
-
-- TODO.
+- Ankieta 801 rolkarzy (PL): staw promieniowo-nadgarstkowy obok kolana najczęściej wskazywany jako kontuzjowany; najczęstszy uraz — otarcia skóry. [S36] {DOWÓD:obserwacyjne}{ANALOGIA:rolki rekreacyjne} ✔ — z [S03] daje 2/2 dla „nadgarstek częsty u rolkarzy” (rolki ogólnie, nie AGV)
+- Uwaga metodologiczna: w tej ankiecie osoby z kaskiem i ochraniaczami częściej zgłaszały urazy niż bez — to korelacja (prawdopodobnie bardziej ryzykowna jazda), sprzeczna z [S04]; nie wyciągać wniosku o szkodliwości ochraniaczy. [S36] {DOWÓD:obserwacyjne} ✔
 
 ## Dla fizjoterapeuty
 

@@ -33,3 +33,29 @@ Typ: **badanie** (oryginalne), **przegląd** (systematyczny/metaanaliza/narracyj
 
 - S11, S12, S13 mają wspólną autorkę (Silbernagel) — **nie liczą się jako 2 niezależne źródła** dla siebie nawzajem.
 - Tylko S01 i S02 dotyczą bezpośrednio AGV. Wszystko inne to rolki inline ogólnie, inne sporty lub ogólna rehabilitacja.
+
+## Zasoby praktyków (dodane 2.11.2026, punkt 10 — Page „Fizjo AGV: fizjoterapeuci, konta i blogi”)
+
+To **nie są dowody naukowe** (poza S36 — praca magisterska, ankieta). Szczegóły i opisy: `zasoby/`. Linki sprawdzone `curl -sL` 2.11.2026.
+
+| ID | Źródło | Typ | Etykieta | Dotyczy AGV? | Link |
+|---|---|---|---|---|---|
+| S24 | The Blading Physio 2021. *Learning Soul Grind With Exercises* (opis wideo na rollernews.com) | blog/wideo fizjo | `{OPINIA}` | **tak** | https://www.rollernews.com/2021/06/29/learning-soul-grind-with-exercises-/ (200) |
+| S25 | The Blading Physio 2021. *Core Work Out — Danny Beer Pro Model* (rollernews.com) | blog/wideo fizjo | `{OPINIA}` | **tak** | https://www.rollernews.com/2021/05/31/core-work-out-danny-beer-pro-model/ (200) |
+| S26 | Skate Talks #47: *Meet the Blading Physiotherapist* (podcast, 2020) | podcast z fizjo | `{OPINIA}` | **tak** | https://www.listennotes.com/podcasts/skate-talks-with-a/skate-talks-47-meet-the-0aIMkcV5Awn/ (200) |
+| S27 | Mad Beef Rollerblading Podcast odc. 207: *Going to the Physio* (2026) | podcast, relacja rolkarza | `{OPINIA}` | **tak** | https://soundcloud.com/madbeefpodcast/going-to-the-physio-episode (200) |
+| S28 | Ben Rowles Physio × Vague 2021. *Ankle Sprain Self Help Guide* | poradnik fizjo | `{OPINIA}{ANALOGIA:skateboarding}` | nie | https://www.vaguemag.com/articles/ben-rowles-physio-x-vague-ankle-sprain-help-guide-free-pdf-download/ (200) |
+| S29 | The Daily Push 2018. *The Dr Kyle Brown Interview* | wywiad z fizjo | `{OPINIA}{ANALOGIA:skateboarding}` | nie | https://www.thedailypush.com/interviews-kyle-brown (200) |
+| S30 | The Daily Push 2019. *Jeroen Stam interview* | wywiad z fizjo | `{OPINIA}{ANALOGIA:skateboarding}` | nie | https://www.thedailypush.com/jeroen-stam-interview (200) |
+| S31 | SkateboardPhysio (blog, J. Stam) | blog fizjo | `{OPINIA}{ANALOGIA:skateboarding}` | nie | https://skateboardphysio.wordpress.com/ (200) |
+| S32 | Old Friends Fitness (K. Brown) | programy komercyjne | `{OPINIA}{ANALOGIA:skateboarding}` | nie | https://www.oldfriendsfitness.com (200) |
+| S33 | CSP Frontline 2019. *Ben Rowles: physio on wheels* | wywiad z fizjo | `{OPINIA}{ANALOGIA:skateboarding}` | nie | https://www.csp.org.uk/frontline/article/ben-rowles-physio-wheels (200) |
+| S34 | PhysioWorks (Miller, Campbell). *Skateboarding Injuries* | blog fizjo | `{OPINIA}{ANALOGIA:skateboarding}` | nie | https://physioworks.com.au/sports/outdoor/skateboarding/ (**403 — blokada botów**) |
+| S35 | FizjoHuta. *Jak powinien wyglądać trening rolkarza?* (tekst z pomocą AI) | blog gabinetu | `{OPINIA}{ANALOGIA:rolki rekreacyjne}` | nie | https://fizjohuta.pl/jak-powinien-wygladac-trening-rolkarza/ (200) |
+| S36 | Ślęczkowska A. 2021. *Rodzaje, częstość oraz czynniki warunkujące występowanie urazów u osób jeżdżących na rolkach*. Praca magisterska, UJ (n=801) | badanie (ankieta, praca dyplomowa) | `{DOWÓD:obserwacyjne}{ANALOGIA:rolki rekreacyjne}` | nie | https://ruj.uj.edu.pl/handle/item/280573 (200) |
+| S37 | Szpital Carolina. *Czas na rolki: uważaj na kontuzje* | artykuł ortopedów | `{OPINIA}{ANALOGIA:rolki rekreacyjne}` | nie | https://carolina.pl/aktualnosci/czas-na-rolki-uwazaj-na-kontuzje/ (200) |
+| S38 | FFRS. *Protocoles médicaux* (wstrząśnienie mózgu) | protokół federacji | `{KONSENSUS:protokół federacji}` | roller freestyle | https://ffroller-skateboard.fr/protocoles-medicaux/ (200) |
+| S39 | K. Brown, post na Instagramie o tendinopatii piszczelowego tylnego u skaterów | post fizjo | `{OPINIA}{ANALOGIA:skateboarding}` | nie | https://www.instagram.com/dr.kylebrown/p/CaYKVHGF7ge/ (200, ale **niezweryfikowane** — IG zwraca 200 dla wszystkiego) |
+| S40 | Suomen Rullalautaliitto. *Kehonhuolto* (polecenie M. Hänninena) | strona federacji | `{OPINIA}` | nie | https://www.rullalauta.fi/kehonhuolto (200) |
+| S41 | M. Popowski. *O mnie* | strona fizjo | `{OPINIA}` | sporty ekstremalne | https://popowskifizjo.pl/o-mnie/ (200) |
+| S42 | BlueBall. *Michał — case study* (powrót skatera po ACL) | opis przypadku gabinetu | `{OPINIA}{ANALOGIA:skateboarding}` | nie | https://blueball.pl/michal-case-study/ (200) |
