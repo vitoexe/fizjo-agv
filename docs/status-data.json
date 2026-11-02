@@ -2,18 +2,18 @@
   "source": "Google Tasks: lista „Fizjo AGV” (tytuły, opisy i statusy)",
   "tasks": [
     {
+      "title": "🔄 13. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami",
+      "notes": "Dodane 2.11.2026.\nPrompty batch-2 w repo (prompts/batch-2-przygotowanie): E pozycja przy grindach, F wzmacnianie i stabilizacja, G prewencja i periodyzacja. Odpalane w Google AI Studio (Gemini 3.1 Pro, temp 0,2, Grounding + URL context, Deep Research max).\n\nSTATUS\n- E ✅ zweryfikowane (commit 090c2ea). Potwierdzone: Blackburn 2008, Puddle 2013, Maldonado 2018, Ou 2021, Determan 2010. Błędy modelu: zmyślone \"LESS >5 = >10x ryzyka ACL\", Teng 30 cm pomylone z 30°, \"80% nawrotów\" źle przypisane, Merz i gimnastyka bez źródeł. Źródła S43–S61.\n- F ✅ cały raport zweryfikowany (części 1 i 3 + infografika; commity 4059aef, 626b995). Potwierdzone: Steib 2017, Moon 2017, Chen 2023 (400–600 min; \"8–10 tyg.\" bez potwierdzenia), Abbasi 2025, Fésüs 2026 (pilotaż), Frederick 2006 (ollie down z 45,7 cm = 4,74x masy ciała, n=7; wcześniej błędnie skreślone, bo model podał zły tytuł i rok), Verhagen + McGuine (trening równowagi zmniejsza skręcenia, nowe 2/2), Hupperets (-35% nawrotów), Mozafaripour (core a koślawienie; łuk stopy nieistotny). Odrzucone: siła lądowania 3,5–4,3x / 6,8x (brak źródła), praca ucznia o strzałkowych, \"klepanie szkodzi nadgarstkowi\", \"<900 kontaktów chroni ścięgna\". Błędy modelu: mieszanie populacji i dopisywanie szczegółów spoza abstraktów. Nowe pliki: technika-upadania.md, propozycje-do-recenzji.md (plan tygodnia modelu do oceny fizjo). Źródła S62–S86.\n- G: prompt przekazany Tomaszowi, do odpalenia (Deep Research).\n\nDALEJ\n- Pełny tekst Puddle 2013 i S16.\n- Audyt: Opus/Claude jako red-team, Argon do sprzeczności (np. siła biodra a koślawienie kolana: wyniki w obie strony). Repo publiczne, więc modele czytają pliki z linków raw (prompts/README.md).\n- Potem batch-1: A i B, a C i D z niższym priorytetem.\n- S22, S23, PhysioWorks pobrać przez Maca, za zgodą Tomasza.\n\nZASADA: zapisujemy wszystko, łącznie z surowymi wynikami modeli (research-raw/).",
+      "status": "needsAction",
+      "updated": "2026-11-02T14:23:17.348Z",
+      "position": "00000000000000000001"
+    },
+    {
       "title": "✅ 11. Publiczna strona statusu projektu Fizjo AGV",
       "notes": "Prosta, czytelna strona w sieci: checklista projektu, co zrobione, co w toku, inne punkty. Źródło danych: ta lista Google Tasks. Dodane 2.11.2026.\n\nDECYZJE 2.11.2026:\n- Hosting na GitHub Pages z publicznego repo vitoexe/fizjo-agv (folder docs/), adres https://vitoexe.github.io/fizjo-agv/ (zamiast VPS/Korath).\n- Strona pokazuje tytuły, statusy (✅ zrobione, 🔄 w toku) i pełne opisy z Tasks.\n- Bez rutyny co godzinę (oszczędność tokenów): strona jest przebudowywana przy każdej aktualizacji Tasks.\n\nStrona działa od 2.11.2026.",
       "status": "needsAction",
       "updated": "2026-11-02T14:09:48.355Z",
       "position": "00000000000000000002"
-    },
-    {
-      "title": "🔄 13. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami",
-      "notes": "Dodane 2.11.2026.\nPrompty batch-2 w repo (prompts/batch-2-przygotowanie): E pozycja przy grindach, F wzmacnianie i stabilizacja, G prewencja i periodyzacja. Odpalane w Google AI Studio (Gemini 3.1 Pro, temp 0,2, Grounding + URL context, Deep Research max).\n\nSTATUS\n- E ✅ zweryfikowane (commit 090c2ea). Potwierdzone: Blackburn 2008, Puddle 2013, Maldonado 2018, Ou 2021, Determan 2010. Błędy modelu: zmyślone \"LESS >5 = >10x ryzyka ACL\", Teng 30 cm pomylone z 30°, \"80% nawrotów\" źle przypisane, Merz i gimnastyka bez źródeł. Źródła S43–S61.\n- F ✅ zweryfikowane (commit 4059aef). Potwierdzone: Steib 2017 (trening nerwowo-mięśniowy, ok. -42% urazów), Moon 2017 (przewrót przy upadku bokiem, przysiad przy upadku w tył), Chen 2023 (dawki plyometrii), Abbasi 2025 (zmęczenie), Fésüs 2026 (pilotaż). Odrzucone: 4,74x masy ciała (zmyślone), praca ucznia o strzałkowych, \"klepanie szkodzi nadgarstkowi\", \"<900 kontaktów chroni ścięgna\". Nowy plik technika-upadania.md. Źródła S62–S77. Prawdopodobnie brak 1. części raportu F.\n- G: do odpalenia.\n\nDALEJ\n- Pełny tekst Puddle 2013 i S16.\n- Audyt: Opus/Claude jako red-team, Argon do sprzeczności (np. siła biodra a koslawienie kolana: wyniki w obie strony). Repo publiczne, więc modele czytają pliki z linków raw (prompts/README.md).\n- Potem batch-1: A i B, a C i D z niższym priorytetem.\n- S22, S23, PhysioWorks pobrać przez Maca, za zgodą Tomasza.\n\nZASADA: zapisujemy wszystko, łącznie z surowymi wynikami modeli (research-raw/).",
-      "status": "needsAction",
-      "updated": "2026-11-02T14:09:27.936Z",
-      "position": "00000000000000000001"
     },
     {
       "title": "🔄 9. Plan zbierania wiedzy z wielu źródeł",
