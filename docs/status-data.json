@@ -2,6 +2,13 @@
   "source": "Google Tasks: lista „Fizjo AGV” (tytuły, opisy i statusy)",
   "tasks": [
     {
+      "title": "🔄 8. Społeczność może dodawać i weryfikować treści",
+      "notes": "Dzięki temu rośnie jakość.\n\nSTATUS\n- ✅ CONTRIBUTING.md: jak dołożyć wiedzę\n- ✅ Szablon nowego tematu (_szablon/temat.md)\n- ⬜ Proces recenzji: kto zatwierdza treść (pole „recenzent” w plikach jest puste)\n- ⬜ Szablony zgłoszeń (issues) na GitHubie\n- ⬜ Pierwszy wkład spoza projektu",
+      "status": "needsAction",
+      "updated": "2026-11-02T18:56:28.273Z",
+      "position": "00000000000000000012"
+    },
+    {
       "title": "✅ 11. Publiczna strona statusu projektu Fizjo AGV",
       "notes": "Prosta, czytelna strona w sieci: checklista projektu, co zrobione, co w toku, inne punkty. Źródło danych: ta lista Google Tasks. Dodane 2.11.2026. Strona działa od 2.11.2026.\n\nDECYZJE 2.11.2026\n- ✅ Hosting na GitHub Pages z publicznego repo vitoexe/fizjo-agv (folder docs/): https://vitoexe.github.io/fizjo-agv/\n- ✅ Strona pokazuje tytuły, statusy (✅ zrobione, 🔄 w toku) i pełne opisy z Tasks\n- ✅ Bez rutyny co godzinę (oszczędność tokenów): przebudowa przy każdej aktualizacji Tasks\n- ✅ Statystyki bazy: pliki, źródła, twierdzenia, potwierdzenia 2/2\n- ✅ Checklista w podpunktach: liczniki i paski postępu przy punktach, pasek ogólny z podpunktami (wdrożone 2.11.2026 wieczorem)",
       "status": "needsAction",
@@ -35,13 +42,6 @@
       "status": "needsAction",
       "updated": "2026-11-02T18:52:56.232Z",
       "position": "00000000000000000004"
-    },
-    {
-      "title": "8. Społeczność może dodawać i weryfikować treści",
-      "notes": "Dzięki temu rośnie jakość.\n\nSTATUS\n- ✅ CONTRIBUTING.md: jak dołożyć wiedzę\n- ✅ Szablon nowego tematu (_szablon/temat.md)\n- ⬜ Proces recenzji: kto zatwierdza treść (pole „recenzent” w plikach jest puste)\n- ⬜ Szablony zgłoszeń (issues) na GitHubie\n- ⬜ Pierwszy wkład spoza projektu",
-      "status": "needsAction",
-      "updated": "2026-11-02T18:52:54.754Z",
-      "position": "00000000000000000012"
     },
     {
       "title": "🔄 7. Struktura: najpierw uporządkowana baza, potem strona",
