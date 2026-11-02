@@ -71,11 +71,11 @@ def plan():
     out = []
     for t in data.get("tasks", []):
         title = t.get("title", "").strip()
-        m = re.match(r"^\s*(\d+)\.\s*(.*)$", title)
-        nr, tekst = (int(m.group(1)), m.group(2)) if m else (999, title)
-        if t.get("status") == "completed":
+        m = re.match(r"^\s*((?:[^\w\s]\ufe0f?\s*)*)(\d+)\.\s*(.*)$", title)
+        emo, nr, tekst = (m.group(1), int(m.group(2)), m.group(3)) if m else ("", 999, title)
+        if t.get("status") == "completed" or "\u2705" in emo:
             st = "done"
-        elif W_TOKU.search(tekst):
+        elif W_TOKU.search(emo) or W_TOKU.search(tekst):
             st = "doing"
         else:
             st = "todo"
