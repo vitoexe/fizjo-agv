@@ -33,6 +33,7 @@ filar-1-przygotowanie/                 # GŁÓWNY
   obciazenie-i-periodyzacja.md         w tym obciążanie ścięgien i plyometria
   prewencja.md
   technika-upadania.md                 przewrót, przysiad; ochrona nadgarstków
+  propozycje-do-recenzji.md            propozycje modeli AI (np. plan tygodnia) — nie dowody
   wzorce-urazow-wg-grindow.md          które struktury obciąża który grind
 filar-2-rehabilitacja/                 # mniejszy
   czesci-ciala/

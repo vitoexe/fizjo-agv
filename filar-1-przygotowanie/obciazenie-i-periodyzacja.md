@@ -38,8 +38,11 @@ Model monitorowania bólu (Silbernagel, opracowany dla tendinopatii Achillesa) [
 ### Plyometria (skoki) — dawki i progresja
 
 - U młodzieży (38 badań, 3347 os.) każda liczba kontaktów z podłożem poprawiała wysokość skoku; < 900 kontaktów w całym programie dawało największy efekt dla skoku z zamachem (CMJ), > 1400 — dla skoku z przysiadu (SJ); optymalny łączny czas 400–600 min. Badanie dotyczy **wysokości skoku, nie urazów ani ścięgien**. [S69] {DOWÓD:przegląd}{ANALOGIA:młodzież} ✔ 1/2
+- „Programy 8–10-tygodniowe najskuteczniejsze” (Deep Research F) — **brak w abstrakcie** [S69].
 - „Ogranicz do < 900 kontaktów, żeby chronić ścięgna” (zalecenie modelu) — **nadinterpretacja**, brak danych o ścięgnach.
 - Progresja od nauki lądowania do skoków reaktywnych — 5 poziomów: snap downs / drop freezes → box jumps → skok pionowy → depth jump od ok. 30 cm (12 cali) do 60+ cm (24+ cali) → warianty depth jumpów (na jednej nodze, do sprintu, do odbicia w bok). [S76] {OPINIA} ✔ — infografika poglądowa: [`research-raw/2026-11-02-F-plyometria-5-etapow.png`](../research-raw/2026-11-02-F-plyometria-5-etapow.png) {OPINIA}
+- **Rozbieżność wysokości:** w tekście raportu F depth jump „ze skrzyni 8–12 cali” (20–30 cm) — to wysokość z poradnika HSS dla *depth drop* (samo lądowanie) [S75]; infografika i The Movement System [S76] podają *depth jump* z odbiciem od 12 do 24+ cali (30–60+ cm). Model zlał dwa źródła. {OPINIA}
+- Przykładowy plan tygodnia z raportu F — propozycja modelu, nie dowód: [`propozycje-do-recenzji.md`](propozycje-do-recenzji.md). {PROPOZYCJA}
 - Podobnie: najpierw mechanika lądowania (snap downs albo depth drops 30–45 cm), potem box jumps, skoki z podłoża, na końcu depth drop + skok reaktywny, zaczynając 8–15 cm powyżej własnego wyskoku. [S77] {OPINIA} ✔
 - Poradnik HSS: drop squat → pogo → depth drop z 20–30 cm → skoki z masą ciała → box jumps/płotki; plyometria 1–2× w tygodniu na początku treningu. [S75] {OPINIA} ✔ (artykuł poradnikowy, nie wytyczne kliniczne — model oznaczył to jako „CONSENSUS”)
 

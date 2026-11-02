@@ -24,6 +24,7 @@ recenzent: ""
 
 - Przy lądowaniu z grindu ze stopą skręconą na zewnątrz (toe-out) moment koślawiący kolana prawdopodobnie rośnie — w zeskokach na jedną nogę toe-out zwiększał szczytowy moment koślawiący, choć kąt koślawienia różnił się tylko o ok. 1°. Wyjście z grindu i lądowanie ze stopą bliżej ustawienia na wprost może być bezpieczniejsze dla kolana. {WNIOSKOWANIE} (podstawa: [S48] — zeskoki u koszykarzy, n=11, nie grind)
 - Trening rotatorów zewnętrznych i odwodzicieli biodra w pozycji zbliżonej do royale może dawać lepsze przeniesienie na rurę niż ćwiczenia ogólne. {SPEKULACJA} (Deep Research F; brak danych)
+- Kostka w tym grindzie pracuje prawdopodobnie blisko końca zakresu inwersji/ewersji, co uzasadnia trening ewertorów i inwertorów (gumy, równowaga na jednej nodze). {WNIOSKOWANIE} (Deep Research F; brak pomiarów kostki w AGV — [S02] jej nie mierzył; deficyty siły ewersji/inwersji po urazach: [S79])
 
 ## Praktyka i opinie fizjo
 
@@ -42,4 +43,4 @@ recenzent: ""
 
 ## Źródła
 
-[S02] [S48] — `sources.md`.
+[S02] [S48] [S79] — `sources.md`.

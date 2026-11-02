@@ -40,7 +40,7 @@ Legenda: ✔ zgodne · PARTIAL częściowo (różnica opisana) · ✘ niezgodne 
 | 7 | Slapping nie daje korzyści i może uszkodzić rękę/nadgarstek | PARTIAL | abstrakt: wszystkie strategie **poza „slapping”** istotnie zmniejszały obciążenie przy upadku. O **uszkodzeniu ręki/nadgarstka/łokcia abstrakt nic nie mówi** — dopisek modelu (źródła modelu: blogi medicalguardian, scienceoffalling) | jw. | abstrakt | S70 |
 | 8 | Trening strzałkowych u tenisistów i koszykarzy zapobiega skręceniom | ✘ jako dowód | Jing Y 2026, *Peroneal Muscle Training Effects on Tennis Player Lateral Ankle Sprain Prevention*, Lecture Notes in Education Psychology and Public Media 133:90–97 (EWA Publishing, materiały konferencyjne); afiliacja: **Fairmont Preparatory Academy** (szkoła średnia); przegląd narracyjny bez danych własnych; koszykówki w abstrakcie brak. **Odrzucone jako dowód.** W bazie mamy lepsze: [S16] Vriend, [S17] Doherty, [S54] Stephenson (trening nerwowo-mięśniowy/równowagi, nie izolowane strzałkowe) | doi 10.54254/2753-7048/2026.32951 | abstrakt (Crossref) | S71 (odrzucone) |
 | 9 | Abbasi 2025: zmęczenie ↑ koślawienie głównie w obunóżnym skoku; „280 studies” | PARTIAL | **280 rekordów znalezionych, 29 włączonych** (model: „280 studies” ✘). Wniosek: istotny wzrost tylko w **obunóżnym drop jumpie** (w wynikach: u mężczyzn); w innych zadaniach brak efektu; protokoły zmęczenia „zwinność” i „schody” ↑ DKV we wszystkich zadaniach | PMID 40605118, PMC12220483 | abstrakt | S72 |
-| 10 | „Impact Forces During Skateboarding Landings” 2014, n=7, 4,74× BW | ✘ | to **abstrakt konferencyjny CSB 2004** (Determan, Frederick, Cox; Sole Technology Institute), nie 2014. **n=10**, rail slide: lądowanie na desce 5347 N (SD 800), bail-out na stopy 8282 N (SD 1913) przy masie 69 ± 9 kg (≈ 7,9 i 12,2× BW — nasze przeliczenie). **„4,74× BW” i „n=7” — nie ma.** Ta sama grupa co Determan 2010 [S52] (n=12: 7,98 ± 1,32 vs 12,09 ± 2,63 BW — abstrakt odczytany teraz z kopii na academia.edu → [S52] ✔). Dwa raporty tej samej grupy = 1/2 | CSB 2004 Proceedings, s. 27–28 | pełny tekst (PDF) | S74; S52 |
+| 10 | „Impact Forces During Skateboarding Landings” 2014, n=7, 4,74× BW | PARTIAL (korekta 15:20) | **Liczba i n istnieją**, ale w innej pracy: **Frederick, Determan, Whittlesey, Hamill 2006, J Appl Biomech** — 7 skaterów, *ollie down* z platformy 45,7 cm: szczyt VGRF 4,74 ± 0,46 BW (część 1 raportu podała to poprawnie). Tytuł i rok w części 3 błędne: *Impact forces during skateboarding landings* to abstrakt CSB 2004 (n=10, rail slide, ≈ 7,9× i 12,2× BW). Wszystkie trzy prace (2004, 2006, 2010) — ta sama grupa (Sole Technology / Frederick, Determan) → 1/2. *Pierwsza wersja tej weryfikacji (commit 4059aef) błędnie uznała 4,74 za zmyślone.* | PMID 16760565; CSB 2004 s. 27–28 | abstrakt; pełny tekst abstraktu CSB | S78; S74; S52 |
 | 11 | NO DATA: dawkowanie prewencyjne strzałkowych/piszczelowego tylnego u zdrowych; siła przedramienia a złamania nadgarstka | NO DATA (wg modelu) | nie weryfikowano przeszukaniem systematycznym; zapisane jako luka | — | — | — |
 | 12 | Sprzeczność: siła biodra a DKV | ✔ sprzeczność istnieje | Alzahrani 2021 (przegląd 7 badań): związek siły odwodzicieli z DKV — 2 badania ujemny, 2 dodatni, 3 brak; dla prostowników i rotatorów zewn. też niespójnie; autorzy zalecają mierzyć **siłę ekscentryczną** i zadania skokowe. „Przegląd 2026” modelu nieustalony | PMID 34300118 | abstrakt | S73 |
 | 13a | Progresja plyometrii = „CONSENSUS” | ✘ etykieta → `{OPINIA}` | The Movement System (YouTube, „5 Levels”: snap downs/drop freezes → box jumps → vertical jump → depth jump 12 → 24+ cali → warianty) = źródło infografiki; Thirst Gym (brandonsmitley.com, 5-step: snap downs / depth drops 12–18 cali → box jumps → skoki z podłoża → depth drop + skok reaktywny); HSS — artykuł poradnikowy z wypowiedzią fizjologa wysiłku (drop squat → pogo → depth drop 8–12 cali → skoki → box/płotki), **nie wytyczne kliniczne** → też `{OPINIA}` | linki w sources | strony | S75–S77 |
@@ -52,8 +52,54 @@ Legenda: ✔ zgodne · PARTIAL częściowo (różnica opisana) · ✘ niezgodne 
 - „2/2” dla pojedynczych prac (Steib, Moon ×2, Jing) — jedna praca to 1/2.
 - Pomylone prace: tytuł Larwa 2021 przypisany „Uddin 2026”; IJORO poza MEDLINE.
 - Źródło #8 to przegląd ucznia szkoły średniej w materiałach konferencyjnych — oznaczone jako „CONFIRMED 2/2”.
-- #10: zmyślone liczby (4,74× BW, n=7) i zły rok; oryginał (CSB 2004) podaje ≈ 7,9× i 12,2× BW przy n=10.
+- #10: zły tytuł i rok (liczba 4,74× BW i n=7 są prawdziwe, ale z Frederick 2006, *ollie down* z 45,7 cm — korekta po części 1).
 - Nadinterpretacje: „< 900 kontaktów chroni ścięgna” (badanie o wysokości skoku); „slapping uszkadza nadgarstek” (brak w abstrakcie); „n=217” (brak); „280 studies” (to rekordy, włączono 29).
 - Fésüs: pominięte, że to pilotaż i że efekt dotyczył tylko CMJ, nie lądowania.
 - JFMK: twierdzenie z abstraktu konferencyjnego podane jako wynik przeglądu.
 - „CONSENSUS” dla blogów i filmów trenerów → `{OPINIA}`; „EVIDENCE” dla praktycznych zaleceń (dawki plyometrii, upadki na beton, rolki AGV) → `{WNIOSKOWANIE}`/`{ANALOGIA}`.
+
+---
+
+## Część 1 raportu F (dosłana przez Tomasza ~15:18) — surowe streszczenie, NIEZWERYFIKOWANE
+
+Tytuł raportu: *Physical Preparation and Injury Prevention for Aggressive Inline Skating: A Comprehensive Biomechanical and Evidence-Based Analysis*. Raport = część 1 (poniżej) + infografika + część 3 (zweryfikowana wyżej).
+
+Executive summary modelu: NMT 10–15 min, 2–3×/tydz., −42% urazów KD u młodzieży; prewencyjne dawkowanie strzałkowych/piszczelowego tylnego — tylko ekstrapolacja z koszykówki i tenisa; core i wytrzymałość/ekscentryka odwodzicieli przeciw DKV; młodzież: < 900 kontaktów CMJ w bloku 8–10 tyg.; brak dowodów, że wzmacnianie przedramienia chroni przed złamaniem — liczy się technika upadania.
+
+Nowe twierdzenia (cytowania modelu w nawiasach):
+1. Steib 2017: okres < 6 mies. wystarcza, dłuższe nie lepsze (cite 1, 2); u wytrenowanych NMT w rozgrzewce poprawia też skoki, sprint i równowagę (cite 3).
+2. Po skręceniu kostki — deficyty siły koncentrycznej i ekscentrycznej ewertorów, inwertorów i zginaczy podeszwowych (cite 4).
+3. Trening propriocepcji / balance board: prawie 50% mniej nawrotów skręceń u osób po skręceniu; rozgrzewka NMT do 36% mniej urazów KD u koszykarzy (cite 7).
+4. vGRF 3,5–4,3× masy ciała w typowych skokach, do 6,8× w niektórych drop landingach (cite 9, 10).
+5. Skateboarding, *ollie down* z 45,7 cm: średnio 4,74× BW (cite 11).
+6. DKV (przywiedzenie i rotacja wewn. biodra, odwiedzenie kolana, rotacja zewn. piszczeli) jako główny mechanizm ACL (cite 12, 13).
+7. Indeks stabilności core i indeks łuku stopy przewidują DKV w przysiadzie jednonóż (cite 16).
+8. Prostowniki biodra minimalizują przywiedzenie przy lądowaniu jednonóż; 4-tygodniowy program siłowy zmienił mechanikę lądowania (cite 18, „Source 4”).
+9. Chen 2023: łączny czas 400–600 min, programy 8–10 tygodni najbardziej skuteczne (cite 21, 23, 24).
+10. Przykładowy plan tygodnia (pon. NMT 15 min + jazda; wt. core/biodro 15 min; śr. NMT 15 min; czw. odpoczynek/mobilność łydki; pt. NMT 10 min + upadki; weekend bez plyometrii) oraz 5-krokowa progresja: snap downs/drop freezes → box jumps → skoki pionowe/pogo → depth jumps ze skrzyni **8–12 cali** → skoki reaktywne/kierunkowe („sports conditioning consensus”, cite 25–27).
+11. Kostka w AGV „stale w ekstremalnej inwersji i ewersji”, szczególnie przy soul i royale.
+
+## Weryfikacja części 1 (Grok Bot, 2.11.2026)
+
+| # | Twierdzenie | Wynik | Co mówi źródło / różnica | Identyfikator | ID w bazie |
+|---|---|---|---|---|---|
+| 1a | Steib: < 6 mies. wystarcza, dłużej nie lepiej | ✔ | „Interventions lasting more than 6 months were not superior”; efekt osiągalny w 20–60 sesjach i < 6 mies. | PMID 29184511 | S62 |
+| 1b | NMT u wytrenowanych poprawia skoki, sprint, równowagę (cite 3) | PARTIAL / cite nieustalone | Zech 2010 (przegląd 20 RCT, trening równowagi): poprawa kontroli posturalnej ✔; skoki, zwinność — „indications”, wyniki sprzeczne; siła i sprint — sprzeczne lub brak efektu; niska jakość badań. „Significantly enhances” — przesadzone. Zech jest współautorką Steib 2017 (ta sama grupa) | PMID 20617915 | S84 |
+| 2 | Po skręceniu: deficyty siły ewertorów, inwertorów, zginaczy podeszwowych | PARTIAL | Khalaj 2020 (meta-analiza, 20 badań) dotyczy **przewlekłej niestabilności kostki (CAI)**, nie każdego skręcenia: niższa siła ekscentryczna i koncentryczna ewertorów, ekscentryczna i koncentryczna inwertorów, koncentryczna prostowników kolana. **Zginaczy podeszwowych abstrakt nie wymienia**; ekscentryczne zginacze grzbietowe bez różnicy | PMID 31937576 | S79 |
+| 3a | Balance board: ~50% mniej nawrotów u osób po skręceniu | PARTIAL | Hupperets 2009 (RCT, 522 sportowców po skręceniu, 8 tyg. w domu): **−35%** nawrotów (RR 0,63; 22% vs 33%; NNT 9). McGuine & Keene 2006 (RCT, 765 licealistów, piłka nożna i koszykówka): ryzyko skręcenia **o połowę** (RR 0,56) — u wszystkich ćwiczących, u osób bez wcześniejszego skręcenia różnica nieistotna. Verhagen 2004 (siatkówka, 116 drużyn): mniej skręceń tylko u osób z wcześniejszym skręceniem; u osób po urazie kolana więcej przeciążeń kolana. „~50% mniej nawrotów” — zawyżone/zlane | PMID 19589822, 16476915, 15310562 | S81, S82, S80 |
+| 3b | Rozgrzewka NMT: do 36% mniej urazów KD u koszykarzy | PARTIAL | Emery 2022 (SHRed, 11–18 lat): **−36% urazów kolana i kostki** (IRR 0,64), nie wszystkich KD; badanie quasi-eksperymentalne; 10-min program | PMID 34972488 | S83 |
+| 4 | vGRF 3,5–4,3× BW w skokach, do 6,8× w drop landing | NOT FOUND | nie znaleziono źródła z tymi liczbami (PubMed, wyszukiwanie po frazach) → nie wchodzi | — | — |
+| 5 | *Ollie down* 45,7 cm = 4,74× BW | ✔ | Frederick, Determan, Whittlesey, Hamill 2006: 7 skaterów, 4,74 ± 0,46 BW w 30–80 ms; celowo „twarde” lądowanie. Koryguje wcześniejsze ✘ w części 3 (zły tytuł i rok, liczba prawdziwa). Ta sama grupa co S52/S74 | PMID 16760565 | S78 |
+| 6 | DKV jako mechanizm ACL | ✔ (istniejące źródła) | [S64] Hewett 2009 (wideo urazów), [S63] Larwa 2021 (przegląd). Nowych źródeł nie dodawano | — | S63, S64 |
+| 7 | Indeks stabilności core i łuku stopy przewidują DKV | PARTIAL | Mozafaripour 2021: 30 zdrowych mężczyzn, przysiad jednonóż; indeks stabilności core — istotny predyktor (p = 0,001); **indeks łuku stopy p = 0,09 (nieistotny przy 0,05)**, choć autorzy piszą „associated” | PMID 34391258 | S85 |
+| 8 | Prostowniki biodra minimalizują przywiedzenie; 4-tyg. program siłowy zmienił lądowanie | PARTIAL | Stearns & Powers 2014: 21 kobiet, 4 tyg. **plyometrii i ćwiczeń z perturbacją ukierunkowanych na biodro** (nie „program siłowy”), 3×30 min/tydz.: ↑ siła prostowników i odwodzicieli biodra, ↑ zgięcie kolana i biodra, ↓ odwiedzenie kolana (6,8° → 5,6°), więcej pracy prostowników biodra. „Minimalizują przywiedzenie” — brak w abstrakcie; brak grupy kontrolnej | PMID 24464929 | S86 |
+| 9 | Chen 2023: 400–600 min; 8–10 tygodni | PARTIAL | 400–600 min ✔ (CMJ 500–600, SJ 400–500); **„8–10 tygodni” — brak w abstrakcie** | PMID 38040837 | S69 |
+| 10 | Plan tygodnia; 5 kroków z depth jumpem 8–12 cali | `{PROPOZYCJA}` modelu / `{OPINIA}` | Plan tygodnia — **propozycja modelu**, nie dowód (zapisany do `propozycje-do-recenzji.md`). Progresja: **rozbieżność wysokości** — tekst 8–12 cali (20–30 cm, jak „depth drop” w poradniku HSS [S75], tylko lądowanie), infografika i The Movement System [S76] 12 → 24+ cali (30–60+ cm, depth jump z odbiciem). Model zlał dwa źródła; „consensus” → `{OPINIA}` | — | S75, S76 |
+| 11 | Kostka w AGV w ekstremalnej inwersji/ewersji przy soul i royale | `{WNIOSKOWANIE}` | brak pomiarów w AGV ([S02] nie mierzył kostki w płaszczyźnie czołowej) | — | — |
+
+### Nowe błędy modelu (część 1)
+- Mieszanie populacji i wyników: „nawroty” vs wszystkie skręcenia (McGuine), CAI vs każde skręcenie (Khalaj), „urazy KD” vs kolano + kostka (Emery).
+- Dopisane szczegóły: zginacze podeszwowe, „8–10 tygodni”, „program siłowy”, „minimalizują przywiedzenie”.
+- Indeks łuku stopy podany jako predyktor mimo p = 0,09.
+- Zlanie wysokości depth jumpów z dwóch źródeł (8–12 vs 12–24+ cali).
+- Moja korekta: liczba 4,74× BW z części 3 jest prawdziwa (Frederick 2006); błędny był tylko tytuł i rok.

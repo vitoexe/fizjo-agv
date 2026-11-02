@@ -21,6 +21,11 @@ Sprzęt ochronny:
 Trening:
 - Trening nerwowo-mięśniowy/równowagi zmniejsza ryzyko skręceń kostki o ok. 40%; zalecany też w stanowisku NATA. [S16][S18] {DOWÓD:przegląd}{KONSENSUS}{ANALOGIA:ogólnie sportowcy} ⏳ 2/2 (niezależne)
 - U młodzieży trening nerwowo-mięśniowy zmniejszył urazy kończyn dolnych o 42% (IRR 0,58; 16 badań); największy efekt przy 2–3 sesjach w tygodniu, 10–15 min na sesję, łącznie 30–60 min tygodniowo; programy > 6 mies. nie były lepsze. Autorzy: mało badań o różnej jakości. [S62] {DOWÓD:przegląd}{ANALOGIA:młodzież, sporty drużynowe} ✔ 1/2
+- Trening równowagi (balance board) zmniejszał skręcenia kostki tylko u siatkarzy z wcześniejszym skręceniem; u osób po urazie kolana przybyło przeciążeń kolana — historia urazu kolana może być przeciwwskazaniem. [S80] {DOWÓD:RCT}{ANALOGIA:siatkówka} ✔
+- Domowy trening propriocepcji (8 tyg.) po skręceniu zmniejszył nawroty o 35% (22% vs 33%; RR 0,63; NNT 9). [S81] {DOWÓD:RCT}{ANALOGIA:ogólnie sportowcy} ✔ — ta sama grupa co [S80] i [S16]
+- U licealistów (piłka nożna, koszykówka) trening równowagi zmniejszył ryzyko skręcenia mniej więcej o połowę (RR 0,56; 6,1% vs 9,9%); u osób bez wcześniejszego skręcenia różnica była nieistotna. [S82] {DOWÓD:RCT}{ANALOGIA:piłka nożna, koszykówka} ✔
+- **Trening równowagi zmniejsza ryzyko skręceń kostki, a efekt jest wyraźny zwłaszcza u osób po wcześniejszym skręceniu.** [S80][S82] {DOWÓD:RCT}{ANALOGIA:inne sporty} ✔ 2/2 (niezależne grupy: Holandia i USA). „Prawie 50% mniej nawrotów” (Deep Research F) — zawyżone: dla nawrotów jest 35% [S81]
+- 10-minutowa rozgrzewka nerwowo-mięśniowa w młodzieżowej koszykówce: 36% mniej urazów kolana i kostki (IRR 0,64; badanie quasi-eksperymentalne). [S83] {DOWÓD:obserwacyjne}{ANALOGIA:koszykówka} ✔ 1/2
 - **Trening nerwowo-mięśniowy zmniejsza ryzyko urazów kończyn dolnych (w tym skręceń kostki) u sportowców.** [S16][S62] {DOWÓD:przegląd}{ANALOGIA:inne sporty} ⏳ 2/2 (niezależne grupy: Holandia i Niemcy; [S62] ✔, [S16] ⏳)
 - Trening skupiony na samych mięśniach strzałkowych „zapobiega skręceniom u tenisistów i koszykarzy” — źródło modelu [S71] to przegląd ucznia szkoły średniej w materiałach konferencyjnych; **nie traktujemy jako dowodu**. Izolowanego, prewencyjnego dawkowania strzałkowych/piszczelowego tylnego u zdrowych nie znaleziono (NO DATA wg Deep Research F).
 - Po skręceniu stabilizator i ćwiczenia zmniejszają ryzyko nawrotu (OR 0,38 i 0,59). [S17] {DOWÓD:przegląd} ⏳
@@ -57,4 +62,4 @@ Wstrząśnienie mózgu:
 
 ## Źródła
 
-[S01] [S02] [S04] [S16] [S17] [S18] [S28] [S29] [S33] [S36] [S38] [S62] [S70] [S71] — `sources.md`.
+[S01] [S02] [S04] [S16] [S17] [S18] [S28] [S29] [S33] [S36] [S38] [S62] [S70] [S71] [S80] [S81] [S82] [S83] — `sources.md`.

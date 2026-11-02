@@ -46,7 +46,8 @@ Kolano w płaszczyźnie czołowej (koślawienie):
 - Po rekonstrukcji ACL wyższy (gorszy) wynik LESS wiązał się z mniejszą siłą prostowników kolana (n=46). [S49] {DOWÓD:obserwacyjne}{ANALOGIA:po ACL} ✔ 1/2
 
 Skateboarding:
-- W skateboardingu (zjazd po poręczy, 12 top-amatorów i zawodowców) udane lądowanie na desce dawało szczytową siłę pionową 7,98 ± 1,32× masy ciała, a nieudane (zeskok z deski na stopy) 12,09 ± 2,63× — deska amortyzuje. Wcześniejszy abstrakt tej samej grupy (n=10) podał zbliżone wartości (5347 vs 8282 N przy ok. 69 kg). [S52][S74] {DOWÓD:obserwacyjne}{ANALOGIA:skateboarding} ✔ 1/2 (ta sama grupa). Liczba „4,74× masy ciała” z Deep Research F — **nie istnieje w źródle**.
+- Ollie z platformy 45,7 cm na ziemię (*ollie down*, 7 skaterów): szczytowa siła pionowa przy lądowaniu 4,74 ± 0,46× masy ciała, w ciągu 30–80 ms; autorzy: skaterzy celowo lądowali „twardo”, żeby ustabilizować pozycję. [S78] {DOWÓD:obserwacyjne}{ANALOGIA:skateboarding} ✔ 1/2 (ta sama grupa co [S52][S74])
+- W skateboardingu (zjazd po poręczy, 12 top-amatorów i zawodowców) udane lądowanie na desce dawało szczytową siłę pionową 7,98 ± 1,32× masy ciała, a nieudane (zeskok z deski na stopy) 12,09 ± 2,63× — deska amortyzuje. Wcześniejszy abstrakt tej samej grupy (n=10) podał zbliżone wartości (5347 vs 8282 N przy ok. 69 kg). [S52][S74] {DOWÓD:obserwacyjne}{ANALOGIA:skateboarding} ✔ 1/2 (ta sama grupa). 
 
 ## Wnioskowanie biomechaniczne
 
@@ -83,4 +84,4 @@ Skateboarding:
 
 ## Źródła
 
-[S02] [S24] [S43]–[S52] [S56]–[S60] [S74] — `sources.md`. Weryfikacja: `research-raw/2026-11-02-E-gemini-deep-research.md`.
+[S02] [S24] [S43]–[S52] [S56]–[S60] [S74] [S78] — `sources.md`. Weryfikacja: `research-raw/2026-11-02-E-gemini-deep-research.md`.

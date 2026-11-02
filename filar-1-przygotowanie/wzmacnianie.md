@@ -25,6 +25,9 @@ recenzent: ""
 | Wspięcia z odbiciem, potem podskoki | po 3 × 15 wspięć na jednej nodze bez bólu | [S22] faza IV | {KONSENSUS:protokół} | ⏳ 1/2 |
 | Równowaga na jednej nodze, niestabilne podłoże | przez całą rehabilitację | [S18], [S16] | {KONSENSUS} + {DOWÓD:przegląd} | ⏳ **2/2** (niezależne) |
 
+Kostka (dowody spoza AGV):
+- Przy przewlekłej niestabilności kostki siła ewertorów (ekscentryczna i koncentryczna) i inwertorów (ekscentryczna i koncentryczna) jest mniejsza niż u zdrowych; także koncentryczna siła prostowników kolana. Zginacze podeszwowe — w abstrakcie bez danych. [S79] {DOWÓD:przegląd} ✔ 1/2 — dotyczy CAI, nie każdego skręcenia; uzasadnia ćwiczenia ewersji/inwersji w rehabilitacji, nie dawkę prewencyjną u zdrowych (NO DATA)
+
 Biodro (dowody spoza AGV, szczegóły w `stabilizacja-i-propriocepcja.md`):
 - Ekscentryczny trening odwodzicieli biodra (3×/tydz., 4 × 10 maksymalnych powtórzeń, 4 tyg.) zmniejszył koślawienie kolana w jednonóżnym skoku bardziej niż koncentryczny — pilotaż, n=20, bez przewagi w lądowaniu z wysokości. [S68] {DOWÓD:RCT} ✔ 1/2
 - Związek siły biodra z koślawieniem kolana jest niespójny między badaniami. [S73] {DOWÓD:przegląd} ✔ — sprzeczność
@@ -54,4 +57,4 @@ Biodro (dowody spoza AGV, szczegóły w `stabilizacja-i-propriocepcja.md`):
 
 ## Źródła
 
-[S02] [S07] [S08] [S09] [S10] [S16] [S18] [S22] [S23] [S68] [S73] — `sources.md`.
+[S02] [S07] [S08] [S09] [S10] [S16] [S18] [S22] [S23] [S68] [S73] [S79] — `sources.md`.

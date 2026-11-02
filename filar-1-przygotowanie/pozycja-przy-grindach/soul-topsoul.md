@@ -25,6 +25,7 @@ recenzent: ""
 
 - Profesjonalni skaterzy (deskorolka) mieli mniejszy zakres supinacji stopy dominującej (32,5° vs 37,3°) i lepszą stabilność na platformie Biodex niż amatorzy (n=32). Jeśli podobnie jest w AGV, kontrola kostki w pozycjach soul/topside może być cechą wytrenowaną — ale to inny sport i badanie przekrojowe (nie wiadomo, co jest przyczyną). [S53] {ANALOGIA:skateboarding}{WNIOSKOWANIE} ✔ (liczby z pełnego tekstu)
 - Trening rotatorów zewnętrznych i odwodzicieli biodra w pozycji soul (noga podporowa ugięta) może dawać lepsze przeniesienie stabilności na rurę. {SPEKULACJA} (Deep Research F; brak danych)
+- Kostka w tym grindzie pracuje prawdopodobnie blisko końca zakresu inwersji/ewersji, co uzasadnia trening ewertorów i inwertorów (gumy, równowaga na jednej nodze). {WNIOSKOWANIE} (Deep Research F; brak pomiarów kostki w AGV — [S02] jej nie mierzył; deficyty siły ewersji/inwersji po urazach: [S79])
 
 ## Praktyka i opinie fizjo
 
@@ -44,4 +45,4 @@ recenzent: ""
 
 ## Źródła
 
-[S02] [S24] [S53] — `sources.md`.
+[S02] [S24] [S53] [S79] — `sources.md`.
