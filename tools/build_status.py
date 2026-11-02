@@ -40,35 +40,138 @@ def linkify(escaped):
     return URL.sub(lambda m: f'<a href="{m.group(1)}" rel="nofollow noopener">{m.group(1)}</a>', escaped)
 
 
-def notes_html(text):
-    """Notatki z Tasks -> HTML: escape, akapity, nowe linie, listy (-, *, •, 1.), klikalne linki."""
-    out, lista = [], None  # lista: ("ul"|"ol", [elementy])
-    def zamknij():
-        nonlocal lista
-        if lista:
-            out.append(f"<{lista[0]}>" + "".join(f"<li>{x}</li>" for x in lista[1]) + f"</{lista[0]}>")
-            lista = None
-    akapit = []
+MARK = re.compile(r"^(✅|☑️|\[[xX]\]|🔄|⏳|🚧|⬜|☐|\[ \])\s*")
+NAGLOWEK = re.compile(r"^[A-ZĄĆĘŁŃÓŚŹŻ][A-ZĄĆĘŁŃÓŚŹŻ0-9 ,./()+–-]{2,}:?$")
+IKONA = {"done": "✅", "doing": "🔄", "todo": "⬜"}
+
+
+def mark_status(m):
+    """Znacznik na początku podpunktu -> (status, ikona do pokazania)."""
+    if not m:
+        return "todo", None
+    z = m.group(1)
+    if z in ("✅", "☑️") or z.lower() == "[x]":
+        return "done", "✅"
+    if z in ("🔄", "⏳", "🚧"):
+        return "doing", z
+    return "todo", "⬜"
+
+
+def liscie(items):
+    """Podpunkty liczone do postępu: element bez dzieci albo (rekurencyjnie) jego dzieci."""
+    for it in items:
+        if it["kids"]:
+            yield from liscie(it["kids"])
+        else:
+            yield it
+
+
+def status_z_dzieci(it):
+    if it["kids"]:
+        for k in it["kids"]:
+            status_z_dzieci(k)
+        if it["jawny"] is None:
+            st = [k["st"] for k in it["kids"]]
+            it["st"] = "done" if all(s == "done" for s in st) else ("todo" if all(s == "todo" for s in st) else "doing")
+
+
+def parse_notes(text):
+    """Notatki z Tasks -> lista bloków: ("h", tekst) | ("p", [linie]) | ("chk", [drzewo]) | ("ol", [linie]).
+
+    Format: linie "- " to podpunkty checklisty (wcięcie co najmniej 2 spacje = pod-podpunkt);
+    znacznik na początku: ✅ / [x] zrobione · 🔄 / ⏳ / 🚧 w toku · ⬜ / [ ] / brak — do zrobienia.
+    Linia WERSALIKAMI (np. STATUS, DALEJ, ZASADA) = mały nagłówek. Reszta = akapity.
+    """
+    bloki, akapit = [], []
+    stos = []  # [(wcięcie, element)]
     def flush():
         if akapit:
-            out.append("<p>" + "<br>".join(akapit) + "</p>")
-            akapit.clear()
+            bloki.append(("p", akapit[:])); akapit.clear()
     for raw in text.replace("\r\n", "\n").split("\n"):
-        line = raw.rstrip()
-        m_ul = re.match(r"^\s*[-*•]\s+(.*)$", line)
+        line = raw.rstrip().replace("\t", "    ")
+        m_ul = re.match(r"^(\s*)[-*•]\s+(.*)$", line)
         m_ol = re.match(r"^\s*\d+[.)]\s+(.*)$", line)
-        if m_ul or m_ol:
+        if m_ul:
             flush()
-            typ = "ul" if m_ul else "ol"
-            if not lista or lista[0] != typ:
-                zamknij(); lista = (typ, [])
-            lista[1].append(linkify(html.escape((m_ul or m_ol).group(1))))
+            ind, body = len(m_ul.group(1)), m_ul.group(2)
+            m = MARK.match(body)
+            st, ikona = mark_status(m)
+            it = dict(st=st, jawny=ikona, tekst=body[m.end():] if m else body, kids=[])
+            if not bloki or bloki[-1][0] != "chk":
+                bloki.append(("chk", [])); stos = []
+            while stos and stos[-1][0] >= ind:
+                stos.pop()
+            (stos[-1][1]["kids"] if stos else bloki[-1][1]).append(it)
+            stos.append((ind, it))
+            continue
+        stos = []
+        if m_ol:
+            flush()
+            if not bloki or bloki[-1][0] != "ol":
+                bloki.append(("ol", []))
+            bloki[-1][1].append(m_ol.group(1))
         elif not line.strip():
-            zamknij(); flush()
+            flush()
+        elif NAGLOWEK.match(line.strip()):
+            flush(); bloki.append(("h", line.strip().rstrip(":")))
         else:
-            zamknij(); akapit.append(linkify(html.escape(line)))
-    zamknij(); flush()
+            if bloki and bloki[-1][0] == "ol":
+                bloki.append(("p", []))
+            akapit.append(line.strip())
+    flush()
+    for typ, val in bloki:
+        if typ == "chk":
+            for it in val:
+                status_z_dzieci(it)
+    return bloki
+
+
+def licz(bloki):
+    c = dict(done=0, doing=0, todo=0)
+    for typ, val in bloki:
+        if typ == "chk":
+            for it in liscie(val):
+                c[it["st"]] += 1
+    return c
+
+
+def notes_html(bloki):
+    esc = lambda s: linkify(html.escape(s))
+    def drzewo(items):
+        out = []
+        for it in items:
+            ik = it["jawny"] or IKONA[it["st"]]
+            kids = ""
+            if it["kids"]:
+                c = dict(done=0, doing=0, todo=0)
+                for x in liscie(it["kids"]):
+                    c[x["st"]] += 1
+                kids = f' <span class="cnt">{c["done"]}/{sum(c.values())}</span>' + drzewo(it["kids"])
+            out.append(f'<li class="c-{it["st"]}"><span class="ic" aria-label="{ETYKIETY[it["st"]]}">{ik}</span>'
+                       f'<span class="tx">{esc(it["tekst"])}</span>{kids}</li>')
+        return '<ul class="chk">' + "".join(out) + "</ul>"
+    out = []
+    for typ, val in bloki:
+        if typ == "h":
+            out.append(f'<h4>{esc(val)}</h4>')
+        elif typ == "p":
+            if val:
+                out.append("<p>" + "<br>".join(esc(x) for x in val) + "</p>")
+        elif typ == "ol":
+            out.append("<ol>" + "".join(f"<li>{esc(x)}</li>" for x in val) + "</ol>")
+        else:
+            out.append(drzewo(val))
     return "".join(out)
+
+
+def mini_bar(c):
+    tot = sum(c.values())
+    if not tot:
+        return ""
+    pd, pg = 100 * c["done"] / tot, 100 * c["doing"] / tot
+    return (f'<span class="mini" title="zrobione {c["done"]}, w toku {c["doing"]}, do zrobienia {c["todo"]}">'
+            f'<span class="cnt">{c["done"]}/{tot}</span><span class="mb"><i style="width:{pd:.0f}%"></i>'
+            f'<i class="g" style="width:{pg:.0f}%"></i></span></span>')
 
 
 def git(*args):
@@ -118,7 +221,9 @@ def plan():
             st = "doing"
         else:
             st = "todo"
-        out.append(dict(nr=nr, tytul=tekst, status=st, notes=(t.get("notes") or "").strip(), opis=OPISY.get(nr, "")))
+        notes = (t.get("notes") or "").strip()
+        bloki = parse_notes(notes) if notes else []
+        out.append(dict(nr=nr, tytul=tekst, status=st, bloki=bloki, licz=licz(bloki), opis=OPISY.get(nr, "")))
     out.sort(key=lambda x: x["nr"])
     return out
 
@@ -149,7 +254,17 @@ background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1
 code{font-size:.88em;background:var(--line);padding:1px 5px;border-radius:4px}
 ul{padding-left:1.2em}li{margin:.25em 0}
 .notes{font-size:.93rem;color:var(--mut);margin-top:4px;overflow-wrap:anywhere}.notes p{margin:.35em 0}
-.notes ul,.notes ol{margin:.3em 0;padding-left:1.3em}ol.plan .notes li{display:list-item;background:none;border:0;padding:0;margin:.15em 0}footer{margin-top:3em;color:var(--mut);font-size:.85rem}
+.notes ul,.notes ol{margin:.3em 0;padding-left:1.3em}ol.plan .notes li{display:list-item;background:none;border:0;padding:0;margin:.15em 0}
+.notes h4{font-size:.74rem;letter-spacing:.06em;color:var(--fg);margin:.9em 0 .2em;font-weight:700}
+ol.plan .notes ul.chk{list-style:none;padding-left:0}ol.plan .notes ul.chk ul.chk{padding-left:1.5em}
+ol.plan .notes ul.chk li{display:block;position:relative;padding-left:1.6em;margin:.3em 0}
+.notes .ic{position:absolute;left:0;top:0;font-size:.95em}.notes .c-done>.tx{color:var(--mut)}
+.notes .c-doing>.tx{color:var(--fg)}.notes .c-todo>.tx{color:var(--fg)}
+.cnt{font-size:.78rem;font-weight:600;color:var(--mut);font-variant-numeric:tabular-nums}
+.row{margin:3px 0 2px}.mini{display:inline-flex;align-items:center;gap:6px}
+.mb{display:inline-flex;width:90px;height:6px;border-radius:99px;background:var(--line);overflow:hidden}
+.mb i{display:block;height:100%;background:var(--done)}.mb i.g{background:var(--doing);opacity:.7}
+details{margin-top:4px}summary{cursor:pointer;font-size:.85rem;color:var(--mut);padding:2px 0}footer{margin-top:3em;color:var(--mut);font-size:.85rem}
 """
 
 
@@ -158,12 +273,24 @@ def render():
     e = html.escape
     now = dt.datetime.now(TZ).strftime("%d.%m.%Y, %H:%M")
     n = {k: sum(1 for x in p if x["status"] == k) for k in ETYKIETY}
-    pct = round(100 * n["done"] / len(p)) if p else 0
-    items = "\n".join(
-        f'<li><span class="nr">{x["nr"]}.</span><div class="body"><div class="t">{e(x["tytul"])}</div>'
-        + (f'<div class="notes">{notes_html(x["notes"])}</div>' if x["notes"]
-           else (f'<div class="mut">{e(x["opis"])}</div>' if x["opis"] else ""))
-        + f'</div><span class="pill {x["status"]}">{ETYKIETY[x["status"]]}</span></li>' for x in p)
+    pod = {k: sum(x["licz"][k] for x in p) for k in ETYKIETY}
+    pod_all = sum(pod.values())
+    def ulamek(x):  # punkt zrobiony = 1; inaczej udział zrobionych podpunktów (0, gdy brak checklisty)
+        tot = sum(x["licz"].values())
+        return 1.0 if x["status"] == "done" else (x["licz"]["done"] / tot if tot else 0.0)
+    pct = round(100 * sum(ulamek(x) for x in p) / len(p)) if p else 0
+    def item(x):
+        tot = sum(x["licz"].values())
+        head = f'<div class="t">{e(x["tytul"])}</div>' + (f'<div class="row">{mini_bar(x["licz"])}</div>' if tot else "")
+        if x["bloki"]:
+            otw = "" if x["status"] == "done" else " open"
+            sumtxt = f"Szczegóły · {x['licz']['done']}/{tot} podpunktów" if tot else "Szczegóły"
+            body = f'<details{otw}><summary>{sumtxt}</summary><div class="notes">{notes_html(x["bloki"])}</div></details>'
+        else:
+            body = f'<div class="mut">{e(x["opis"])}</div>' if x["opis"] else ""
+        return (f'<li><span class="nr">{x["nr"]}.</span><div class="body">{head}{body}</div>'
+                f'<span class="pill {x["status"]}">{ETYKIETY[x["status"]]}</span></li>')
+    items = "\n".join(item(x) for x in p)
     stat = lambda v, l: f'<div class="stat"><b>{v}</b><span>{l}</span></div>'
     f = lambda path: f"{REPO}/blob/main/{path}"
     return f"""<!doctype html>
@@ -183,8 +310,10 @@ def render():
 <div class="warn"><b>To nie jest diagnoza ani porada medyczna.</b> Baza zbiera i porządkuje źródła; nie zastępuje badania przez lekarza ani fizjoterapeutę. Treści nie przeszły jeszcze recenzji fizjoterapeuty.</div>
 
 <h2>Plan</h2>
-<p class="mut">Zrobione: {n["done"]} · w toku: {n["doing"]} · do zrobienia: {n["todo"]} (z {len(p)})</p>
+<p class="mut">Punkty: zrobione {n["done"]} · w toku {n["doing"]} · do zrobienia {n["todo"]} (z {len(p)})<br>
+Podpunkty: zrobione {pod["done"]} · w toku {pod["doing"]} · do zrobienia {pod["todo"]} (z {pod_all}) · postęp łącznie: <b>{pct}%</b></p>
 <div class="bar" aria-label="postęp {pct}%"><i style="width:{pct}%"></i></div>
+<p class="mut">Postęp łącznie: punkt zrobiony liczy się w całości, punkt w toku — według udziału zrobionych podpunktów.</p>
 <ol class="plan">
 {items}
 </ol>
