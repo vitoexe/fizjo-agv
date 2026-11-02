@@ -9,6 +9,10 @@ Kolejność uruchamiania (decyzja 2.11.2026 — filar 1 „przygotowanie” jest
 
 Argon (tylko sprzeczności): `batch-1/argon-sprzecznosci-szablon.md`.
 
+Audyt sprzeczności (Argon, jedna sprzeczność na prompt):
+- `audyt/argon-1-sila-biodra-koslawienie.md` — siła biodra a koślawienie kolana (zrobione, wynik: `research-raw/2026-11-02-argon-1-sila-biodra-koslawienie.md`).
+- `audyt/argon-2-zmeczenie-tulow.md` — zmęczenie a lądowanie: zgięcie tułowia (adaptacja czy ryzyko), Carcia vs Patrek (zmęczenie a koślawienie), wytrzymałość a siła. Wymaga DOI + PMID i podwójnego sprawdzenia identyfikatorów.
+
 ## Linki do wklejenia modelom
 
 Repo jest publiczne. Surowe pliki (gałąź `main`) do wklejenia w narzędzia z URL context (AI Studio, Gemini, Claude itp.):
