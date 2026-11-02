@@ -25,9 +25,14 @@ recenzent: ""
 | Wspięcia z odbiciem, potem podskoki | po 3 × 15 wspięć na jednej nodze bez bólu | [S22] faza IV | {KONSENSUS:protokół} | ⏳ 1/2 |
 | Równowaga na jednej nodze, niestabilne podłoże | przez całą rehabilitację | [S18], [S16] | {KONSENSUS} + {DOWÓD:przegląd} | ⏳ **2/2** (niezależne) |
 
+Biodro (dowody spoza AGV, szczegóły w `stabilizacja-i-propriocepcja.md`):
+- Ekscentryczny trening odwodzicieli biodra (3×/tydz., 4 × 10 maksymalnych powtórzeń, 4 tyg.) zmniejszył koślawienie kolana w jednonóżnym skoku bardziej niż koncentryczny — pilotaż, n=20, bez przewagi w lądowaniu z wysokości. [S68] {DOWÓD:RCT} ✔ 1/2
+- Związek siły biodra z koślawieniem kolana jest niespójny między badaniami. [S73] {DOWÓD:przegląd} ✔ — sprzeczność
+
 ## Wnioskowanie biomechaniczne
 
 - Grindy na soul plate wymagają kontroli inwersji/ewersji i rotacji stopy → priorytet: piszczelowy tylny, strzałkowe, łydka. {WNIOSKOWANIE} (podstawa: [S07])
+- Makio i sweatstance (stopa na zewnętrznej krawędzi) prawdopodobnie mocno obciążają ekscentrycznie mięśnie strzałkowe. {WNIOSKOWANIE} (Deep Research F; brak pomiarów)
 - Mobilność kostki w zgięciu grzbietowym może ograniczać głębokie ugięcie kolan przy lądowaniu [S02]. {SPEKULACJA}
 
 ## Praktyka i opinie fizjo
@@ -49,4 +54,4 @@ recenzent: ""
 
 ## Źródła
 
-[S02] [S07] [S08] [S09] [S10] [S16] [S18] [S22] [S23] — `sources.md`.
+[S02] [S07] [S08] [S09] [S10] [S16] [S18] [S22] [S23] [S68] [S73] — `sources.md`.

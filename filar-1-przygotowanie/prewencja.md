@@ -19,8 +19,14 @@ Sprzęt ochronny:
 - Uwaga: w polskiej ankiecie osoby z ochraniaczami częściej zgłaszały urazy — korelacja (prawdopodobnie bardziej ryzykowna jazda), nie dowód szkodliwości. [S36] {DOWÓD:obserwacyjne} ✔
 
 Trening:
-- Trening nerwowo-mięśniowy/równowagi zmniejsza ryzyko skręceń kostki o ok. 40%. [S16] {DOWÓD:przegląd}{ANALOGIA:ogólnie sportowcy} ⏳ + [S18] {KONSENSUS} → 2/2
+- Trening nerwowo-mięśniowy/równowagi zmniejsza ryzyko skręceń kostki o ok. 40%; zalecany też w stanowisku NATA. [S16][S18] {DOWÓD:przegląd}{KONSENSUS}{ANALOGIA:ogólnie sportowcy} ⏳ 2/2 (niezależne)
+- U młodzieży trening nerwowo-mięśniowy zmniejszył urazy kończyn dolnych o 42% (IRR 0,58; 16 badań); największy efekt przy 2–3 sesjach w tygodniu, 10–15 min na sesję, łącznie 30–60 min tygodniowo; programy > 6 mies. nie były lepsze. Autorzy: mało badań o różnej jakości. [S62] {DOWÓD:przegląd}{ANALOGIA:młodzież, sporty drużynowe} ✔ 1/2
+- **Trening nerwowo-mięśniowy zmniejsza ryzyko urazów kończyn dolnych (w tym skręceń kostki) u sportowców.** [S16][S62] {DOWÓD:przegląd}{ANALOGIA:inne sporty} ⏳ 2/2 (niezależne grupy: Holandia i Niemcy; [S62] ✔, [S16] ⏳)
+- Trening skupiony na samych mięśniach strzałkowych „zapobiega skręceniom u tenisistów i koszykarzy” — źródło modelu [S71] to przegląd ucznia szkoły średniej w materiałach konferencyjnych; **nie traktujemy jako dowodu**. Izolowanego, prewencyjnego dawkowania strzałkowych/piszczelowego tylnego u zdrowych nie znaleziono (NO DATA wg Deep Research F).
 - Po skręceniu stabilizator i ćwiczenia zmniejszają ryzyko nawrotu (OR 0,38 i 0,59). [S17] {DOWÓD:przegląd} ⏳
+
+Technika upadania (szczegóły: [technika-upadania.md](technika-upadania.md)):
+- W upadkach zamierzonych (młode osoby) przewrót z judo/karate najbardziej zmniejszał obciążenie przy upadku w bok (g = 2,70), przysiad — przy upadku w tył (g = 1,77); „klepnięcie” (slapping) nie zmniejszało obciążenia. [S70] {DOWÓD:przegląd}{ANALOGIA:upadki zamierzone} ✔ 1/2
 
 Technika:
 - Większe ugięcie kolan przy wejściu na stall = mniejsza siła uderzenia. [S02] {DOWÓD:obserwacyjne} ✔ — zob. `pozycja-przy-grindach/`
@@ -45,10 +51,10 @@ Wstrząśnienie mózgu:
 ## TODO / pytania do researchu
 
 - [ ] Kaski i wstrząśnienia mózgu w AGV — dane.
-- [ ] Zmęczenie pod koniec sesji a ryzyko urazu (sporty akcji, skokowe).
-- [ ] Technika upadania (falling technique) — badania interwencyjne.
+- [x] Zmęczenie a koślawienie kolana — meta-analiza [S72] w `stabilizacja-i-propriocepcja.md`. Brak danych o urazach pod koniec sesji w sportach akcji.
+- [x] Technika upadania — meta-analiza [S70], zob. `technika-upadania.md`. Brak badań na rolkach i przy upadkach z prędkością.
 - [ ] Prompty: `prompts/batch-2-przygotowanie/G-prewencja-periodyzacja/`.
 
 ## Źródła
 
-[S01] [S02] [S04] [S16] [S17] [S18] [S28] [S29] [S33] [S36] [S38] — `sources.md`.
+[S01] [S02] [S04] [S16] [S17] [S18] [S28] [S29] [S33] [S36] [S38] [S62] [S70] [S71] — `sources.md`.

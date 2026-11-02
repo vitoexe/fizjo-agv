@@ -19,10 +19,10 @@ recenzent: ""
 
 ## Wnioskowanie biomechaniczne
 
-- TODO.
+- Prewencja przez technikę upadania (przewrót, przysiad, zgięte łokcie) — zob. [`technika-upadania.md`](../../../filar-1-przygotowanie/technika-upadania.md). Dowodów, że siła przedramienia chroni nadgarstek przy upadku, nie znaleziono (NO DATA wg Deep Research F).
 
 ## Praktyka i opinie fizjo
-- Ankieta 801 rolkarzy (PL): staw promieniowo-nadgarstkowy obok kolana najczęściej wskazywany jako kontuzjowany; najczęstszy uraz — otarcia skóry. [S36] {DOWÓD:obserwacyjne}{ANALOGIA:rolki rekreacyjne} ✔ — z [S03] daje 2/2 dla „nadgarstek częsty u rolkarzy” (rolki ogólnie, nie AGV)
+- Ankieta 801 rolkarzy (PL): staw promieniowo-nadgarstkowy obok kolana najczęściej wskazywany jako kontuzjowany; najczęstszy uraz — otarcia skóry. [S36] {DOWÓD:obserwacyjne}{ANALOGIA:rolki rekreacyjne} — razem z [S03]: **nadgarstek jest częstym miejscem urazu u rolkarzy** (rolki ogólnie, nie AGV) ✔ 2/2
 - Uwaga metodologiczna: w tej ankiecie osoby z kaskiem i ochraniaczami częściej zgłaszały urazy niż bez — to korelacja (prawdopodobnie bardziej ryzykowna jazda), sprzeczna z [S04]; nie wyciągać wniosku o szkodliwości ochraniaczy. [S36] {DOWÓD:obserwacyjne} ✔
 
 ## Dla fizjoterapeuty
@@ -33,7 +33,7 @@ recenzent: ""
 
 - [ ] Czy dane S03/S04 (rekreacyjne inline) przenoszą się na AGV, gdzie typowy upadek to ześlizg na kolana?
 - [ ] Typowe urazy: złamanie dalszej nasady promienia, łódeczkowata, kciuk — rehabilitacja i powrót.
-- [ ] Technika upadania (falling technique) — badania interwencyjne.
+- [x] Technika upadania — zob. [`filar-1-przygotowanie/technika-upadania.md`](../../../filar-1-przygotowanie/technika-upadania.md) (filar 1, prewencja).
 
 ## Źródła
 

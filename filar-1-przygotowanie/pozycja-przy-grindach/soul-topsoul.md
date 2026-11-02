@@ -24,6 +24,7 @@ recenzent: ""
 - Topside prawdopodobnie najbardziej ryzykowny dla świeżo zrośniętej lub niestabilnej kostki. {WNIOSKOWANIE}
 
 - Profesjonalni skaterzy (deskorolka) mieli mniejszy zakres supinacji stopy dominującej (32,5° vs 37,3°) i lepszą stabilność na platformie Biodex niż amatorzy (n=32). Jeśli podobnie jest w AGV, kontrola kostki w pozycjach soul/topside może być cechą wytrenowaną — ale to inny sport i badanie przekrojowe (nie wiadomo, co jest przyczyną). [S53] {ANALOGIA:skateboarding}{WNIOSKOWANIE} ✔ (liczby z pełnego tekstu)
+- Trening rotatorów zewnętrznych i odwodzicieli biodra w pozycji soul (noga podporowa ugięta) może dawać lepsze przeniesienie stabilności na rurę. {SPEKULACJA} (Deep Research F; brak danych)
 
 ## Praktyka i opinie fizjo
 

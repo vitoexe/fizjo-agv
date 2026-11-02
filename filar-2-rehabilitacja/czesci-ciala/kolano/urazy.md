@@ -24,7 +24,7 @@ recenzent: ""
 
 ## Praktyka i opinie fizjo
 - U skaterów urazy kolana, zwłaszcza ACL, są drugie po kostce/stopie; często po zbyt wczesnym powrocie po skręceniu kostki. [S29] {OPINIA}{ANALOGIA:skateboarding} ✔ 1/2
-- Ankieta 801 rolkarzy (PL, rolki ogólnie): kolano było najczęściej wskazywanym stawem urazu, a upadki najczęściej na kolana i dłonie. [S36] {DOWÓD:obserwacyjne}{ANALOGIA:rolki rekreacyjne} ✔ — niezależne od [S01]; razem **2/2 dla „kolano często uszkadzane u rolkarzy”** (różne populacje: AGV vs rekreacyjne)
+- Ankieta 801 rolkarzy (PL, rolki ogólnie): kolano było najczęściej wskazywanym stawem urazu, a upadki najczęściej na kolana i dłonie. [S36] {DOWÓD:obserwacyjne}{ANALOGIA:rolki rekreacyjne} — niezależne od [S01]; razem: **kolano jest często uszkadzane u rolkarzy** ✔ 2/2 (różne populacje: AGV vs rekreacyjne)
 
 ## Dla fizjoterapeuty
 

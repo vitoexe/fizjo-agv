@@ -23,6 +23,7 @@ recenzent: ""
 - Co prawdopodobnie najbardziej obciąża: jednoczesna rotacja w kolanie i kostce; trudniejsze ratowanie się przy zsunięciu. {WNIOSKOWANIE}
 
 - Przy lądowaniu z grindu ze stopą skręconą na zewnątrz (toe-out) moment koślawiący kolana prawdopodobnie rośnie — w zeskokach na jedną nogę toe-out zwiększał szczytowy moment koślawiący, choć kąt koślawienia różnił się tylko o ok. 1°. Wyjście z grindu i lądowanie ze stopą bliżej ustawienia na wprost może być bezpieczniejsze dla kolana. {WNIOSKOWANIE} (podstawa: [S48] — zeskoki u koszykarzy, n=11, nie grind)
+- Trening rotatorów zewnętrznych i odwodzicieli biodra w pozycji zbliżonej do royale może dawać lepsze przeniesienie na rurę niż ćwiczenia ogólne. {SPEKULACJA} (Deep Research F; brak danych)
 
 ## Praktyka i opinie fizjo
 

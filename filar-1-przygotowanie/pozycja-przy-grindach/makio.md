@@ -23,6 +23,7 @@ recenzent: ""
 - Co prawdopodobnie najbardziej obciąża: kontrola skrętu i rotacji stopy: piszczelowy tylny, strzałkowe, przyczep Achillesa; jedna noga pracuje dłużej. {WNIOSKOWANIE}
 
 - Przy lądowaniu z grindu ze stopą skręconą na zewnątrz (toe-out) moment koślawiący kolana prawdopodobnie rośnie — w zeskokach na jedną nogę toe-out zwiększał szczytowy moment koślawiący, choć kąt koślawienia różnił się tylko o ok. 1°. Wyjście z grindu i lądowanie ze stopą bliżej ustawienia na wprost może być bezpieczniejsze dla kolana. {WNIOSKOWANIE} (podstawa: [S48] — zeskoki u koszykarzy, n=11, nie grind)
+- Makio (stopa na zewnętrznej krawędzi, jedna noga) prawdopodobnie mocno obciąża ekscentrycznie mięśnie strzałkowe, które hamują przetaczanie stopy. {WNIOSKOWANIE} (Deep Research F; brak pomiarów w AGV)
 
 ## Praktyka i opinie fizjo
 

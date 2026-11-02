@@ -30,8 +30,9 @@ filar-1-przygotowanie/                 # GŁÓWNY
   stabilizacja-i-propriocepcja.md
   mobilnosc.md
   rozgrzewka.md
-  obciazenie-i-periodyzacja.md         w tym obciążanie ścięgien
+  obciazenie-i-periodyzacja.md         w tym obciążanie ścięgien i plyometria
   prewencja.md
+  technika-upadania.md                 przewrót, przysiad; ochrona nadgarstków
   wzorce-urazow-wg-grindow.md          które struktury obciąża który grind
 filar-2-rehabilitacja/                 # mniejszy
   czesci-ciala/

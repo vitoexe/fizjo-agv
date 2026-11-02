@@ -46,7 +46,7 @@ Kolano w płaszczyźnie czołowej (koślawienie):
 - Po rekonstrukcji ACL wyższy (gorszy) wynik LESS wiązał się z mniejszą siłą prostowników kolana (n=46). [S49] {DOWÓD:obserwacyjne}{ANALOGIA:po ACL} ✔ 1/2
 
 Skateboarding:
-- W skateboardingu lądowanie nieudane (zeskok z deski na stopy) dawało wyższe siły niż udane lądowanie na desce (wg modelu: 7,98 vs 12,09× masy ciała — **liczby niezweryfikowane**, abstrakt niedostępny). [S52] {DOWÓD:obserwacyjne}{ANALOGIA:skateboarding} ⏳
+- W skateboardingu (zjazd po poręczy, 12 top-amatorów i zawodowców) udane lądowanie na desce dawało szczytową siłę pionową 7,98 ± 1,32× masy ciała, a nieudane (zeskok z deski na stopy) 12,09 ± 2,63× — deska amortyzuje. Wcześniejszy abstrakt tej samej grupy (n=10) podał zbliżone wartości (5347 vs 8282 N przy ok. 69 kg). [S52][S74] {DOWÓD:obserwacyjne}{ANALOGIA:skateboarding} ✔ 1/2 (ta sama grupa). Liczba „4,74× masy ciała” z Deep Research F — **nie istnieje w źródle**.
 
 ## Wnioskowanie biomechaniczne
 
@@ -74,7 +74,7 @@ Skateboarding:
 ## TODO / pytania do researchu
 
 - [x] Analogie: parkour, zeskoki, skateboarding — częściowo (Deep Research E, 2.11.2026). Brakuje: snowboard/narciarstwo freestyle, BMX.
-- [ ] Determan 2010 [S52]: zdobyć pełny tekst i sprawdzić liczby.
+- [x] Determan 2010 [S52]: liczby sprawdzone w abstrakcie (2.11.2026).
 - [ ] Puddle 2013 [S46]: pełny tekst — wysokość 0,75 m i siły w × masy ciała.
 - [x] Dowody z badań zeskoków (drop landing) — dodane S43–S51.
 - [ ] Czy ktoś mierzył kostkę w płaszczyźnie czołowej (inwersja/ewersja) przy grindach?
@@ -83,4 +83,4 @@ Skateboarding:
 
 ## Źródła
 
-[S02] [S24] [S43]–[S52] [S56]–[S60] — `sources.md`. Weryfikacja: `research-raw/2026-11-02-E-gemini-deep-research.md`.
+[S02] [S24] [S43]–[S52] [S56]–[S60] [S74] — `sources.md`. Weryfikacja: `research-raw/2026-11-02-E-gemini-deep-research.md`.
