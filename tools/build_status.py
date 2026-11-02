@@ -13,7 +13,7 @@ DOCS = ROOT / "docs"
 REPO = "https://github.com/vitoexe/fizjo-agv"
 TZ = ZoneInfo("Europe/Warsaw")
 
-# Krótkie publiczne opisy punktów planu (po numerze z tytułu). Bez danych prywatnych.
+# Zapasowe krótkie opisy (po numerze z tytułu) — używane tylko, gdy zadanie w Tasks nie ma notatek.
 OPISY = {
     1: "Jedno miejsce, które zbiera i porządkuje wiedzę o fizjoterapii w AGV.",
     2: "Szeroki research z wielu narzędzi i modeli, weryfikowany w źródłach pierwotnych.",
@@ -30,6 +30,45 @@ OPISY = {
 }
 W_TOKU = re.compile(r"(🔄|⏳|🚧|\[w toku\]|\(w toku\)|^w toku[:\s])", re.I)
 SKIP_DIRS = {".git", "docs", "tools", "prompts", "research-raw", "_szablon"}
+
+
+URL = re.compile(r"(https?://[^\s<>\"']+[^\s<>\"'.,;:!?)\]])")
+
+
+def linkify(escaped):
+    """Zamienia URL-e w już zescape'owanym tekście na klikalne linki."""
+    return URL.sub(lambda m: f'<a href="{m.group(1)}" rel="nofollow noopener">{m.group(1)}</a>', escaped)
+
+
+def notes_html(text):
+    """Notatki z Tasks -> HTML: escape, akapity, nowe linie, listy (-, *, •, 1.), klikalne linki."""
+    out, lista = [], None  # lista: ("ul"|"ol", [elementy])
+    def zamknij():
+        nonlocal lista
+        if lista:
+            out.append(f"<{lista[0]}>" + "".join(f"<li>{x}</li>" for x in lista[1]) + f"</{lista[0]}>")
+            lista = None
+    akapit = []
+    def flush():
+        if akapit:
+            out.append("<p>" + "<br>".join(akapit) + "</p>")
+            akapit.clear()
+    for raw in text.replace("\r\n", "\n").split("\n"):
+        line = raw.rstrip()
+        m_ul = re.match(r"^\s*[-*•]\s+(.*)$", line)
+        m_ol = re.match(r"^\s*\d+[.)]\s+(.*)$", line)
+        if m_ul or m_ol:
+            flush()
+            typ = "ul" if m_ul else "ol"
+            if not lista or lista[0] != typ:
+                zamknij(); lista = (typ, [])
+            lista[1].append(linkify(html.escape((m_ul or m_ol).group(1))))
+        elif not line.strip():
+            zamknij(); flush()
+        else:
+            zamknij(); akapit.append(linkify(html.escape(line)))
+    zamknij(); flush()
+    return "".join(out)
 
 
 def git(*args):
@@ -79,7 +118,7 @@ def plan():
             st = "doing"
         else:
             st = "todo"
-        out.append(dict(nr=nr, tytul=tekst, status=st, opis=OPISY.get(nr, "")))
+        out.append(dict(nr=nr, tytul=tekst, status=st, notes=(t.get("notes") or "").strip(), opis=OPISY.get(nr, "")))
     out.sort(key=lambda x: x["nr"])
     return out
 
@@ -108,7 +147,9 @@ background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1
 .stat b{display:block;font-size:1.6rem}.stat span{color:var(--mut);font-size:.88rem}
 .bar{height:10px;border-radius:99px;background:var(--line);overflow:hidden;margin:8px 0}.bar i{display:block;height:100%;background:var(--done)}
 code{font-size:.88em;background:var(--line);padding:1px 5px;border-radius:4px}
-ul{padding-left:1.2em}li{margin:.25em 0}footer{margin-top:3em;color:var(--mut);font-size:.85rem}
+ul{padding-left:1.2em}li{margin:.25em 0}
+.notes{font-size:.93rem;color:var(--mut);margin-top:4px;overflow-wrap:anywhere}.notes p{margin:.35em 0}
+.notes ul,.notes ol{margin:.3em 0;padding-left:1.3em}ol.plan .notes li{display:list-item;background:none;border:0;padding:0;margin:.15em 0}footer{margin-top:3em;color:var(--mut);font-size:.85rem}
 """
 
 
@@ -120,7 +161,8 @@ def render():
     pct = round(100 * n["done"] / len(p)) if p else 0
     items = "\n".join(
         f'<li><span class="nr">{x["nr"]}.</span><div class="body"><div class="t">{e(x["tytul"])}</div>'
-        + (f'<div class="mut">{e(x["opis"])}</div>' if x["opis"] else "")
+        + (f'<div class="notes">{notes_html(x["notes"])}</div>' if x["notes"]
+           else (f'<div class="mut">{e(x["opis"])}</div>' if x["opis"] else ""))
         + f'</div><span class="pill {x["status"]}">{ETYKIETY[x["status"]]}</span></li>' for x in p)
     stat = lambda v, l: f'<div class="stat"><b>{v}</b><span>{l}</span></div>'
     f = lambda path: f"{REPO}/blob/main/{path}"

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Zamienia surowy wynik list_tasks (Google Tasks, JSON) na docs/status-data.json.
 
-Zapisuje TYLKO tytuł, status, daty i pozycję. Notatki (notes), id i linki są pomijane,
-bo strona jest publiczna.
+Zapisuje tytuł, pełny opis (notes), status, daty i pozycję. Id, etag i selfLink są pomijane.
+Uwaga: strona jest publiczna — opisy w Tasks też stają się publiczne (decyzja właściciela, 2.11.2026).
 
 Użycie:  python3 tools/tasks_to_json.py surowe_tasks.json [docs/status-data.json]
 """
@@ -22,8 +22,8 @@ def main():
     for t in raw:
         if t.get("deleted") or t.get("parent"):
             continue
-        tasks.append({k: t[k] for k in ("title", "status", "updated", "completed", "due", "position") if k in t})
-    out = {"source": "Google Tasks: lista „Fizjo AGV” (tylko tytuły i statusy)", "tasks": tasks}
+        tasks.append({k: t[k] for k in ("title", "notes", "status", "updated", "completed", "due", "position") if k in t})
+    out = {"source": "Google Tasks: lista „Fizjo AGV” (tytuły, opisy i statusy)", "tasks": tasks}
     new = json.dumps(out, ensure_ascii=False, indent=2) + "\n"
     if dst.exists() and dst.read_text(encoding="utf-8") == new:
         print("status-data.json bez zmian")

@@ -1,77 +1,96 @@
 {
-  "source": "Google Tasks: lista „Fizjo AGV” (tylko tytuły i statusy)",
+  "source": "Google Tasks: lista „Fizjo AGV” (tytuły, opisy i statusy)",
   "tasks": [
     {
-      "title": "12. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)",
+      "title": "🔄 9. Plan zbierania wiedzy z wielu źródeł",
+      "notes": "ROLE ŹRÓDEŁ\n- Deep Research (Google): szerokie przeglądy literatury i internetu na start każdego tematu.\n- Gemini Pro (AI Pro): główny koń roboczy, pogłębienia i synteza; używać dużo.\n- Claude: krytyczna recenzja i szukanie dziur we wnioskach (red-teaming).\n- Modele w Cursorze: strukturyzacja bazy, krzyżowe sprawdzanie twierdzeń i źródeł, formatowanie pod stronę.\n- Aplikacja Health: szybkie, wąskie pytania; Tomasz wkleja prompt i odsyła wynik.\n- Google AI Studio: eksperymenty z promptami i szablonami (np. prompt do ekstrakcji twierdzeń ze źródłem).\n- Argon: drogi, tylko do najtrudniejszych pytań, gdy inne źródła się nie zgadzają.\n- Research z 2.11.2026 (23 sprawdzone źródła o grindach): baza startowa i punkt odniesienia.\n\nZASADY\n- Twierdzenie trafia do bazy dopiero, gdy potwierdzą je co najmniej 2 niezależne źródła (nie dwa modele powtarzające to samo, tylko 2 źródła pierwotne).\n- Każde twierdzenie z cytowanym źródłem i linkiem.\n- Etykiety: dowód (badanie), konsensus ekspertów, wnioskowanie biomechaniczne, analogia z innego sportu, spekulacja.\n- Modele AI to narzędzia do szukania i syntezy, nie źródła.\n\nKOLEJNOŚĆ\n1. Deep Research: szeroki przegląd każdego z 4 tematów poniżej.\n2. Gemini Pro: pogłębienie i synteza wyników, lista twierdzeń ze źródłami.\n3. Cursor: zestawienie twierdzeń ze wszystkich źródeł, zaznaczenie zgodnych i sprzecznych.\n4. Claude: recenzja i atak na wnioski, szukanie przesadzonych twierdzeń.\n5. Argon tylko dla nierozstrzygniętych sprzeczności.\n6. Health: szybkie dopytania w trakcie.\n7. Zapis do bazy według kontuzji i części ciała, z etykietami.\n\nPIERWSZA PARTIA PROMPTÓW\nA. Wzorce kontuzji według typu grindu (soul, topsoul, makio, frontside, backside, royale, unity, stalle), urazy kostki, Achillesa, piszczelowego tylnego, kolana i nadgarstków.\nB. Obciążanie ścięgien: izometria, ciężki wolny trening, zasada bólu, monitoring 24 h, kolagen z witaminą C.\nC. Kryteria powrotu do sportu po urazie lub unieruchomieniu kostki: testy, progi 90% symetrii, etapy powrotu do grindów.\nD. Badanie przesiewowe fizjoterapeuty dla zawodnika AGV: zakres ruchu, siła łydki i inwersji, równowaga, testy skoczne, historia urazów.",
       "status": "needsAction",
-      "updated": "2026-11-02T13:00:17.397Z",
-      "position": "00000000000000000000"
-    },
-    {
-      "title": "11. Publiczna strona statusu projektu Fizjo AGV",
-      "status": "needsAction",
-      "updated": "2026-11-02T09:30:38.838Z",
-      "position": "00000000000000000001"
-    },
-    {
-      "title": "10. Baza fizjoterapeutów i blogów o rolkach i AGV",
-      "status": "needsAction",
-      "updated": "2026-11-02T09:26:53.460Z",
-      "position": "00000000000000000002"
-    },
-    {
-      "title": "9. Plan zbierania wiedzy z wielu źródeł",
-      "status": "needsAction",
-      "updated": "2026-11-02T09:25:46.487Z",
-      "position": "00000000000000000003"
-    },
-    {
-      "title": "1. Bot „fizjo AGV” jako centrum dowodzenia wiedzą o fizjoterapii w AGV",
-      "status": "needsAction",
-      "updated": "2026-11-02T09:21:46.044Z",
+      "updated": "2026-11-02T14:01:53.742Z",
       "position": "00000000000000000004"
     },
     {
-      "title": "2. Nakarmić go pełnym researchem z całego internetu",
+      "title": "🔄 13. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami",
+      "notes": "Dodane 2.11.2026.\nPrompty batch-2 w repo (prompts/batch-2-przygotowanie): E pozycja przy grindach, F wzmacnianie i stabilizacja, G prewencja i periodyzacja. Odpalane w Google AI Studio (Gemini 3.1 Pro, temp 0,2, Grounding + URL context, Deep Research max).\n\nSTATUS\n- E: Deep Research gotowy i zweryfikowany (commit 090c2ea). Potwierdzone: Blackburn 2008, Puddle 2013, Maldonado 2018, Ou 2021. Błędy modelu: zmyślone \"LESS >5 = >10x ryzyka ACL\", Teng 30 cm pomylone z 30°, \"80% nawrotów\" źle przypisane, Merz i gimnastyka bez źródeł. Źródła S43–S61.\n- F: Deep Research gotowy (14:59, prawdopodobnie tylko 2. część raportu + infografika progresji plyometrii), weryfikacja w toku. Tematy: trening nerwowo-mięśniowy (Steib 2017), tułów i koslawienie kolana, odwodziciele biodra (ekscentryka, wytrzymałość), dawki plyometrii, technika upadania (Moon 2017: przewrót tak, klepanie nie), zmęczenie.\n- G: do odpalenia.\n\nDALEJ\n- Pełne teksty Determan 2010 i Puddle 2013.\n- Audyt: Opus/Claude jako red-team, Argon do sprzeczności. Repo publiczne, więc modele czytają pliki z linków raw (prompts/README.md).\n- Potem batch-1: A i B, a C i D z niższym priorytetem.\n- S22, S23, PhysioWorks pobrać przez Maca, za zgodą Tomasza.\n\nZASADA: zapisujemy wszystko, łącznie z surowymi wynikami modeli (research-raw/).",
       "status": "needsAction",
-      "updated": "2026-11-02T09:21:42.411Z",
+      "updated": "2026-11-02T14:00:34.150Z",
+      "position": "00000000000000000001"
+    },
+    {
+      "title": "🔄 4. Open source dla społeczności",
+      "notes": "2.11.2026: baza wiedzy w repo GitHub https://github.com/vitoexe/fizjo-agv. Najpierw prywatne, od 14:48 PUBLICZNE (na czas researchu, decyzja Tomasza; można zamknąć później, ale kopie mogą zostać). Struktura: filar-1-przygotowanie, filar-2-rehabilitacja, zasoby, prompts, research-raw, sources.md, METHODOLOGY.md, CONTRIBUTING.md.",
+      "status": "needsAction",
+      "updated": "2026-11-02T13:53:34.836Z",
+      "position": "00000000000000000008"
+    },
+    {
+      "title": "🔄 11. Publiczna strona statusu projektu Fizjo AGV",
+      "notes": "Prosta, czytelna strona w sieci: checklista projektu, co zrobione, co w toku, inne punkty. Ma się aktualizować razem z listą (źródło: ta lista Google Tasks). Dodane 2.11.2026.\n\nDECYZJA 2.11.2026 (14:50): hosting na GitHub Pages z publicznego repo vitoexe/fizjo-agv (folder docs/), adres vitoexe.github.io/fizjo-agv. Zastępuje wcześniejszą opcję VPS/Korath. Strona pokazuje tylko tytuły i statusy, bez notatek; odświeżanie co godzinę z Tasks (rutyna). W TOKU: generowanie strony.",
+      "status": "needsAction",
+      "updated": "2026-11-02T13:53:31.616Z",
+      "position": "00000000000000000002"
+    },
+    {
+      "title": "🔄 10. Baza fizjoterapeutów i blogów o rolkach i AGV",
+      "notes": "1) Przeszukać internet pod kątem blogów fizjoterapeutycznych o rolkach i AGV.\n2) Baza kont fizjo na Instagramie: najpierw rolkarskie, z naciskiem na AGV; awaryjnie fizjo od deskorolki i skate, bo skatepark to podobne środowisko.\n3) Lista fizjoterapeutów specjalizujących się w AGV: najpierw Warszawa i Polska, potem zagraniczni jako skarbnice wiedzy.\nZaczęte 2.11.2026 jako część researchu.\n\nSTAN 2.11.2026: pierwsza runda zrobiona (Page Grok Bota + repo zasoby/). Instagram sprawdzony w przeglądarce: istnieją @dr.kylebrown, @skateboardphysio, @skate_physio, @popowski_michal_physio, @blueballphysiosport; nie istnieją @thebladingphysio, @benrowlesphysio, @theskateboardphysiotherapist. Do dalszego szukania: kolejne konta i fizjo w Polsce.",
+      "status": "needsAction",
+      "updated": "2026-11-02T13:53:30.519Z",
+      "position": "00000000000000000003"
+    },
+    {
+      "title": "🔄 7. Struktura: najpierw uporządkowana baza, potem strona",
+      "notes": "Strona z działami według rodzaju kontuzji i części ciała, ze źródłami dla fizjoterapeutów i trenerów.",
+      "status": "needsAction",
+      "updated": "2026-11-02T13:53:28.352Z",
+      "position": "00000000000000000011"
+    },
+    {
+      "title": "🔄 2. Nakarmić go pełnym researchem z całego internetu",
+      "notes": "Użyć wszystkich dostępnych narzędzi do researchu i wielu modeli.",
+      "status": "needsAction",
+      "updated": "2026-11-02T13:53:26.538Z",
+      "position": "00000000000000000006"
+    },
+    {
+      "title": "✅ 12. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)",
+      "notes": "Decyzja Tomasza 2.11.2026. Filar główny, najważniejszy: przygotowanie organizmu do grindów: anatomicznie prawidłowa pozycja przy grindach, trening (wzmacnianie, stabilizacja), prewencja. Filar mniejszy: rehabilitacja po urazach. Research ma dotyczyć głównie filaru przygotowania (Tomasz nie jest specjalistą, więc wiedza ma pochodzić z researchu).",
+      "status": "needsAction",
+      "updated": "2026-11-02T13:53:25.002Z",
+      "position": "00000000000000000000"
+    },
+    {
+      "title": "✅ 6. Obecny research o grindach to zalążek bazy wiedzy",
+      "notes": "Opinie fizjoterapeutów o grindach, wzorce kontuzji, wzmacnianie, rozgrzewka, zarządzanie obciążeniem (research w toku, 2.11.2026).",
+      "status": "needsAction",
+      "updated": "2026-11-02T13:53:22.594Z",
+      "position": "00000000000000000010"
+    },
+    {
+      "title": "✅ 1. Bot „fizjo AGV” jako centrum dowodzenia wiedzą o fizjoterapii w AGV",
+      "notes": "Projekt open source omawiany na rozmowie 2.11.2026.",
+      "status": "needsAction",
+      "updated": "2026-11-02T13:53:22.236Z",
       "position": "00000000000000000005"
     },
     {
       "title": "3. „Pigułka wiedzy” albo większy biuletyn dla fizjoterapeutów o AGV",
+      "notes": "Jak leczyć, jak przygotować i jak prowadzić zawodnika AGV.",
       "status": "needsAction",
       "updated": "2026-11-02T09:21:38.489Z",
-      "position": "00000000000000000006"
-    },
-    {
-      "title": "4. Open source dla społeczności",
-      "status": "needsAction",
-      "updated": "2026-11-02T09:21:34.384Z",
       "position": "00000000000000000007"
     },
     {
       "title": "5. Strona dla rolkarzy do pokazania fizjo lub trenerowi",
+      "notes": "Każdy rolkarz z kontuzją, naciągnięciem albo przed wizytą u fizjoterapeuty lub trenera personalnego może mu ją pokazać; strona pozwala przeczytać i zapoznać się z materiałem, żeby móc prowadzić tego zawodnika.",
       "status": "needsAction",
       "updated": "2026-11-02T09:21:31.401Z",
-      "position": "00000000000000000008"
-    },
-    {
-      "title": "6. Obecny research o grindach to zalążek bazy wiedzy",
-      "status": "needsAction",
-      "updated": "2026-11-02T09:21:26.521Z",
       "position": "00000000000000000009"
     },
     {
-      "title": "7. Struktura: najpierw uporządkowana baza, potem strona",
-      "status": "needsAction",
-      "updated": "2026-11-02T09:21:22.485Z",
-      "position": "00000000000000000010"
-    },
-    {
       "title": "8. Społeczność może dodawać i weryfikować treści",
+      "notes": "Dzięki temu rośnie jakość.",
       "status": "needsAction",
       "updated": "2026-11-02T09:21:18.261Z",
-      "position": "00000000000000000011"
+      "position": "00000000000000000012"
     }
   ]
 }
