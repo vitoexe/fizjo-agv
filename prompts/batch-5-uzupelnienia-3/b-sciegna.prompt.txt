@@ -1,0 +1,46 @@
+TASK: verification round 3 (Deep Research), part B: tendon loading. Two earlier rounds with keyword searches in PubMed, Cochrane, SPORTDiscus, Scholar and registries found no second independent source for the claims below. Use a DIFFERENT strategy (see STRATEGY). For each claim: find a second independent primary source, evidence against it, or write "NIE ZNALEZIONO". Search in any language; WRITE THE REPORT IN POLISH. SHORT report: tables, one-line verdicts.
+
+CONTEXT: "Fizjo AGV" is an open-source, evidence-graded knowledge base for aggressive inline skaters (AGV). A claim is 2/2 only with two independent primary sources. Sources: https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/sources.md . Triage of round 2 (read "Triage"): https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/research-raw/2026-11-04_batch4-2b_gemini-deep-research.md
+
+STRATEGY (mandatory, in this order)
+1. Citation chasing from the STARTING POINTS given per claim: backward (their reference lists) and forward (papers citing them: Europe PMC "cited by", Google Scholar "cited by", Semantic Scholar). Name the starting point each candidate came from.
+2. Outside the mainstream: Europe PMC (incl. preprints), PEDro, J-STAGE, SciELO, KoreaMed/CNKI where relevant, conference abstracts (ECSS, ISBS, ACSM, ISAKOS, IOC injury prevention), non-English journals (German, French, Spanish, Portuguese, Japanese, Polish). Conference abstracts and theses = grey literature: report, but they cannot make 2/2 alone.
+3. CONTRADICTIONS (marked "sprzeczne"): do NOT give a verdict. List primary studies on EACH side and explain differences in method (population, measurement, protocol, follow-up) using only what the papers state.
+4. Analogous populations (runners, other jumping sports, general tendinopathy) only with label {ANALOGIA:<populacja>}.
+
+INDEPENDENCE (report for every candidate): all co-authors; whether it shares any author with the known source; whether it is included in the known review (check the review's reference list; else write "nie sprawdzono"). A review containing the known study is not independent.
+
+LESSONS: swapped PMID/DOI/PMCID; a PMID of another paper by the same group; wrong first or senior author; crossover called RCT; inverse dynamics called "in vivo"; skipped bibliography sections; sources without author or identifier.
+
+CLAIMS (known sources are never the second source)
+B1 (sprzeczne). Patellar tendinopathy: eccentric vs heavy slow resistance (HSR) vs isometric. Li 2024 NMA (39559237): eccentric ranked lowest; Liu 2026 NMA (42192475): no clear hierarchy. Start: the RCTs included in each NMA — list which trials each used and which overlap; then forward citations of both. Explain the difference only from the papers.
+B2. Achilles tendinopathy: HSR as effective as eccentric. Known: Beyer 2015 RCT (26018970; Kjær, Magnusson). Start: forward citations of Beyer 2015 (RCTs by other groups); PEDro.
+B3. Collagen peptides + training increase tendon size/stiffness. Known: Jerger 2022 (35403756), Jerger 2023 (37424319) — same group as Bischof 2024 review (39060741, König D); Miyamoto 2025 (40623147, no training). Exclude König, Jerger, Centner, Gollhofer, Seynnes, Lauber. Start: forward citations of Jerger 2022; trial registries; Japanese journals (J-STAGE).
+B4. Posterior tibial tendon dysfunction stage I–II: orthosis + exercise. Known: Alvarez 2006 (16442022), Kulig 2009 (19022863), Ross 2018 (30271611), Gómez-Jurado 2021 (33040609, includes both). Start: forward citations of Kulig 2009; synonyms: adult-acquired flatfoot, progressive collapsing foot deformity; Spanish/Portuguese journals.
+B5. Pain-monitoring model (≤5/10, back to baseline next morning) allows continued loading in tendinopathy. Known: Silbernagel 2007 (17307888); Sancho 2019 (31518777, feasibility cohort, n=15). Exclude Silbernagel, Thomeé. Start: forward citations of Silbernagel 2007 and Sancho 2019; any tendinopathy.
+B6. Full ranking of patellar tendon load across rehab exercises (35 exercises, load index). Known: Scattone Silva 2024 (37847102). Already 2/2 only for decline vs flat single-leg squat (with Zwerver 2007, 17224441). Exclude Baxter, Silbernagel, Hullfish, Zwerver. Start: forward citations of both; musculoskeletal-modelling studies ranking several exercises.
+B7. Immobilising boot in plantarflexion reduces Achilles tendon load. Known: Hullfish 2024 (39492878; Baxter). Exclude Baxter group. Start: forward citations; walker-boot and heel-wedge studies; stiff sport boots only as analogy.
+
+RULES
+1. PMID and DOI copied from the PubMed page (or DOI from Crossref/journal if not in PubMed), PMCID if shown; check each separately against first author, year, title. Not opened or anything differs: "UNVERIFIED". No source without author and identifier.
+2. Cite as [Autor rok, PMID] — no footnote numbers; must match the bibliography.
+3. Study design exactly as stated in the paper (RCT only if randomised to groups; crossover, cohort, cross-sectional, reliability, cadaver, lab ≠ RCT; review ≠ primary study).
+4. Numbers and quotes only verbatim from the cited paper, with location (abstract/full text, table); give n.
+5. Blogs, clinic pages, forums = {OPINIA}. AI models are not sources.
+
+OUTPUT (Markdown, Polish, short; ALL 5 sections are mandatory)
+## 1. Podsumowanie
+2–4 zdania: liczba werdyktów każdego rodzaju; ile UNVERIFIED.
+## 2. Twierdzenia (one block per claim, in order)
+### <ID>
+| Źródło znane | Nowe źródło [Autor rok, PMID] | Skąd (punkt startowy / baza) | Typ badania (jak w pracy) | Populacja | n | Dosłowny cytat / liczba (lokalizacja) | Współautorzy; w znanym przeglądzie? |
+|---|---|---|---|---|---|---|---|
+**Werdykt:** potwierdzone (2/2) / częściowo (która część) / brak drugiego źródła — 1 zdanie. For "sprzeczne": **Strony sporu:** za / przeciw + różnice metod (1–2 zdania), no verdict.
+## 3. Bibliografia (tylko nowe źródła)
+| # | Autorzy, rok, tytuł, czasopismo, tom:strony | Typ badania | n | PMID | DOI | PMCID |
+|---|---|---|---|---|---|---|
+## 4. Identifier check
+| Źródło | PMID | DOI | PMCID | Strona otwarta? | Zgodne? tak/nie/UNVERIFIED |
+|---|---|---|---|---|---|
+## 5. NIE ZNALEZIONO
+- <ID> — punkty startowe, bazy i hasła

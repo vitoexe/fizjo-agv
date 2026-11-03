@@ -1,0 +1,57 @@
+TASK: verification round 3 (Deep Research), part A: ankle, screening, injury patterns. Two keyword-search rounds found no second independent source for these claims. Use a DIFFERENT strategy (see STRATEGY). For each claim: find a second independent primary source, evidence against it, or write "NIE ZNALEZIONO". Search in any language; WRITE THE REPORT IN POLISH. SHORT report: tables, one-line verdicts.
+
+CONTEXT: "Fizjo AGV" is an open-source, evidence-graded knowledge base for aggressive inline skaters (AGV). A claim is 2/2 only with two independent primary sources. Sources: https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/sources.md . Triage of round 2 (read "Triage"): https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/research-raw/2026-11-04_batch4-2a_gemini-deep-research.md
+
+STRATEGY (mandatory, in this order)
+1. Citation chasing from the STARTING POINTS given per claim: backward (their reference lists) and forward (papers citing them: Europe PMC "cited by", Google Scholar "cited by", Semantic Scholar). Name the starting point of each candidate.
+2. Outside the mainstream: Europe PMC (incl. preprints), PEDro, J-STAGE, SciELO, conference abstracts (ECSS, ISBS, ACSM, ISAKOS, IOC injury prevention), non-English journals (German, French, Spanish, Portuguese, Japanese, Polish). Congress abstracts and theses = grey literature, not 2/2 alone.
+3. CONTRADICTIONS (marked "sprzeczne"): do NOT give a verdict. List primary studies on EACH side and explain differences in method (population, measurement, protocol, follow-up) using only what the papers state.
+4. Analogous populations (skateboarding, BMX, snowboard, other landing sports) only with label {ANALOGIA:<populacja>}.
+
+INDEPENDENCE (report for every candidate): all co-authors; whether it shares any author with the known source; whether it is included in the known review (check the review's reference list; else write "nie sprawdzono"). A review containing the known study is not independent.
+
+LESSONS: swapped PMID/DOI/PMCID; PMID of another paper by the same group; wrong first/senior author; crossover called RCT; skipped bibliography sections; sources without author or ID.
+
+CLAIMS (known sources are never the second source)
+Ankle
+C1. Ankle-GO <8 pts at 2 months after lateral sprain → higher re-sprain risk. Known: Picot 2023 (PMID 37434508), 2024 (38453775). Exclude Picot, Hardy, Fourchet, Lopes, Rauline. Start: forward citations of both.
+C2b (sprzeczne). Brace in chronic ankle instability (CAI): only confidence improves, functional tests do not? Tests unchanged: Picot 2025 (39916658). SEBT/YBT improved in CAI: Reyburn 2020 meta-analysis (33049703). Start: Hadadi 2014 (23810776), Hadadi 2019 (30808178), Wikstrom 2006 (17043691), Gribble 2010 (20129116), say if each is in Reyburn; studies citing them.
+C3. Syndesmotic injury: longer return after surgery than conservative care. Known: Salameh 2022 (35601091); Bolia 2023 (36599363) shares ≥8 studies. Start: citations of Salameh; cohorts in neither review.
+C4. Syndesmotic injury: vertical jump and FABQ correlate with recovery time. Known: Sman 2014 (24002346). Start: forward citations.
+Screening
+D1. SEBT anterior asymmetry >4 cm → injury. Known: Plisky 2006 (17193868), Stiffler 2017 (28355980, retrospective). Start: citations of Plisky 2006; prospective only, null results too.
+D2. Weight-bearing lunge test MDC 1.9 / 1.6 cm. Known: Powden 2015 (25704110); Chisholm 2012, Konor 2012 (22666642), Backman 2011 are in it. Start: citations of Powden 2015 (after 2014).
+D3. Single-leg heel-raise NORMS (reliability already 2/2). Known: Bohannon 2022 (35784604), Hébert-Losier 2017 (28886865). Start: Schrefl 2026 (41925545) and its references; citations of Hébert-Losier 2017. Protocol with every number.
+D4. Screening tests cannot predict injury in an individual. Known: Bahr 2016 (27095747). Start: Schrefl 2026 (41925545); citations of Bahr 2016 (reviews with sensitivity/AUC).
+D5b (sprzeczne). Ankle range of motion in CAI vs healthy. No difference (active, goniometer): Alghadir 2020 (32718066). Less weight-bearing dorsiflexion: Hoch 2012 (22575498). Start: both papers' references and citations; group by measurement method.
+D6. CAI: stiffer landing, higher peak vertical GRF vs HEALTHY. Known: De Ridder 2015 (25887076); Jeon 2025 review (39854850) includes it and compares with copers. Start: Jeon 2025 references — primary studies vs healthy.
+D8 (sprzeczne). Low dorsiflexion and patellar tendinopathy. For: Backman 2011 (21917610). Against: MacDonald 2020 (30346313). Start: their citations; Sprague 2018 (30054341).
+D9. Short screening battery for landing/action sports with predictive data. Known: none. Start: forward citations of Bahr 2016 and Plisky 2006 in action/landing sports.
+Injuries
+A1. AGV injury mechanism and body region. Known: Maudot 2014 (thesis), Hilgert 2004 (15592983 = our S01). Start: citations of Hilgert 2004 and Maudot 2014; non-English journals, theses, congress abstracts.
+A2. "Splint-top" forearm fractures above wrist guards (inline/roller). Known: Cheng 1995 (7500422). Start: citations of Cheng 1995 and Greenwald 1998 (9850786); case reports.
+A4. Terrain/skatepark features differ in injury risk. Known: Russell 2014 (24184587). Exclude Russell, Hagel, Emery, Meeuwisse. Start: citations of Russell 2014; skatepark design.
+
+RULES
+1. PMID and DOI copied from the PubMed page (or DOI from Crossref/journal if not in PubMed), PMCID if shown; check each separately against first author, year, title. Not opened or anything differs: "UNVERIFIED". No source without author and identifier.
+2. Cite as [Autor rok, PMID] — no footnote numbers; must match the bibliography.
+3. Study design exactly as stated in the paper (RCT only if randomised to groups; crossover, cohort, cross-sectional, reliability, cadaver, lab ≠ RCT; review ≠ primary study).
+4. Numbers and quotes only verbatim from the cited paper, with location (abstract/full text, table); give n.
+5. Blogs, clinic pages, forums = {OPINIA}. AI models are not sources.
+
+OUTPUT (Markdown, Polish, short; ALL 5 sections are mandatory)
+## 1. Podsumowanie
+2–4 zdania: liczba werdyktów każdego rodzaju; ile UNVERIFIED.
+## 2. Twierdzenia (one block per claim, in order)
+### <ID>
+| Źródło znane | Nowe źródło [Autor rok, PMID] | Skąd (punkt startowy / baza) | Typ badania (jak w pracy) | Populacja | n | Dosłowny cytat / liczba (lokalizacja) | Współautorzy; w znanym przeglądzie? |
+|---|---|---|---|---|---|---|---|
+**Werdykt:** potwierdzone (2/2) / częściowo (która część) / brak drugiego źródła — 1 zdanie. For "sprzeczne": **Strony sporu:** za / przeciw + różnice metod (1–2 zdania), no verdict.
+## 3. Bibliografia (tylko nowe źródła)
+| # | Autorzy, rok, tytuł, czasopismo, tom:strony | Typ badania | n | PMID | DOI | PMCID |
+|---|---|---|---|---|---|---|
+## 4. Identifier check
+| Źródło | PMID | DOI | PMCID | Strona otwarta? | Zgodne? tak/nie/UNVERIFIED |
+|---|---|---|---|---|---|
+## 5. NIE ZNALEZIONO
+- <ID> — punkty startowe, bazy i hasła
