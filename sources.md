@@ -266,3 +266,16 @@ Uwagi:
 - S156 (Chambéry, Lyon, Montreal i inne) i S157 (University of Sydney) — brak wspólnych autorów → **niezależne**. Refshauge KM i Hiller CE są współautorami S152 (syndesmoza) — bez związku z tym twierdzeniem.
 - S157 bada tylko tejp; orteza jest tylko w S156 — dla ortezy twierdzenie ma 1/2.
 - W S157 poczucie stabilności rosło przy schodach i skokach, ale nie w SEBT i staniu na jednej nodze.
+
+## Batch-4 2a — Deep Research Preview, drugie źródła runda 2 (dodane 4.11.2026)
+
+Surowy wynik i triage: `research-raw/2026-11-04_batch4-2a_deep-research.md`. Model podał 1 nowe źródło (Schrefl 2024); identyfikator sprawdzony przez nas w Crossref, a Hébert-Losier 2017 (znane z triage batch-1 D) w PubMed.
+
+| ID | Źródło | Typ | Etykieta | Dotyczy AGV? | Status | Link |
+|---|---|---|---|---|---|---|
+| S158 | Hébert-Losier K, Wessman C, Alricsson M, Svantesson U 2017. *Updated reliability and normative values for the standing heel-rise test in healthy adults*. Physiotherapy 103(4):446–452 | przekrojowe z test-retest, n=566 (retest n=32) | `{DOWÓD:obserwacyjne}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/28886865/ · doi:10.1016/j.physio.2017.03.002 |
+| S159 | Schrefl A, Kolokythas N, Stamm M, Erlacher D, Schärli A 2024. *Reliability of a standardized protocol of the Single Leg Heel Rise Test*. Current Issues in Sport Science 9(1):009 | rzetelność test-retest, n=21 studentów sportu | `{DOWÓD:obserwacyjne}` | nie | ✔ abstrakt (Crossref); **brak PMID** — czasopismo nieindeksowane w PubMed | https://doi.org/10.36950/2024.9ciss009 |
+
+Uwagi:
+- S158 (Waikato, Nowa Zelandia; Göteborg, Östersund) i S159 (Uniwersytet w Bernie) — brak wspólnych autorów → **niezależne**. 2/2 tylko dla powtarzalności testu, nie dla norm (różne protokoły).
+- Ta sama grupa (Schrefl, Erlacher, Schärli) ma w PubMed późniejsze prace o teście wspięć, m.in. związek wyniku z urazami podudzia, kostki i stopy (J Strength Cond Res 2026, PMID 41925545) — model ich nie podał; kandydat do następnej rundy.

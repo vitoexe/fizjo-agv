@@ -32,6 +32,7 @@ Biodro (dowody spoza AGV, szczegóły w `stabilizacja-i-propriocepcja.md`):
 - Ekscentryczny i koncentryczny trening odwodzicieli biodra (3×/tydz., 4 × 10 maksymalnych powtórzeń, 4 tyg.) — koślawienie spadło w obu grupach; przewaga ekscentryki istotna tylko w jednonóżnym skoku, w lądowaniu trend (p = 0,066); pilotaż, n=20, bez grupy bez treningu. [S68] {DOWÓD:RCT} ✔ 1/2
 - W badaniach porównujących jednocześnie siłę i endurance to **siła maksymalna/ekscentryczna** (nie endurance tułowia) korelowała z mniejszym koślawieniem, mediowała poprawę kinematyki albo przewidywała urazy; brak RCT endurance vs strength. [S134][S135][S136][S137] {DOWÓD:obserwacyjne} ✔ 1/2 (NO DATA RCT; audyt Argon 2)
 - Siła biodra jest u zdrowych co najwyżej słabo związana z koślawieniem kolana (wyjątek: balistyczne lądowanie jednonóż); samo wzmacnianie biodra nie ma przekonujących dowodów zmniejszenia koślawienia — lepiej działa w programie z techniką lądowania, plyometrią i core. [S106][S107][S108][S111][S113][S114] {DOWÓD:przegląd} ✔ 2/2 (związek) / 1/2 (izolowane wzmacnianie) — szczegóły w `stabilizacja-i-propriocepcja.md`
+- Test wspięć na jednej nodze do zmęczenia (liczba powtórzeń) jest bardzo powtarzalny przy powtórnym badaniu u zdrowych dorosłych: ICC 1,0 (10° pochylnia, retest po tygodniu u 32 z 566 osób) [S158] i ICC 0,91 (protokół standaryzowany z urządzeniem pomiarowym, 21 studentów sportu) [S159]. {DOWÓD:obserwacyjne} ✔ 2/2 (niezależne grupy: Nowa Zelandia/Szwecja i Berno). Dotyczy powtarzalności, nie norm: normy zależą od protokołu (np. mediana 24 powt. u mężczyzn i 21 u kobiet na pochylni 10° [S158]) — liczb z różnych protokołów nie porównujemy. ⏳ 1/2 dla norm.
 
 ## Wnioskowanie biomechaniczne
 
@@ -48,6 +49,7 @@ Biodro (dowody spoza AGV, szczegóły w `stabilizacja-i-propriocepcja.md`):
 ## Dla fizjoterapeuty
 
 - Mierz wspięcia na jednej nodze i porównuj ze zdrową stroną (kryterium ≥90%, zob. `../filar-2-rehabilitacja/powrot-do-grindow.md`). [S22][S23]
+- Test wspięć jest powtarzalny [S158][S159], ale tylko przy tym samym protokole (tempo, pochylnia, kryterium przerwania) — zapisuj protokół przy wyniku.
 
 ## TODO / pytania do researchu
 
@@ -58,4 +60,4 @@ Biodro (dowody spoza AGV, szczegóły w `stabilizacja-i-propriocepcja.md`):
 
 ## Źródła
 
-[S02] [S07] [S08] [S09] [S10] [S16] [S18] [S22] [S23] [S68] [S73] [S79] [S106] [S107] [S108] [S111] [S113] [S114] [S134] [S135] [S136] [S137] — `sources.md`.
+[S02] [S07] [S08] [S09] [S10] [S16] [S18] [S22] [S23] [S68] [S73] [S79] [S106] [S107] [S108] [S111] [S113] [S114] [S134] [S135] [S136] [S137] [S158] [S159] — `sources.md`.
