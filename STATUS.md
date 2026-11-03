@@ -1,8 +1,8 @@
 # Status projektu Fizjo AGV
 
-Ostatnia aktualizacja: 2026-11-03 18:02 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
+Ostatnia aktualizacja: 2026-11-03 18:04 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
 
-**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60%** (13 punktów planu)
+**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **59%** (13 punktów planu)
 
 | | Punkt planu | Postęp | % | Podpunkty |
 |---|---|---|---|---|
@@ -16,7 +16,7 @@ Ostatnia aktualizacja: 2026-11-03 18:02 (czas warszawski). Źródło: Google Tas
 | 🔄 | [8. Społeczność może dodawać i weryfikować treści](#-8-społeczność-może-dodawać-i-weryfikować-treści) | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | 40% | 5 podp. |
 | 🔄 | [9. Plan zbierania wiedzy z wielu źródeł](#-9-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% | 15 podp. |
 | 🔄 | [10. Baza fizjoterapeutów i blogów o rolkach i AGV](#-10-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% | 8 podp. |
-| ✅ | [11. Publiczna strona statusu projektu Fizjo AGV](#-11-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 5 podp. |
+| ✅ | [11. Publiczna strona statusu projektu Fizjo AGV](#-11-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% | 9 podp. |
 | ✅ | [12. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)](#-12-dwa-filary-projektu-przygotowanie-do-grindów-główny-i-rehabilitacja-mniejszy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
 | 🔄 | [13. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-13-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 66% | 22 podp. |
 
@@ -32,7 +32,7 @@ Projekt open source omawiany na rozmowie 2.11.2026.
 
 - ✅ Bot zbiera research, weryfikuje twierdzenia w źródłach pierwotnych i zapisuje je do bazy
 - ✅ Baza w publicznym repo GitHub: https://github.com/vitoexe/fizjo-agv
-- ✅ Ta lista zadań jest źródłem publicznej strony statusu (punkt 11)
+- ✅ Ta lista zadań jest źródłem publicznego statusu: STATUS.md w repo (punkt 11)
 
 ### 🔄 2. Nakarmić go pełnym researchem z całego internetu
 
@@ -83,7 +83,7 @@ Baza wiedzy w repo GitHub https://github.com/vitoexe/fizjo-agv.
 - ✅ Repo publiczne od 2.11.2026 14:48 (na czas researchu, decyzja Tomasza; można zamknąć później, ale kopie mogą zostać)
 - ✅ Struktura: filar-1-przygotowanie, filar-2-rehabilitacja, zasoby, prompts, research-raw, sources.md
 - ✅ METHODOLOGY.md i CONTRIBUTING.md
-- ✅ Publiczna strona statusu (punkt 11)
+- ✅ Publiczny status: STATUS.md w repo (punkt 11)
 - ⬜ Licencja: w repo nie ma jeszcze pliku LICENSE (wybór licencji do decyzji)
 - ⬜ Ogłosić projekt społeczności AGV
 
@@ -95,7 +95,7 @@ Każdy rolkarz z kontuzją, naciągnięciem albo przed wizytą u fizjoterapeuty 
 
 **Dalej**
 
-- ⬜ Strona z treścią bazy (osobna od strony statusu), działy według kontuzji i części ciała
+- ⬜ Strona z treścią bazy (osobna od STATUS.md), działy według kontuzji i części ciała
 - ⬜ Czytelna na telefonie, do pokazania w gabinecie
 - ⬜ Zastrzeżenie „to nie jest porada medyczna” na każdej stronie
 - ⬜ Treść po recenzji fizjoterapeuty
@@ -220,13 +220,22 @@ Zaczęte 2.11.2026 jako część researchu. Pierwsza runda: Page Grok Bota i rep
 
 ### ✅ 11. Publiczna strona statusu projektu Fizjo AGV
 
-`🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%**
+`🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜` **89%**
 
-Prosta, czytelna strona w sieci: checklista projektu, co zrobione, co w toku, inne punkty. Źródło danych: ta lista Google Tasks. Dodane 2.11.2026. Strona działa od 2.11.2026.
+Publiczny status projektu: checklista, co zrobione, co w toku, inne punkty. Źródło danych: ta lista Google Tasks. Dodane 2.11.2026.
 
-**Decyzje 2.11.2026**
+Od 3.11.2026 status jest w pliku STATUS.md w repo: https://github.com/vitoexe/fizjo-agv/blob/main/STATUS.md (paski postępu z emoji).
 
-- ✅ Hosting na GitHub Pages z publicznego repo vitoexe/fizjo-agv (folder docs/): https://vitoexe.github.io/fizjo-agv/
+**Zmiana 3.11.2026**
+
+- ✅ STATUS.md w katalogu głównym repo zamiast strony; generuje go tools/build_status_md.py z tej listy Tasks
+- ✅ Paski postępu z emoji (🟩 zrobione, 🟨 w toku, ⬜ do zrobienia) dla całości i każdego punktu, podpunkty pod spodem
+- ✅ Strona GitHub Pages wycofana 3.11.2026: w docs/ zostało tylko przekierowanie do STATUS.md, stara strona jest w historii git
+- ⬜ Wyłączenie GitHub Pages w ustawieniach repo — decyzja Tomasza
+
+DECYZJE 2.11.2026 (dawna strona)
+
+- ✅ Hosting na GitHub Pages z folderu docs/ (wycofany 3.11.2026)
 - ✅ Strona pokazuje tytuły, statusy (✅ zrobione, 🔄 w toku) i pełne opisy z Tasks
 - ✅ Bez rutyny co godzinę (oszczędność tokenów): przebudowa przy każdej aktualizacji Tasks
 - ✅ Statystyki bazy: pliki, źródła, twierdzenia, potwierdzenia 2/2
@@ -242,7 +251,7 @@ Decyzja Tomasza 2.11.2026. Filar główny, najważniejszy: przygotowanie organiz
 
 - ✅ Struktura repo: filar-1-przygotowanie (główny) i filar-2-rehabilitacja (mniejszy)
 - ✅ Prompty partii 2 (E, F, G) dla filaru przygotowania
-- ✅ Strona statusu opisuje oba filary
+- ✅ Status projektu (STATUS.md) opisuje oba filary
 
 ### 🔄 13. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami
 

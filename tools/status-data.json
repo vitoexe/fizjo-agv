@@ -2,6 +2,41 @@
   "source": "Google Tasks: lista „Fizjo AGV” (tytuły, opisy i statusy)",
   "tasks": [
     {
+      "title": "5. Strona dla rolkarzy do pokazania fizjo lub trenerowi",
+      "notes": "Każdy rolkarz z kontuzją, naciągnięciem albo przed wizytą u fizjoterapeuty lub trenera personalnego może mu ją pokazać; strona pozwala przeczytać i zapoznać się z materiałem, żeby móc prowadzić tego zawodnika.\n\nDALEJ\n- ⬜ Strona z treścią bazy (osobna od STATUS.md), działy według kontuzji i części ciała\n- ⬜ Czytelna na telefonie, do pokazania w gabinecie\n- ⬜ Zastrzeżenie „to nie jest porada medyczna” na każdej stronie\n- ⬜ Treść po recenzji fizjoterapeuty",
+      "status": "needsAction",
+      "updated": "2026-11-03T17:04:31.542Z",
+      "position": "00000000000000000009"
+    },
+    {
+      "title": "✅ 12. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)",
+      "notes": "Decyzja Tomasza 2.11.2026. Filar główny, najważniejszy: przygotowanie organizmu do grindów: anatomicznie prawidłowa pozycja przy grindach, trening (wzmacnianie, stabilizacja), prewencja. Filar mniejszy: rehabilitacja po urazach. Research ma dotyczyć głównie filaru przygotowania (Tomasz nie jest specjalistą, więc wiedza ma pochodzić z researchu).\n\nSTATUS\n- ✅ Struktura repo: filar-1-przygotowanie (główny) i filar-2-rehabilitacja (mniejszy)\n- ✅ Prompty partii 2 (E, F, G) dla filaru przygotowania\n- ✅ Status projektu (STATUS.md) opisuje oba filary",
+      "status": "needsAction",
+      "updated": "2026-11-03T17:04:29.116Z",
+      "position": "00000000000000000000"
+    },
+    {
+      "title": "🔄 4. Open source dla społeczności",
+      "notes": "Baza wiedzy w repo GitHub https://github.com/vitoexe/fizjo-agv.\n\nSTATUS\n- ✅ Repo założone 2.11.2026, najpierw prywatne\n- ✅ Repo publiczne od 2.11.2026 14:48 (na czas researchu, decyzja Tomasza; można zamknąć później, ale kopie mogą zostać)\n- ✅ Struktura: filar-1-przygotowanie, filar-2-rehabilitacja, zasoby, prompts, research-raw, sources.md\n- ✅ METHODOLOGY.md i CONTRIBUTING.md\n- ✅ Publiczny status: STATUS.md w repo (punkt 11)\n- ⬜ Licencja: w repo nie ma jeszcze pliku LICENSE (wybór licencji do decyzji)\n- ⬜ Ogłosić projekt społeczności AGV",
+      "status": "needsAction",
+      "updated": "2026-11-03T17:04:27.149Z",
+      "position": "00000000000000000008"
+    },
+    {
+      "title": "✅ 1. Bot „fizjo AGV” jako centrum dowodzenia wiedzą o fizjoterapii w AGV",
+      "notes": "Projekt open source omawiany na rozmowie 2.11.2026.\n\nSTATUS\n- ✅ Bot zbiera research, weryfikuje twierdzenia w źródłach pierwotnych i zapisuje je do bazy\n- ✅ Baza w publicznym repo GitHub: https://github.com/vitoexe/fizjo-agv\n- ✅ Ta lista zadań jest źródłem publicznego statusu: STATUS.md w repo (punkt 11)",
+      "status": "needsAction",
+      "updated": "2026-11-03T17:04:24.673Z",
+      "position": "00000000000000000005"
+    },
+    {
+      "title": "✅ 11. Publiczna strona statusu projektu Fizjo AGV",
+      "notes": "Publiczny status projektu: checklista, co zrobione, co w toku, inne punkty. Źródło danych: ta lista Google Tasks. Dodane 2.11.2026.\nOd 3.11.2026 status jest w pliku STATUS.md w repo: https://github.com/vitoexe/fizjo-agv/blob/main/STATUS.md (paski postępu z emoji).\n\nZMIANA 3.11.2026\n- ✅ STATUS.md w katalogu głównym repo zamiast strony; generuje go tools/build_status_md.py z tej listy Tasks\n- ✅ Paski postępu z emoji (🟩 zrobione, 🟨 w toku, ⬜ do zrobienia) dla całości i każdego punktu, podpunkty pod spodem\n- ✅ Strona GitHub Pages wycofana 3.11.2026: w docs/ zostało tylko przekierowanie do STATUS.md, stara strona jest w historii git\n- ⬜ Wyłączenie GitHub Pages w ustawieniach repo — decyzja Tomasza\n\nDECYZJE 2.11.2026 (dawna strona)\n- ✅ Hosting na GitHub Pages z folderu docs/ (wycofany 3.11.2026)\n- ✅ Strona pokazuje tytuły, statusy (✅ zrobione, 🔄 w toku) i pełne opisy z Tasks\n- ✅ Bez rutyny co godzinę (oszczędność tokenów): przebudowa przy każdej aktualizacji Tasks\n- ✅ Statystyki bazy: pliki, źródła, twierdzenia, potwierdzenia 2/2\n- ✅ Checklista w podpunktach: liczniki i paski postępu przy punktach, pasek ogólny z podpunktami (wdrożone 2.11.2026 wieczorem)",
+      "status": "needsAction",
+      "updated": "2026-11-03T17:04:22.998Z",
+      "position": "00000000000000000002"
+    },
+    {
       "title": "🔄 2. Nakarmić go pełnym researchem z całego internetu",
       "notes": "Użyć wszystkich dostępnych narzędzi do researchu i wielu modeli.\n\nMETODA OD 3.11.2026\nResearch tylko w Gemini, w Google AI Studio w przeglądarce (Pro, bez kluczy API): Deep Research Max do szerokich przeglądów, Gemini 4 Argon do sprzeczności. Wynik kopiowany „Copy as markdown” do research-raw/ (nazwy i nagłówek: research-raw/README.md), potem weryfikacja każdego PMID/DOI.\n\nSTATUS\n- ✅ Research startowy o grindach: 23 źródła (S01–S23)\n- ✅ Zasoby praktyków: blogi, Instagram, specjaliści (S24–S42)\n- ✅ Deep Research E, F, G zweryfikowane w źródłach (S43–S105), szczegóły w punkcie 13\n- ✅ Argon do sprzeczności: sprzeczności 1 i 2 rozstrzygnięte (S106–S143), szczegóły w punkcie 13\n- ⬜ Gemini Pro dla E, F, G (prompty 2-gemini-pro.md gotowe)\n- ⏸ Claude red-team — wstrzymany 3.11.2026; decyzja: tylko Gemini\n- ⬜ Health: szybkie dopytania (prompty 4-health.md gotowe)\n- ✅ Partia 1 A (pilot): zrobione 3.11.2026 — do bazy S144–S148 (Maudot 2014 — pierwsza ankieta AGV po 2007, literatura szara; Russell 2014; Cheng 1995; Russell 2007; Giacobetti 1997), szczegóły w punkcie 13\n  - ✅ Lekcja: Deep Research podał błędne DOI/PMID w 5 z 7 par — każdy identyfikator weryfikujemy w PubMed/Crossref\n- 🔄 Partia 1 B (ścięgna): prompt gotowy, czeka na uruchomienie\n- ⬜ Partia 1 C, D: prompty w prompts/batch-1, jeszcze nieodpalone",
       "status": "needsAction",
@@ -21,20 +56,6 @@
       "status": "needsAction",
       "updated": "2026-11-02T18:56:28.273Z",
       "position": "00000000000000000012"
-    },
-    {
-      "title": "✅ 11. Publiczna strona statusu projektu Fizjo AGV",
-      "notes": "Prosta, czytelna strona w sieci: checklista projektu, co zrobione, co w toku, inne punkty. Źródło danych: ta lista Google Tasks. Dodane 2.11.2026. Strona działa od 2.11.2026.\n\nDECYZJE 2.11.2026\n- ✅ Hosting na GitHub Pages z publicznego repo vitoexe/fizjo-agv (folder docs/): https://vitoexe.github.io/fizjo-agv/\n- ✅ Strona pokazuje tytuły, statusy (✅ zrobione, 🔄 w toku) i pełne opisy z Tasks\n- ✅ Bez rutyny co godzinę (oszczędność tokenów): przebudowa przy każdej aktualizacji Tasks\n- ✅ Statystyki bazy: pliki, źródła, twierdzenia, potwierdzenia 2/2\n- ✅ Checklista w podpunktach: liczniki i paski postępu przy punktach, pasek ogólny z podpunktami (wdrożone 2.11.2026 wieczorem)",
-      "status": "needsAction",
-      "updated": "2026-11-02T18:54:49.681Z",
-      "position": "00000000000000000002"
-    },
-    {
-      "title": "✅ 12. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)",
-      "notes": "Decyzja Tomasza 2.11.2026. Filar główny, najważniejszy: przygotowanie organizmu do grindów: anatomicznie prawidłowa pozycja przy grindach, trening (wzmacnianie, stabilizacja), prewencja. Filar mniejszy: rehabilitacja po urazach. Research ma dotyczyć głównie filaru przygotowania (Tomasz nie jest specjalistą, więc wiedza ma pochodzić z researchu).\n\nSTATUS\n- ✅ Struktura repo: filar-1-przygotowanie (główny) i filar-2-rehabilitacja (mniejszy)\n- ✅ Prompty partii 2 (E, F, G) dla filaru przygotowania\n- ✅ Strona statusu opisuje oba filary",
-      "status": "needsAction",
-      "updated": "2026-11-02T18:53:03.115Z",
-      "position": "00000000000000000000"
     },
     {
       "title": "🔄 10. Baza fizjoterapeutów i blogów o rolkach i AGV",
@@ -65,32 +86,11 @@
       "position": "00000000000000000010"
     },
     {
-      "title": "5. Strona dla rolkarzy do pokazania fizjo lub trenerowi",
-      "notes": "Każdy rolkarz z kontuzją, naciągnięciem albo przed wizytą u fizjoterapeuty lub trenera personalnego może mu ją pokazać; strona pozwala przeczytać i zapoznać się z materiałem, żeby móc prowadzić tego zawodnika.\n\nDALEJ\n- ⬜ Strona z treścią bazy (osobna od strony statusu), działy według kontuzji i części ciała\n- ⬜ Czytelna na telefonie, do pokazania w gabinecie\n- ⬜ Zastrzeżenie „to nie jest porada medyczna” na każdej stronie\n- ⬜ Treść po recenzji fizjoterapeuty",
-      "status": "needsAction",
-      "updated": "2026-11-02T18:52:49.406Z",
-      "position": "00000000000000000009"
-    },
-    {
-      "title": "🔄 4. Open source dla społeczności",
-      "notes": "Baza wiedzy w repo GitHub https://github.com/vitoexe/fizjo-agv.\n\nSTATUS\n- ✅ Repo założone 2.11.2026, najpierw prywatne\n- ✅ Repo publiczne od 2.11.2026 14:48 (na czas researchu, decyzja Tomasza; można zamknąć później, ale kopie mogą zostać)\n- ✅ Struktura: filar-1-przygotowanie, filar-2-rehabilitacja, zasoby, prompts, research-raw, sources.md\n- ✅ METHODOLOGY.md i CONTRIBUTING.md\n- ✅ Publiczna strona statusu (punkt 11)\n- ⬜ Licencja: w repo nie ma jeszcze pliku LICENSE (wybór licencji do decyzji)\n- ⬜ Ogłosić projekt społeczności AGV",
-      "status": "needsAction",
-      "updated": "2026-11-02T18:52:47.702Z",
-      "position": "00000000000000000008"
-    },
-    {
       "title": "3. „Pigułka wiedzy” albo większy biuletyn dla fizjoterapeutów o AGV",
       "notes": "Jak leczyć, jak przygotować i jak prowadzić zawodnika AGV.\n\nDALEJ\n- ⬜ Wybrać format: krótka pigułka (1–2 strony) albo większy biuletyn\n- ⬜ Trzon: twierdzenia potwierdzone 2/2 z bazy\n- ⬜ Szkic pierwszego wydania\n- ⬜ Recenzja fizjoterapeuty przed publikacją",
       "status": "needsAction",
       "updated": "2026-11-02T18:52:45.673Z",
       "position": "00000000000000000007"
-    },
-    {
-      "title": "✅ 1. Bot „fizjo AGV” jako centrum dowodzenia wiedzą o fizjoterapii w AGV",
-      "notes": "Projekt open source omawiany na rozmowie 2.11.2026.\n\nSTATUS\n- ✅ Bot zbiera research, weryfikuje twierdzenia w źródłach pierwotnych i zapisuje je do bazy\n- ✅ Baza w publicznym repo GitHub: https://github.com/vitoexe/fizjo-agv\n- ✅ Ta lista zadań jest źródłem publicznej strony statusu (punkt 11)",
-      "status": "needsAction",
-      "updated": "2026-11-02T18:52:42.363Z",
-      "position": "00000000000000000005"
     }
   ]
 }
