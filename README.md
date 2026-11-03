@@ -11,7 +11,7 @@ Dla kogo:
 <!-- STATUS:START -->
 ## Status projektu
 
-**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60%** (13 punktów planu) · ostatnia aktualizacja: 2026-11-03 18:44 (czas warszawski)
+**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60%** (13 punktów planu) · ostatnia aktualizacja: 2026-11-03 21:20 (czas warszawski)
 
 | | Punkt planu | Postęp | % |
 |---|---|---|---|
@@ -19,8 +19,8 @@ Dla kogo:
 | ✅ | [2. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)](STATUS.md#-2-dwa-filary-projektu-przygotowanie-do-grindów-główny-i-rehabilitacja-mniejszy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% |
 | ✅ | [3. Obecny research o grindach to zalążek bazy wiedzy](STATUS.md#-3-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% |
 | ✅ | [4. Publiczna strona statusu projektu Fizjo AGV](STATUS.md#-4-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% |
-| 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](STATUS.md#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 68% |
-| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](STATUS.md#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟨🟨⬜⬜⬜ | 64% |
+| 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](STATUS.md#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 69% |
+| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](STATUS.md#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 68% |
 | 🔄 | [7. Plan zbierania wiedzy z wielu źródeł](STATUS.md#-7-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% |
 | 🔄 | [8. Baza fizjoterapeutów i blogów o rolkach i AGV](STATUS.md#-8-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% |
 | 🔄 | [9. Struktura: najpierw uporządkowana baza, potem strona](STATUS.md#-9-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% |
