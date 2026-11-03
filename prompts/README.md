@@ -4,7 +4,8 @@
 
 - **Tylko Gemini.** Red-team Claude/Opus jest wstrzymany (pliki `3-claude-redteam.md` i `audyt/claude-redteam-1a/1b.md` zostają jako archiwum).
 - **Gdzie:** Google AI Studio w przeglądarce (plan Pro, bez kluczy API). Prompt wklejamy jednym wklejeniem w pole tekstowe; wynik kopiujemy przyciskiem „Copy as markdown”.
-- **Deep Research Max** — szerokie przeglądy literatury na temat batcha (pliki `1-deep-research.md` + gotowy do wklejenia `1-deep-research.prompt.txt`). Pilot: `batch-1/A-urazy-wg-grindu/` (w toku).
+- **Deep Research Max** — szerokie przeglądy literatury na temat batcha (pliki `1-deep-research.md` + gotowy do wklejenia `1-deep-research.prompt.txt`). Pilot `batch-1/A-urazy-wg-grindu/` zrobiony 3.11.2026 (wynik: `research-raw/2026-11-03_batch1-A_deep-research.md`, do bazy weszło S144–S148). Następny: `batch-1/B-obciazanie-sciegien/1-deep-research.prompt.txt` (prompt gotowy).
+- **Lekcja z A:** Deep Research Preview podał błędne/niedopasowane DOI/PMID w 5 z 7 par i przypisał pracy liczbę, której w niej nie ma. Każdy identyfikator sprawdzamy w PubMed/Crossref przed wpisem do bazy; prompty od B wymagają PMID+DOI ze strony PubMed, „UNVERIFIED” zamiast zgadywania i blogów tylko jako {OPINIA}.
 - **Gemini 4 Argon** — tylko sprzeczności, jedna sprzeczność na prompt (temp 0,2, Grounding + URL context, thinking High): `batch-1/argon-sprzecznosci-szablon.md`, `audyt/argon-*.md`.
 - **Zapis wyniku:** `research-raw/RRRR-MM-DD_batch1-A_deep-research-max.md` z nagłówkiem front-matter (model, data, plik promptu, URL czatu AI Studio, czas, tokeny) — zob. `research-raw/README.md`.
 - **Weryfikacja zawsze po naszej stronie:** każdy PMID/DOI w PubMed/Crossref/PMC, niezależność grup badawczych, liczby tylko ze źródła. Model nie jest źródłem.
