@@ -1,0 +1,63 @@
+TASK: targeted verification (Deep Research). For EACH claim below, find a SECOND, INDEPENDENT primary source that supports it — or evidence that refutes it — or state plainly that none was found. Do NOT write a general review. Search in English (and German, French, Spanish where relevant); WRITE THE REPORT IN POLISH.
+
+CONTEXT: "Fizjo AGV" is an open-source, Polish-language, evidence-graded knowledge base for aggressive inline skaters (AGV) and physiotherapists. A claim enters the base as 2/2 only with two independent primary sources. The claims below are on hold at 1/2. What we already have: https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/sources.md (S01–S155). Our triage notes (read the "Weryfikacja" section): https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/research-raw/2026-11-03_batch1-C_gemini-deep-research.md and https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/research-raw/2026-11-03_batch1-D_gemini-deep-research.md
+
+WHY SO STRICT — errors in earlier runs on this project:
+- 5/7 and later 7/14 identifiers wrong: PMID of one paper with DOI of another, PMCID belonging to different authors, a DOI that does not exist.
+- Footnotes in the text pointed to different papers than the bibliography (one even had the opposite result).
+- A consensus framework attributed to a review that only discussed it; populations/equipment added that the paper never studied.
+- A crossover study called an RCT; expert opinion labelled as evidence; "2/2" where the second paper said something else.
+- Invented "quotes" from our base.
+
+CLAIMS ON HOLD (known source = already in our triage; do NOT return it as the "second" source)
+C1. Ankle-GO score <8 points 2 months after lateral ankle sprain → higher re-sprain risk within 2 years (OR 8.6) and lower chance of return to the same level. Known: Picot 2023 (PMID 37434508), Picot 2024 (PMID 38453775) — one group. Seek: validation of Ankle-GO (or its cut-off) by a group with none of Picot, Hardy, Fourchet, Lopes, Rauline as authors.
+C2. In chronic ankle instability (CAI), taping and bracing improve self-reported function/confidence but not functional test performance (hop, SEBT, balance). Known: Picot 2025 (PMID 39916658; CROSSOVER study, n=30). Seek: independent studies of tape/brace effect on functional tests vs perceived stability in CAI.
+C3. Isolated syndesmotic (high ankle) injury: return to play longer after surgery than with conservative care (pooled 70.9 vs 39.3 days). Known: Salameh 2022 meta-analysis (PMID 35601091). Seek: an independent cohort or review comparing operative vs non-operative return time. Note: a study included in Salameh is not independent of it.
+C4. After syndesmotic injury, vertical jump height and fear-avoidance (FABQ sport subscale) correlate with time to recovery (r ≈ −0.47 and 0.46). Known: Sman 2014 (PMID 24002346). Seek: other prognostic factors/tests for return time after syndesmotic injury.
+D1. SEBT anterior reach side-to-side difference >4 cm → higher odds of lower-limb injury (OR ≈ 2.5). Known: Plisky 2006 (PMID 17193868). Already shown NOT to replicate for the anterior direction in Sklempe Kokic 2023 (PMID 37505616). Seek: other prospective studies testing anterior asymmetry; report null results too.
+D2. Weight-bearing lunge test: good reliability; minimal detectable change 1.9 cm intra-rater / 1.6 cm inter-rater. Known: Powden 2015 systematic review (PMID 25704110). Seek: independent reliability/MDC studies (not by Powden or Hoch). MDC is change within one person, NOT a side-to-side tolerance.
+D3. Single-leg heel-raise norms (e.g. mean 28.7 reps under 40 y) and reliability. Known: Bohannon 2022 (PMID 35784604; protocols varied) and Hébert-Losier 2017 (PMID 28886865; 10° incline, n=566). Seek: normative studies with an explicit protocol; state the protocol for every number.
+D4. Screening tests cannot predict injury in an individual athlete (association ≠ prediction). Known: Bahr 2016 (PMID 27095747; critical review/opinion). Seek: an independent systematic review of predictive accuracy (sensitivity, specificity, AUC) of musculoskeletal screening tests.
+D5. CAI: deficits in proprioception and balance without differences in active ankle range of motion. Known: Alghadir 2020 (PMID 32718066; cross-sectional). Seek: independent studies/reviews of dorsiflexion range in CAI vs controls (results either way).
+D6. CAI: stiffer landing strategy, less ankle sagittal motion at landing, higher peak vertical ground reaction force. Known: De Ridder 2015 (PMID 25887076). Seek: independent landing studies/reviews in CAI.
+D7. Self-mobilization with movement improves dorsiflexion (WBLT) in CAI. Known: Burton 2020 (PMID 33049708; small RCT, n=18). Seek: independent RCTs or reviews of mobilization with movement on dorsiflexion in CAI.
+D8. Reduced ankle dorsiflexion as a risk factor for patellar tendinopathy. Known: Sprague 2018 (PMID 30054341) says evidence is limited/conflicting. Seek: prospective studies; report which way they point.
+D9. A 20–30 min screening battery for jumping/landing athletes (dorsiflexion, heel-raise, SEBT/Y-Balance, hop tests, landing quality, questionnaire). Known: none (model inference). Seek: any published, tested battery in action, board or landing sports (skateboarding, BMX, snowboard, parkour, gymnastics, volleyball) and its predictive results.
+A1. Aggressive inline skating injury mechanism: most injuries at obstacle contact (46.5%) and on landing (40.9%); upper limb injured more often than lower limb. Known: Maudot 2014 (French physiotherapy diploma thesis, grey literature, n=133; no PMID). Seek: any other AGV / trick-skating / skatepark inline injury survey after 2000.
+A2. "Splint-top" forearm fractures just above the wrist guard. Known: Cheng 1995 (PMID 7500422; 4 cases). Seek: independent reports in inline skating, skateboarding or snowboarding.
+A3. In a cadaver model wrist guards did not change fracture load (2245 N vs 2285 N). Known: Giacobetti 1997 (PMID 9079178; CADAVER study, not an RCT). Seek: other biomechanical tests of wrist guards (impact or cadaver) with results either way.
+A4. Terrain-park features differ in injury risk (jumps and halfpipe higher than rails). Known: Russell 2014 (PMID 24184587). Seek: independent snowboard/ski park or skatepark feature-specific injury data (not Russell, Hagel, Emery, Meeuwisse).
+
+RULES (mandatory — violations make the report unusable)
+1. Identifiers: give PMID AND DOI copied from the PubMed page itself (pubmed.ncbi.nlm.nih.gov/<PMID>/), plus PMCID if shown. Check first author, year and title. Check PMID, DOI and PMCID separately — each must point to the same paper. If you did not open the page or anything differs, write "UNVERIFIED". Never guess or complete an identifier.
+2. Every in-text citation must be the same paper as its bibliography entry (same first author, year, PMID). No footnote numbers — cite as [Autor rok, PMID].
+3. Study design exactly as the paper states it. RCT only if participants were randomised to groups; crossover, cohort, cross-sectional, reliability, cadaver and laboratory studies are not RCTs. Narrative/critical review ≠ systematic review. Expert opinion = {KONSENSUS}/{OPINIA}, not {DOWÓD}.
+4. Numbers only if they appear in the cited paper; say where (abstract / full text, table). Give n.
+5. Attribution: every statement must be in the paper cited next to it. Do not credit a framework, cut-off, population, sport or equipment to a paper that does not contain it.
+6. Quotes: only verbatim text, in quotation marks, with location. Do not quote our base unless copied verbatim from a linked file. Never paraphrase as a quote.
+7. Independence: list first and senior authors and affiliations of known and new sources; independent only if no shared authors (also check co-authorship of shared consensus papers). A review and a study it includes are not independent.
+8. Blogs, clinic pages, forums, theses without peer review = {OPINIA}/grey literature; they cannot make a claim 2/2.
+9. If nothing is found, write "NIE ZNALEZIONO" with databases and search terms. This is a valid, useful result. Fewer correct sources beat many doubtful ones.
+10. AI models, including you, are not sources.
+
+OUTPUT (Markdown, Polish, exactly this order)
+
+## 1. Podsumowanie
+3–6 zdań: ile twierdzeń potwierdzone / obalone / brak drugiego źródła; ile identyfikatorów UNVERIFIED.
+
+## 2. Twierdzenia (one block per claim C1–A4)
+### <ID>. <twierdzenie>
+| Źródło znane | Nowe źródło (autor rok) | PMID | DOI | Typ badania (jak w pracy) | n | Co dokładnie mówi (z lokalizacją) | Niezależność (autorzy, afiliacje) |
+|---|---|---|---|---|---|---|---|
+**Werdykt:** potwierdzone (2/2) / obalone / częściowo (napisz, która część) / brak drugiego źródła — 1–2 zdania uzasadnienia.
+
+## 3. Bibliografia (tylko nowe źródła)
+| # | Autorzy, rok, tytuł, czasopismo, tom:strony | Typ badania | n | PMID | DOI | PMCID |
+|---|---|---|---|---|---|---|
+
+## 4. Identifier check
+| Źródło | PMID | DOI | PMCID | Strona PubMed otwarta? | Autor+rok+tytuł zgodne? tak/nie/UNVERIFIED |
+|---|---|---|---|---|---|
+
+## 5. NIE ZNALEZIONO
+- <ID> — bazy i hasła
