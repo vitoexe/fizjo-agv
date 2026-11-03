@@ -33,10 +33,10 @@ recenzent: ""
 ## TODO / pytania do researchu
 
 - [ ] Definicja i kryteria przewlekłej niestabilności kostki (CAI) — konsensus ISAC.
-- [ ] Narzędzia: CAIT, testy (szuflada przednia, Y-balance) — wartości progowe.
+- [ ] Narzędzia: CAIT, testy (szuflada przednia, Y-balance) — wartości progowe. (SEBT: niższy wynik złożony wiąże się z urazem kończyny dolnej u sportowców ogólnie [S153][S154] — zob. `../../../filar-1-przygotowanie/stabilizacja-i-propriocepcja.md`; progów dla CAI i AGV brak.)
 - [ ] Czy CAI zwiększa ryzyko przy grindach topside? Dane / analogie.
 - [ ] Rola obuwia AGV (wysoki, sztywny but) w CAI.
 
 ## Źródła
 
-[S05] [S06] [S16] [S17] — `sources.md`.
+[S05] [S06] [S16] [S17] [S153] [S154] — `sources.md`.

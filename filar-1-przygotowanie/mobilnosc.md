@@ -27,7 +27,7 @@ recenzent: ""
 
 ## Dla fizjoterapeuty / trenera
 
-- TODO: testy (np. weight-bearing lunge test dla zgięcia grzbietowego, rotacje biodra) — zob. batch-1 D (screening).
+- TODO: testy (np. weight-bearing lunge test dla zgięcia grzbietowego, rotacje biodra) — zob. batch-1 D (screening). Stan na 3.11.2026: rzetelność i MDC testu WBLT (Powden 2015, przegląd 12 badań) — tylko 1 źródło, czeka w `research-raw/2026-11-03_batch1-D_gemini-deep-research.md`.
 
 ## TODO / pytania do researchu
 

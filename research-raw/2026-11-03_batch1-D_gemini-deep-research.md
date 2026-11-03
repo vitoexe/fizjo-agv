@@ -10,7 +10,7 @@ czas_trwania: "ok. 3 min według karty raportu (start ok. 18:50, raport z 18:53 
 tokeny: "brak danych (aplikacja Gemini nie pokazuje); zużycie limitu: tydzień 4% → 4% (okno zresetowane 21:10)"
 ustawienia: "Deep Research w aplikacji Gemini, model Pro, tryb Rozszerzony"
 eksport: "Eksport do Google Docs → eksport Drive jako Markdown (tylko odczyt); usunięte tylko znaki ucieczki Markdown (\\_, \\-, \\.); poza tym tekst bez zmian"
-status_weryfikacji: "niezweryfikowane"
+status_weryfikacji: "zweryfikowane częściowo (3.11.2026): 9 prac z bibliografii + 2 dodatkowe z listy przypisów sprawdzone w PubMed/Crossref/PMC; 7/14 identyfikatorów w bibliografii błędnych lub przypisanych innej pracy (7/9 pozycji z błędem ID lub autora); do bazy weszły 2 twierdzenia 2/2: Plisky 2006 → S153 + Sklempe Kokic 2023 → S154 (niższy wynik złożony SEBT wiąże się z urazem kończyny dolnej), Zhou 2026 → S155 + istniejący S84 (trening równowagi/NMT poprawia wyniki testów równowagi); WBLT (Powden 2015), normy wspięć (Bohannon 2022, Hébert-Losier 2017), krytyka przesiewów (Bahr 2016) i reszta czekają jako 1/2 — szczegóły w sekcji Weryfikacja"
 ---
 
 # **Systematyczny Przegląd Literatury: Bateria Testów Przesiewowych dla Rolkarzy Jeżdżących Agresywnie (AGV)**
@@ -131,3 +131,87 @@ Choć literatura sportowa usilnie poszukuje "Świętego Graala" predykcji – id
 > 7. Efficacy of neuromuscular training for enhancing postural stability in, [https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1827904/full](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1827904/full)  
 > 8. (PDF) Functional Movement Quality, Dynamic Balance and Injury, [https://www.researchgate.net/publication/403658197_Functional_Movement_Quality_Dynamic_Balance_and_Injury_Prevalence_in_Adolescent_Soccer_Players_Comparison_with_Sedentary_Adolescents](https://www.researchgate.net/publication/403658197_Functional_Movement_Quality_Dynamic_Balance_and_Injury_Prevalence_in_Adolescent_Soccer_Players_Comparison_with_Sedentary_Adolescents)  
 > 9. The Examination of Repeated Self-Mobilizations With Movement, [https://journals.humankinetics.com/view/journals/jsr/30/3/article-p458.xml?rskey=lHoU8u&result=42&print](https://journals.humankinetics.com/view/journals/jsr/30/3/article-p458.xml?rskey=lHoU8u&result=42&print)
+
+
+---
+
+## Weryfikacja (triage 3.11.2026, nasza — nie część raportu)
+
+Sprawdzone: PubMed esummary + efetch (abstrakty) dla wszystkich PMID i dla prac znalezionych po DOI/PMC/tytule, Crossref dla wszystkich DOI, konwerter PMC (idconv) dla wszystkich PMCID. Czytaliśmy abstrakty, nie pełne teksty.
+
+### Identyfikatory (bibliografia, sekcja 8)
+
+| Źródło (model) | PMID (model) | DOI (model) | PMC (model) | Wynik — co to naprawdę jest |
+|---|---|---|---|---|
+| Powden 2015 | 25704110 ✔ | ✔ | brak (zgodnie) | ✔ |
+| Plisky 2006 | 17142948 ✘ (Rauch F 2006, toksyna botulinowa u królików) | ✔ | brak (zgodnie) | prawdziwy PMID **17193868** (nasz, po DOI) |
+| Sklempe Kokic 2023 | UNVERIFIED → **37505616** (nasz) | 10.3390/ijerph20146416 ✘ (Riley 2023, One Health, IJERPH) | PMC10383250 ✔ | prawdziwe: *Sports (Basel)* 11(7):129, doi:10.3390/sports11070129; 5 autorów (model: 2) |
+| „Hébert-Losier 2017” (scoping review norm wspięć) | UNVERIFIED | bd. | PMC9246404 → **Bohannon RW 2022**, J Phys Ther Sci 34(7):528–531, PMID 35784604 | ✘ autor/rok/czasopismo; tytuł i liczby (28,7 / 11,8) należą do Bohannon 2022. Prawdziwa praca Hébert-Losier 2017 (Physiotherapy 103(4):446–452, PMID 28886865) to inne badanie (n=566, przekrojowe, test-retest) |
+| Bahr 2016 | 27095747 ✔ | ✔ | brak (zgodnie) | ✔ (model oznaczył UNVERIFIED niepotrzebnie) |
+| „Burton I 2018” (czynniki ryzyka tendinopatii rzepki) | UNVERIFIED | bd. | PMC6269217 → **Sprague AL i wsp. 2018**, BJSM 52(24):1575–1585, PMID 30054341 | ✘ autor; tytuł zgodny z Sprague 2018 |
+| De Ridder 2015 | UNVERIFIED → **25887076** (nasz) | ✔ | PMC7432694 ✘ → Alghadir AH 2020, IJERPH 17(15):5318, PMID 32718066 | DOI i opis ✔; PMC należy do innej pracy (Alghadir) — to ją model cytuje w tekście jako przypis 6 |
+| „Moran J 2024” (NMT a stabilność posturalna) | UNVERIFIED → **42255523** (nasz) | 10.3389/fphys.2024.1327904 ✘ (nie istnieje w Crossref) | UNVERIFIED → PMC13233248 | prawdziwe: **Zhou J i wsp. 2026**, Front Physiol 17:1827904, doi:10.3389/fphys.2026.1827904 (poprawny DOI był tylko w przypisie 7) |
+| Burton CA 2020 (self-mobilizacje w CAI) | UNVERIFIED → **33049708** (nasz) | 10.1123/jsr.2019-0419 ✘ (Cook 2020, zgłaszanie wstrząśnień) | brak (zgodnie) | prawdziwy DOI **10.1123/jsr.2019-0363**; J Sport Rehabil 30(3):458–466; RCT pojedynczo zaślepione, n=18 |
+
+Razem w bibliografii: 3 PMID (1 błędny), 7 DOI (3 błędne, w tym 1 nieistniejący), 4 PMCID (3 należą do innych prac niż podani autorzy) → **7/14 identyfikatorów błędnych lub przypisanych innej pracy; 7/9 pozycji z błędem identyfikatora lub autora.** Model sam oznaczył 6 pozycji jako UNVERIFIED (dobrze), ale błędny PMID Plisky i błędny DOI Sklempe Kokic stoją w tabelach jako pewne.
+
+### Lista przypisów („Cytowane prace”) vs przypisy w tekście
+
+- Przypis **2** (cytowany przy Plisky 2006: „>4 cm → 2,5×”, „<94% → 6,5×”) to w rzeczywistości **Chang WD 2020** (Biomed Res Int, PMID 32309441, PMC7136771): przekrojowe, n=32, SEBT **bez różnic** między grupami wysokiego i niskiego ryzyka urazu. Liczby 4 cm / 2,5 / 94% / 6,5 są jednak zgodne z abstraktem Plisky 2006 — przypis źle podpięty.
+- Przypis **8** (cytowany przy Bahr 2016) to ResearchGate (praca o młodzieży grającej w piłkę) — nie Bahr. Treść przypisana Bahrowi jest zgodna z jego abstraktem; przypis źle podpięty.
+- Przypis **9** (Burton 2020, self-mobilizacje) podpięty pod test Side Hop — praca nie bada Side Hop.
+- Przypis **6** (Alghadir 2020) podpięty pod De Ridder 2015 w bibliografii.
+
+### Treść vs abstrakty — błędy modelu
+
+- **WBLT (Powden 2015)**: rzetelność ✔ (ICC między badającymi 0,80–0,99, u jednego badającego 0,65–0,99; 12 badań); MDC **1,9 cm u jednego badającego, 1,6 cm między badającymi** (lub 4,7° / 4,6°). W sekcji 6 model użył MDC jako „progu tolerancji różnicy między nogami do 1,9 cm” — to nadużycie: MDC dotyczy zmiany u tej samej osoby, nie asymetrii stron.
+- **„Osoby z CAI mają zmniejszony zasięg w WBLT” [przypis 6 = Alghadir 2020]** — ✘ odwrotnie: w abstrakcie brak różnic w czynnym zakresie ruchu kostki vs kontrola (goniometr); deficyty były w propriocepcji oraz równowadze statycznej i dynamicznej (Y-balance). „Uprzednie skręcenie najsilniejszym predyktorem” — nie ma w abstrakcie.
+- **„Deficyty WBLT predysponują do tendinopatii rzepki” [przypis 5 = Sprague 2018]** — ✘ przesadzone: przegląd (31 prac) podaje tylko **ograniczone lub sprzeczne** dowody dla mniejszego zgięcia grzbietowego; brak silnych dowodów dla jakiegokolwiek czynnika.
+- **SEBT (Plisky 2006)**: liczby ✔ (n=235; przednia różnica >4 cm → 2,5×; dziewczęta, wynik złożony <94,0% długości nogi → 6,5×; to ilorazy szans z regresji logistycznej). Rzetelność ICC 0,82–0,87 jest w abstrakcie (model: „bd.”). „Bezkontaktowy uraz” i „uniwersalny punkt odcięcia przy dopuszczaniu do obciążeń” — nie ma w abstrakcie (urazy z utratą czasu treningu; jedna kohorta).
+- **Tw. 2 „2/2” (Plisky + Sklempe Kokic) dla asymetrii przedniej >4 cm** — ✘: w Sklempe Kokic 2023 krótszy zasięg we **wszystkich kierunkach poza przednim** i niższy wynik złożony wiązały się z urazem kończyny dolnej; kierunek przedni wiązał się tylko z bólem krzyża. Asymetrii stron nie raportowano. 2/2 jest tylko dla ogólnego: „niższy wynik złożony SEBT ↔ częstszy uraz kończyny dolnej”. „Osoby powracające po urazach tkanek miękkich” — nie ma w abstrakcie (n=42 amatorów, 3,5 mies.).
+- **Wspięcia (tw. 4, „Hébert-Losier 2017”)**: 28,7 (<40 lat) i 11,8 (>60 lat) ✔, ale to **Bohannon 2022** (13 prac, procedury „bardzo się różniły”). Protokół z tabeli 3 (metronom 60/min, ≥50% zakresu, palce o ścianę) — nie ma w abstrakcie Bohannon. Prawdziwy Hébert-Losier 2017: 10° pochylnia, do zmęczenia, n=566, ICC 1,0, mediana 24 (M) vs 21 (K).
+- **Bahr 2016** ✔: nie ma testu przesiewowego o wystarczających właściwościach; istotny związek z ryzykiem ≠ trafna prognoza; brak badań interwencyjnych wspierających przesiew. Cytat w tytule zgodny. To przegląd krytyczny (narracyjny), nie systematyczny — {DOWÓD:przegląd} jest za mocne; raczej stanowisko eksperta.
+- **NMT (Zhou 2026, model: „Moran 2024”)**: ✔ 18 prac / 19 RCT, N=605, równowaga dynamiczna i statyczna SMD 0,96. „Potencjalnie uodparnia na wahania podłoża” — nie ma w abstrakcie (brak danych o urazach).
+- **Burton 2020**: RCT n=18 z CAI; self-mobilizacja w wypadzie poprawiła zgięcie grzbietowe (WBLT), obie grupy poprawiły równowagę dynamiczną (Y-Balance), siłę i funkcję. Model użył tej pracy jako źródła dla Side Hop — nie dotyczy.
+- **De Ridder 2015** (nie cytowany w tekście): CAI (n=38) vs copers (28) vs kontrola (30) — sztywniejsza strategia lądowania, mniejszy zakres zgięcia podeszwowego/grzbietowego w kostce przy lądowaniu, wyższy szczyt i tempo narastania pionowej siły reakcji podłoża w zeskoku.
+- **Sekcja 5 (sprzeczności z bazą)**: model nie otworzył plików bazy („This website is inaccessible”) — nie ma tu analizy. Sprawdziliśmy sami niżej.
+- **Sekcja 6** (bateria 20–30 min, „~25 powtórzeń jako minimum przed gapami”, „1,9 cm tolerancji asymetrii”, „X-grind/Fishbrain wymagają balansu ponad SEBT”, Side Hop „replikuje upadek z rurki”) — {WNIOSKOWANIE} modelu, częściowo na błędnie użytych liczbach; nie wchodzi. Bateria może wrócić jako `{PROPOZYCJA}` po recenzji fizjoterapeuty.
+- **Sekcja 4**: opisy biomechaniki AGV (heel drop, „uderzenie piszczelą o komin”, soul plate w „ewersji i supinacji”) — bez źródeł; nie wchodzi.
+- Sekcja 10: Physiotutors, artgerecht, Sport-Orthese — {OPINIA}, zgodnie z zasadami. „≥5 cali (12,5 cm) to norma WBLT” — tylko blog, nie wchodzi.
+
+### Niezależność grup
+
+- Plisky 2006 (USA) vs Sklempe Kokic 2023 (Osijek/Rijeka/Vukovar, Chorwacja) — brak wspólnych autorów → **niezależne**.
+- Zhou 2026 (Pekin) vs Zech 2010 [S84] (Erlangen) — brak wspólnych autorów → **niezależne** (przeglądy mogą częściowo obejmować te same RCT; nie sprawdzaliśmy list badań).
+- Bohannon 2022 vs Hébert-Losier 2017 — metaanaliza Bohannon (13 prac) może obejmować Hébert-Losier 2017 (nie sprawdzone), a protokoły i liczby się różnią (średnia 28,7 vs mediana 24/21) → **nie łączymy w 2/2**.
+- Powden 2015 i Burton 2020 — wspólny autor (Powden CJ).
+
+### Sprzeczności z bazą (sprawdzone przez nas)
+
+- Brak twardej sprzeczności.
+- Test wspięć: baza ma protokół Sanford (do 25 powtórzeń, jedno co 2 s) [S23] i kryterium ≥90% zdrowej strony [S22] jako `{KONSENSUS:protokół}`. Normy Bohannon 2022 (28,7 <40 lat) dotyczą innych protokołów — nie przeczą, nie zastępują.
+- `mobilnosc.md` / `wzmacnianie.md`: „ograniczone zgięcie grzbietowe może utrudniać ugięcie kolan przy lądowaniu” — oznaczone {SPEKULACJA}; De Ridder 2015 (CAI: mniejszy zakres w kostce przy lądowaniu, większa siła reakcji) i Sprague 2018 (ograniczone/sprzeczne dowody dla tendinopatii rzepki) nie podnoszą tego do dowodu.
+- S16/S18/S84 (trening równowagi) — zgodne z Zhou 2026; S84 podniesiony do 2/2 tylko dla wyników testów równowagi (nie dla urazów, skoków, sprintu).
+- S109 (koślawienie nie przewiduje ACL) — zgodne z Bahr 2016 (związek ≠ prognoza).
+
+### Co weszło do bazy
+
+| Twierdzenie | Źródła | Plik |
+|---|---|---|
+| Niższy wynik złożony SEBT wiązał się z częstszym urazem kończyny dolnej w dwóch kohortach prospektywnych (koszykarze n=235; dziewczęta <94% → OR 6,5; amatorzy piłki nożnej n=42); związek w grupach, nie zwalidowany próg | S153 + S154, ✔ 2/2 | `filar-1-przygotowanie/stabilizacja-i-propriocepcja.md` (+ odwołanie w `kostka/niestabilnosc.md`) |
+| Trening równowagi / NMT poprawia wyniki testów równowagi vs brak treningu (20 RCT [S84]; 19 RCT, N=605, SMD 0,96 [S155]) | S84 + S155, ✔ 2/2 | `filar-1-przygotowanie/stabilizacja-i-propriocepcja.md` |
+
+### Co czeka (1/2 lub niepewne) — powód
+
+| Kandydat | Powód wstrzymania |
+|---|---|
+| SEBT: przednia różnica stron >4 cm → 2,5× większa szansa urazu (Plisky 2006) | jedno źródło; Sklempe Kokic 2023 nie potwierdza kierunku przedniego (dopisane w bazie jako ⏳ 1/2 przy S153) |
+| WBLT: dobra rzetelność, MDC 1,9 cm / 1,6 cm (Powden 2015) | jedno źródło (przegląd 12 badań); potrzebny drugi niezależny przegląd/badanie |
+| Normy wspięć: 28,7 powt. <40 lat, 11,8 >60 lat (Bohannon 2022); rzetelność ICC 1,0 i mediana 24/21 (Hébert-Losier 2017) | różne protokoły i liczby, możliwe nakładanie się danych; model pomylił autorów |
+| Testy przesiewowe nie przewidują urazu u pojedynczego zawodnika (Bahr 2016) | jedno źródło (przegląd krytyczny/stanowisko); kandydat do pary z kolejnym przeglądem właściwości testów |
+| CAI: deficyty propriocepcji i równowagi bez różnic w czynnym zakresie ruchu (Alghadir 2020) | jedno źródło (przekrojowe, n=80); przeczy twierdzeniu modelu o WBLT w CAI |
+| CAI: sztywniejsza strategia lądowania, wyższa siła reakcji (De Ridder 2015) | jedno źródło |
+| Self-mobilizacja w wypadzie poprawia zgięcie grzbietowe w CAI (Burton 2020, n=18) | jedno małe RCT |
+| Zmniejszone zgięcie grzbietowe jako czynnik ryzyka tendinopatii rzepki (Sprague 2018) | sam przegląd mówi: dowody ograniczone/sprzeczne |
+| Bateria przesiewowa 20–30 min dla AGV (sekcja 6) | wnioskowanie modelu na częściowo błędnych liczbach; ewentualnie `{PROPOZYCJA}` po recenzji fizjoterapeuty |
+

@@ -19,6 +19,8 @@ recenzent: ""
 - Skaterzy profesjonalni (deskorolka) vs amatorzy, n=16+16: lepsza stabilność dynamiczna na platformie Biodex (poziom 12: 25,25 ± 4,30 vs 21,88 ± 4,29; poziom 8: 26,44 ± 4,79 vs 24,19 ± 4,45) i mniejszy zakres supinacji stopy dominującej (32,50° ± 4,00 vs 37,25° ± 7,08 — pomiar zakresu ruchu, nie test równowagi). Czas reakcji piszczelowego przedniego i mięśni strzałkowych bez różnic. [S53] {DOWÓD:obserwacyjne}{ANALOGIA:skateboarding} ✔ 1/2 (pełny tekst; badanie przekrojowe — nie wiadomo, czy to efekt treningu, czy selekcji)
 - „Do 80% nawrotów skręceń” — cytat we wstępie [S53] z pracy z 1986 r. [S55], nieodczytanej; **nie używać jako danych**.
 - W stallach na rurze skaterzy AGV używali strategii balansu kostkowej, biodrowej lub wielostawowej, zależnie od długości triku. [S02] {DOWÓD:obserwacyjne} ✔ 1/2
+- Test równowagi dynamicznej SEBT (Star Excursion Balance Test: stojąc na jednej nodze, sięga się drugą nogą jak najdalej w kilku kierunkach; wynik złożony = zasięg względem długości nogi) w dwóch kohortach prospektywnych: **niższy wynik złożony wiązał się z częstszym urazem kończyny dolnej** — u koszykarzy szkół średnich (n=235; dziewczęta z wynikiem złożonym <94% długości nogi miały 6,5 raza większą szansę urazu, iloraz szans) [S153] i u amatorów piłki nożnej (n=42, obserwacja 3,5 mies.) [S154]. To związek w grupach, nie sprawdzony próg dla pojedynczego zawodnika; brak danych z AGV. [S153][S154] {DOWÓD:obserwacyjne}{ANALOGIA:koszykówka, piłka nożna} ✔ 2/2 (niezależne grupy: USA i Chorwacja)
+  - Próg „różnica w kierunku przednim >4 cm między nogami → 2,5 raza większa szansa urazu” pochodzi tylko z [S153]; w [S154] kierunek przedni **nie** wiązał się z urazem kończyny dolnej (tylko z bólem krzyża) → ⏳ 1/2.
 
 ### Tułów, biodro a koślawienie kolana (nie AGV)
 
@@ -43,6 +45,7 @@ recenzent: ""
 - U 30 zdrowych mężczyzn gorszy indeks stabilności core przewidywał większe koślawienie kolana w przysiadzie jednonóż (p = 0,001); indeks łuku stopy — p = 0,09 (nieistotny przy 0,05, choć autorzy go uwzględniają). [S85] {DOWÓD:obserwacyjne} ✔ 1/2
 - Po 4 tygodniach plyometrii i ćwiczeń z perturbacją ukierunkowanych na biodro (21 kobiet, bez grupy kontrolnej) wzrosła siła prostowników i odwodzicieli biodra, kobiety lądowały z większym zgięciem kolana i biodra, mniejszym odwiedzeniem kolana (6,8° → 5,6°) i większym udziałem prostowników biodra. [S86] {DOWÓD:obserwacyjne} ✔ 1/2
 - Trening równowagi poprawia kontrolę posturalną; dla skoków i zwinności wyniki są sprzeczne, a dla siły i sprintu — sprzeczne lub bez efektu (20 RCT, niska jakość). [S84] {DOWÓD:przegląd} ✔ 1/2 — „NMT znacząco poprawia skoki i sprint u wytrenowanych” (Deep Research F) jest przesadzone
+- Trening równowagi / nerwowo-mięśniowy poprawia wyniki testów równowagi w porównaniu z brakiem treningu: przegląd 20 RCT u zdrowych aktywnych osób do 40 r.ż. (kołysanie posturalne, równowaga funkcjonalna; niska jakość metodologiczna) [S84] i metaanaliza 19 RCT u młodych sportowców (N=605; równowaga dynamiczna SMD 0,96 i statyczna SMD 0,96) [S155]. Chodzi o wyniki testów równowagi, nie o liczbę urazów. [S84][S155] {DOWÓD:przegląd} ✔ 2/2 (niezależne grupy: Erlangen i Pekin; przeglądy mogą częściowo obejmować te same badania; „trening nerwowo-mięśniowy” w [S155] to szersza kategoria niż sam trening równowagi)
 - Przegląd w czasopiśmie poza MEDLINE: najczęstsze czynniki ryzyka ACL przy lądowaniu to większe koślawienie, mniejsze zgięcie kolana i słaba stabilizacja tułowia. [S66] {DOWÓD:przegląd} ✔ (niska waga; tytuł podany przez model był błędny)
 
 ## Wnioskowanie biomechaniczne
@@ -69,7 +72,8 @@ recenzent: ""
 - [ ] Trening core/tułowia a kontrola lądowania — dowody.
 - [ ] Stabilizacja biodra (odwodziciele, rotatory) a valgus kolana przy lądowaniu.
 - [ ] Prompty: `prompts/batch-2-przygotowanie/F-wzmacnianie-stabilizacja/`.
+- [ ] SEBT/Y-Balance jako przesiew: czy związek z urazem [S153][S154] przekłada się na trafną prognozę u pojedynczej osoby (krytyka przesiewów: Bahr 2016, 1/2) — czeka w `research-raw/2026-11-03_batch1-D_gemini-deep-research.md`.
 
 ## Źródła
 
-[S02] [S06] [S16] [S18] [S25] [S29] [S53] [S54] [S62] [S63] [S64] [S65] [S66] [S67] [S68] [S72] [S73] [S84] [S85] [S86] [S95] [S96] [S106] [S107] [S108] [S109] [S110] [S111] [S113] [S114] [S115] [S117] [S119] [S120] [S122] [S123] [S124] [S125] [S126] [S127] [S128] [S129] [S130] [S131] [S132] [S133] [S134] [S135] [S136] [S137] — `sources.md`.
+[S02] [S06] [S16] [S18] [S25] [S29] [S53] [S54] [S62] [S63] [S64] [S65] [S66] [S67] [S68] [S72] [S73] [S84] [S85] [S86] [S95] [S96] [S106] [S107] [S108] [S109] [S110] [S111] [S113] [S114] [S115] [S117] [S119] [S120] [S122] [S123] [S124] [S125] [S126] [S127] [S128] [S129] [S130] [S131] [S132] [S133] [S134] [S135] [S136] [S137] [S153] [S154] [S155] — `sources.md`.

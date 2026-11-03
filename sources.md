@@ -234,3 +234,21 @@ Uwagi:
 - S151 nie podał PMID (model wpisał „BRAK DANYCH”) — PMID 35601091 znaleźliśmy sami po DOI. W S151 autorem seniorem jest Blankenhorn B (model podał Salameh).
 - S152: model przypisał tej pracy hokeistów, sztywne buty jako „dźwignię” i MRI jako słaby predyktor — **w abstrakcie tego nie ma** (kohorta z klubów i klinik w Australii, wiek 21 ± 3,2 r.); nie wpisujemy.
 - S20 (Mazzella 2025) był już w bazie; liczby podane przez model (87,1%, 134,5 dnia, do 720 dni, FAOS 85,6) zgadzają się z abstraktem — bez zmian w bazie.
+
+## Batch-1 D — Gemini Deep Research, badanie przesiewowe fizjo (dodane 3.11.2026)
+
+Surowy wynik i triage: `research-raw/2026-11-03_batch1-D_gemini-deep-research.md`. Wszystkie identyfikatory sprawdzone przez nas w PubMed (esummary/efetch), Crossref i konwerterze PMC. Model podał błędne identyfikatory lub autorów w 7 z 9 pozycji bibliografii — numery poniżej są nasze, z PubMed. Do bazy weszły dwa twierdzenia 2/2 (SEBT a uraz: S153+S154; trening a wyniki testów równowagi: S84+S155); reszta czeka w research-raw jako 1/2.
+
+| ID | Źródło | Typ | Etykieta | Dotyczy AGV? | Status | Link |
+|---|---|---|---|---|---|---|
+| S153 | Plisky PJ, Rauh MJ, Kaminski TW, Underwood FB 2006. *Star Excursion Balance Test as a predictor of lower extremity injury in high school basketball players*. J Orthop Sports Phys Ther 36(12):911–919 | kohorta prospektywna, n=235 | `{DOWÓD:obserwacyjne}{ANALOGIA:koszykówka}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/17193868/ · doi:10.2519/jospt.2006.2244 |
+| S154 | Sklempe Kokic I, Petric K, Kuna D, Jelica S, Kokic T 2023. *Star Excursion Balance Test as a Predictor of Musculoskeletal Injury and Lower Back Pain in Non-Professional Soccer Players*. Sports (Basel) 11(7):129 | kohorta prospektywna (podłużna), n=42, 3,5 mies. | `{DOWÓD:obserwacyjne}{ANALOGIA:piłka nożna}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/37505616/ · PMC10383250 · doi:10.3390/sports11070129 |
+| S155 | Zhou J, Liu S, Sun H, Zheng X 2026. *Efficacy of neuromuscular training for enhancing postural stability in young athletes: a systematic review and meta-analysis*. Front Physiol 17:1827904 | przegląd systematyczny z metaanalizą, 18 prac (19 RCT), N=605 | `{DOWÓD:przegląd}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/42255523/ · PMC13233248 · doi:10.3389/fphys.2026.1827904 |
+
+Uwagi:
+- S153: model podał PMID 17142948 — to inna praca (toksyna botulinowa u królików). Prawidłowy PMID 17193868 znaleźliśmy po DOI (DOI modelu był poprawny).
+- S154: model podał DOI 10.3390/ijerph20146416 (inna praca, o społecznościach aborygeńskich) i czasopismo IJERPH; prawdziwe: Sports (Basel), doi:10.3390/sports11070129 (po PMC10383250, który model podał poprawnie).
+- S153 (USA; pierwszy autor: Rocky Mountain University, Provo) i S154 (Osijek/Rijeka/Vukovar, Chorwacja) — brak wspólnych autorów → **niezależne**.
+- S154 nie potwierdza progu „asymetria w kierunku przednim >4 cm” z S153: kierunek przedni nie wiązał się z urazem kończyny dolnej (tylko z bólem krzyża).
+- Chang 2020 (Biomed Res Int, PMID 32309441, przekrojowe, n=32 — przypis 2 modelu): SEBT bez różnic między grupami wysokiego i niskiego *ryzyka* urazu. Nie mierzono przyszłych urazów, więc nie przeczy S153/S154; nie wpisujemy.
+- S155: model podał tę pracę jako „Moran J i wsp. 2024, doi:10.3389/fphys.2024.1327904” — taki DOI nie istnieje, a autorzy to Zhou i wsp. (Capital University of Physical Education and Sports, Pekin); poprawny DOI był tylko w przypisie 7 modelu. Liczby (N=605) zgodne z abstraktem. S155 i S84 (Zech, Erlangen) — brak wspólnych autorów → **niezależne**.
