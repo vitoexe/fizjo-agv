@@ -1,0 +1,44 @@
+TASK: targeted verification (Deep Research), part B: tendon loading. For EACH claim find a SECOND, INDEPENDENT primary source that supports it, evidence that refutes it, or state plainly that none exists. Search in English (other languages if relevant); WRITE THE REPORT IN POLISH. Keep the final report SHORT: tables and one-line verdicts, no long prose.
+
+CONTEXT: "Fizjo AGV" is an open-source, evidence-graded knowledge base for aggressive inline skaters (AGV). A claim becomes 2/2 only with two independent primary sources. Our sources: https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/sources.md . Earlier triage: https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/research-raw/2026-11-04_batch1-B_deep-research.md (section "Triage").
+
+LESSONS (do not repeat): swapped PMID/DOI/PMCID; footnotes pointing to other papers than the bibliography; frameworks credited to the wrong paper; crossover called RCT; a second meta-analysis reported as "confirming" when its abstract said the opposite; sources without author or identifier; a "second source" already included in the known review; skater claims supported by ski/snowboard data.
+
+INDEPENDENCE (state for every candidate): (a) no shared authors with the known source (list first and senior authors); (b) not one of the studies included in the known review — check its included-studies list or write "nie sprawdzono"; (c) a review including the known study is not independent of it.
+
+SEARCH STRATEGY (changed — earlier searches were too narrow): use synonyms and MeSH terms, not only the wording below; search PubMed, Cochrane Library, SPORTDiscus, Google Scholar, trial registries (ClinicalTrials.gov, ISRCTN) and thesis repositories; accept other study designs (cohort, cross-sectional, reliability, case series, lab) if labelled correctly; analogous populations (other jumping/landing sports, runners, general tendinopathy populations) ONLY with label {ANALOGIA:<populacja>}. Theses and registry entries = grey literature, cannot make 2/2 alone.
+
+CLAIMS — known sources (never return them as the second source)
+B1. Patellar tendinopathy: eccentric vs heavy slow resistance (HSR) vs isometric. Known network meta-analyses disagree: Li 2024 (PMID 39559237; Li Y, Sun D, Fang Y, Lu Z, Shi F, Liu G, Gu Y) ranks eccentric lowest; Liu 2026 (PMID 42192475; Liu Y, Li C, Yang F) finds no clear hierarchy (no intervention better than HSR). Seek: other NMAs/meta-analyses (2023–2026) and head-to-head RCTs; report overlap of included trials; explain the disagreement only from the papers (inclusion criteria, outcomes, follow-up).
+B2. Achilles tendinopathy: HSR as effective as eccentric training. Known: Beyer 2015 RCT (PMID 26018970; Kjær, Magnusson group). Isometrics: Clifford 2020 meta-analysis (PMC7406028). Seek: independent RCTs or meta-analyses comparing HSR, eccentric and isometric loading for midportion or insertional Achilles tendinopathy.
+B3. Collagen peptides + training for tendons. Known: Miyamoto 2025 (PMID 40623147; untrained men, NO training programme), Bischof 2024 (PMID 39060741; GRADE very low for tendon outcomes), Kirmse 2024 (PMID 39086044; no effect on connective protein synthesis). Seek: RCTs where collagen/gelatin (± vitamin C) was combined with a structured training or rehab programme and tendon outcomes were measured (stiffness, CSA, symptoms); registered trials too.
+B4. Posterior tibial tendon dysfunction stage I–II: orthosis + exercise (83% success). Known: Alvarez 2006 (PMID 16442022, case series n=47), Kulig 2009 (PMID 19022863, RCT), Ross 2018 review (PMID 30271611; Vicenzino). Seek: RCTs/cohorts not by these groups and not in Ross 2018; synonyms: adult-acquired flatfoot, progressive collapsing foot deformity.
+B5. Pain-monitoring model (pain ≤5/10 during activity, back to baseline next morning) allows continued activity in tendinopathy. Known: Silbernagel 2007 (PMID 17307888); validations so far from Silbernagel/Thomeé. Seek: any test of the model or a similar pain-guided loading rule by another group, in any tendinopathy (Achilles, patellar, plantar fascia, shoulder).
+B6. Patellar tendon load ranking of rehab exercises (decline squat high). Known: Scattone Silva 2024 (PMID 37847102; Baxter, Silbernagel). Exclude Baxter, Silbernagel, Hullfish. Seek: independent musculoskeletal-modelling or in-vivo loading studies.
+B7. Immobilizing boot in plantarflexion reduces Achilles load. Known: Hullfish 2024 (PMID 39492878; Baxter). Exclude Baxter group. Seek: independent studies; stiff sport boots (ski, skate) only as analogy.
+
+RULES
+1. PMID AND DOI copied from the PubMed page (pubmed.ncbi.nlm.nih.gov/<PMID>/), PMCID if shown; check each separately against first author, year, title. Not opened or anything differs: "UNVERIFIED". Never guess an identifier; no source without author and identifier.
+2. Cite as [Autor rok, PMID] — no footnote numbers; must match the bibliography.
+3. Study design exactly as the paper states: RCT only if randomised to groups (crossover, cohort, cross-sectional, reliability, cadaver, lab ≠ RCT); narrative review ≠ systematic review; expert opinion = {KONSENSUS}/{OPINIA}.
+4. Numbers only if in the cited paper, with location (abstract/full text, table); give n.
+5. Quotes verbatim only, in quotation marks, with location. Never credit a framework, cut-off, population or equipment to a paper that lacks it.
+6. Blogs, clinic pages, forums = {OPINIA}; cannot make 2/2.
+7. Nothing found → "NIE ZNALEZIONO" + databases and terms. AI models are not sources.
+
+OUTPUT (Markdown, Polish, short)
+## 1. Podsumowanie
+2–4 zdania: liczba werdyktów każdego rodzaju; ile UNVERIFIED.
+## 2. Twierdzenia (one block per claim, in order)
+### <ID>
+| Źródło znane | Nowe źródło [Autor rok, PMID] | DOI | Typ badania (jak w pracy) | Populacja | n | Dosłowny cytat / liczba (lokalizacja) | Niezależność (a) autorzy (b) w znanym przeglądzie? |
+|---|---|---|---|---|---|---|---|
+**Werdykt:** potwierdzone (2/2) / obalone / częściowo (która część) / brak drugiego źródła — 1 zdanie.
+## 3. Bibliografia (tylko nowe źródła)
+| # | Autorzy, rok, tytuł, czasopismo, tom:strony | Typ badania | n | PMID | DOI | PMCID |
+|---|---|---|---|---|---|---|
+## 4. Identifier check
+| Źródło | PMID | DOI | PMCID | Strona PubMed otwarta? | Zgodne? tak/nie/UNVERIFIED |
+|---|---|---|---|---|---|
+## 5. NIE ZNALEZIONO
+- <ID> — bazy i hasła
