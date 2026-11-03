@@ -1,8 +1,8 @@
 # Metodologia zbierania wiedzy
 
-Źródło: punkt 9 trackera projektu („Plan zbierania wiedzy z wielu źródeł”, Google Tasks „Fizjo AGV”, 2.11.2026).
+Źródło: punkt 7 trackera projektu („Plan zbierania wiedzy z wielu źródeł”, Google Tasks „Fizjo AGV”, 2.11.2026).
 
-## Dwa filary i priorytet (decyzja z 2.11.2026, punkt 12 trackera)
+## Dwa filary i priorytet (decyzja z 2.11.2026, punkt 2 trackera)
 
 - **Filar 1 — Przygotowanie do grindów: GŁÓWNY.** Anatomicznie prawidłowa pozycja przy grindach (kostka, kolano, biodro, tułów, ugięcie, najazd, lądowanie), wzmacnianie, stabilizacja, propriocepcja, mobilność, rozgrzewka, obciążenie i periodyzacja, prewencja. **Większość researchu ma dotyczyć tego filaru.**
 - **Filar 2 — Rehabilitacja po urazach: mniejszy.** Urazy wg części ciała, powrót do grindów. Rozwijany wolniej, z recenzją fizjoterapeuty.

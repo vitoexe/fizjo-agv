@@ -6,7 +6,7 @@ data: 2026-11-02
 
 # Blogi, artykuły i podcasty
 
-> Źródło listy: Page Grok Bota „Fizjo AGV: fizjoterapeuci, konta i blogi” (punkt 10, 2.11.2026).
+> Źródło listy: Page Grok Bota „Fizjo AGV: fizjoterapeuci, konta i blogi” (punkt 8, 2.11.2026).
 > **To nie są dowody naukowe.** Typ każdej pozycji to `{OPINIA}` (blog/wywiad/podcast fizjo lub praktyka), chyba że zaznaczono inaczej. Do bazy wchodzą tylko jako opinia praktyka.
 > Linki sprawdzone `curl -sL` 2.11.2026. Status: **✔ przeczytane** (treść odczytana przy tworzeniu bazy), **⏳ opis z researchu** (link działa, treści nie czytałem/nie odsłuchałem).
 

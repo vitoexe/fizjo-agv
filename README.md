@@ -11,23 +11,23 @@ Dla kogo:
 <!-- STATUS:START -->
 ## Status projektu
 
-**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **59%** (13 punktów planu) · ostatnia aktualizacja: 2026-11-03 18:09 (czas warszawski)
+**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **59%** (13 punktów planu) · ostatnia aktualizacja: 2026-11-03 18:14 (czas warszawski)
 
 | | Punkt planu | Postęp | % |
 |---|---|---|---|
 | ✅ | [1. Bot „fizjo AGV” jako centrum dowodzenia wiedzą o fizjoterapii w AGV](STATUS.md#-1-bot-fizjo-agv-jako-centrum-dowodzenia-wiedzą-o-fizjoterapii-w-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% |
-| ✅ | [12. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)](STATUS.md#-12-dwa-filary-projektu-przygotowanie-do-grindów-główny-i-rehabilitacja-mniejszy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% |
-| ✅ | [6. Obecny research o grindach to zalążek bazy wiedzy](STATUS.md#-6-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% |
-| ✅ | [11. Publiczna strona statusu projektu Fizjo AGV](STATUS.md#-11-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% |
-| 🔄 | [13. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](STATUS.md#-13-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 66% |
-| 🔄 | [2. Nakarmić go pełnym researchem z całego internetu](STATUS.md#-2-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜ | 55% |
-| 🔄 | [9. Plan zbierania wiedzy z wielu źródeł](STATUS.md#-9-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% |
-| 🔄 | [10. Baza fizjoterapeutów i blogów o rolkach i AGV](STATUS.md#-10-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% |
-| 🔄 | [7. Struktura: najpierw uporządkowana baza, potem strona](STATUS.md#-7-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% |
-| 🔄 | [4. Open source dla społeczności](STATUS.md#-4-open-source-dla-społeczności) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 71% |
-| ⬜ | [3. „Pigułka wiedzy” albo większy biuletyn dla fizjoterapeutów o AGV](STATUS.md#-3-pigułka-wiedzy-albo-większy-biuletyn-dla-fizjoterapeutów-o-agv) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | 0% |
-| ⬜ | [5. Strona dla rolkarzy do pokazania fizjo lub trenerowi](STATUS.md#-5-strona-dla-rolkarzy-do-pokazania-fizjo-lub-trenerowi) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | 0% |
-| 🔄 | [8. Społeczność może dodawać i weryfikować treści](STATUS.md#-8-społeczność-może-dodawać-i-weryfikować-treści) | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | 40% |
+| ✅ | [2. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)](STATUS.md#-2-dwa-filary-projektu-przygotowanie-do-grindów-główny-i-rehabilitacja-mniejszy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% |
+| ✅ | [3. Obecny research o grindach to zalążek bazy wiedzy](STATUS.md#-3-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% |
+| ✅ | [4. Publiczna strona statusu projektu Fizjo AGV](STATUS.md#-4-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% |
+| 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](STATUS.md#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 66% |
+| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](STATUS.md#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜ | 55% |
+| 🔄 | [7. Plan zbierania wiedzy z wielu źródeł](STATUS.md#-7-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% |
+| 🔄 | [8. Baza fizjoterapeutów i blogów o rolkach i AGV](STATUS.md#-8-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% |
+| 🔄 | [9. Struktura: najpierw uporządkowana baza, potem strona](STATUS.md#-9-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% |
+| 🔄 | [10. Open source dla społeczności](STATUS.md#-10-open-source-dla-społeczności) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 71% |
+| ⬜ | [11. „Pigułka wiedzy” albo większy biuletyn dla fizjoterapeutów o AGV](STATUS.md#-11-pigułka-wiedzy-albo-większy-biuletyn-dla-fizjoterapeutów-o-agv) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | 0% |
+| ⬜ | [12. Strona dla rolkarzy do pokazania fizjo lub trenerowi](STATUS.md#-12-strona-dla-rolkarzy-do-pokazania-fizjo-lub-trenerowi) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | 0% |
+| 🔄 | [13. Społeczność może dodawać i weryfikować treści](STATUS.md#-13-społeczność-może-dodawać-i-weryfikować-treści) | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | 40% |
 
 Szczegóły i podpunkty → [STATUS.md](STATUS.md) · 🟩 zrobione · 🟨 w toku · ⬜ do zrobienia. Blok generowany przez `tools/build_status_md.py` z listy Google Tasks „Fizjo AGV” — nie edytuj ręcznie.
 <!-- STATUS:END -->

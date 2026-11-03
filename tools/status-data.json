@@ -3,93 +3,93 @@
   "tasks": [
     {
       "title": "✅ 1. Bot „fizjo AGV” jako centrum dowodzenia wiedzą o fizjoterapii w AGV",
-      "notes": "Projekt open source omawiany na rozmowie 2.11.2026.\n\nSTATUS\n- ✅ Bot zbiera research, weryfikuje twierdzenia w źródłach pierwotnych i zapisuje je do bazy\n- ✅ Baza w publicznym repo GitHub: https://github.com/vitoexe/fizjo-agv\n- ✅ Ta lista zadań jest źródłem publicznego statusu: STATUS.md w repo (punkt 11)",
+      "notes": "Projekt open source omawiany na rozmowie 2.11.2026.\n\nSTATUS\n- ✅ Bot zbiera research, weryfikuje twierdzenia w źródłach pierwotnych i zapisuje je do bazy\n- ✅ Baza w publicznym repo GitHub: https://github.com/vitoexe/fizjo-agv\n- ✅ Ta lista zadań jest źródłem publicznego statusu: STATUS.md w repo (punkt 4)",
       "status": "needsAction",
-      "updated": "2026-11-03T17:04:24.673Z",
+      "updated": "2026-11-03T17:13:26.961Z",
       "position": "00000000000000000000"
     },
     {
-      "title": "✅ 12. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)",
+      "title": "✅ 2. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)",
       "notes": "Decyzja Tomasza 2.11.2026. Filar główny, najważniejszy: przygotowanie organizmu do grindów: anatomicznie prawidłowa pozycja przy grindach, trening (wzmacnianie, stabilizacja), prewencja. Filar mniejszy: rehabilitacja po urazach. Research ma dotyczyć głównie filaru przygotowania (Tomasz nie jest specjalistą, więc wiedza ma pochodzić z researchu).\n\nSTATUS\n- ✅ Struktura repo: filar-1-przygotowanie (główny) i filar-2-rehabilitacja (mniejszy)\n- ✅ Prompty partii 2 (E, F, G) dla filaru przygotowania\n- ✅ Status projektu (STATUS.md) opisuje oba filary",
       "status": "needsAction",
-      "updated": "2026-11-03T17:04:29.116Z",
+      "updated": "2026-11-03T17:13:28.319Z",
       "position": "00000000000000000001"
     },
     {
-      "title": "✅ 6. Obecny research o grindach to zalążek bazy wiedzy",
+      "title": "✅ 3. Obecny research o grindach to zalążek bazy wiedzy",
       "notes": "Opinie fizjoterapeutów o grindach, wzorce kontuzji, wzmacnianie, rozgrzewka, zarządzanie obciążeniem (research 2.11.2026).\n\nSTATUS\n- ✅ Research o grindach zapisany w repo (commit 91e970b): 23 źródła S01–S23\n- ✅ Linki sprawdzone: 21 × HTTP 200, 2 z błędem (opis w sources.md)\n- ✅ Treść rozpisana na pliki tematów obu filarów",
       "status": "needsAction",
-      "updated": "2026-11-02T18:52:51.198Z",
+      "updated": "2026-11-03T17:13:30.166Z",
       "position": "00000000000000000002"
     },
     {
-      "title": "✅ 11. Publiczna strona statusu projektu Fizjo AGV",
+      "title": "✅ 4. Publiczna strona statusu projektu Fizjo AGV",
       "notes": "Publiczny status projektu: checklista, co zrobione, co w toku, inne punkty. Źródło danych: ta lista Google Tasks. Dodane 2.11.2026.\nOd 3.11.2026 status jest w pliku STATUS.md w repo: https://github.com/vitoexe/fizjo-agv/blob/main/STATUS.md (paski postępu z emoji).\n\nZMIANA 3.11.2026\n- ✅ STATUS.md w katalogu głównym repo zamiast strony; generuje go tools/build_status_md.py z tej listy Tasks\n- ✅ Paski postępu z emoji (🟩 zrobione, 🟨 w toku, ⬜ do zrobienia) dla całości i każdego punktu, podpunkty pod spodem\n- ✅ Strona GitHub Pages wycofana 3.11.2026: w docs/ zostało tylko przekierowanie do STATUS.md, stara strona jest w historii git\n- ⬜ Wyłączenie GitHub Pages w ustawieniach repo — decyzja Tomasza\n\nDECYZJE 2.11.2026 (dawna strona)\n- ✅ Hosting na GitHub Pages z folderu docs/ (wycofany 3.11.2026)\n- ✅ Strona pokazuje tytuły, statusy (✅ zrobione, 🔄 w toku) i pełne opisy z Tasks\n- ✅ Bez rutyny co godzinę (oszczędność tokenów): przebudowa przy każdej aktualizacji Tasks\n- ✅ Statystyki bazy: pliki, źródła, twierdzenia, potwierdzenia 2/2\n- ✅ Checklista w podpunktach: liczniki i paski postępu przy punktach, pasek ogólny z podpunktami (wdrożone 2.11.2026 wieczorem)",
       "status": "needsAction",
-      "updated": "2026-11-03T17:04:22.998Z",
+      "updated": "2026-11-03T17:13:32.254Z",
       "position": "00000000000000000003"
     },
     {
-      "title": "🔄 13. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami",
+      "title": "🔄 5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami",
       "notes": "Dodane 2.11.2026. Prompty partii 2 w repo (prompts/batch-2-przygotowanie): E pozycja przy grindach, F wzmacnianie i stabilizacja, G prewencja i periodyzacja. Odpalane w Google AI Studio (Gemini 3.1 Pro, temp 0,2, Grounding + URL context, Deep Research max).\nOd 3.11.2026 research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, bez kluczy API): Deep Research Max do szerokich przeglądów, Argon do sprzeczności. Opis: prompts/README.md.\n\nSTATUS\n- ✅ E: pozycja przy grindach (commit 090c2ea). Potwierdzone: Blackburn 2008, Puddle 2013, Maldonado 2018, Ou 2021, Determan 2010. Błędy modelu: zmyślone „LESS >5 = >10x ryzyka ACL”, Teng 30 cm pomylone z 30°, „80% nawrotów” źle przypisane, Merz i gimnastyka bez źródeł\n  - ✅ Surowy zapis i tabela weryfikacji (research-raw/2026-11-02-E-gemini-deep-research.md)\n  - ✅ Wpis do bazy, źródła S43–S61\n- ✅ F: wzmacnianie i stabilizacja, cały raport: części 1 i 3 + infografika (commity 4059aef, 626b995). Potwierdzone m.in.: Steib 2017, Moon 2017, Chen 2023, Abbasi 2025, Fésüs 2026 (pilotaż), Frederick 2006 (ollie down z 45,7 cm = 4,74x masy ciała, n=7), Verhagen + McGuine (trening równowagi zmniejsza skręcenia, 2/2), Hupperets (-35% nawrotów). Odrzucone: siła lądowania 3,5–6,8x, praca ucznia o strzałkowych, „klepanie szkodzi nadgarstkowi”, „<900 kontaktów chroni ścięgna”\n  - ✅ Surowy zapis i tabela weryfikacji (research-raw/2026-11-02-F-gemini-deep-research.md)\n  - ✅ Wpis do bazy, źródła S62–S86\n  - ✅ Nowe pliki: technika-upadania.md, propozycje-do-recenzji.md\n- ✅ G: prewencja i periodyzacja (commit 442e9e4). Potwierdzone: Emery 2022 SHRed (-36%, quasi-eksperyment, nie RCT), Sadigursky 2017 FIFA 11+ (-30%), Foster 2001 sRPE, Gabbett 2016, Impellizzeri 2021 + Lolli 2019 (ACWR nie przewiduje urazów, 2/2), NATA 2011 i Jayanthi 2015, Miller 2005 (kolagen 24–72 h), Schieber 1996 (OR 10,4 nadgarstek, 9,5 łokieć; kolano nieistotne; rolki rekreacyjne). Błędy modelu: złe DOI (Moran), zmyśleni autorzy, progi <250/>500 skoków nie dotyczą urazów, 50 ms bez źródła, odwrócony wniosek Vermeulena, błędny wykres Schiebera, przestarzałe zalecenia po wstrząśnieniu (Amsterdam 2022: odpoczynek względny 24–48 h), reguła +10%/tydz. bez dowodów (Buist 2008)\n  - ✅ Surowy zapis i tabela weryfikacji (research-raw/2026-11-02-G-gemini-deep-research.md)\n  - ✅ Wpis do bazy, źródła S87–S105\n  - ✅ Nowy plik: filar-2-rehabilitacja/czesci-ciala/glowa/wstrzasnienie.md\n\nAUDYT\n- ✅ Argon, sprzeczność 1: siła biodra a koślawienie kolana — rozstrzygnięte: związek słaby, zależny od zadania (2/2); samo wzmacnianie biodra 1/2; korekta pilotażu S68; źródła S106–S123 (commit 2edce33)\n- ✅ Argon, sprzeczność 2: zmęczenie / tułów / DKV / endurance — rozstrzygnięte: zgięcie tułowia strzałkowe = adaptacja (RESOLVED-A); DKV CONTEXT-DEPENDENT 2/2; endurance>strength UNRESOLVED/NO DATA RCT; timing: ACL nie ↑ pod koniec, skręcenia kostki tak; S124–S143 (commit a56bc0f)\n- ⏸ Red-team Claude/Opus — wstrzymany 3.11.2026 (limit wyczerpany); decyzja: tylko Gemini. Prompty 1a/1b zostają w repo jako archiwum (commit c02feb8)\n- ⬜ Gemini Pro dla E, F, G (prompty 2-gemini-pro.md)\n- ✅ Modele czytają pliki z linków raw (prompts/README.md), bo repo jest publiczne\n\nPEŁNE TEKSTY\n- ⬜ Puddle 2013 (S46)\n- ⬜ S16 Vriend (meta-analiza treningu nerwowo-mięśniowego)\n- ⬜ Brenner 2007, AAP (S98)\n- ⬜ S22, S23, PhysioWorks: pobrać z innego komputera, za zgodą Tomasza\n\nDALEJ\n- ✅ Partia 1 A (pilot): wzorce urazów wg grindu, Deep Research Preview w AI Studio (surowy wynik: research-raw/2026-11-03_batch1-A_deep-research.md, commit 3f58e82)\n  - ✅ Do bazy weszło tylko zweryfikowane: S144 Maudot 2014 (ankieta AGV, praca dyplomowa — literatura szara: 46,5% urazów przy kontakcie z przeszkodą, 40,9% przy lądowaniu, kończyna górna częściej niż dolna), S145 Russell 2014 (terrain park), S146 Cheng 1995 i S147 Russell 2007 (ochraniacze nadgarstków, złamanie nad szyną), S148 Giacobetti 1997 (zwłoki, brak efektu) — commit 2086364\n  - ✅ Korekta „typowy upadek = ześlizg na kolana” (1/2, ograniczony dowód); ochraniacze nadgarstków zmniejszają urazy nadgarstka 2/2 (S04 + S147)\n  - ✅ Lekcja: model podał błędne DOI/PMID w 5 z 7 par — każdy identyfikator sprawdzamy w PubMed/Crossref przed wpisem (research-raw/README.md)\n- 🔄 Partia 1 B: obciążanie ścięgien (Achilles, piszczelowy tylny) — prompt gotowy, z zaostrzonymi zasadami ID (prompts/batch-1/B-obciazanie-sciegien/1-deep-research.prompt.txt, commit 7ead303), czeka na uruchomienie\n- ⬜ Partia 1: C i D (niższy priorytet)\n\nZASADA\nZapisujemy wszystko, łącznie z surowymi wynikami modeli (research-raw/).",
       "status": "needsAction",
-      "updated": "2026-11-03T15:19:16.107Z",
+      "updated": "2026-11-03T17:13:34.335Z",
       "position": "00000000000000000004"
     },
     {
-      "title": "🔄 2. Nakarmić go pełnym researchem z całego internetu",
-      "notes": "Użyć wszystkich dostępnych narzędzi do researchu i wielu modeli.\n\nMETODA OD 3.11.2026\nResearch tylko w Gemini, w Google AI Studio w przeglądarce (Pro, bez kluczy API): Deep Research Max do szerokich przeglądów, Gemini 4 Argon do sprzeczności. Wynik kopiowany „Copy as markdown” do research-raw/ (nazwy i nagłówek: research-raw/README.md), potem weryfikacja każdego PMID/DOI.\n\nSTATUS\n- ✅ Research startowy o grindach: 23 źródła (S01–S23)\n- ✅ Zasoby praktyków: blogi, Instagram, specjaliści (S24–S42)\n- ✅ Deep Research E, F, G zweryfikowane w źródłach (S43–S105), szczegóły w punkcie 13\n- ✅ Argon do sprzeczności: sprzeczności 1 i 2 rozstrzygnięte (S106–S143), szczegóły w punkcie 13\n- ⬜ Gemini Pro dla E, F, G (prompty 2-gemini-pro.md gotowe)\n- ⏸ Claude red-team — wstrzymany 3.11.2026; decyzja: tylko Gemini\n- ⬜ Health: szybkie dopytania (prompty 4-health.md gotowe)\n- ✅ Partia 1 A (pilot): zrobione 3.11.2026 — do bazy S144–S148 (Maudot 2014 — pierwsza ankieta AGV po 2007, literatura szara; Russell 2014; Cheng 1995; Russell 2007; Giacobetti 1997), szczegóły w punkcie 13\n  - ✅ Lekcja: Deep Research podał błędne DOI/PMID w 5 z 7 par — każdy identyfikator weryfikujemy w PubMed/Crossref\n- 🔄 Partia 1 B (ścięgna): prompt gotowy, czeka na uruchomienie\n- ⬜ Partia 1 C, D: prompty w prompts/batch-1, jeszcze nieodpalone",
+      "title": "🔄 6. Nakarmić go pełnym researchem z całego internetu",
+      "notes": "Użyć wszystkich dostępnych narzędzi do researchu i wielu modeli.\n\nMETODA OD 3.11.2026\nResearch tylko w Gemini, w Google AI Studio w przeglądarce (Pro, bez kluczy API): Deep Research Max do szerokich przeglądów, Gemini 4 Argon do sprzeczności. Wynik kopiowany „Copy as markdown” do research-raw/ (nazwy i nagłówek: research-raw/README.md), potem weryfikacja każdego PMID/DOI.\n\nSTATUS\n- ✅ Research startowy o grindach: 23 źródła (S01–S23)\n- ✅ Zasoby praktyków: blogi, Instagram, specjaliści (S24–S42)\n- ✅ Deep Research E, F, G zweryfikowane w źródłach (S43–S105), szczegóły w punkcie 5\n- ✅ Argon do sprzeczności: sprzeczności 1 i 2 rozstrzygnięte (S106–S143), szczegóły w punkcie 5\n- ⬜ Gemini Pro dla E, F, G (prompty 2-gemini-pro.md gotowe)\n- ⏸ Claude red-team — wstrzymany 3.11.2026; decyzja: tylko Gemini\n- ⬜ Health: szybkie dopytania (prompty 4-health.md gotowe)\n- ✅ Partia 1 A (pilot): zrobione 3.11.2026 — do bazy S144–S148 (Maudot 2014 — pierwsza ankieta AGV po 2007, literatura szara; Russell 2014; Cheng 1995; Russell 2007; Giacobetti 1997), szczegóły w punkcie 5\n  - ✅ Lekcja: Deep Research podał błędne DOI/PMID w 5 z 7 par — każdy identyfikator weryfikujemy w PubMed/Crossref\n- 🔄 Partia 1 B (ścięgna): prompt gotowy, czeka na uruchomienie\n- ⬜ Partia 1 C, D: prompty w prompts/batch-1, jeszcze nieodpalone",
       "status": "needsAction",
-      "updated": "2026-11-03T15:19:18.491Z",
+      "updated": "2026-11-03T17:13:37.160Z",
       "position": "00000000000000000005"
     },
     {
-      "title": "🔄 9. Plan zbierania wiedzy z wielu źródeł",
+      "title": "🔄 7. Plan zbierania wiedzy z wielu źródeł",
       "notes": "ROLE ŹRÓDEŁ\nDeep Research (Google): szerokie przeglądy literatury i internetu na start każdego tematu.\nGemini Pro (AI Pro): główny koń roboczy, pogłębienia i synteza; używać dużo.\nClaude: krytyczna recenzja i szukanie dziur we wnioskach (red-teaming).\nModele w Cursorze: strukturyzacja bazy, krzyżowe sprawdzanie twierdzeń i źródeł, formatowanie pod stronę.\nAplikacja Health: szybkie, wąskie pytania; Tomasz wkleja prompt i odsyła wynik.\nGoogle AI Studio: eksperymenty z promptami i szablonami (np. prompt do ekstrakcji twierdzeń ze źródłem).\nArgon: drogi, tylko do najtrudniejszych pytań, gdy inne źródła się nie zgadzają.\nResearch z 2.11.2026 (23 sprawdzone źródła o grindach): baza startowa i punkt odniesienia.\n\nZASADY\nTwierdzenie trafia do bazy dopiero, gdy potwierdzą je co najmniej 2 niezależne źródła (nie dwa modele powtarzające to samo, tylko 2 źródła pierwotne).\nKażde twierdzenie z cytowanym źródłem i linkiem.\nEtykiety: dowód (badanie), konsensus ekspertów, wnioskowanie biomechaniczne, analogia z innego sportu, spekulacja.\nModele AI to narzędzia do szukania i syntezy, nie źródła.\n\nKOLEJNOŚĆ\n- 🔄 1. Deep Research: szeroki przegląd tematu\n  - ✅ Partia 2: E, F, G\n  - ⬜ Partia 1: A, B, C, D\n- ⬜ 2. Gemini Pro: pogłębienie i synteza, lista twierdzeń ze źródłami\n- 🔄 3. Cursor: zestawienie twierdzeń, zaznaczenie zgodnych i sprzecznych\n  - ✅ E, F, G: tabele weryfikacji w research-raw/\n  - ⬜ A, B, C, D\n- ⬜ 4. Claude: recenzja i atak na wnioski\n- 🔄 5. Argon dla nierozstrzygniętych sprzeczności\n  - ✅ Szablon promptu (prompts/batch-1/argon-sprzecznosci-szablon.md)\n  - 🔄 Sprzeczność 1: prompt gotowy, czeka na uruchomienie\n- ⬜ 6. Health: szybkie dopytania w trakcie\n- 🔄 7. Zapis do bazy według kontuzji i części ciała, z etykietami\n  - ✅ E, F, G\n  - ⬜ A, B, C, D\n\nPIERWSZA PARTIA PROMPTÓW\n- 🔄 Prompty A, B, C, D gotowe w prompts/batch-1 (po 5 wariantów), jeszcze nieodpalone\n  - ⬜ A. Wzorce kontuzji według typu grindu (soul, topsoul, makio, frontside, backside, royale, unity, stalle), urazy kostki, Achillesa, piszczelowego tylnego, kolana i nadgarstków\n  - ⬜ B. Obciążanie ścięgien: izometria, ciężki wolny trening, zasada bólu, monitoring 24 h, kolagen z witaminą C\n  - ⬜ C. Kryteria powrotu do sportu po urazie lub unieruchomieniu kostki: testy, progi 90% symetrii, etapy powrotu do grindów\n  - ⬜ D. Badanie przesiewowe fizjoterapeuty dla zawodnika AGV: zakres ruchu, siła łydki i inwersji, równowaga, testy skoczne, historia urazów",
       "status": "needsAction",
-      "updated": "2026-11-02T18:52:56.232Z",
+      "updated": "2026-11-03T17:13:38.801Z",
       "position": "00000000000000000006"
     },
     {
-      "title": "🔄 10. Baza fizjoterapeutów i blogów o rolkach i AGV",
+      "title": "🔄 8. Baza fizjoterapeutów i blogów o rolkach i AGV",
       "notes": "Zaczęte 2.11.2026 jako część researchu. Pierwsza runda: Page Grok Bota i repo (zasoby/).\n\nSTATUS\n- ✅ Blogi fizjoterapeutyczne o rolkach, AGV i skateboardingu: pierwsza runda (zasoby/blogi-i-artykuly.md)\n- 🔄 Konta fizjo na Instagramie, najpierw rolkarskie i AGV, awaryjnie skate (zasoby/instagram.md)\n  - ✅ Sprawdzone w przeglądarce, istnieją: @dr.kylebrown, @skateboardphysio, @skate_physio, @popowski_michal_physio, @blueballphysiosport\n  - ✅ Nie istnieją (usunięte z listy): @thebladingphysio, @benrowlesphysio, @theskateboardphysiotherapist\n  - ⬜ Kolejne konta, szczególnie rolkarskie i AGV\n- 🔄 Lista fizjoterapeutów od AGV (zasoby/specjalisci.md)\n  - ✅ Pierwsza runda: Polska (Warszawa, Kraków, Śląsk) i zagranica\n  - ⬜ Polska: dalsze szukanie (fizjoterapeuty stricte od rolek/AGV na razie nie znaleziono)\n  - ⬜ Zagraniczni jako skarbnice wiedzy: kolejne osoby\n- ⬜ Strony blokujące serwer (np. PhysioWorks, HTTP 403): pobrać z innego komputera, za zgodą Tomasza",
       "status": "needsAction",
-      "updated": "2026-11-02T18:52:58.364Z",
+      "updated": "2026-11-03T17:13:40.987Z",
       "position": "00000000000000000007"
     },
     {
-      "title": "🔄 7. Struktura: najpierw uporządkowana baza, potem strona",
-      "notes": "Strona z działami według rodzaju kontuzji i części ciała, ze źródłami dla fizjoterapeutów i trenerów.\n\nSTATUS\n- ✅ Baza uporządkowana w dwa filary i pliki tematów\n- ✅ Pozycja przy grindach: soul/topsoul, makio, frontside/backside, royale, unity, inne\n- ✅ Filar 2 według części ciała: kostka, Achilles, piszczelowy tylny, kolano, nadgarstek i ręka, głowa\n- ✅ Wspólna bibliografia sources.md (S01–S105) i etykiety dowodów\n- ⬜ Recenzja plików przez fizjoterapeutę (wszystkie mają status „szkic”)\n- ⬜ Strona z działami według kontuzji i części ciała (punkt 5)",
+      "title": "🔄 9. Struktura: najpierw uporządkowana baza, potem strona",
+      "notes": "Strona z działami według rodzaju kontuzji i części ciała, ze źródłami dla fizjoterapeutów i trenerów.\n\nSTATUS\n- ✅ Baza uporządkowana w dwa filary i pliki tematów\n- ✅ Pozycja przy grindach: soul/topsoul, makio, frontside/backside, royale, unity, inne\n- ✅ Filar 2 według części ciała: kostka, Achilles, piszczelowy tylny, kolano, nadgarstek i ręka, głowa\n- ✅ Wspólna bibliografia sources.md (S01–S105) i etykiety dowodów\n- ⬜ Recenzja plików przez fizjoterapeutę (wszystkie mają status „szkic”)\n- ⬜ Strona z działami według kontuzji i części ciała (punkt 12)",
       "status": "needsAction",
-      "updated": "2026-11-02T18:52:52.996Z",
+      "updated": "2026-11-03T17:13:43.376Z",
       "position": "00000000000000000008"
     },
     {
-      "title": "🔄 4. Open source dla społeczności",
-      "notes": "Baza wiedzy w repo GitHub https://github.com/vitoexe/fizjo-agv.\n\nSTATUS\n- ✅ Repo założone 2.11.2026, najpierw prywatne\n- ✅ Repo publiczne od 2.11.2026 14:48 (na czas researchu, decyzja Tomasza; można zamknąć później, ale kopie mogą zostać)\n- ✅ Struktura: filar-1-przygotowanie, filar-2-rehabilitacja, zasoby, prompts, research-raw, sources.md\n- ✅ METHODOLOGY.md i CONTRIBUTING.md\n- ✅ Publiczny status: STATUS.md w repo (punkt 11)\n- ⬜ Licencja: w repo nie ma jeszcze pliku LICENSE (wybór licencji do decyzji)\n- ⬜ Ogłosić projekt społeczności AGV",
+      "title": "🔄 10. Open source dla społeczności",
+      "notes": "Baza wiedzy w repo GitHub https://github.com/vitoexe/fizjo-agv.\n\nSTATUS\n- ✅ Repo założone 2.11.2026, najpierw prywatne\n- ✅ Repo publiczne od 2.11.2026 14:48 (na czas researchu, decyzja Tomasza; można zamknąć później, ale kopie mogą zostać)\n- ✅ Struktura: filar-1-przygotowanie, filar-2-rehabilitacja, zasoby, prompts, research-raw, sources.md\n- ✅ METHODOLOGY.md i CONTRIBUTING.md\n- ✅ Publiczny status: STATUS.md w repo (punkt 4)\n- ⬜ Licencja: w repo nie ma jeszcze pliku LICENSE (wybór licencji do decyzji)\n- ⬜ Ogłosić projekt społeczności AGV",
       "status": "needsAction",
-      "updated": "2026-11-03T17:04:27.149Z",
+      "updated": "2026-11-03T17:13:45.612Z",
       "position": "00000000000000000009"
     },
     {
-      "title": "3. „Pigułka wiedzy” albo większy biuletyn dla fizjoterapeutów o AGV",
+      "title": "11. „Pigułka wiedzy” albo większy biuletyn dla fizjoterapeutów o AGV",
       "notes": "Jak leczyć, jak przygotować i jak prowadzić zawodnika AGV.\n\nDALEJ\n- ⬜ Wybrać format: krótka pigułka (1–2 strony) albo większy biuletyn\n- ⬜ Trzon: twierdzenia potwierdzone 2/2 z bazy\n- ⬜ Szkic pierwszego wydania\n- ⬜ Recenzja fizjoterapeuty przed publikacją",
       "status": "needsAction",
-      "updated": "2026-11-02T18:52:45.673Z",
+      "updated": "2026-11-03T17:13:47.946Z",
       "position": "00000000000000000010"
     },
     {
-      "title": "5. Strona dla rolkarzy do pokazania fizjo lub trenerowi",
+      "title": "12. Strona dla rolkarzy do pokazania fizjo lub trenerowi",
       "notes": "Każdy rolkarz z kontuzją, naciągnięciem albo przed wizytą u fizjoterapeuty lub trenera personalnego może mu ją pokazać; strona pozwala przeczytać i zapoznać się z materiałem, żeby móc prowadzić tego zawodnika.\n\nDALEJ\n- ⬜ Strona z treścią bazy (osobna od STATUS.md), działy według kontuzji i części ciała\n- ⬜ Czytelna na telefonie, do pokazania w gabinecie\n- ⬜ Zastrzeżenie „to nie jest porada medyczna” na każdej stronie\n- ⬜ Treść po recenzji fizjoterapeuty",
       "status": "needsAction",
-      "updated": "2026-11-03T17:04:31.542Z",
+      "updated": "2026-11-03T17:13:49.732Z",
       "position": "00000000000000000011"
     },
     {
-      "title": "🔄 8. Społeczność może dodawać i weryfikować treści",
+      "title": "🔄 13. Społeczność może dodawać i weryfikować treści",
       "notes": "Dzięki temu rośnie jakość.\n\nSTATUS\n- ✅ CONTRIBUTING.md: jak dołożyć wiedzę\n- ✅ Szablon nowego tematu (_szablon/temat.md)\n- ⬜ Proces recenzji: kto zatwierdza treść (pole „recenzent” w plikach jest puste)\n- ⬜ Szablony zgłoszeń (issues) na GitHubie\n- ⬜ Pierwszy wkład spoza projektu",
       "status": "needsAction",
-      "updated": "2026-11-02T18:56:28.273Z",
+      "updated": "2026-11-03T17:13:51.582Z",
       "position": "00000000000000000012"
     }
   ]

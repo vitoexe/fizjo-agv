@@ -1,24 +1,24 @@
 # Status projektu Fizjo AGV
 
-Ostatnia aktualizacja: 2026-11-03 18:09 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
+Ostatnia aktualizacja: 2026-11-03 18:14 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
 
 **Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **59%** (13 punktów planu)
 
 | | Punkt planu | Postęp | % | Podpunkty |
 |---|---|---|---|---|
 | ✅ | [1. Bot „fizjo AGV” jako centrum dowodzenia wiedzą o fizjoterapii w AGV](#-1-bot-fizjo-agv-jako-centrum-dowodzenia-wiedzą-o-fizjoterapii-w-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
-| ✅ | [12. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)](#-12-dwa-filary-projektu-przygotowanie-do-grindów-główny-i-rehabilitacja-mniejszy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
-| ✅ | [6. Obecny research o grindach to zalążek bazy wiedzy](#-6-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
-| ✅ | [11. Publiczna strona statusu projektu Fizjo AGV](#-11-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% | 9 podp. |
-| 🔄 | [13. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-13-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 66% | 22 podp. |
-| 🔄 | [2. Nakarmić go pełnym researchem z całego internetu](#-2-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜ | 55% | 10 podp. |
-| 🔄 | [9. Plan zbierania wiedzy z wielu źródeł](#-9-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% | 15 podp. |
-| 🔄 | [10. Baza fizjoterapeutów i blogów o rolkach i AGV](#-10-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% | 8 podp. |
-| 🔄 | [7. Struktura: najpierw uporządkowana baza, potem strona](#-7-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% | 6 podp. |
-| 🔄 | [4. Open source dla społeczności](#-4-open-source-dla-społeczności) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 71% | 7 podp. |
-| ⬜ | [3. „Pigułka wiedzy” albo większy biuletyn dla fizjoterapeutów o AGV](#-3-pigułka-wiedzy-albo-większy-biuletyn-dla-fizjoterapeutów-o-agv) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | 0% | 4 podp. |
-| ⬜ | [5. Strona dla rolkarzy do pokazania fizjo lub trenerowi](#-5-strona-dla-rolkarzy-do-pokazania-fizjo-lub-trenerowi) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | 0% | 4 podp. |
-| 🔄 | [8. Społeczność może dodawać i weryfikować treści](#-8-społeczność-może-dodawać-i-weryfikować-treści) | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | 40% | 5 podp. |
+| ✅ | [2. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)](#-2-dwa-filary-projektu-przygotowanie-do-grindów-główny-i-rehabilitacja-mniejszy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
+| ✅ | [3. Obecny research o grindach to zalążek bazy wiedzy](#-3-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
+| ✅ | [4. Publiczna strona statusu projektu Fizjo AGV](#-4-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% | 9 podp. |
+| 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 66% | 22 podp. |
+| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜ | 55% | 10 podp. |
+| 🔄 | [7. Plan zbierania wiedzy z wielu źródeł](#-7-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% | 15 podp. |
+| 🔄 | [8. Baza fizjoterapeutów i blogów o rolkach i AGV](#-8-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% | 8 podp. |
+| 🔄 | [9. Struktura: najpierw uporządkowana baza, potem strona](#-9-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% | 6 podp. |
+| 🔄 | [10. Open source dla społeczności](#-10-open-source-dla-społeczności) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 71% | 7 podp. |
+| ⬜ | [11. „Pigułka wiedzy” albo większy biuletyn dla fizjoterapeutów o AGV](#-11-pigułka-wiedzy-albo-większy-biuletyn-dla-fizjoterapeutów-o-agv) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | 0% | 4 podp. |
+| ⬜ | [12. Strona dla rolkarzy do pokazania fizjo lub trenerowi](#-12-strona-dla-rolkarzy-do-pokazania-fizjo-lub-trenerowi) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | 0% | 4 podp. |
+| 🔄 | [13. Społeczność może dodawać i weryfikować treści](#-13-społeczność-może-dodawać-i-weryfikować-treści) | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | 40% | 5 podp. |
 
 ## Szczegóły
 
@@ -32,9 +32,9 @@ Projekt open source omawiany na rozmowie 2.11.2026.
 
 - ✅ Bot zbiera research, weryfikuje twierdzenia w źródłach pierwotnych i zapisuje je do bazy
 - ✅ Baza w publicznym repo GitHub: https://github.com/vitoexe/fizjo-agv
-- ✅ Ta lista zadań jest źródłem publicznego statusu: STATUS.md w repo (punkt 11)
+- ✅ Ta lista zadań jest źródłem publicznego statusu: STATUS.md w repo (punkt 4)
 
-### ✅ 12. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)
+### ✅ 2. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)
 
 `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%**
 
@@ -46,7 +46,7 @@ Decyzja Tomasza 2.11.2026. Filar główny, najważniejszy: przygotowanie organiz
 - ✅ Prompty partii 2 (E, F, G) dla filaru przygotowania
 - ✅ Status projektu (STATUS.md) opisuje oba filary
 
-### ✅ 6. Obecny research o grindach to zalążek bazy wiedzy
+### ✅ 3. Obecny research o grindach to zalążek bazy wiedzy
 
 `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%**
 
@@ -58,7 +58,7 @@ Opinie fizjoterapeutów o grindach, wzorce kontuzji, wzmacnianie, rozgrzewka, za
 - ✅ Linki sprawdzone: 21 × HTTP 200, 2 z błędem (opis w sources.md)
 - ✅ Treść rozpisana na pliki tematów obu filarów
 
-### ✅ 11. Publiczna strona statusu projektu Fizjo AGV
+### ✅ 4. Publiczna strona statusu projektu Fizjo AGV
 
 `🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜` **89%**
 
@@ -81,7 +81,7 @@ DECYZJE 2.11.2026 (dawna strona)
 - ✅ Statystyki bazy: pliki, źródła, twierdzenia, potwierdzenia 2/2
 - ✅ Checklista w podpunktach: liczniki i paski postępu przy punktach, pasek ogólny z podpunktami (wdrożone 2.11.2026 wieczorem)
 
-### 🔄 13. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami
+### 🔄 5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami
 
 `🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜` **66%**
 
@@ -131,7 +131,7 @@ Od 3.11.2026 research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, b
 
 Zapisujemy wszystko, łącznie z surowymi wynikami modeli (research-raw/).
 
-### 🔄 2. Nakarmić go pełnym researchem z całego internetu
+### 🔄 6. Nakarmić go pełnym researchem z całego internetu
 
 `🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜` **55%**
 
@@ -145,17 +145,17 @@ Research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, bez kluczy API
 
 - ✅ Research startowy o grindach: 23 źródła (S01–S23)
 - ✅ Zasoby praktyków: blogi, Instagram, specjaliści (S24–S42)
-- ✅ Deep Research E, F, G zweryfikowane w źródłach (S43–S105), szczegóły w punkcie 13
-- ✅ Argon do sprzeczności: sprzeczności 1 i 2 rozstrzygnięte (S106–S143), szczegóły w punkcie 13
+- ✅ Deep Research E, F, G zweryfikowane w źródłach (S43–S105), szczegóły w punkcie 5
+- ✅ Argon do sprzeczności: sprzeczności 1 i 2 rozstrzygnięte (S106–S143), szczegóły w punkcie 5
 - ⬜ Gemini Pro dla E, F, G (prompty 2-gemini-pro.md gotowe)
 - ⏸️ Claude red-team — wstrzymany 3.11.2026; decyzja: tylko Gemini
 - ⬜ Health: szybkie dopytania (prompty 4-health.md gotowe)
-- ✅ Partia 1 A (pilot): zrobione 3.11.2026 — do bazy S144–S148 (Maudot 2014 — pierwsza ankieta AGV po 2007, literatura szara; Russell 2014; Cheng 1995; Russell 2007; Giacobetti 1997), szczegóły w punkcie 13
+- ✅ Partia 1 A (pilot): zrobione 3.11.2026 — do bazy S144–S148 (Maudot 2014 — pierwsza ankieta AGV po 2007, literatura szara; Russell 2014; Cheng 1995; Russell 2007; Giacobetti 1997), szczegóły w punkcie 5
   - ✅ Lekcja: Deep Research podał błędne DOI/PMID w 5 z 7 par — każdy identyfikator weryfikujemy w PubMed/Crossref
 - 🔄 Partia 1 B (ścięgna): prompt gotowy, czeka na uruchomienie
 - ⬜ Partia 1 C, D: prompty w prompts/batch-1, jeszcze nieodpalone
 
-### 🔄 9. Plan zbierania wiedzy z wielu źródeł
+### 🔄 7. Plan zbierania wiedzy z wielu źródeł
 
 `🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜` **30%**
 
@@ -213,7 +213,7 @@ Modele AI to narzędzia do szukania i syntezy, nie źródła.
   - ⬜ C. Kryteria powrotu do sportu po urazie lub unieruchomieniu kostki: testy, progi 90% symetrii, etapy powrotu do grindów
   - ⬜ D. Badanie przesiewowe fizjoterapeuty dla zawodnika AGV: zakres ruchu, siła łydki i inwersji, równowaga, testy skoczne, historia urazów
 
-### 🔄 10. Baza fizjoterapeutów i blogów o rolkach i AGV
+### 🔄 8. Baza fizjoterapeutów i blogów o rolkach i AGV
 
 `🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜` **50%**
 
@@ -232,7 +232,7 @@ Zaczęte 2.11.2026 jako część researchu. Pierwsza runda: Page Grok Bota i rep
   - ⬜ Zagraniczni jako skarbnice wiedzy: kolejne osoby
 - ⬜ Strony blokujące serwer (np. PhysioWorks, HTTP 403): pobrać z innego komputera, za zgodą Tomasza
 
-### 🔄 7. Struktura: najpierw uporządkowana baza, potem strona
+### 🔄 9. Struktura: najpierw uporządkowana baza, potem strona
 
 `🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜` **67%**
 
@@ -245,9 +245,9 @@ Strona z działami według rodzaju kontuzji i części ciała, ze źródłami dl
 - ✅ Filar 2 według części ciała: kostka, Achilles, piszczelowy tylny, kolano, nadgarstek i ręka, głowa
 - ✅ Wspólna bibliografia sources.md (S01–S105) i etykiety dowodów
 - ⬜ Recenzja plików przez fizjoterapeutę (wszystkie mają status „szkic”)
-- ⬜ Strona z działami według kontuzji i części ciała (punkt 5)
+- ⬜ Strona z działami według kontuzji i części ciała (punkt 12)
 
-### 🔄 4. Open source dla społeczności
+### 🔄 10. Open source dla społeczności
 
 `🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜` **71%**
 
@@ -259,11 +259,11 @@ Baza wiedzy w repo GitHub https://github.com/vitoexe/fizjo-agv.
 - ✅ Repo publiczne od 2.11.2026 14:48 (na czas researchu, decyzja Tomasza; można zamknąć później, ale kopie mogą zostać)
 - ✅ Struktura: filar-1-przygotowanie, filar-2-rehabilitacja, zasoby, prompts, research-raw, sources.md
 - ✅ METHODOLOGY.md i CONTRIBUTING.md
-- ✅ Publiczny status: STATUS.md w repo (punkt 11)
+- ✅ Publiczny status: STATUS.md w repo (punkt 4)
 - ⬜ Licencja: w repo nie ma jeszcze pliku LICENSE (wybór licencji do decyzji)
 - ⬜ Ogłosić projekt społeczności AGV
 
-### ⬜ 3. „Pigułka wiedzy” albo większy biuletyn dla fizjoterapeutów o AGV
+### ⬜ 11. „Pigułka wiedzy” albo większy biuletyn dla fizjoterapeutów o AGV
 
 `⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜` **0%**
 
@@ -276,7 +276,7 @@ Jak leczyć, jak przygotować i jak prowadzić zawodnika AGV.
 - ⬜ Szkic pierwszego wydania
 - ⬜ Recenzja fizjoterapeuty przed publikacją
 
-### ⬜ 5. Strona dla rolkarzy do pokazania fizjo lub trenerowi
+### ⬜ 12. Strona dla rolkarzy do pokazania fizjo lub trenerowi
 
 `⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜` **0%**
 
@@ -289,7 +289,7 @@ Każdy rolkarz z kontuzją, naciągnięciem albo przed wizytą u fizjoterapeuty 
 - ⬜ Zastrzeżenie „to nie jest porada medyczna” na każdej stronie
 - ⬜ Treść po recenzji fizjoterapeuty
 
-### 🔄 8. Społeczność może dodawać i weryfikować treści
+### 🔄 13. Społeczność może dodawać i weryfikować treści
 
 `🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜` **40%**
 

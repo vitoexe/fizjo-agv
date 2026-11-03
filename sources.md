@@ -34,7 +34,7 @@ Typ: **badanie** (oryginalne), **przegląd** (systematyczny/metaanaliza/narracyj
 - S11, S12, S13 mają wspólną autorkę (Silbernagel) — **nie liczą się jako 2 niezależne źródła** dla siebie nawzajem.
 - Tylko S01 i S02 dotyczą bezpośrednio AGV. Wszystko inne to rolki inline ogólnie, inne sporty lub ogólna rehabilitacja.
 
-## Zasoby praktyków (dodane 2.11.2026, punkt 10 — Page „Fizjo AGV: fizjoterapeuci, konta i blogi”)
+## Zasoby praktyków (dodane 2.11.2026, punkt 8 — Page „Fizjo AGV: fizjoterapeuci, konta i blogi”)
 
 To **nie są dowody naukowe** (poza S36 — praca magisterska, ankieta). Szczegóły i opisy: `zasoby/`. Linki sprawdzone `curl -sL` 2.11.2026.
 
