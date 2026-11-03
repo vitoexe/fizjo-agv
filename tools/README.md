@@ -8,8 +8,8 @@ Odświeżanie:
 
 1. Pobierz zadania z Google Tasks, lista „Fizjo AGV” (`list_tasks`, `showCompleted=true`, `showHidden=true`), tylko odczyt; zapisz surowy JSON do pliku, np. `/tmp/tasks.json`.
 2. `python3 tools/tasks_to_json.py /tmp/tasks.json` → `tools/status-data.json` (tytuł, pełne notatki, status, daty; bez id i linków API).
-3. `python3 tools/build_status_md.py` → `STATUS.md` (gdy zmieniła się tylko data, plik nie jest nadpisywany).
-4. Commit tylko gdy `git status --porcelain STATUS.md tools/status-data.json` coś pokazuje; przed pushem `git pull --rebase`.
+3. `python3 tools/build_status_md.py` → `STATUS.md` oraz blok statusu w `README.md` między `<!-- STATUS:START -->` i `<!-- STATUS:END -->` (pasek łączny, tabela 13 punktów, data, link do STATUS.md; reszta README bez zmian). Gdy zmieniła się tylko data, pliki nie są nadpisywane. Znaczników w README nie usuwaj.
+4. Commit tylko gdy `git status --porcelain STATUS.md README.md tools/status-data.json` coś pokazuje; przed pushem `git pull --rebase`.
 
 Status punktu (ikona przy nazwie) pochodzi z tytułu zadania: ✅ zrobione, 🔄 / ⏳ / 🚧 / „[w toku]” w toku, brak — do zrobienia; ukończone zadanie w Tasks = zrobione.
 

@@ -5,6 +5,9 @@ Jedyne źródło prawdy: Google Tasks, lista „Fizjo AGV”. Notatki zadań są
 
 Użycie:  python3 tools/build_status_md.py [tools/status-data.json] [STATUS.md]
 
+Podmienia też blok w README.md między <!-- STATUS:START --> i <!-- STATUS:END -->
+(pasek łączny, tabela punktów, data, link do STATUS.md); reszta README bez zmian.
+
 Postęp punktu liczony z podpunktów checklisty w notatkach (liście drzewa):
 ✅ = 1, 🔄/⏳/🚧 = 0,5, ⬜/⏸/brak znacznika = 0. Punkt bez podpunktów: 100% gdy tytuł ma ✅
 (albo zadanie jest ukończone w Tasks), 50% gdy 🔄, inaczej 0%. Postęp łączny = średnia punktów.
@@ -15,6 +18,8 @@ from zoneinfo import ZoneInfo
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "tools" / "status-data.json"
 DST = pathlib.Path(sys.argv[2]) if len(sys.argv) > 2 else ROOT / "STATUS.md"
+README = ROOT / "README.md"
+START, END = "<!-- STATUS:START -->", "<!-- STATUS:END -->"
 
 MARK = re.compile(r"^(✅|☑️|\[[xX]\]|🔄|⏳|🚧|⬜|☐|\[ \]|⏸️?)\s*")
 NAGLOWEK = re.compile(r"^[A-ZĄĆĘŁŃÓŚŹŻ][A-ZĄĆĘŁŃÓŚŹŻ0-9 ,./()+–-]{2,}:?$")
@@ -141,7 +146,7 @@ def drzewo(items, poziom=0):
 
 
 def render(tasks):
-    wiersze, sekcje, sum_d, sum_y = [], [], 0.0, 0.0
+    wiersze, wiersze_readme, sekcje, sum_d, sum_y = [], [], [], 0.0, 0.0
     for t in sorted(tasks, key=numer):
         bloki = parse(t.get("notes", ""))
         d, y, n = udzialy(t, bloki)
@@ -150,6 +155,7 @@ def render(tasks):
         tyt = czysty_tytul(t)
         pod = f"{n} podp." if n else "—"
         wiersze.append(f"| {ik} | [{md_esc(tyt)}](#{kotwica(tyt)}) | {pasek(d, y)} | {procent(d, y)}% | {pod} |")
+        wiersze_readme.append(f"| {ik} | [{md_esc(tyt)}](STATUS.md#{kotwica(tyt)}) | {pasek(d, y)} | {procent(d, y)}% |")
         sek = [f"### {ik} {tyt}", "", f"`{pasek(d, y)}` **{procent(d, y)}%**", ""]
         for typ, val in bloki:
             if typ == "h":
@@ -188,7 +194,20 @@ def render(tasks):
         "- Status punktu (ikona przy nazwie) pochodzi z tytułu zadania w Tasks.",
         "",
     ]
-    return "\n".join(head) + "\n" + "\n".join(sekcje) + "\n" + "\n".join(legenda)
+    readme = "\n".join([
+        START,
+        "## Status projektu",
+        "",
+        f"**Postęp łącznie:** `{pasek(D, Y)}` **{procent(D, Y)}%** ({len(tasks)} punktów planu) · ostatnia aktualizacja: {teraz} (czas warszawski)",
+        "",
+        "| | Punkt planu | Postęp | % |",
+        "|---|---|---|---|",
+        *wiersze_readme,
+        "",
+        "Szczegóły i podpunkty → [STATUS.md](STATUS.md) · 🟩 zrobione · 🟨 w toku · ⬜ do zrobienia. Blok generowany przez `tools/build_status_md.py` z listy Google Tasks „Fizjo AGV” — nie edytuj ręcznie.",
+        END,
+    ])
+    return "\n".join(head) + "\n" + "\n".join(sekcje) + "\n" + "\n".join(legenda), readme
 
 
 def kotwica(tyt):
@@ -198,15 +217,29 @@ def kotwica(tyt):
     return "-" + s.replace(" ", "-")  # nagłówek zaczyna się od emoji -> GitHub daje wiodący "-"
 
 
+def bez_daty(s):
+    s = re.sub(r"^Ostatnia aktualizacja: .*$", "", s, flags=re.M)
+    return re.sub(r" · ostatnia aktualizacja: [^\n]*\(czas warszawski\)", "", s)
+
+
+def zapisz(path, nowy, opis):
+    if path.exists() and bez_daty(path.read_text(encoding="utf-8")) == bez_daty(nowy):
+        print(f"{opis} bez zmian")
+        return
+    path.write_text(nowy, encoding="utf-8")
+    print(f"zapisano {path}")
+
+
 def main():
     data = json.loads(SRC.read_text(encoding="utf-8"))
-    nowy = render(data["tasks"])
-    bez_daty = lambda s: re.sub(r"^Ostatnia aktualizacja: .*$", "", s, flags=re.M)
-    if DST.exists() and bez_daty(DST.read_text(encoding="utf-8")) == bez_daty(nowy):
-        print("STATUS.md bez zmian")
-        return
-    DST.write_text(nowy, encoding="utf-8")
-    print(f"zapisano {DST}")
+    status, blok = render(data["tasks"])
+    zapisz(DST, status, "STATUS.md")
+    # README.md: podmień tylko blok między znacznikami; reszta pliku bez zmian
+    tekst = README.read_text(encoding="utf-8")
+    if START not in tekst or END not in tekst:
+        sys.exit(f"README.md: brak znaczników {START} / {END} — wstaw je ręcznie")
+    a, b = tekst.index(START), tekst.index(END) + len(END)
+    zapisz(README, tekst[:a] + blok + tekst[b:], "README.md (blok statusu)")
 
 
 if __name__ == "__main__":
