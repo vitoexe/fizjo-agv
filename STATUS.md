@@ -1,6 +1,6 @@
 # Status projektu Fizjo AGV
 
-Ostatnia aktualizacja: 2026-11-03 18:14 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
+Ostatnia aktualizacja: 2026-11-03 18:26 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
 
 **Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **59%** (13 punktów planu)
 
@@ -10,7 +10,7 @@ Ostatnia aktualizacja: 2026-11-03 18:14 (czas warszawski). Źródło: Google Tas
 | ✅ | [2. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)](#-2-dwa-filary-projektu-przygotowanie-do-grindów-główny-i-rehabilitacja-mniejszy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
 | ✅ | [3. Obecny research o grindach to zalążek bazy wiedzy](#-3-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
 | ✅ | [4. Publiczna strona statusu projektu Fizjo AGV](#-4-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% | 9 podp. |
-| 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 66% | 22 podp. |
+| 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 65% | 23 podp. |
 | 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜ | 55% | 10 podp. |
 | 🔄 | [7. Plan zbierania wiedzy z wielu źródeł](#-7-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% | 15 podp. |
 | 🔄 | [8. Baza fizjoterapeutów i blogów o rolkach i AGV](#-8-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% | 8 podp. |
@@ -83,7 +83,7 @@ DECYZJE 2.11.2026 (dawna strona)
 
 ### 🔄 5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami
 
-`🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜` **66%**
+`🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜` **65%**
 
 Dodane 2.11.2026. Prompty partii 2 w repo (prompts/batch-2-przygotowanie): E pozycja przy grindach, F wzmacnianie i stabilizacja, G prewencja i periodyzacja. Odpalane w Google AI Studio (Gemini 3.1 Pro, temp 0,2, Grounding + URL context, Deep Research max).
 
@@ -125,7 +125,8 @@ Od 3.11.2026 research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, b
   - ✅ Korekta „typowy upadek = ześlizg na kolana” (1/2, ograniczony dowód); ochraniacze nadgarstków zmniejszają urazy nadgarstka 2/2 (S04 + S147)
   - ✅ Lekcja: model podał błędne DOI/PMID w 5 z 7 par — każdy identyfikator sprawdzamy w PubMed/Crossref przed wpisem (research-raw/README.md)
 - 🔄 Partia 1 B: obciążanie ścięgien (Achilles, piszczelowy tylny) — prompt gotowy, z zaostrzonymi zasadami ID (prompts/batch-1/B-obciazanie-sciegien/1-deep-research.prompt.txt, commit 7ead303), czeka na uruchomienie
-- ⬜ Partia 1: C i D (niższy priorytet)
+- 🔄 Partia 1 C: powrót do sportu po urazie kostki (skręcenie, więzozrost, niestabilność, złamanie/ORIF) — prompt gotowy, zasady jak w B (prompts/batch-1/C-powrot-po-kostce/1-deep-research.prompt.txt, commit dad6195), czeka na uruchomienie
+- ⬜ Partia 1: D (niższy priorytet)
 
 **Zasada**
 
