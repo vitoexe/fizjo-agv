@@ -1,8 +1,8 @@
 # Status projektu Fizjo AGV
 
-Ostatnia aktualizacja: 2026-11-03 21:20 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
+Ostatnia aktualizacja: 2026-11-03 23:33 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
 
-**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60%** (13 punktów planu)
+**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **61%** (13 punktów planu)
 
 | | Punkt planu | Postęp | % | Podpunkty |
 |---|---|---|---|---|
@@ -10,8 +10,8 @@ Ostatnia aktualizacja: 2026-11-03 21:20 (czas warszawski). Źródło: Google Tas
 | ✅ | [2. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)](#-2-dwa-filary-projektu-przygotowanie-do-grindów-główny-i-rehabilitacja-mniejszy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
 | ✅ | [3. Obecny research o grindach to zalążek bazy wiedzy](#-3-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
 | ✅ | [4. Publiczna strona statusu projektu Fizjo AGV](#-4-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% | 9 podp. |
-| 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 69% | 27 podp. |
-| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 68% | 11 podp. |
+| 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 69% | 29 podp. |
+| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ | 75% | 12 podp. |
 | 🔄 | [7. Plan zbierania wiedzy z wielu źródeł](#-7-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% | 15 podp. |
 | 🔄 | [8. Baza fizjoterapeutów i blogów o rolkach i AGV](#-8-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% | 8 podp. |
 | 🔄 | [9. Struktura: najpierw uporządkowana baza, potem strona](#-9-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% | 6 podp. |
@@ -124,7 +124,8 @@ Od 3.11.2026 research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, b
   - ✅ Do bazy weszło tylko zweryfikowane: S144 Maudot 2014 (ankieta AGV, praca dyplomowa — literatura szara: 46,5% urazów przy kontakcie z przeszkodą, 40,9% przy lądowaniu, kończyna górna częściej niż dolna), S145 Russell 2014 (terrain park), S146 Cheng 1995 i S147 Russell 2007 (ochraniacze nadgarstków, złamanie nad szyną), S148 Giacobetti 1997 (zwłoki, brak efektu) — commit 2086364
   - ✅ Korekta „typowy upadek = ześlizg na kolana” (1/2, ograniczony dowód); ochraniacze nadgarstków zmniejszają urazy nadgarstka 2/2 (S04 + S147)
   - ✅ Lekcja: model podał błędne DOI/PMID w 5 z 7 par — każdy identyfikator sprawdzamy w PubMed/Crossref przed wpisem (research-raw/README.md)
-- 🔄 Partia 1 B: obciążanie ścięgien (Achilles, piszczelowy tylny) — prompt gotowy, z zaostrzonymi zasadami ID (prompts/batch-1/B-obciazanie-sciegien/1-deep-research.prompt.txt, commit 7ead303), czeka na uruchomienie
+- ✅ Partia 1 B: obciążanie ścięgien (Achilles, piszczelowy tylny) — Deep Research Preview w AI Studio, prompt commit 7ead303; surowy wynik: research-raw/2026-11-04_batch1-B_deep-research.md (commit 330bd1b)
+  - ✅ Triage: 8/8 PMID/DOI w bibliografii poprawnych; do bazy nic nie weszło — wszystkie twierdzenia 1/2; „ekscentryka najsłabsza w tendinopatii rzepki” (Li 2024) przeczy druga NMA (Liu 2026); kolagen: Miyamoto 2025 badał osoby nietrenujące (model dopisał trening), Bischof 2024 — bardzo niska pewność dla ścięgien
 - ✅ Partia 1 C: powrót do sportu po urazie kostki — Deep Research w aplikacji Gemini (Pro Rozszerzony), prompt commit dad6195; surowy wynik: research-raw/2026-11-03_batch1-C_gemini-deep-research.md (commit fb20207)
   - ✅ Triage: 8/8 źródeł i wszystkie PMID/DOI/PMC poprawne; błędy w treści (PAASS przypisany innej pracy, zmyślone szczegóły o hokeistach i sztywnym bucie, crossover oznaczony jako RCT, źle zacytowana nasza baza)
   - ✅ Do bazy weszły tylko twierdzenia 2/2: S149 Tassignon 2019 + S150 Wikstrom 2020 (brak zwalidowanych progów powrotu po skręceniu bocznym; progi ≥90% to protokoły), S151 Salameh 2022 + S152 Sman 2014 (dłuższy powrót po urazie więzozrostu) — commit 335ff82
@@ -133,6 +134,9 @@ Od 3.11.2026 research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, b
   - ✅ Triage: 7 z 14 identyfikatorów w bibliografii błędnych lub przypisanych innej pracy (PMID Plisky 2006 prowadził do pracy o królikach, DOI Sklempe Kokic do innej pracy, „Moran 2024” to Zhou 2026, „Hébert-Losier 2017” to Bohannon 2022); przypisy w tekście wskazywały inne prace niż bibliografia; model nie otworzył plików bazy
   - ✅ Do bazy weszły tylko twierdzenia 2/2: S153 Plisky 2006 + S154 Sklempe Kokic 2023 (niższy wynik złożony SEBT wiąże się z częstszym urazem kończyny dolnej — związek w grupach, nie próg), S155 Zhou 2026 + S84 Zech 2010 (trening równowagi / nerwowo-mięśniowy poprawia wyniki testów równowagi) — commit 514c87d
   - ⬜ Czeka (1/2): WBLT — rzetelność i MDC 1,9 cm (Powden 2015), SEBT — różnica w kierunku przednim >4 cm (tylko Plisky), normy wspięć (Bohannon 2022 / Hébert-Losier 2017), krytyka przesiewów (Bahr 2016), CAI — deficyty równowagi bez różnic w zakresie ruchu (Alghadir 2020); bateria przesiewowa modelu tylko jako propozycja do recenzji
+- ✅ Partia 3: drugie niezależne źródła dla 17 odłożonych twierdzeń (A1–A4, C1–C4, D1–D9) — Deep Research Preview w AI Studio, prompt commit e3df3d0; surowy wynik i triage: research-raw/2026-11-04_batch3-uzupelnienia_deep-research.md
+  - ✅ Do bazy weszło tylko C2 (2/2): S156 Picot 2025 + S157 Halim-Kertanegara 2017 — tejp w niestabilności kostki poprawia pewność i poczucie stabilności, nie wyniki testów (orteza tylko w S156)
+  - ⬜ Czeka: SEBT przód (Stiffler 2017 potwierdza kierunek, nie próg 4 cm), WBLT (Chisholm 2012 — inne liczby, możliwe nakładanie z Powden 2015), zgięcie grzbietowe a rzepka (Backman 2011, możliwe nakładanie z Sprague 2018), ochraniacze nadgarstka: przeciwwagi Twining 2022 i Lewis 1997 (sprzeczne z Cheng/Giacobetti, nie obalenie); 8 twierdzeń bez drugiego źródła
 
 **Zasada**
 
@@ -140,7 +144,7 @@ Zapisujemy wszystko, łącznie z surowymi wynikami modeli (research-raw/).
 
 ### 🔄 6. Nakarmić go pełnym researchem z całego internetu
 
-`🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜` **68%**
+`🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜` **75%**
 
 Użyć wszystkich dostępnych narzędzi do researchu i wielu modeli.
 
@@ -159,9 +163,10 @@ Research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, bez kluczy API
 - ⬜ Health: szybkie dopytania (prompty 4-health.md gotowe)
 - ✅ Partia 1 A (pilot): zrobione 3.11.2026 — do bazy S144–S148 (Maudot 2014 — pierwsza ankieta AGV po 2007, literatura szara; Russell 2014; Cheng 1995; Russell 2007; Giacobetti 1997), szczegóły w punkcie 5
   - ✅ Lekcja: Deep Research podał błędne DOI/PMID w 5 z 7 par — każdy identyfikator weryfikujemy w PubMed/Crossref
-- 🔄 Partia 1 B (ścięgna): prompt gotowy, czeka na uruchomienie
+- ✅ Partia 1 B (ścięgna): zrobione 3.11.2026, zweryfikowane — nic nie weszło do bazy (wszystko 1/2 albo sprzeczne), szczegóły w punkcie 5
 - ✅ Partia 1 C (powrót po kostce): zrobione, do bazy S149–S152 (szczegóły w punkcie 5)
 - ✅ Partia 1 D (screening fizjo): zrobione, do bazy S153–S155 (szczegóły w punkcie 5)
+- ✅ Partia 3 (drugie źródła dla 17 odłożonych twierdzeń): zrobione 3.11.2026 — do bazy S156–S157 (tejp w niestabilności kostki), reszta czeka, szczegóły w punkcie 5
 
 ### 🔄 7. Plan zbierania wiedzy z wielu źródeł
 
