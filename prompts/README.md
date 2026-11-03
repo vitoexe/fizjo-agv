@@ -13,6 +13,10 @@ Audyt sprzeczności (Argon, jedna sprzeczność na prompt):
 - `audyt/argon-1-sila-biodra-koslawienie.md` — siła biodra a koślawienie kolana (zrobione, wynik: `research-raw/2026-11-02-argon-1-sila-biodra-koslawienie.md`).
 - `audyt/argon-2-zmeczenie-tulow.md` — zmęczenie a lądowanie: zgięcie tułowia (adaptacja czy ryzyko), Carcia vs Patrek (zmęczenie a koślawienie), wytrzymałość a siła. Wymaga DOI + PMID i podwójnego sprawdzenia identyfikatorów.
 
+Red-team całej bazy (Claude/Opus w claude.ai, web search + extended thinking), po E, F, G, Argon 1 i 2:
+- `audyt/claude-redteam-1a.md` — część 1: stabilizacja, wzmacnianie, prewencja, pozycja przy grindach, wzorce urazów, propozycje (F, Argon 1, Argon 2).
+- `audyt/claude-redteam-1b.md` — część 2: obciążenie i periodyzacja, rozgrzewka, technika upadania, mobilność, wstrząśnienie, nadgarstek, propozycje (G).
+
 ## Linki do wklejenia modelom
 
 Repo jest publiczne. Surowe pliki (gałąź `main`) do wklejenia w narzędzia z URL context (AI Studio, Gemini, Claude itp.):
