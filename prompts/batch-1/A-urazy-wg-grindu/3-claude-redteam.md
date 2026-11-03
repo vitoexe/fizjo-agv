@@ -1,5 +1,7 @@
 # A. Wzorce urazów według typu grindu — Claude (red-teaming)
 
+> **WSTRZYMANE (3.11.2026).** Red-team Claude/Opus jest na razie wstrzymany — decyzja: research tylko w Gemini (AI Studio: Deep Research Max do szerokich przeglądów, Argon do sprzeczności). Plik zostaje jako archiwum; nie uruchamiać bez nowej decyzji.
+
 Rola: krytyczna recenzja, szukanie dziur i przesadzonych twierdzeń. Wklej prompt, a pod nim **zestawienie twierdzeń z Gemini/Cursora** albo plik bazy: `filar-1-przygotowanie/wzorce-urazow-wg-grindow.md` (tabela grind → struktura) i `filar-1-przygotowanie/pozycja-przy-grindach/`.
 
 ```

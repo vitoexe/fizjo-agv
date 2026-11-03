@@ -1,5 +1,7 @@
 # Claude/Opus — red-team całej bazy po E, F, G, Argon 1 i Argon 2 — część 1 (1a)
 
+> **WSTRZYMANE (3.11.2026).** Red-team Claude/Opus wstrzymany — decyzja: tylko Gemini (AI Studio). Plik zostaje jako archiwum.
+
 Ustawienia: claude.ai, model **Claude Opus** (najnowszy dostępny), włączone **Web search** (i przeglądanie/fetch URL), **Extended thinking: ON**. Nowa rozmowa na każdą część. Wklej blok poniżej w całości. Jeśli Claude nie otworzy któregoś linku raw, wklej treść pliku ręcznie pod promptem.
 
 Baza jest za duża na jeden kontekst, dlatego są 2 części: `claude-redteam-1a.md` (stabilizacja, wzmacnianie, prewencja, pozycja, wzorce urazów, propozycje) i `claude-redteam-1b.md` (obciążenie, rozgrzewka, technika upadania, mobilność, filar 2: wstrząśnienie, nadgarstek). Wynik zapisujemy do `research-raw/` i weryfikujemy jak Argona (PMID/DOI, niezależność grup).

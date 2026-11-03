@@ -1,63 +1,105 @@
-# A. Wzorce urazów według typu grindu — Deep Research (Google)
+# A. Wzorce urazów według typu grindu — Deep Research Max (Gemini, AI Studio)
 
-Rola: szeroki przegląd literatury i internetu na start tematu. Wklej całość poniżej.
+Odświeżone 3.11.2026 pod aktualną bazę (143 źródła, S01–S143, w tym S124–S143 z Argona 2).
+
+- **Model / narzędzie:** Google AI Studio (Pro, w przeglądarce, bez klucza API) → agent **Deep Research Max**. Jedno wklejenie, bez dodatkowych plików.
+- **Co wkleić:** dokładnie treść pliku [`1-deep-research.prompt.txt`](1-deep-research.prompt.txt) (to samo co blok poniżej, 9517 znaków).
+- **Wynik:** „Copy as markdown” → `research-raw/RRRR-MM-DD_batch1-A_deep-research-max.md` z nagłówkiem front-matter (zob. `research-raw/README.md`).
+- **Dlaczego po angielsku:** prawie cała literatura (PubMed, czasopisma medycyny sportowej, rejestry urazów) jest po angielsku, więc polecenia i hasła wyszukiwania po angielsku dają agentowi lepsze trafienia; odpowiedź ma być **po polsku**, z etykietami bazy (`{DOWÓD:…}`, `{KONSENSUS}`, `{WNIOSKOWANIE}`, `{ANALOGIA:…}`, `{SPEKULACJA}`, `{OPINIA}`), żeby wynik dało się przenieść do plików bez tłumaczenia.
+- **Po wyniku:** każdy PMID/DOI sprawdzamy sami (PubMed/Crossref/PMC) i sprawdzamy niezależność grup — tak jak przy G, Argonie 1 i 2. Model nie jest źródłem.
 
 ```
-Do a broad, systematic literature and web review on: injury patterns in aggressive inline skating (AGV, trick/street/park inline skating) by grind type (soul, topsoul, makio, mizou, frontside, backside, royale, unity, stalls, gaps/drops off grinds) and by structure (ankle, Achilles tendon, tibialis posterior, knee, wrist/hand).
+Conduct a systematic, broad literature review (Deep Research) on INJURY PATTERNS IN AGGRESSIVE INLINE SKATING (AGV) BY GRIND / TRICK TYPE AND BY BODY STRUCTURE, plus the closest analogous sports. Search in English (and German, French, Polish, Spanish where relevant), but WRITE THE WHOLE REPORT IN POLISH.
 
-CONTEXT: We are building an open-source, Polish-language knowledge base "Fizjo AGV" for aggressive inline skaters (AGV), physiotherapists and coaches. Topic: injury patterns in aggressive inline skating (AGV, trick/street/park inline skating) by grind type (soul, topsoul, makio, mizou, frontside, backside, royale, unity, stalls, gaps/drops off grinds) and by structure (ankle, Achilles tendon, tibialis posterior, knee, wrist/hand).
+CONTEXT
+"Fizjo AGV" is an open-source, Polish-language, evidence-graded knowledge base for aggressive inline skaters, physiotherapists and coaches. Pillar 1 (main): preparing the body for grinds and landings. Pillar 2: rehabilitation. The author is not a clinician, so every claim must be traceable to a primary source. Almost no AGV-specific research exists; most of the base is transferred from other sports and labelled as analogy.
 
-What we already know (seed):
-- No study breaks down injuries by grind type. The only AGV biomechanics study is a 10-skater pilot (S02): impact force fell with experience (r=-0.84) and with more knee flexion during stalls (r=-0.65); centre of mass never passed over the rail during grinds.
-- AGV field study (S01, 66 skaters, 2004): 1 medically treated injury per 586 h; more knee/tibia/ankle injuries than fitness skating; wrist guards 41%, knee pads 94%.
-- Inline skating in general (S03, S04): 53% upper-limb injuries; no wrist guards OR 10.4 for wrist injury.
-- Skateboarding analogy (S05): ankle 39.3% of injuries, ankle sprain most recurrent (70.1%).
-- Our grind→structure mapping (soul/makio → tibialis posterior/peroneals/Achilles insertion; topside → end-range ankle; H-block → knees/hips; royale/unity → combined knee+ankle rotation) is BIOMECH-INFERENCE only.
+READ FIRST (public raw files — this is what we already have; do not repeat it, extend or challenge it):
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/METHODOLOGY.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/sources.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-1-przygotowanie/wzorce-urazow-wg-grindow.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-1-przygotowanie/pozycja-przy-grindach/README.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-1-przygotowanie/pozycja-przy-grindach/soul-topsoul.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-1-przygotowanie/pozycja-przy-grindach/makio.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-1-przygotowanie/pozycja-przy-grindach/frontside-backside.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-1-przygotowanie/pozycja-przy-grindach/royale.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-1-przygotowanie/pozycja-przy-grindach/unity.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-1-przygotowanie/pozycja-przy-grindach/inne.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-1-przygotowanie/prewencja.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-2-rehabilitacja/czesci-ciala/kostka/skrecenie.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-2-rehabilitacja/czesci-ciala/kostka/niestabilnosc.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-2-rehabilitacja/czesci-ciala/achilles/tendinopatia.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-2-rehabilitacja/czesci-ciala/piszczelowy-tylny/tendinopatia.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-2-rehabilitacja/czesci-ciala/kolano/urazy.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-2-rehabilitacja/czesci-ciala/nadgarstek-reka/urazy.md
+https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/filar-2-rehabilitacja/czesci-ciala/glowa/wstrzasnienie.md
 
-Gaps we want filled:
-- Any AGV / trick-skating injury epidemiology after 2007 (competitions e.g. WRS, surveys, case series, theses).
-- Any kinematic/kinetic measurements of specific grinds (soul, topsoul, makio, royale, unity) — including engineering/master's theses.
-- Acute vs overuse injuries in AGV; equipment effects (hard boot, soul plate, frame).
-- Second independent sources for each S01–S05 claim; analogies from skateboarding, BMX, snowboard/ski park.
+The base has 143 sources (S01–S143). Key ones for this topic (do not re-report unless you correct them or find an independent second source):
+- AGV: S01 Hilgert 2004 (AGV field study, n=66, PMID 15592983); S02 Major 2007 (grind-rail biomechanics, n=10, PMID 17786694).
+- Inline skating general: S03 Dhodapkar 2023 (NEISS, PMID 37736602); S04 Schieber 1996 (safety gear, PMID 8929359); S36 Ślęczkowska 2021 (Polish survey, n=801, master's thesis).
+- Skateboarding: S05 Rodríguez-Rivadulla 2020 (Spain survey, PMC7082873); S52 Determan 2010, S74 Determan 2004, S78 Frederick 2006 (landing/ollie forces, same group); S53 Ou 2021 (ankle stability pro vs amateur).
+- Landings/analogies: S43–S45 (trunk flexion and landing forces), S46–S47 (parkour), S124 Shimokochi 2013; fatigue and injury timing S138–S142 (ACL not more frequent late in matches; ankle sprains more frequent later, S141).
+- Practitioner opinion (not evidence): S24–S33, S39 (skate/blading physios, interviews, blogs).
+Our grind → structure mapping (soul/makio → tibialis posterior, peroneals, Achilles insertion; topsoul → end-range ankle; royale/unity → combined knee + ankle rotation) is currently only {WNIOSKOWANIE}. The "typical AGV fall = slide onto knees/shins" claim is ⏳ (not in the S01 abstract).
 
-Sources we ALREADY HAVE (seed research, 2 Nov 2026):
-S01 Hilgert 2004 (AGV injury pattern, n=66, PMID 15592983); S02 Major 2007 (AGV grind-rail biomechanics, n=10, PMID 17786694); S03 Dhodapkar 2023 (NEISS skating injuries, PMID 37736602); S04 Schieber 1996 (in-line skating safety gear, PMID 8929359); S05 Rodríguez-Rivadulla 2020 (skateboarding injuries Spain, PMC7082873); S06 Ben Rowles skateboard physio interview (freeskatemag 2019); S07 NHS BNSSG tibialis posterior tendinopathy programme; S08 Kulig 2009 (PTTD RCT, PMID 19022863); S09 Beyer 2015 (HSR vs eccentric, PMID 26018970); S10 Jonsson 2008 (insertional Achilles eccentric, PMID 18184750); S11 Silbernagel 2007 (pain-monitoring model RCT, PMID 17307888); S12 Silbernagel 2015 (Achilles return-to-sport, PMID 26390272); S13 Silbernagel 2020 (conservative Achilles management, PMC7249277); S14 Magnusson 2010 (tendon response to loading, PMID 20308995); S15 Clifford 2020 (isometrics meta-analysis, PMC7406028); S16 Vriend (neuromuscular training ankle sprain meta-analysis, doi 10.1136/jisakos-2016-000062); S17 Doherty 2017 (ankle sprain overview of reviews, PMID 28053200); S18 NATA 2013 ankle sprain position statement (PMC3718356); S19 PAASS 2021 (PMID 34158354); S20 Mazzella 2025 (RTS after surgical ankle fracture, PMC12558590); S21 Sinha 2022 (ankle fracture return to play, PMC9494256); S22 MGH/Boston ORIF ankle fracture rehab protocol (PDF); S23 Sanford ankle return-to-sport test (PDF).
+SEARCH SCOPE
+Terms: "aggressive inline skating", "aggressive skating", "trick skating", "inline skate park", "rollerblading", "street skating", "freestyle roller", "skatepark injuries", "skateboard injuries", "grind", "rail", "ledge", "stair set", "handrail", plus German/French/Spanish/Polish equivalents ("Aggressive Inline", "roller agressif", "patinaje agresivo", "rolki agresywne").
+Sources: PubMed, PMC, Europe PMC, Google Scholar, Cochrane, sports-medicine journals (BJSM, AJSM, OJSM, JOSPT, J Athl Train, Inj Prev, Sportverletz Sportschaden), trauma registries (NEISS, national ED data), theses (engineering/biomechanics/physiotherapy), competition medical reports (e.g. World Roller Games, X Games, Olympic skateboarding 2020/2024), position statements.
+Analogies, in this order of relevance: skateboarding (street/park, rails), BMX freestyle, snowboard/ski park (rails/boxes), parkour, roller derby, recreational inline skating.
 
-Search: PubMed, PMC, Google Scholar, Cochrane, sports-medicine journals (BJSM, AJSM, JOSPT, J Athl Train), clinical guidelines/position statements, university/hospital rehab protocols, physiotherapy blogs and interviews with physios working with skaters/skateboarders. Also search older AGV terms: "aggressive skating", "trick skating", "inline skating park", "rollerblading grind".
+QUESTIONS
+1. Is there ANY injury data per grind or trick type (AGV or skateboarding: grinds, slides, stair/gap jumps, manuals, flips)? Which structures?
+2. AGV / trick-skating injury epidemiology after 2007: incidence per exposure, acute vs overuse, body region distribution, age, protective gear.
+3. Measured kinematics or kinetics of soul-plate or frame grinds, stalls, drops from ledges/rails (any thesis or conference paper).
+4. Mechanism of typical falls in AGV and skateboarding (forward slide onto knees, backward fall onto wrist/hip, lateral ankle roll, head impact). Is "slide onto knees/shins" supported anywhere?
+5. Structure-specific: ankle sprain / high ankle sprain / fractures, Achilles and tibialis posterior tendinopathy, peroneal injuries, knee (ACL, meniscus, patellar tendon, contusions), wrist/scaphoid/distal radius, head/concussion — in AGV, skateboarding, BMX, park skiing/snowboarding.
+6. Equipment effects: hard boot / cuff height, soul plate, frame, helmet, wrist guards, knee pads — any injury-reducing or injury-shifting evidence (e.g. wrist guards shifting fractures proximally).
+7. Contradictions: anything that contradicts our base files above (numbers, direction of effect, labels, independence of sources).
 
-Questions to cover:
-- Is there any injury data per grind/trick type in AGV or skateboarding?
-- What are the most common acute and overuse injuries in AGV after 2007?
-- Has anyone measured ankle/knee loads or kinematics during soul-plate grinds?
-- Is 'sliding onto knees/shins' really the typical AGV fall?
+RULES (mandatory)
+1. Only primary sources (studies, systematic reviews, registries, position statements). AI models, including you, are NOT sources. Blogs/interviews only as {OPINIA}, clearly separated.
+2. Every claim needs >= 2 INDEPENDENT primary sources (different research groups — check authors and senior authors) to be marked 2/2. With one source mark 1/2. Never count a review plus a study it includes as two sources.
+3. Every source: first author, year, full title, journal, volume:pages, DOI and PMID (or PMCID). Links only to doi.org, pubmed.ncbi.nlm.nih.gov or pmc.ncbi.nlm.nih.gov (or the original publisher/thesis repository). NO redirect links (vertexaisearch, google.com/url, etc.).
+4. Verify every identifier: the DOI/PMID must resolve to the same first author, year and title. If you cannot confirm it, write "PMID UNVERIFIED" / "DOI UNVERIFIED". Previous model runs on this base had several wrong PMIDs per report — we re-check all of them.
+5. Never invent numbers, authors, titles or identifiers. Report a number only if it appears in the source; state whether you saw it in the abstract or the full text. Give n for every study.
+6. Label every claim with exactly one main label, Polish base vocabulary: {DOWÓD:przegląd} | {DOWÓD:RCT} | {DOWÓD:obserwacyjne} | {KONSENSUS} | {WNIOSKOWANIE} | {SPEKULACJA} | {OPINIA}; add {ANALOGIA:<sport/populacja>} whenever the data is not from AGV.
+7. Keep evidence strictly separate from biomechanical inference and opinion.
+8. If nothing exists, write "BRAK DANYCH" with the databases and terms you searched. A clear "nothing found" is a valid result.
+9. Prefer studies not already in sources.md; we especially want SECOND, INDEPENDENT sources for existing 1/2 claims.
 
-RULES (mandatory):
-1. Every claim must cite a primary source with a working link or DOI (prefer DOI / PubMed / PMC). No source = do not state the claim.
-2. Label every claim with exactly one of: EVIDENCE:review | EVIDENCE:RCT | EVIDENCE:observational | CONSENSUS | BIOMECH-INFERENCE | ANALOGY:<sport/population> (add to another label) | SPECULATION.
-3. Keep evidence strictly separate from biomechanical inference and from practitioner opinion.
-4. Never invent numbers, authors, titles or DOIs. Only report a number if it appears in the cited source; say whether you saw it in the abstract or full text.
-5. If no data exists, write "NO DATA FOUND" for that question instead of guessing. A clear "nothing found" is a valid result.
-6. AI models (including you) are not sources. Cite what you found, not your own knowledge without a source.
-7. Do not repeat the sources we already have (listed below) unless you found something that contradicts or corrects them; we especially want SECOND, INDEPENDENT sources for existing claims.
+OUTPUT FORMAT (Markdown, Polish, exactly these sections in this order)
 
-OUTPUT FORMAT (Markdown, ready to paste into our knowledge base):
+## 1. Podsumowanie
+5–8 zdań: co nowego, najważniejsze luki, ile nowych źródeł, ile twierdzeń 2/2.
 
-### Claims
-| # | Claim (1 sentence) | Label | Source (first author, year, title) | DOI / link | Population / sport | n | Where verified (abstract/full text, page/table) | Confidence (high/med/low) |
-|---|---|---|---|---|---|---|---|---|
+## 2. Twierdzenia
+| # | Twierdzenie (1 zdanie, PL) | Etykieta | Źródła (autor rok) | DOI | PMID/PMCID | Populacja / sport | n | Gdzie sprawdzone (abstrakt/pełny tekst, tabela/strona) | Licznik (1/2 lub 2/2) | Niezależność (grupy badawcze) |
+|---|---|---|---|---|---|---|---|---|---|---|
 
-### Biomechanical inference (clearly NOT evidence)
-- <inference> — based on: <which cited facts>
+## 3. Urazy wg grindu / triku
+| Grind / trik | Struktura | Mechanizm | Dane (źródło) albo BRAK DANYCH | Etykieta |
+|---|---|---|---|---|
 
-### Contradictions between sources
-- <claim> — source X says ..., source Y says ...
+## 4. Urazy wg struktury (AGV vs analogie)
+Krótkie akapity: kostka, Achilles, piszczelowy tylny, strzałkowe, kolano, nadgarstek/ręka, głowa — każde zdanie z [źródło] i {ETYKIETA}.
 
-### NO DATA FOUND
-- <question> — what was searched (databases, terms)
+## 5. Sprzeczności z naszą bazą
+| Plik bazy | Nasze twierdzenie (cytat) | Co mówi nowe źródło | Źródło (DOI/PMID) | Proponowana zmiana |
+|---|---|---|---|---|
 
-### New sources (bibliography)
-| Source | Type (study/review/consensus/clinical material/physio blog/opinion) | DOI / link |
-|---|---|---|
+## 6. Wnioskowanie biomechaniczne (NIE dowód)
+- wniosek — na podstawie: [źródła] {WNIOSKOWANIE}
 
-Put the Claims table first. Aim for breadth: list every relevant source you find, even weak ones, with the correct label.
+## 7. BRAK DANYCH
+- pytanie — przeszukane bazy i hasła
+
+## 8. Bibliografia (nowe źródła)
+| # | Pełny opis (autor, rok, tytuł, czasopismo, tom:strony) | Typ | DOI | PMID/PMCID | Grupa badawcza / autor senior |
+|---|---|---|---|---|---|
+
+## 9. Identifier check
+| Źródło | DOI | PMID | Zgodne (autor+rok+tytuł) tak/nie/UNVERIFIED |
+|---|---|---|---|
+
+Aim for breadth: list every relevant primary source you find, even weak ones, with the correct label and counter. Quality of identifiers matters more than quantity.
 ```
