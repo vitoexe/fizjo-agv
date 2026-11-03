@@ -11,6 +11,7 @@ Podmienia też blok w README.md między <!-- STATUS:START --> i <!-- STATUS:END 
 Postęp punktu liczony z podpunktów checklisty w notatkach (liście drzewa):
 ✅ = 1, 🔄/⏳/🚧 = 0,5, ⬜/⏸/brak znacznika = 0. Punkt bez podpunktów: 100% gdy tytuł ma ✅
 (albo zadanie jest ukończone w Tasks), 50% gdy 🔄, inaczej 0%. Postęp łączny = średnia punktów.
+Kolejność punktów = kolejność na liście Google Tasks (pole position), nie numer z tytułu.
 """
 import datetime as dt, json, pathlib, re, sys
 from zoneinfo import ZoneInfo
@@ -124,6 +125,11 @@ def procent(done, doing):
     return round(100 * (done + 0.5 * doing))
 
 
+def kolejnosc(t):
+    """Kolejność z Google Tasks (pole position); zapasowo numer z tytułu."""
+    return (t.get("position", ""), numer(t))
+
+
 def numer(t):
     m = re.search(r"(\d+)\.", t["title"])
     return int(m.group(1)) if m else 999
@@ -147,7 +153,7 @@ def drzewo(items, poziom=0):
 
 def render(tasks):
     wiersze, wiersze_readme, sekcje, sum_d, sum_y = [], [], [], 0.0, 0.0
-    for t in sorted(tasks, key=numer):
+    for t in sorted(tasks, key=kolejnosc):
         bloki = parse(t.get("notes", ""))
         d, y, n = udzialy(t, bloki)
         sum_d += d; sum_y += y

@@ -11,6 +11,8 @@ Odświeżanie:
 3. `python3 tools/build_status_md.py` → `STATUS.md` oraz blok statusu w `README.md` między `<!-- STATUS:START -->` i `<!-- STATUS:END -->` (pasek łączny, tabela 13 punktów, data, link do STATUS.md; reszta README bez zmian). Gdy zmieniła się tylko data, pliki nie są nadpisywane. Znaczników w README nie usuwaj.
 4. Commit tylko gdy `git status --porcelain STATUS.md README.md tools/status-data.json` coś pokazuje; przed pushem `git pull --rebase`.
 
+Kolejność punktów w STATUS.md i README = kolejność na liście Google Tasks (pole `position`; zmiana przez przeniesienie zadania w Tasks), nie numer w tytule.
+
 Status punktu (ikona przy nazwie) pochodzi z tytułu zadania: ✅ zrobione, 🔄 / ⏳ / 🚧 / „[w toku]” w toku, brak — do zrobienia; ukończone zadanie w Tasks = zrobione.
 
 Postęp punktu (pasek 10 pól 🟩/🟨/⬜ + %): z podpunktów checklisty w notatkach — ✅ = 1, 🔄 = 0,5, ⬜ / ⏸️ / brak = 0 (liczone najniższe poziomy listy). Punkt bez podpunktów: ✅ = 100%, 🔄 = 50%, inaczej 0%. Postęp łączny = średnia punktów.

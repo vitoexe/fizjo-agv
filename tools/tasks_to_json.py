@@ -23,6 +23,7 @@ def main():
         if t.get("deleted") or t.get("parent"):
             continue
         tasks.append({k: t[k] for k in ("title", "notes", "status", "updated", "completed", "due", "position") if k in t})
+    tasks.sort(key=lambda t: t.get("position", ""))  # kolejność jak w Google Tasks
     out = {"source": "Google Tasks: lista „Fizjo AGV” (tytuły, opisy i statusy)", "tasks": tasks}
     new = json.dumps(out, ensure_ascii=False, indent=2) + "\n"
     if dst.exists() and dst.read_text(encoding="utf-8") == new:
