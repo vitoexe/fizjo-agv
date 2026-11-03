@@ -12,6 +12,8 @@ Dla kogo:
 
 Wersja 0.1 (2.11.2026): szkielet + treść przeniesiona z pierwszego researchu o grindach. **Nic tu nie przeszło jeszcze review fizjoterapeuty.** Wszystkie pliki mają `status: szkic`.
 
+**Status projektu:** [`STATUS.md`](STATUS.md) — postęp planu generowany z listy zadań (Google Tasks „Fizjo AGV”).
+
 ## Dwa filary (decyzja z 2.11.2026)
 
 1. **Filar 1 — Przygotowanie do grindów (GŁÓWNY, priorytet researchu).** Anatomicznie prawidłowa pozycja i ustawienie ciała przy grindach (staw skokowy, kolano, biodro, tułów, ugięcie, najazd, lądowanie), trening (wzmacnianie, stabilizacja, propriocepcja, mobilność), rozgrzewka, obciążenie i periodyzacja, prewencja.

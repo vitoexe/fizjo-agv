@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
-"""Zamienia surowy wynik list_tasks (Google Tasks, JSON) na docs/status-data.json.
+"""Zamienia surowy wynik list_tasks (Google Tasks, JSON) na tools/status-data.json (dla tools/build_status_md.py → STATUS.md).
 
 Zapisuje tytuł, pełny opis (notes), status, daty i pozycję. Id, etag i selfLink są pomijane.
-Uwaga: strona jest publiczna — opisy w Tasks też stają się publiczne (decyzja właściciela, 2.11.2026).
+Uwaga: STATUS.md jest publiczny — opisy w Tasks też stają się publiczne (decyzja właściciela, 2.11.2026).
 
-Użycie:  python3 tools/tasks_to_json.py surowe_tasks.json [docs/status-data.json]
+Użycie:  python3 tools/tasks_to_json.py surowe_tasks.json [tools/status-data.json]
 """
 import json, re, sys, pathlib
 
 def main():
     src = pathlib.Path(sys.argv[1])
     dst = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else
-                       pathlib.Path(__file__).resolve().parent.parent / "docs" / "status-data.json")
+                       pathlib.Path(__file__).resolve().parent.parent / "tools" / "status-data.json")
     text = src.read_text(encoding="utf-8")
     # toleruj otoczkę wokół JSON-a: weź od pierwszego '[' do ostatniego ']'
     m = re.search(r"\[.*\]", text, re.S)
