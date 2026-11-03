@@ -16,6 +16,7 @@ recenzent: ""
 - W AGV udział urazów kolana (i piszczeli, kostki) jest wyższy niż w jeździe fitness. [S01] {DOWÓD:obserwacyjne} ✔ 1/2
 - Ochraniacze kolan nosiło 94% skaterów AGV. [S01] {DOWÓD:obserwacyjne} ✔ 1/2
 - Większe ugięcie kolana przy wejściu na stall wiązało się z mniejszą szczytową siłą uderzenia. [S02] {DOWÓD:obserwacyjne} ✔ 1/2
+- Przysiad jednonóż na desce skośnej (decline squat) obciąża więzadło rzepki bardziej niż przysiad jednonóż na płaskim: najwyższy wskaźnik obciążenia z 35 ćwiczeń rehabilitacyjnych (0,747 vs 0,580 dla pełnego przysiadu jednonóż), 20 zdrowych dorosłych [S167]; przy nachyleniu powyżej 15° szczytowa siła w ścięgnie rzepki o ok. 40% większa niż na płaskim, 5 osób [S168]. {DOWÓD:obserwacyjne} ✔ 2/2. Badania laboratoryjne u zdrowych, nie u rolkarzy i nie u osób z tendinopatią; pełny ranking ćwiczeń i progi poziomów z [S167] — ⏳ 1/2.
 
 ## Wnioskowanie biomechaniczne
 
@@ -29,6 +30,7 @@ recenzent: ""
 ## Dla fizjoterapeuty
 
 - Nauka lądowania z ugiętymi kolanami ma wsparcie w pilotażu [S02]; brak badań interwencyjnych w AGV.
+- Przy stopniowaniu obciążenia więzadła rzepki przysiad jednonóż na desce skośnej to ćwiczenie o wysokim obciążeniu — raczej na późny etap niż na start [S167][S168] {WNIOSKOWANIE}. To wskazówka do planowania, nie diagnoza ani gotowy protokół.
 
 ## TODO / pytania do researchu
 
@@ -38,4 +40,4 @@ recenzent: ""
 
 ## Źródła
 
-[S01] [S02] — `sources.md`.
+[S01] [S02] [S167] [S168] — `sources.md`.

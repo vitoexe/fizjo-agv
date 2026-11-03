@@ -300,3 +300,17 @@ Uwagi:
 - S164 (Rijad, Nadżran, Pune) i S165 (Old Dominion University) — brak wspólnych autorów → **niezależne**; 2/2 tylko dla deficytu równowagi dynamicznej. Zakres ruchu: S164 (czynny, goniometr) bez różnic vs S165 (wykrok w obciążeniu) mniejszy — sprzeczne.
 - S166 i S160 mają wspólnego autora (Powden CJ) — bez znaczenia, dotyczą różnych twierdzeń. S166 nie mógł włączyć S156 (wyszukiwanie do X 2019) → niezależne od S156; w piśmiennictwie S166 są też wyniki zerowe (np. Gribble 2010).
 - Odrzucone jako drugie źródło (nie niezależne): Bolia 2023 (≥8 prac wspólnych z S151), Konor 2012 (włączone do Powden 2015), Jeon 2025 (obejmuje De Ridder 2015). George 2024 (deskorolki) nie potwierdza danych AGV.
+
+## Batch-4 2b — aplikacja Gemini (Deep Research), obciążanie ścięgien, drugie źródła runda 2 (dodane 4.11.2026)
+
+Surowy wynik i triage: `research-raw/2026-11-04_batch4-2b_gemini-deep-research.md`. Identyfikatory sprawdzone przez nas w PubMed i Crossref; model podał 7 PMID (bez DOI) — wszystkie poprawne. Scattone Silva 2024 to wcześniej znane źródło 1/2 (batch-1 B), teraz z drugim niezależnym źródłem.
+
+| ID | Źródło | Typ | Etykieta | Dotyczy AGV? | Status | Link |
+|---|---|---|---|---|---|---|
+| S167 | Scattone Silva R, Song KE, Hullfish TJ, Sprague A, Silbernagel KG, Baxter JR 2024. *Patellar Tendon Load Progression during Rehabilitation Exercises: Implications for the Treatment of Patellar Tendon Injuries*. Med Sci Sports Exerc 56(3):545–552 | badanie laboratoryjne (kinematyka i kinetyka), 20 zdrowych dorosłych, 35 ćwiczeń, **nie RCT** | `{DOWÓD:obserwacyjne}` (laboratoryjne) | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/37847102/ · PMC10925836 · doi:10.1249/MSS.0000000000003323 |
+| S168 | Zwerver J, Bredeweg SW, Hof AL 2007. *Biomechanical analysis of the single-leg decline squat*. Br J Sports Med 41(4):264–268 | badanie laboratoryjne (dynamika odwrotna 2D, płyta siłowa), n=5, **nie RCT** | `{DOWÓD:obserwacyjne}` (laboratoryjne) | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/17224441/ · PMC2658963 · doi:10.1136/bjsm.2006.032482 |
+
+Uwagi:
+- S167 (Philadelphia/Delaware; Baxter JR) i S168 (Groningen; Hof AL) — brak wspólnych autorów → **niezależne**; S168 starsze, nie mogło być częścią S167. 2/2 tylko dla tego, że przysiad jednonóż na desce skośnej obciąża więzadło rzepki bardziej niż na płaskim; pełny ranking i progi poziomów S167 — 1/2. Różne miary (wskaźnik złożony vs szczytowa siła ścięgna).
+- Odrzucone jako drugie źródło (nie niezależne lub za słabe): Jerger 2022 i 2023 (jedna grupa; König D też w Bischof 2024), Gómez-Jurado 2021 (przegląd, cytuje S08 i Alvarez 2006), Sancho 2019 (kohorta wykonalności n=15, nie test modelu bólu).
+

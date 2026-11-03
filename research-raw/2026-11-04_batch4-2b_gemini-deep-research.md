@@ -9,7 +9,7 @@ url_czatu: "https://gemini.google.com/app/d60ce8f02a6bf301"
 dokument_eksportu: "Google Doc 1KFK7lELQmCqqJCKuHKf77-9F-FuyCt4bxjmuKPj93eA („Tendon Loading Claims Verification”)"
 ustawienia: "Deep Research w aplikacji Gemini, model Pro, tryb Rozszerzony"
 eksport: "Eksport do Google Docs → odczyt Drive jako Markdown (tylko odczyt); usunięte tylko znaki ucieczki Markdown (\\_, \\-, \\.); poza tym tekst bez zmian"
-status_weryfikacji: "niezweryfikowane"
+status_weryfikacji: "zweryfikowane (4.11.2026): 7 PMID (2 znane, 5 nowych; model nie podał DOI ani PMCID, pominął sekcje Bibliografia/Identifier check/NIE ZNALEZIONO) — wszystkie istnieją i zgadzają się z autorem, rokiem i tytułem; błędy opisu: senior Jerger 2023 to König D, nie Gollhofer A; Zwerver 2007 to dynamika odwrotna 2D (n=5), nie „bezpośrednie pomiary in vivo”; Li 2024 — rangi przekręcone; do bazy: B6 (wąsko: przysiad jednonóż na desce skośnej obciąża więzadło rzepki bardziej niż na płaskim) → S167 Scattone Silva 2024 + S168 Zwerver 2007 (2/2); B3, B4, B5 — kandydaci niezależni tylko pozornie lub zbyt słabi, odłożone; B2, B7 — nic — szczegóły w sekcji Triage"
 ---
 
 # **Raport Badawczy: Obciążanie Ścięgien (Targeted Verification - Część B)**
@@ -75,3 +75,53 @@ Podejście do ukierunkowanej mechanoterapii aparatu wyprostnego zależy od wykor
 
 Nie udało się odnaleźć niezależnych badań rzutujących na celową mechanikę usztywnienia stopy w zgięciu podeszwowym, które odpowiadałyby specyfice obuwia profilowanego (np. w sportach takich jak narciarstwo czy agresywna jazda na rolkach).  
 **Werdykt:** NIE ZNALEZIONO. Po odrzuceniu głównych opracowań referencyjnych dla tego problemu wyszukiwanie przeprowadzone w bazach (użyte zogniskowane terminy: *Achilles tendon load, immobilizing boot, MSK modelling, in-vivo, stiff sport boot, {ANALOGIA:ski, skate}*) nie wskazało żadnych zweryfikowanych dowodów opublikowanych pod dającym się uwiarygodnić identyfikatorem naukowym.
+---
+
+## Triage (4.11.2026, Fizjo AGV)
+
+Prompt 2b poszedł tylko do aplikacji Gemini (bez pary z AI Studio — limit dzienny). Model nie jest źródłem. Wszystkie identyfikatory sprawdzone przez nas w PubMed (esummary/efetch) i Crossref; treść porównana z abstraktami; niezależność sprawdzona po autorach i — gdzie się dało — po liście piśmiennictwa w Crossref. Model pominął wymagane sekcje 3 (Bibliografia), 4 (Identifier check) i 5 (NIE ZNALEZIONO) oraz nie podał DOI — DOI poniżej pochodzą z PubMed, nie od modelu.
+
+### Identyfikatory
+
+| Źródło (wg modelu) | PMID | DOI (z PubMed) | PMCID | Wynik sprawdzenia |
+|---|---|---|---|---|
+| Li 2024 (znane, Heliyon 10:e39171) | 39559237 ✔ | 10.1016/j.heliyon.2024.e39171 | PMC11570476 | ✔; opis: „Rank 8, 0.01” — w abstrakcie „0.01 in Rank 1 and 0.06 in Rank 8” dla ekscentryki |
+| Liu 2026 (znane, BMC Sports Sci Med Rehabil 18) | 42192475 ✔ | 10.1186/s13102-026-01743-4 | PMC13308153 | ✔; „10 badań” i wykluczenie interwencji złożonych są już w abstrakcie (model pisze „pełny tekst”) |
+| Jerger S i wsp. 2022 (Scand J Med Sci Sports 32(7):1131–1141) | 35403756 ✔ | 10.1111/sms.14164 | — | ✔ tytuł, autor, rok |
+| Jerger S i wsp. 2023 (Eur J Sport Sci 23(12):2329–2339) | 37424319 ✔ | 10.1080/17461391.2023.2232758 | — | ✔ identyfikator; ✘ **senior to König D**, nie Gollhofer A (Gollhofer jest przedostatni); „podwójnie zaślepione” — w abstrakcie tylko „placebo-controlled” |
+| Gómez-Jurado I i wsp. 2021 (Clin Rehabil 35(2):159–168) | 33040609 ✔ | 10.1177/0269215520960121 | — | ✔ |
+| Sancho I i wsp. 2019 (Phys Ther Sport 40:107–116) | 31518777 ✔ | 10.1016/j.ptsp.2019.08.007 | — | ✔ |
+| Zwerver J i wsp. 2007 (Br J Sports Med 41(4):264–268) | 17224441 ✔ | 10.1136/bjsm.2006.032482 | PMC2658963 | ✔ identyfikator; ✘ opis „bezpośrednie pomiary in vivo” — to dynamika odwrotna 2D z płyty siłowej, n=5 |
+
+Razem: **7 identyfikatorów (7 PMID; 2 znane, 5 nowych)** — wszystkie istnieją i zgadzają się z pierwszym autorem, rokiem i tytułem. **0 błędnych identyfikatorów**; błędy opisu: 1 zły autor senior (Jerger 2023), 1 zawyżony typ pomiaru (Zwerver 2007), 1 przekręcona ranga (Li 2024).
+
+### Treść, niezależność, populacja — twierdzenie po twierdzeniu
+
+| Tw. | Werdykt modelu | Nasz werdykt |
+|---|---|---|
+| B1 tendinopatia rzepki: ekscentryka vs HSR vs izometria | rozbieżność z selekcji badań | **Bez zmian — sprzeczne.** Nowych źródeł brak. Z abstraktów: Li 2024 — 3 bazy, 7 badań, tylko węzły ekscentryka/izometria/HSR, wynik VISA-P; Liu 2026 — 11 baz do XII 2025 + ClinicalTrials.gov, główna sieć 10 RCT (313 osób, 11 węzłów) po wykluczeniu interwencji złożonych i jednego niepołączonego porównania, HSR jako odniesienie. Pokrycia badań model nie sprawdził („nie sprawdzono”) — my też nie (brak list włączonych w abstraktach). |
+| B2 Achilles: HSR ≈ ekscentryka | NIE ZNALEZIONO | **1/2** (S09) — bez zmian. |
+| B3 kolagen + trening a ścięgna | „2/2 możliwe” (Jerger 2022 + Jerger 2023) | **Nie 2/2.** Oba RCT to ta sama grupa (Jerger, Centner, Lauber, Seynnes, Gollhofer, König; Freiburg/Wiedeń) → nie są od siebie niezależne. König D jest też autorem seniorem znanej metaanalizy Bischof 2024 (PMID 39060741), więc nie są niezależne od niej (prawdopodobnie też w niej włączone — nie sprawdzono listy). W Jerger 2022 współautor z Collagen Research Institute (Kiel). Treść zgodna z abstraktami: 14 tyg. treningu oporowego + 5 g/d peptydów: większy przyrost przekroju (CSA) ścięgna Achillesa (+11,0% vs +4,7%, n=40) i więzadła rzepki (na 60% i 70% długości, n=50) niż placebo; **sztywność ścięgna bez różnic między grupami** (w obu pracach). Zdrowi, aktywni mężczyźni, nie tendinopatia. Kandydat jako jedna linia badań; potrzebne RCT innej grupy. |
+| B4 PTTD I–II: orteza + ćwiczenia (83%) | „2/2 niepotwierdzone bezpośrednio” (Gómez-Jurado 2021) | **1/2.** Gómez-Jurado 2021 to przegląd systematyczny 4 RCT (n=186), nie badanie pierwotne; w jego piśmiennictwie (Crossref) są Kulig 2009 (S08, doi:10.2522/ptj.20070242) i Alvarez 2006 (doi:10.1177/107110070602700102) → nie jest niezależny od znanych źródeł. Abstrakt: ortezy z ćwiczeniami „seemed to improve”, 75% RCT z wysokim ryzykiem błędu; liczby 83% nie potwierdza. |
+| B5 model monitorowania bólu | „2/2 możliwe” (Sancho 2019) | **1/2.** Sancho 2019 (QMUL/Monash; brak wspólnych autorów z Silbernagel/Thomeé → niezależne; cytuje S11) to pojedyncza kohorta wykonalności, n=15 biegaczy z tendinopatią środkowej części Achillesa, skoki dawkowane wg zgłaszanego bólu. Bez grupy kontrolnej, 3 zdarzenia niepożądane; wniosek autorów: RCT „may be warranted”. Abstrakt nie podaje progu 5/10 ani zasady „powrót do wyjścia rano” — nie sprawdzono w pełnym tekście. Nie jest testem modelu; kandydat do pary po przeczytaniu pełnego tekstu. Etykieta modelu {ANALOGIA:biegacze} poprawna co do populacji. |
+| B6 ranking obciążenia więzadła rzepki | „2/2 możliwe” (Zwerver 2007) | **Częściowo 2/2 (wąsko).** Zwerver 2007 (Groningen; Zwerver, Bredeweg, Hof) — brak wspólnych autorów z Baxter/Silbernagel/Hullfish → niezależne; starsze niż S167, więc nie mogło być jego częścią. 5 osób, przysiad jednonóż na desce 0–30°: „All single-leg squats at decline angles >15 degrees result in 40% increase in maximum patellar tendon force” (abstrakt). Scattone Silva 2024: przysiad jednonóż na desce skośnej miał najwyższy wskaźnik obciążenia (0,747) z 35 ćwiczeń, wyżej niż pełny przysiad jednonóż (0,580). **2/2 tylko dla: przysiad jednonóż na desce skośnej obciąża więzadło rzepki bardziej niż na płaskim** → S167 + S168. Cały ranking 35 ćwiczeń i progi poziomów — nadal 1/2. |
+| B7 but w zgięciu podeszwowym a obciążenie Achillesa | NIE ZNALEZIONO | **1/2** (Hullfish 2024) — bez zmian. |
+
+### Co weszło do bazy
+
+- **S167** Scattone Silva 2024 + **S168** Zwerver 2007 → `filar-2-rehabilitacja/czesci-ciala/kolano/urazy.md`: przysiad jednonóż na desce skośnej obciąża więzadło rzepki bardziej niż przysiad jednonóż na płaskim (2/2, `{DOWÓD:obserwacyjne}`, laboratorium, zdrowi; nie diagnoza).
+
+### Co odłożono (1/2 lub nie niezależne)
+
+- B3: Jerger 2022, Jerger 2023 — jedna grupa, wspólny autor z Bischof 2024.
+- B4: Gómez-Jurado 2021 — przegląd, cytuje S08 i Alvarez 2006.
+- B5: Sancho 2019 — kohorta wykonalności, progu 5/10 nie sprawdzono w pełnym tekście.
+- B1 (sprzeczne), B2, B7 — bez nowych źródeł.
+
+### Sprzeczności z bazą
+
+Brak. B6 nie przeczy niczemu w bazie; B3 — sztywność ścięgna bez różnic w Jerger 2022/2023 vs wzrost sztywności bez treningu w Miyamoto 2025 (batch-1 B) — różne pomiary i populacje, do odnotowania przy następnej rundzie kolagenu.
+
+### Czy runda dodała coś nowego
+
+Tak, mało: jedno nowe niezależne źródło (Zwerver 2007) zamknęło wąską część B6. Pozostałe kandydaty są nowe względem batch-1 B, ale nie spełniają reguły 2/2. Po tej rundzie bez drugiego niezależnego źródła: B1 (sprzeczne), B2, B3, B4, B5, B7 oraz pełny ranking B6.

@@ -164,3 +164,5 @@ Nic. Wszystkie twierdzenia mają 1/2 albo przeczą im źródła.
 - Model zgłosił sprzeczność z `achilles/tendinopatia.md` (ekscentryka ≈ HSR, Beyer 2015). To nie jest sprzeczność: dane o rzepce nie przenoszą się na Achillesa, a druga NMA (Liu 2026) też nie pokazuje przewagi HSR nad ekscentryką w rzepce. Bez zmian.
 - Sekcja 6 (wnioskowanie AGV: but jako „klatka ochronna”, przenoszenie sił na kolano, PTTD przy soul/makio, klin pod piętę w linerze) — bez źródeł AGV, z przesadnymi słowami; nie wchodzi. Kandydat do `{SPEKULACJA}` po recenzji fizjoterapeuty.
 - Sekcja 10 (Allina Health, Arnold Palmer Hospital, Stride Foot & Ankle) — {OPINIA}, nie sprawdzaliśmy PDF-ów.
+
+> Dopisek 4.11.2026: runda 2 dla tych twierdzeń (batch-4 2b, aplikacja Gemini) i jej triage — `2026-11-04_batch4-2b_gemini-deep-research.md` (do bazy S167–S168: przysiad na desce skośnej, 2/2).
