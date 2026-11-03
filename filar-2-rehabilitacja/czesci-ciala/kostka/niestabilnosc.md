@@ -16,6 +16,7 @@ recenzent: ""
 - Skręcenie kostki to uraz o wysokim ryzyku nawrotu. [S17] {DOWÓD:przegląd} ✔ 1/2
 - W skateboardingu skręcenie kostki nawracało najczęściej ze wszystkich urazów (70,1%). [S05] {DOWÓD:obserwacyjne}{ANALOGIA:skateboarding} ✔ 1/2
 - Trening nerwowo-mięśniowy zmniejsza ryzyko skręceń o ok. 40%. [S16] {DOWÓD:przegląd}{ANALOGIA:ogólnie sportowcy} ⏳ 1/2
+- Przy przewlekłej niestabilności kostki tejp (i orteza) poprawia samoocenę, pewność i poczucie stabilności, ale nie poprawia wyników testów funkcjonalnych (skoki, SEBT, stanie na jednej nodze); jedyny wyjątek to schodzenie ze schodów, o 4% szybsze z tejpem. Dla fizjo: stabilizator może dodać pewności przy powrocie do jazdy, ale nie zastępuje treningu równowagi i nie maskuje deficytu w testach. [S156][S157] {DOWÓD:obserwacyjne} ✔ 2/2
 
 ## Wnioskowanie biomechaniczne
 
@@ -39,4 +40,4 @@ recenzent: ""
 
 ## Źródła
 
-[S05] [S06] [S16] [S17] [S153] [S154] — `sources.md`.
+[S05] [S06] [S16] [S17] [S153] [S154] [S156] [S157] — `sources.md`.

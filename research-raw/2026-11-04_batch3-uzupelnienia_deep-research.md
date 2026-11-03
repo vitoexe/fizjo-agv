@@ -247,3 +247,45 @@ Kiedy modele zwłok zaczęto upuszczać w eksperymentach modyfikowanej gilotyny 
 - **D7** — Self-mobilization with movement MWM ankle dorsiflexion weight bearing lunge CAI improvement
 - **D9** — 20-30 min screening battery jumping landing athletes predictive validity hop tests Y-Balance
 - **A4** — Terrain park features jumps vs rails snowboard ski injury risk independent of Russell
+
+---
+
+## Triage (4.11.2026, Fizjo AGV)
+
+Identyfikatory sprawdzone przez nas w PubMed (efetch) i konwerterze PMC. Model nie podał autorów — uzupełniamy:
+
+| ID modelu | Praca (z PubMed) | Zgodne z opisem modelu? |
+|---|---|---|
+| PMID 27262625 | Halim-Kertanegara S, Raymond J, Hiller CE, Kilbreath SL, Refshauge KM 2017. *The effect of ankle taping on functional performance in participants with functional ankle instability*. Phys Ther Sport 23:162–167. doi:10.1016/j.ptsp.2016.03.005 (crossover, n=25, Sydney) | tak |
+| PMID 28355980 | Stiffler MR, Bell DR, Sanfilippo JL, Hetzel SJ, Pickett KA, Heiderscheit BC 2017. *Star Excursion Balance Test Anterior Asymmetry Is Associated With Injury Status in Division I Collegiate Athletes*. JOSPT 47(5):339–346. doi:10.2519/jospt.2017.6974 (kohorta **retrospektywna**, n=147) | tak (model nazwał „obserwacyjne”) |
+| PMC3484905 | Chisholm MD, Birmingham TB, Brown J, MacDermid J, Chesworth BM 2012. *Reliability and validity of a weight-bearing measure of ankle dorsiflexion range of motion*. Physiother Can 64(4):347–355. PMID 23997389, doi:10.3138/ptc.2011-41 (n=53) | tak |
+| PMID 21917610 | Backman LJ, Danielson P 2011. *Low range of ankle dorsiflexion predisposes for patellar tendinopathy in junior elite basketball players: a 1-year prospective study*. Am J Sports Med 39(12):2626–2633. doi:10.1177/0363546511420552 (n=75) | tak |
+| PMID 15592983 | Hilgert RE, Besch L, Behnke B, Egbers HJ 2004. *[Injury pattern caused by aggressive inline skating]*. Sportverletz Sportschaden 18(4):196–203 — **już w bazie jako S01** | tak |
+| PMC8846291 | Twining PK, Caldwell R, DeSarno M, Blackburn E, Shafritz AB 2022. *A 40-year Study of the Factors Associated with Diaphyseal Forearm Fractures in Skiers and Snowboarders*. Clin Orthop Relat Res 480(3):562–570. PMID 34587121, doi:10.1097/CORR.0000000000001982 (case-control) | tak, ale tylko narciarze i snowboardziści — **nie rolkarze**, jak sugeruje model |
+| PMID 9174522 | Lewis LM, West OC, Standeven J, Jarvis HE 1997. *Do wrist guards protect against fractures?* Ann Emerg Med 29(6):766–769. doi:10.1016/s0196-0644(97)70198-7 (zwłoki, test upadku) | tak |
+| — | Schrefl 2024 (CISS Journal) — bez identyfikatora | niezweryfikowane |
+| — | „scoping review, 86 badań” (D4) — bez autora i identyfikatora | niezweryfikowane |
+
+### Co weszło do bazy
+
+| Twierdzenie | Źródła | Plik |
+|---|---|---|
+| C2. W przewlekłej/funkcjonalnej niestabilności kostki tejp (i orteza — tylko Picot) poprawia samoocenę, pewność i poczucie stabilności, ale nie wyniki testów funkcjonalnych (hop, SEBT, stanie na jednej nodze); wyjątek: schodzenie ze schodów o 4% szybciej z tejpem | Picot 2025 → S156 + Halim-Kertanegara 2017 → S157, ✔ 2/2 (Chambéry/Lyon itd. vs Sydney — brak wspólnych autorów) | `filar-2-rehabilitacja/czesci-ciala/kostka/niestabilnosc.md` |
+
+### Co czeka / obalone — powód
+
+| Tw. | Werdykt modelu | Nasz werdykt |
+|---|---|---|
+| C1 Ankle-GO | brak 2. źródła | zgadzamy się; 1/2 |
+| C3 syndesmoza: operacja vs leczenie zachowawcze | brak 2. źródła | 1/2 |
+| C4 syndesmoza: skok i FABQ | brak 2. źródła | 1/2 |
+| D1 SEBT przód >4 cm | częściowo | Stiffler 2017 (Wisconsin, niezależne od Plisky) potwierdza **kierunek**: asymetria w kierunku przednim odróżniała kontuzjowanych (AUC >0,82), ale to kohorta retrospektywna, uraz tylko kolana/kostki, bez progu 4 cm i bez OR 2,5. Sklempe Kokic 2023 nie potwierdza. Próg 4 cm nadal 1/2 → czeka. |
+| D2 WBLT MDC | „2/2” | **Nie przyjmujemy.** Chisholm 2012 daje inne liczby (MDC 1,0 cm dla jednej nogi / 1,5 cm dla różnicy stron, pacjenci po urazie) niż Powden 2015 (1,9 / 1,6 cm), a przegląd Powden 2015 najpewniej obejmuje Chisholm 2012 (nie sprawdzaliśmy listy) — wtedy nie są niezależne. Model błędnie mówi, że MDC „przeczy” 1,9 cm i nazywa MDC tolerancją asymetrii. |
+| D3 normy wspięć | częściowo | Schrefl 2024 bez identyfikatora — niezweryfikowane; 1/2 |
+| D4 testy przesiewowe ≠ prognoza | „2/2” | **Nie przyjmujemy** — źródło bez autora i identyfikatora. |
+| D5, D6, D7, D9 | brak 2. źródła | 1/2 |
+| D8 zgięcie grzbietowe a tendinopatia rzepki | „2/2” | **Nie przyjmujemy jako 2/2.** Backman 2011 (prospektywne, n=75; próg 36,5°) istnieje i wskazuje na związek, ale przegląd Sprague 2018 najpewniej je obejmuje (nie sprawdzane), a sam przegląd ocenia dowody jako ograniczone/sprzeczne. Kandydat do bazy jako ⏳ 1/2 z Backman 2011. |
+| A1 mechanizm urazów AGV (Maudot) | „obalone częściowo” | Hilgert 2004 to nasze S01 (nie nowe). Jego abstrakt mówi o większym odsetku urazów kolana, piszczeli i kostki — to **sprzeczność** z „kończyna górna częściej” u Maudot 2014; fazy (przeszkoda 46,5%, lądowanie 40,9%) nadal tylko Maudot. Do sprawdzenia, czy baza przy Maudot zaznacza tę rozbieżność. |
+| A2 splint-top | „obalone 2/2” | **Nie obalone.** Twining 2022 (narciarze/snowboardziści, case-control): ochraniacze nie wiązały się z większą szansą złamania trzonów przedramienia. To słabi ten argument, ale nie przeczy istnieniu 4 przypadków Cheng 1995 i nie dotyczy rolek. Kandydat do bazy jako przeciwwaga ⏳ 1/2. |
+| A3 zwłoki: brak różnicy siły złamania | „obalone 2/2” | **Sprzeczne wyniki, nie obalenie.** Lewis 1997 (zwłoki, test upadku, zaślepiony) — z ochraniaczem potrzeba było więcej upadków, większej wysokości i energii do złamania. Inna metoda niż Giacobetti 1997 (obciążenie statyczne). Kandydat do bazy jako przeciwwaga ⏳ 1/2. |
+| A4 elementy parku | brak 2. źródła | 1/2 |

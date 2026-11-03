@@ -252,3 +252,17 @@ Uwagi:
 - S154 nie potwierdza progu „asymetria w kierunku przednim >4 cm” z S153: kierunek przedni nie wiązał się z urazem kończyny dolnej (tylko z bólem krzyża).
 - Chang 2020 (Biomed Res Int, PMID 32309441, przekrojowe, n=32 — przypis 2 modelu): SEBT bez różnic między grupami wysokiego i niskiego *ryzyka* urazu. Nie mierzono przyszłych urazów, więc nie przeczy S153/S154; nie wpisujemy.
 - S155: model podał tę pracę jako „Moran J i wsp. 2024, doi:10.3389/fphys.2024.1327904” — taki DOI nie istnieje, a autorzy to Zhou i wsp. (Capital University of Physical Education and Sports, Pekin); poprawny DOI był tylko w przypisie 7 modelu. Liczby (N=605) zgodne z abstraktem. S155 i S84 (Zech, Erlangen) — brak wspólnych autorów → **niezależne**.
+
+## Batch-3 — Deep Research, drugie źródła dla odłożonych twierdzeń (dodane 4.11.2026)
+
+Surowy wynik i triage: `research-raw/2026-11-04_batch3-uzupelnienia_deep-research.md`. Identyfikatory sprawdzone przez nas w PubMed i konwerterze PMC. Z 17 twierdzeń do bazy weszło jedno (C2, tejp/orteza w niestabilności kostki); reszta czeka w research-raw.
+
+| ID | Źródło | Typ | Etykieta | Dotyczy AGV? | Status | Link |
+|---|---|---|---|---|---|---|
+| S156 | Picot B, Fourchet F, Laydevant W, Louis C, Rauline G, Meyer A, Podlog L, Lopes R, Hardy A 2025. *Ankle supports enhance only psychological aspects of the Ankle-GO score in patients with chronic ankle instability*. J Athl Train 60(6):429–436 | badanie krzyżowe (crossover), n=30, CAI, 3 warunki (tejp, orteza, bez) | `{DOWÓD:obserwacyjne}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/39916658/ · PMC12360251 · doi:10.4085/1062-6050-0584.24 |
+| S157 | Halim-Kertanegara S, Raymond J, Hiller CE, Kilbreath SL, Refshauge KM 2017. *The effect of ankle taping on functional performance in participants with functional ankle instability*. Phys Ther Sport 23:162–167 | badanie krzyżowe (crossover), n=25, funkcjonalna niestabilność (CAIT <25), tylko tejp | `{DOWÓD:obserwacyjne}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/27262625/ · doi:10.1016/j.ptsp.2016.03.005 |
+
+Uwagi:
+- S156 (Chambéry, Lyon, Montreal i inne) i S157 (University of Sydney) — brak wspólnych autorów → **niezależne**. Refshauge KM i Hiller CE są współautorami S152 (syndesmoza) — bez związku z tym twierdzeniem.
+- S157 bada tylko tejp; orteza jest tylko w S156 — dla ortezy twierdzenie ma 1/2.
+- W S157 poczucie stabilności rosło przy schodach i skokach, ale nie w SEBT i staniu na jednej nodze.

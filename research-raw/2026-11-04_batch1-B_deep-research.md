@@ -134,3 +134,33 @@ Krajobraz naukowy zarządzania tendinopatią rzepki znacząco ewoluował. Nowocz
 8. https://pubmed.ncbi.nlm.nih.gov/39559237/
 9. https://pubmed.ncbi.nlm.nih.gov/42192475/
 10. https://pubmed.ncbi.nlm.nih.gov/39086044/
+
+---
+
+## Triage (4.11.2026, Fizjo AGV)
+
+Wszystkie identyfikatory sprawdzone przez nas w PubMed (esummary/efetch). **8/8 pozycji bibliografii istnieje i ma poprawne PMID i DOI.** Drobne błędy modelu: Li 2024 — lista autorów niepełna/przestawiona (prawdziwa: Li Y, Sun D, Fang Y, Lu Z, Shi F, Liu G, Gu Y); Kirmse 2024 — tytuł w PubMed brzmi „…during Training Does Not Further Increase Connective Tissue Protein Synthesis Rates”. W tabeli twierdzeń model podał drugą NMA tylko jako „BMC 2026” — to Liu Y, Li C, Yang F 2026, BMC Sports Sci Med Rehabil 18:296, PMID 42192475, doi:10.1186/s13102-026-01743-4, PMC13308153.
+
+### Co weszło do bazy
+
+Nic. Wszystkie twierdzenia mają 1/2 albo przeczą im źródła.
+
+### Co czeka (1/2, sprzeczne lub błędnie opisane) — powód
+
+| Kandydat | Powód |
+|---|---|
+| 1. Izolowana ekscentryka najmniej skuteczna w tendinopatii rzepki (Li 2024) | **Sprzeczne.** Druga, niezależna NMA (Liu 2026, Kunming/Kanton; brak wspólnych autorów z Li/Gu, Ningbo) nie znalazła wyraźnej hierarchii: żadna interwencja nie była lepsza od HSR, a „eccentric overload” miał najkorzystniejszy punktowy wynik (SMD 0,33; 95% CI −0,87 do 1,52). Model podał Liu 2026 jako potwierdzenie — abstrakt mówi co innego. |
+| 2. Kolagen 10 g/d przez 16 tyg. „zintegrowany z treningiem” zwiększa sztywność Achillesa (Miyamoto 2025) | Liczby zgodne z abstraktem (sztywność Achillesa P<0,001, d=0,378; bez zmian przekroju), ale **uczestnicy to zdrowi, nietrenujący mężczyźni bez programu treningowego** — „z treningiem” i „30–60 min przed obciążeniem” nie ma w abstrakcie. 1/2. |
+| 5. Kolagen + długotrwały trening poprawia morfologię ścięgien (Bischof 2024) | Zgodne z abstraktem (SMD 0,67), ale pewność GRADE **bardzo niska** dla morfologii i właściwości mechanicznych ścięgien. Z Miyamoto 2025 nie tworzy pary: inne punkty końcowe (Miyamoto — bez zmian przekroju) i inna populacja. 1/2. |
+| 3. Kolagen 30 g/d przez 1 tydz. nie zwiększa syntezy białek tkanki łącznej (Kirmse 2024) | Zgodne z abstraktem; jedno RCT. 1/2. |
+| 4. Stopnie obciążenia więzadła rzepki; decline squat ~0,747 (Scattone Silva 2024) | Jedno badanie laboratoryjne (n=20); Scattone Silva i Hullfish mają wspólnego autora seniora (Baxter JR) i Silbernagel KG. 1/2. |
+| 6. PTTD I–II: orteza + ćwiczenia, 83% sukcesu (Alvarez 2006) | Seria obserwacyjna n=47; 1/2. Ross 2018 (Vicenzino) mówi, że RCT jest mało — to nie jest potwierdzenie 83%. |
+| 7. Mało RCT o ćwiczeniach w PTTD (Ross 2018) | Jeden przegląd; 1/2 (kandydat do pary z Kulig 2009 dopiero po sprawdzeniu, czy nie jest w nim włączony). |
+| 8. But unieruchamiający w 30° zgięcia podeszwowego zmniejsza obciążenie Achillesa (Hullfish 2024) | Jedno badanie n=10, zdrowi, but ortopedyczny (walker), nie rolka. 1/2. Wnioskowanie modelu „but AGV = CAM-walker” to {SPEKULACJA}, nie wchodzi. |
+| Model monitorowania bólu (do 5/10, powrót do wyjścia rano) | Model sam zaznaczył, że wszystkie walidacje pochodzą z grupy Silbernagel/Thomeé (Silbernagel 2007, PMID 17307888 — poprawny). Bez zmian w bazie. |
+
+### Sprzeczności z bazą
+
+- Model zgłosił sprzeczność z `achilles/tendinopatia.md` (ekscentryka ≈ HSR, Beyer 2015). To nie jest sprzeczność: dane o rzepce nie przenoszą się na Achillesa, a druga NMA (Liu 2026) też nie pokazuje przewagi HSR nad ekscentryką w rzepce. Bez zmian.
+- Sekcja 6 (wnioskowanie AGV: but jako „klatka ochronna”, przenoszenie sił na kolano, PTTD przy soul/makio, klin pod piętę w linerze) — bez źródeł AGV, z przesadnymi słowami; nie wchodzi. Kandydat do `{SPEKULACJA}` po recenzji fizjoterapeuty.
+- Sekcja 10 (Allina Health, Arnold Palmer Hospital, Stride Foot & Ankle) — {OPINIA}, nie sprawdzaliśmy PDF-ów.
