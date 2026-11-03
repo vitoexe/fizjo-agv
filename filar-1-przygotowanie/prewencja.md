@@ -68,11 +68,11 @@ Wstrząśnienie mózgu (szczegóły: [`../filar-2-rehabilitacja/czesci-ciala/glo
 
 - [ ] Kaski i wstrząśnienia mózgu w AGV — dane (Deep Research G: NO DATA).
 - [x] Źródło dla „36% mniej urazów” — SHRed [S83]; FIFA 11+ [S87].
-- [x] Zmęczenie a koślawienie kolana — meta-analiza [S72] w `stabilizacja-i-propriocepcja.md`. Brak danych o urazach pod koniec sesji w sportach akcji.
+- [x] Zmęczenie a koślawienie kolana — meta-analiza [S72] w `stabilizacja-i-propriocepcja.md`. Brak danych o urazach pod koniec sesji w sportach akcji (AGV). W sportach boiskowych: ACL nie rośnie pod koniec meczu [S138][S140]; **skręcenia kostki tak** [S141] — {ANALOGIA}.
 - [x] Siła biodra a koślawienie (audyt Argon 1) — rozstrzygnięte w `stabilizacja-i-propriocepcja.md` [S106]–[S123]; koślawienie nie przewiduje ACL [S109].
 - [x] Technika upadania — meta-analiza [S70], zob. `technika-upadania.md`. Brak badań na rolkach i przy upadkach z prędkością.
 - [x] Prompty G — Deep Research G zweryfikowany: `research-raw/2026-11-02-G-gemini-deep-research.md`. Pozostałe modele (Gemini Pro, Claude red team) — TODO.
 
 ## Źródła
 
-[S01] [S02] [S04] [S16] [S17] [S18] [S28] [S29] [S33] [S36] [S38] [S62] [S70] [S71] [S72] [S80] [S81] [S82] [S83] [S87] [S88] [S95] [S103] [S104] — `sources.md`.
+[S01] [S02] [S04] [S16] [S17] [S18] [S28] [S29] [S33] [S36] [S38] [S62] [S70] [S71] [S72] [S80] [S81] [S82] [S83] [S87] [S88] [S95] [S103] [S104] [S138] [S140] [S141] [S142] — `sources.md`.

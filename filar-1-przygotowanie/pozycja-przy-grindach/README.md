@@ -33,7 +33,7 @@ Tułów przy lądowaniu (zeskok z podwyższenia, zdrowi aktywni):
 - Aktywne pochylenie tułowia przy lądowaniu zwiększyło zgięcie tułowia o 47°, biodra o 31° i kolana o 22° w porównaniu z lądowaniem „po swojemu” (n=40). [S43] {DOWÓD:obserwacyjne}{ANALOGIA:zeskoki} ✔ 1/2
 - Lądowanie z pochylonym tułowiem zmniejszyło pionową siłę reakcji podłoża i aktywność EMG czworogłowego (n=40, bez różnic płci). [S44] {DOWÓD:obserwacyjne}{ANALOGIA:zeskoki} ✔ — ta sama grupa co [S43]
 - U elitarnych sportowców skaczących lądowanie z pochylonym tułowiem zmniejszyło siłę ścięgna rzepki, moment prostowników kolana i ból (u osób z tendinopatią), a w porównaniu z tułowiem wyprostowanym — także pionową siłę reakcji podłoża (n=21). [S45] {DOWÓD:obserwacyjne}{ANALOGIA:zeskoki} ✔
-- **Pochylenie tułowia przy lądowaniu zmniejsza pionową siłę reakcji podłoża.** [S44][S45] {DOWÓD:obserwacyjne}{ANALOGIA:zeskoki} ✔ **2/2** (niezależne grupy: USA i Brazylia/Australia)
+- **Pochylenie tułowia przy lądowaniu zmniejsza pionową siłę reakcji podłoża.** [S44][S45][S124] {DOWÓD:obserwacyjne}{ANALOGIA:zeskoki} ✔ **2/2** (niezależne grupy: USA, Brazylia/Australia, Japonia/UNC; audyt Argon 2 potwierdza; Shimokochi: LFL 3,9 vs URL 5,3 BW)
 
 Techniki lądowania z parkouru:
 - Lądowanie „precision” dało o 38% mniejszą szczytową siłę i o 54% mniejsze tempo jej narastania niż tradycyjne lądowanie; przewrót (roll) — o 43% i 63% (10 mężczyzn, porównanie technik u tych samych osób). [S46] {DOWÓD:obserwacyjne}{ANALOGIA:parkour} ✔

@@ -82,6 +82,11 @@ Model monitorowania bólu (Silbernagel, opracowany dla tendinopatii Achillesa) [
 
 - Dla zawodnika AGV „obciążenie” to nie tylko kilometry: liczba zeskoków, grindów jednonożnych (soul), sesji w tygodniu. Brak walidowanej miary — {PROPOZYCJA}: dziennik sesji.
 
+### Zmęczenie a timing urazów (audyt Argon 2, nie AGV)
+- Zerwania ACL **nie** skupiają się w drugiej połowie meczu ani pod koniec sezonu (meta-analiza; w piłce 62% ACL w 1. połowie). [S138][S140] {DOWÓD:przegląd}{ANALOGIA:sporty drużynowe} ✔ 1/2 (Doyle współautorstwa Hewetta — ta sama linia co wcześniejsze prace Hewetta)
+- Skręcenia stawu skokowego występują częściej w późniejszych fazach meczu (56% w 2. połowie; po 1. kwarcie udział się podwaja). [S141] {DOWÓD:przegląd}{ANALOGIA:sporty boiskowe} ✔ 1/2 — istotne dla AGV, gdzie okolica kostki jest częstym miejscem urazu [S01]
+- Ogólna częstość urazów meczowych rośnie z czasem w obu połowach (UEFA). [S142] {DOWÓD:obserwacyjne}{ANALOGIA:piłka nożna} ✔ 1/2
+
 ## TODO / pytania do researchu
 
 - [ ] Kolagen/żelatyna + witamina C przed wysiłkiem — badania (Shaw 2017 i nowsze), jakość dowodów. **Brak w zalążku.**
@@ -94,4 +99,4 @@ Model monitorowania bólu (Silbernagel, opracowany dla tendinopatii Achillesa) [
 
 ## Źródła
 
-[S09] [S11] [S12] [S13] [S14] [S15] [S69] [S75] [S76] [S77] [S89] [S90] [S91] [S92] [S93] [S94] [S97] [S98] [S99] [S100] [S101] [S102] — `sources.md`.
+[S09] [S11] [S12] [S13] [S14] [S15] [S69] [S75] [S76] [S77] [S89] [S90] [S91] [S92] [S93] [S94] [S97] [S98] [S99] [S100] [S101] [S102] [S138] [S140] [S141] [S142] — `sources.md`.

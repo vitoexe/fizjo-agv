@@ -69,9 +69,17 @@ Propozycja do oceny przez fizjoterapeutę; brak badań AGV. Weryfikacja: `resear
 - Wzmacnianie biodra traktować jako **jeden element** programu nerwowo-mięśniowego, nie jako samodzielny sposób na koślawienie: łączyć z nauką lądowania (miękko, zgięte biodro i kolano, feedback), plyometrią i core. {WNIOSKOWANIE} (podstawa: [S106][S107][S108] — słaby związek siły z koślawieniem; [S113][S114][S115] — programy wieloskładnikowe poprawiają mechanikę lądowania; inne sporty)
 - Ćwiczyć i testować głównie **lądowanie jednonóż** (zeskoki z przeszkód), bo tam związek siły biodra z koślawieniem był widoczny [S107]. {WNIOSKOWANIE}
 - Nie obiecywać, że mniejsze koślawienie = mniejsze ryzyko ACL: koślawienie nie przewidywało zerwań ACL [S109]; NMT zmniejsza zerwania ACL w sportach drużynowych [S117], ale mechanizm niepewny. {WNIOSKOWANIE}
-- Wytrzymałość odwodzicieli (np. dłuższe serie, ćwiczenia pod koniec sesji) może mieć znaczenie — tylko jedna grupa badań [S119][S120], wyniki zmęczenia sprzeczne [S122][S123]. {SPEKULACJA}
+- Wytrzymałość odwodzicieli jako „ważniejsza niż siła” — **brak RCT**; niezależne źródła wskazują raczej na siłę max/ekscentryczną [S134][S135][S136]. Endurance najwyżej jako uzupełnienie długich sesji. {SPEKULACJA} / {WNIOSKOWANIE} (audyt Argon 2)
 - Ciężkie buty AGV (Argon: „1,5–2 kg na rolkę” — **bez źródła**) mogą zwiększać obciążenie przy lądowaniu i wymagać kontroli kolana. {SPEKULACJA}
+
+## Zmęczenie, tułów i koniec sesji (audyt Argon 2, 3.11.2026)
+
+Propozycja do oceny; brak badań AGV. Weryfikacja: `research-raw/2026-11-03-argon-2-zmeczenie-tulow.md`.
+
+- Uczyć **pochylenia tułowia w przód** z zgięciem biodra i kolana przy lądowaniu; nie ostrzegać przed „zgięciem tułowia po zmęczeniu” jako ryzykiem — to raczej adaptacja ochronna. Ostrzegać przed lądowaniem wyprostowanym i przed **bocznym** wychyleniem tułowia. {WNIOSKOWANIE} (podstawa: [S95][S43][S45][S124][S129][S130]; ANALOGIA poza AGV)
+- Kończyć ryzykowne triki („jeszcze raz”) przy wyraźnym zmęczeniu przede wszystkim ze względu na **kostkę** i upadki, nie z powodu udowodnionego wzrostu ACL pod koniec sesji. {WNIOSKOWANIE} / {ANALOGIA:sporty boiskowe} ([S141][S01]; ACL timing [S138][S140])
+- Fundament przygotowania: siła max/ekscentryczna biodra + trening ruchu lądowania; endurance lokalne tylko jako uzupełnienie. {WNIOSKOWANIE} ([S134][S136][S114]; NO DATA RCT endurance vs strength)
 
 ## Źródła
 
-[S04] [S16] [S62] [S68] [S70] [S80] [S82] [S83] [S87] [S89] [S91] [S93] [S94] [S97] [S98] [S99] [S104] [S106] [S107] [S108] [S109] [S113] [S114] [S115] [S117] [S119] [S120] [S122] [S123] — `sources.md`.
+[S04] [S16] [S62] [S68] [S70] [S80] [S82] [S83] [S87] [S89] [S91] [S93] [S94] [S97] [S98] [S99] [S104] [S106] [S107] [S108] [S109] [S113] [S114] [S115] [S117] [S119] [S120] [S122] [S123] [S124] [S125] [S126] [S128] [S129] [S130] [S134] [S135] [S136] [S138] [S140] [S141] — `sources.md`.
