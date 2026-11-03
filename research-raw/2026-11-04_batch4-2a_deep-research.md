@@ -221,3 +221,5 @@ Razem: 1 identyfikator, 1 poprawny, 0 błędnych. W batch-3 „Schrefl 2024” n
 
 Trop na następną rundę (nie od modelu, z naszego wyszukiwania PubMed): Schrefl i wsp. 2026, J Strength Cond Res, PMID 41925545 — związek wyniku testu wspięć z urazami podudzia, kostki i stopy (do D3/D4).
 
+
+> Dopisek 4.11.2026: wynik tego samego promptu z aplikacji Gemini (2a-GEM) i wspólny triage obu silników — `2026-11-04_batch4-2a_gemini-deep-research.md` (do bazy S160–S166).

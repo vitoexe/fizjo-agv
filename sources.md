@@ -279,3 +279,24 @@ Surowy wynik i triage: `research-raw/2026-11-04_batch4-2a_deep-research.md`. Mod
 Uwagi:
 - S158 (Waikato, Nowa Zelandia; Göteborg, Östersund) i S159 (Uniwersytet w Bernie) — brak wspólnych autorów → **niezależne**. 2/2 tylko dla powtarzalności testu, nie dla norm (różne protokoły).
 - Ta sama grupa (Schrefl, Erlacher, Schärli) ma w PubMed późniejsze prace o teście wspięć, m.in. związek wyniku z urazami podudzia, kostki i stopy (J Strength Cond Res 2026, PMID 41925545) — model ich nie podał; kandydat do następnej rundy.
+
+## Batch-4 2a — aplikacja Gemini (Deep Research), drugie źródła runda 2, łącznie z 2a-AIS (dodane 4.11.2026)
+
+Surowy wynik i triage: `research-raw/2026-11-04_batch4-2a_gemini-deep-research.md`. Identyfikatory sprawdzone przez nas w PubMed i Crossref; model podał 10 prac — 1 PMID przypisany innej pracy (Schrefl), 1 błędny pierwszy autor (Jeon 2025 jako „Song”). Burton 2020, Alghadir 2020 i Lewis 1997 to wcześniej znane źródła 1/2 (batch-1 D, batch-3), teraz z drugim niezależnym źródłem.
+
+| ID | Źródło | Typ | Etykieta | Dotyczy AGV? | Status | Link |
+|---|---|---|---|---|---|---|
+| S160 | Burton CA, Arthur RJ, Rivera MJ, Powden CJ 2020. *The Examination of Repeated Self-Mobilizations With Movement and Joint Mobilizations on Individuals With Chronic Ankle Instability*. J Sport Rehabil 30(3):458–466 | RCT pojedynczo zaślepione, n=18, CAI (2 grupy aktywne, bez placebo) | `{DOWÓD:RCT}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/33049708/ · doi:10.1123/jsr.2019-0363 |
+| S161 | Marrón-Gómez D, Rodríguez-Fernández ÁL, Martín-Urrialde JA 2015. *The effect of two mobilization techniques on dorsiflexion in people with chronic ankle instability*. Phys Ther Sport 16(1):10–15 | RCT, n=52, CAI (MWM w obciążeniu / manipulacja HVLA / placebo) | `{DOWÓD:RCT}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/24679362/ · doi:10.1016/j.ptsp.2014.02.001 |
+| S162 | Lewis LM, West OC, Standeven J, Jarvis HE 1997. *Do wrist guards protect against fractures?* Ann Emerg Med 29(6):766–769 | kontrolowane, zaślepione badanie na zwłokach (pary ramion, test upadku), **nie RCT** | `{DOWÓD:obserwacyjne}` (laboratoryjne, kadawerowe) | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/9174522/ · doi:10.1016/s0196-0644(97)70198-7 |
+| S163 | Greenwald RM, Janes PC, Swanson SC, McDonald TR 1998. *Dynamic impact response of human cadaveric forearms using a wrist brace*. Am J Sports Med 26(6):825–830 | biomechanika na zwłokach, 12 przedramion z 6 zwłok (test udarowy), **nie RCT** | `{DOWÓD:obserwacyjne}` (laboratoryjne, kadawerowe) | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/9850786/ · doi:10.1177/03635465980260061501 |
+| S164 | Alghadir AH, Iqbal ZA, Iqbal A, Ahmed H, Ramteke SU 2020. *Effect of Chronic Ankle Sprain on Pain, Range of Motion, Proprioception, and Balance among Athletes*. Int J Environ Res Public Health 17(15):5318 | porównanie z dobraną grupą kontrolną, n=80 lekkoatletów | `{DOWÓD:obserwacyjne}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/32718066/ · PMC7432694 · doi:10.3390/ijerph17155318 |
+| S165 | Hoch MC, Staton GS, Medina McKeon JM, Mattacola CG, McKeon PO 2012. *Dorsiflexion and dynamic postural control deficits are present in those with chronic ankle instability*. J Sci Med Sport 15(6):574–579 | case-control, 30 CAI vs 30 zdrowych | `{DOWÓD:obserwacyjne}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/22575498/ · doi:10.1016/j.jsams.2012.02.009 |
+| S166 | Reyburn RJ, Powden CJ 2020. *Dynamic Balance Measures in Healthy and Chronic Ankle Instability Participants While Wearing Ankle Braces: Systematic Review With Meta-Analysis*. J Sport Rehabil 30(4):660–667 | przegląd systematyczny z metaanalizą, 7 badań | `{DOWÓD:przegląd}` | nie | ✔ abstrakt; **tylko jako sprzeczność** z S156 (orteza) | https://pubmed.ncbi.nlm.nih.gov/33049703/ · doi:10.1123/jsr.2020-0224 |
+
+Uwagi:
+- S160 (USA; Powden CJ) i S161 (Madryt) — brak wspólnych autorów → **niezależne**. S160 bez grupy placebo (porównanie 2 interwencji); S161 z placebo.
+- S162 (St. Louis) i S163 (Salt Lake City) — brak wspólnych autorów → **niezależne**. Obie kadawerowe, inna metoda niż S148 (quasi-statyczna).
+- S164 (Rijad, Nadżran, Pune) i S165 (Old Dominion University) — brak wspólnych autorów → **niezależne**; 2/2 tylko dla deficytu równowagi dynamicznej. Zakres ruchu: S164 (czynny, goniometr) bez różnic vs S165 (wykrok w obciążeniu) mniejszy — sprzeczne.
+- S166 i S160 mają wspólnego autora (Powden CJ) — bez znaczenia, dotyczą różnych twierdzeń. S166 nie mógł włączyć S156 (wyszukiwanie do X 2019) → niezależne od S156; w piśmiennictwie S166 są też wyniki zerowe (np. Gribble 2010).
+- Odrzucone jako drugie źródło (nie niezależne): Bolia 2023 (≥8 prac wspólnych z S151), Konor 2012 (włączone do Powden 2015), Jeon 2025 (obejmuje De Ridder 2015). George 2024 (deskorolki) nie potwierdza danych AGV.

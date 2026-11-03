@@ -16,7 +16,9 @@ recenzent: ""
 - Skręcenie kostki to uraz o wysokim ryzyku nawrotu. [S17] {DOWÓD:przegląd} ✔ 1/2
 - W skateboardingu skręcenie kostki nawracało najczęściej ze wszystkich urazów (70,1%). [S05] {DOWÓD:obserwacyjne}{ANALOGIA:skateboarding} ✔ 1/2
 - Trening nerwowo-mięśniowy zmniejsza ryzyko skręceń o ok. 40%. [S16] {DOWÓD:przegląd}{ANALOGIA:ogólnie sportowcy} ⏳ 1/2
-- Przy przewlekłej niestabilności kostki tejp poprawia samoocenę, pewność i poczucie stabilności, ale nie poprawia wyników testów funkcjonalnych (skoki, SEBT, stanie na jednej nodze); jedyny wyjątek to schodzenie ze schodów, o 4% szybsze z tejpem. Ortezę z tym samym efektem badało tylko S156 (dla ortezy 1/2). Dla fizjo: stabilizator może dodać pewności przy powrocie do jazdy, ale nie zastępuje treningu równowagi i nie maskuje deficytu w testach. [S156][S157] {DOWÓD:obserwacyjne} ✔ 2/2
+- Przy przewlekłej niestabilności kostki tejp poprawia samoocenę, pewność i poczucie stabilności, ale nie poprawia wyników testów funkcjonalnych (skoki, SEBT, stanie na jednej nodze); jedyny wyjątek to schodzenie ze schodów, o 4% szybsze z tejpem. Ortezę z tym samym efektem badało tylko S156 (dla ortezy 1/2; ⚠ sprzeczne: metaanaliza małych badań [S166] pokazała w CAI silny efekt ortezy na wynik SEBT/YBT — dla ortezy kwestia otwarta, zob. `research-raw/2026-11-04_batch4-2a_gemini-deep-research.md`). Dla fizjo: stabilizator może dodać pewności przy powrocie do jazdy, ale nie zastępuje treningu równowagi i nie maskuje deficytu w testach. [S156][S157] {DOWÓD:obserwacyjne} ✔ 2/2
+- Przy przewlekłej niestabilności kostki równowaga dynamiczna (zasięg w Y-balance/SEBT) jest gorsza niż u zdrowych: lekkoatleci z nawracającym „uciekaniem” kostki, n=80 [S164]; zasięg do przodu w SEBT 76,05% vs 80,12% długości kończyny, n=60 [S165]. {DOWÓD:obserwacyjne} ✔ 2/2. Zakres ruchu — wyniki zależą od pomiaru: czynny zakres goniometrem bez różnic [S164], zgięcie grzbietowe w obciążeniu (test wykroku przy ścianie) mniejsze w CAI (10,73 vs 12,47 cm) [S165] — ⏳ 1/2 każde, sprzeczne.
+- Mobilizacja z ruchem (MWM) w obciążeniu zwiększa zgięcie grzbietowe w CAI (mierzone testem wykroku): pojedyncza MWM przez terapeutę vs placebo, efekt utrzymany ≥48 h, n=52 [S161]; samodzielna MWM w wykroku, 6 sesji w 2 tygodnie, n=18 [S160]. {DOWÓD:RCT} ✔ 2/2. Efekt krótkoterminowy, małe próby; brak danych o wpływie na nawroty skręceń i brak danych z AGV.
 
 ## Wnioskowanie biomechaniczne
 
@@ -29,7 +31,8 @@ recenzent: ""
 
 ## Dla fizjoterapeuty
 
-- TODO.
+- Przy CAI warto mierzyć zasięg w Y-balance/SEBT i zgięcie grzbietowe w wykroku przy ścianie — sam goniometr bez obciążenia może nie pokazać deficytu [S164][S165]. To wskazówka do badania, nie diagnoza.
+- Ograniczone zgięcie grzbietowe w CAI: MWM (także jako autoterapia w wykroku) ma krótkoterminowe dowody poprawy [S160][S161].
 
 ## TODO / pytania do researchu
 
@@ -40,4 +43,4 @@ recenzent: ""
 
 ## Źródła
 
-[S05] [S06] [S16] [S17] [S153] [S154] [S156] [S157] — `sources.md`.
+[S05] [S06] [S16] [S17] [S153] [S154] [S156] [S157] [S160] [S161] [S164] [S165] [S166] — `sources.md`.
