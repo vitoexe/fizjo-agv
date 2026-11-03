@@ -11,7 +11,7 @@ Dla kogo:
 <!-- STATUS:START -->
 ## Status projektu
 
-**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **61%** (13 punktów planu) · ostatnia aktualizacja: 2026-11-04 00:45 (czas warszawski)
+**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60%** (13 punktów planu) · ostatnia aktualizacja: 2026-11-04 00:57 (czas warszawski)
 
 | | Punkt planu | Postęp | % |
 |---|---|---|---|
@@ -20,7 +20,7 @@ Dla kogo:
 | ✅ | [3. Obecny research o grindach to zalążek bazy wiedzy](STATUS.md#-3-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% |
 | ✅ | [4. Publiczna strona statusu projektu Fizjo AGV](STATUS.md#-4-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% |
 | 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](STATUS.md#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 66% |
-| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](STATUS.md#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ | 77% |
+| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](STATUS.md#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 64% |
 | 🔄 | [7. Plan zbierania wiedzy z wielu źródeł](STATUS.md#-7-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% |
 | 🔄 | [8. Baza fizjoterapeutów i blogów o rolkach i AGV](STATUS.md#-8-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% |
 | 🔄 | [9. Struktura: najpierw uporządkowana baza, potem strona](STATUS.md#-9-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% |
@@ -119,6 +119,107 @@ Kandydaci do recenzji treści i do kontaktu przy „pigułce wiedzy”/biuletyni
 - **Skateboarding (zagranica):** dr Kyle Brown (USA), Jeroen Stam i Alex Vos (Holandia), Ben Rowles (UK), Matti Hänninen (Finlandia).
 
 TODO: ustalić, kto mógłby zrecenzować `filar-1-przygotowanie/pozycja-przy-grindach/` (trener + fizjo) oraz `filar-2-rehabilitacja/czesci-ciala/kostka/` i `filar-2-rehabilitacja/powrot-do-grindow.md`.
+
+## Jak powstała baza: strategia researchu
+
+Stan na 4.11.2026, policzony z plików repo:
+- `sources.md` ma **168 źródeł (S01–S168)**;
+- w 24 plikach tematów (`filar-1-przygotowanie/`, `filar-2-rehabilitacja/`) jest **328 linii z etykietą dowodu**, czyli twierdzeń;
+- **30** z nich ma status `2/2`, **177** linii ma status `1/2`.
+
+Surowe wyniki modeli i ich weryfikacja leżą w `research-raw/`, a prompty w `prompts/`.
+
+### Etapy
+
+| Etap | Data | Narzędzie | Plik w repo | Co weszło do bazy |
+|---|---|---|---|---|
+| Zalążek: research o grindach + zasoby praktyków | 2.11 | research startowy; ręczne sprawdzenie linków | commity 91e970b, 596a3e7 | S01–S23 (badania, protokoły), S24–S42 (blogi, Instagram, specjaliści jako `{OPINIA}`) |
+| Partia 2: E pozycja przy grindach, F wzmacnianie i stabilizacja, G prewencja i periodyzacja | 2.11 | Google AI Studio, Deep Research | `prompts/batch-2-przygotowanie/` | S43–S105 |
+| Audyt sprzeczności Argon 1 i 2 (siła biodra a koślawienie kolana; zmęczenie, tułów) | 2–3.11 | AI Studio, Argon | `prompts/audyt/` | S106–S143 |
+| Partia 1A: wzorce urazów | 3.11 | AI Studio, Deep Research | `prompts/batch-1/` | S144–S148 |
+| Partia 1B: obciążanie ścięgien | 3–4.11 | AI Studio, Deep Research | `prompts/batch-1/` | nic (wszystko 1/2 albo sprzeczne) |
+| Partia 1C: powrót po urazie kostki | 3.11 | aplikacja Gemini, Deep Research | `prompts/batch-1/` | S149–S152 |
+| Partia 1D: badanie przesiewowe | 3.11 | aplikacja Gemini, Deep Research | `prompts/batch-1/` | S153–S155 |
+| Batch-3 (runda 1 drugich źródeł, 17 twierdzeń) | 4.11 | AI Studio, Deep Research | `prompts/batch-3-uzupelnienia/` | S156–S157 |
+| Batch-4 (runda 2): pełny prompt zakończony błędem, więc podział na 2a (kostka, screening, urazy) i 2b (ścięgna) | 4.11 | 2a: AI Studio i aplikacja Gemini; 2b: aplikacja Gemini | `prompts/batch-4-uzupelnienia-2/` | S158–S168 (S166 jako zapis sprzeczności) |
+| **Batch-5 (runda 3, bieżąca)**: 22 twierdzenia bez drugiego źródła (15 w części a, 7 w części b) | 4.11 | aplikacja Gemini, Deep Research | `prompts/batch-5-uzupelnienia-3/` | w toku |
+
+Claude (red-team) był zaplanowany, ale 3.11 go wstrzymano. Prompty zostały w `prompts/audyt/` jako archiwum.
+
+Każdy wynik modelu przechodzi **ręczną weryfikację**:
+- PMID w PubMed (esummary, efetch);
+- DOI w Crossref;
+- PMCID w PMC;
+- liczby i cytaty porównywane z abstraktem albo pełnym tekstem.
+
+### Reguły przyjęcia twierdzenia
+
+1. **Co najmniej 2 niezależne źródła pierwotne** (`2/2`). Dwa modele, które powtarzają to samo, to nie są dwa źródła.
+2. **AI nie jest źródłem.** Cytujemy tylko pracę, którą otworzyliśmy i sprawdziliśmy.
+3. **Każdy identyfikator (PMID, DOI, PMCID) sprawdzamy osobno** pod kątem autora, roku i tytułu. Identyfikator niesprawdzony = `UNVERIFIED`, a takie źródło nie wchodzi do bazy.
+4. **Niezależność:**
+   - brak wspólnych autorów;
+   - praca nie jest włączona do przeglądu, który już jest źródłem znanym, bo przegląd zawierający badanie nie jest od niego niezależny;
+   - przy przeglądach porównujemy listę piśmiennictwa w Crossref.
+5. **Populacja:** wynik z innego sportu albo z innej populacji dostaje etykietę `{ANALOGIA:…}` i nie zastępuje danych o AGV.
+6. **Etykiety dowodu:** `{DOWÓD:przegląd|RCT|obserwacyjne}`, `{KONSENSUS}`, `{WNIOSKOWANIE}`, `{ANALOGIA}`, `{SPEKULACJA}`, `{OPINIA}`, `{PROPOZYCJA}`. Typ badania podajemy tak, jak określa go sama praca; na przykład crossover to nie jest RCT.
+
+### Jak zmieniała się strategia wyszukiwania
+
+- **Partie 1–2:** szerokie przeglądy tematu, po jednym prompcie na temat.
+- **Batch-3:** po partii 1A doszły zaostrzone zasady identyfikatorów. Prompt dotyczył tylko odłożonych twierdzeń i ich drugich źródeł.
+- **Batch-4:**
+  - podział na krótsze prompty (2a i 2b), bo pełny przebieg zakończył się błędem;
+  - krótki format raportu z tabelami;
+  - jawne kryteria niezależności;
+  - ten sam prompt 2a uruchomiony w dwóch silnikach (AI Studio i aplikacja Gemini).
+- **Batch-5:**
+  - zamiast haseł kolejne cytowania, wstecz (bibliografie) i w przód (prace cytujące), od konkretnych prac startowych;
+  - źródła spoza głównego nurtu: Europe PMC, PEDro, J-STAGE, SciELO, abstrakty kongresowe (ECSS, ISBS, ACSM), czasopisma nieanglojęzyczne;
+  - przy sprzecznościach model podaje badania po każdej stronie i różnice metod, bez werdyktu;
+  - przy każdej pracy model podaje współautorów i informację, czy praca jest włączona do znanego przeglądu.
+
+**Kiedy kończymy rundy:** rundy trwają, dopóki jest co domknąć. Kończymy, gdy runda nie wnosi żadnego nowego zweryfikowanego twierdzenia albo gdy zostały tylko luki niekluczowe dla praktyki. Potem możliwe jest jeszcze ręczne sprawdzenie kilku kluczowych twierdzeń w PubMed.
+
+### Twierdzenia bez drugiego źródła
+
+Takie twierdzenie nie znika:
+- zostaje w pliku tematu ze statusem `1/2`;
+- surowy wynik i powód odłożenia zostają w `research-raw/` (sekcja „Triage”);
+- twierdzenie trafia do następnej rundy;
+- jeśli kolejna runda nic nie znajdzie, oznaczamy je „brak drugiego źródła”.
+
+Sprzeczne wyniki zapisujemy jako ⚠ przy twierdzeniu, ze stronami sporu, a nie jako „obalenie”.
+
+### Typowe błędy modeli, które wyłapała weryfikacja
+
+| Przebieg | Błędy |
+|---|---|
+| Partia 1A | 5 z 7 par DOI/PMID błędnych |
+| Partia 1B | 8/8 identyfikatorów poprawnych, ale lista autorów Li 2024 niepełna i przestawiona |
+| Partia 1C | identyfikatory poprawne, ale treść przypisana innej pracy (PAASS), crossover nazwany RCT, zmyślone cytaty z naszej bazy |
+| Partia 1D | 7 z 14 identyfikatorów błędnych albo przypisanych innej pracy (7 z 9 pozycji z błędem identyfikatora lub autora); przypisy niezgodne z bibliografią |
+| Partia 2 (E, G) | zmyślone twierdzenie („LESS >5 = >10x ryzyka ACL”), błędne DOI (Moran 2023 wskazywał pracę o HIIT u chorych na raka piersi), odwrócony wniosek, błędny wykres Schiebera |
+| Batch-3 | model ogłosił 4 twierdzenia jako 2/2 i 2 jako „obalone”; po weryfikacji do bazy weszło 1 (C2) |
+| Batch-4 2a | 19 identyfikatorów istnieje, ale 1 PMID należy do innej pracy tej samej grupy, a w 1 pracy podano złego pierwszego autora; żadne z 3 „obaleń” modelu nie zostało przyjęte (to sprzeczności albo różnice metody pomiaru) |
+| Batch-4 2b | 7/7 PMID poprawnych, ale model pominął 3 wymagane sekcje raportu, podał złego autora seniora, dynamikę odwrotną 2D nazwał „pomiarem in vivo” i przekręcił rangi w NMA |
+| Przebiegi ogólnie | jako „drugie źródło” model podawał prace już włączone do znanego przeglądu albo prace tej samej grupy; dane z innych sportów (narciarstwo, snowboard) przenosił na jazdę na rolkach |
+
+## Co dalej: plan po zamknięciu researchu
+
+Etapy odpowiadają punktom listy Google Tasks „Fizjo AGV”, a postęp jest w bloku statusu powyżej i w [`STATUS.md`](STATUS.md).
+
+| # | Etap | Punkt w Tasks | Gotowe, gdy… |
+|---|---|---|---|
+| 1 | **Domknięcie researchu:** triage wyniku batch-5; w razie potrzeby kolejna runda z inną strategią; ewentualne ręczne sprawdzenie kluczowych twierdzeń w PubMed | 5, 6 | runda nie wnosi nowych zweryfikowanych twierdzeń albo pozostałe luki są oznaczone jako niekluczowe dla praktyki |
+| 2 | **Zamrożenie wersji bazy** | 6 | jest tag git (np. `v0.1`) z opisem stanu: liczba źródeł, liczba twierdzeń 2/2, lista luk |
+| 3 | **Przegląd spójności i sprzeczności** | 6, 9 | każda sprzeczność (np. S156 vs S166: orteza w niestabilności kostki) jest opisana jako ⚠ ze stronami sporu; etykiety, statusy `1/2` / `2/2` i odsyłacze `[Sxx]` zgadzają się z `sources.md`; recenzja fizjoterapeuty zmienia status plików ze „szkic” |
+| 4 | **Pigułka wiedzy (1–2 strony A4 dla fizjoterapeuty i trenera), potem większy biuletyn lub newsletter** | 11 | trzon tworzą tylko twierdzenia 2/2; jest szkic pierwszego wydania i recenzja fizjoterapeuty przed publikacją |
+| 5 | **Strona dla rolkarza z kontuzją do pokazania fizjoterapeucie lub trenerowi** | 12 | strona jest osobna od STATUS.md, z działami według kontuzji i części ciała; jest czytelna na telefonie; zastrzeżenie „to nie jest porada medyczna” jest na każdej stronie; treść przeszła recenzję |
+| 6 | **Społeczność** | 10, 13 | są zasady dodawania i weryfikacji treści (`CONTRIBUTING.md`), szablon zgłoszenia (issue) z polem na źródło i identyfikator, ustalony proces recenzji, licencja i pierwszy wkład spoza projektu |
+| 7 | **Rzeczy odłożone** | 5, 8 | są pełne teksty Puddle 2013 (S46), S16 Vriend i Brenner 2007 (S98); S22, S23 i PhysioWorks sprawdzone z innego komputera, za zgodą Tomasza |
+
+> ⚠️ **To nie jest diagnoza ani porada medyczna.** Plan dotyczy porządkowania wiedzy. Przy bólu, obrzęku albo po urazie decyduje badanie u lekarza lub fizjoterapeuty.
 
 ## Licencja
 

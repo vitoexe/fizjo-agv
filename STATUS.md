@@ -1,8 +1,8 @@
 # Status projektu Fizjo AGV
 
-Ostatnia aktualizacja: 2026-11-04 00:45 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
+Ostatnia aktualizacja: 2026-11-04 00:57 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
 
-**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **61%** (13 punktów planu)
+**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60%** (13 punktów planu)
 
 | | Punkt planu | Postęp | % | Podpunkty |
 |---|---|---|---|---|
@@ -11,7 +11,7 @@ Ostatnia aktualizacja: 2026-11-04 00:45 (czas warszawski). Źródło: Google Tas
 | ✅ | [3. Obecny research o grindach to zalążek bazy wiedzy](#-3-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
 | ✅ | [4. Publiczna strona statusu projektu Fizjo AGV](#-4-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% | 9 podp. |
 | 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 66% | 32 podp. |
-| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ | 77% | 13 podp. |
+| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 64% | 18 podp. |
 | 🔄 | [7. Plan zbierania wiedzy z wielu źródeł](#-7-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% | 15 podp. |
 | 🔄 | [8. Baza fizjoterapeutów i blogów o rolkach i AGV](#-8-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% | 8 podp. |
 | 🔄 | [9. Struktura: najpierw uporządkowana baza, potem strona](#-9-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% | 6 podp. |
@@ -149,7 +149,7 @@ Zapisujemy wszystko, łącznie z surowymi wynikami modeli (research-raw/).
 
 ### 🔄 6. Nakarmić go pełnym researchem z całego internetu
 
-`🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜` **77%**
+`🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜` **64%**
 
 Użyć wszystkich dostępnych narzędzi do researchu i wielu modeli.
 
@@ -173,6 +173,16 @@ Research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, bez kluczy API
 - ✅ Partia 1 D (screening fizjo): zrobione, do bazy S153–S155 (szczegóły w punkcie 5)
 - ✅ Partia 3 (drugie źródła dla 17 odłożonych twierdzeń): zrobione 3.11.2026 — do bazy S156–S157 (tejp w niestabilności kostki), reszta czeka, szczegóły w punkcie 5
 - ✅ Partia 4 (runda 2): 2a z AI Studio i z aplikacji Gemini oraz 2b (ścięgna) zrobione 4.11.2026 — do bazy S158–S165 (powtarzalność testu wspięć; mobilizacja z ruchem i równowaga dynamiczna w CAI; ochraniacz nadgarstka na zwłokach), S166 jako sprzeczność przy ortezie, S167–S168 (przysiad na desce skośnej a obciążenie więzadła rzepki); reszta czeka, szczegóły w punkcie 5
+
+**Zamknięcie researchu**
+
+Rundy trwają, dopóki jest co domknąć (decyzja Tomasza 4.11.2026). Koniec, gdy runda nie wnosi nowych zweryfikowanych twierdzeń albo pozostałe luki są oznaczone jako niekluczowe dla praktyki. Opis strategii i plan: README.md, sekcje „Jak powstała baza” i „Co dalej”.
+
+- 🔄 Batch-5 (runda 3, bieżąca): 22 twierdzenia bez drugiego źródła, prompty a i b (commit 692c3ce) w aplikacji Gemini; potem triage
+- ⬜ Ewentualny ręczny przegląd kluczowych twierdzeń w PubMed
+- ⬜ Zamrożenie wersji bazy: tag git (np. v0.1) z opisem stanu (źródła, twierdzenia 2/2, luki)
+- ⬜ Przegląd spójności i sprzeczności bazy (np. S156 vs S166: orteza w niestabilności kostki), zgodność etykiet i odsyłaczy z sources.md
+- ✅ README: strategia researchu i plan „Co dalej”
 
 ### 🔄 7. Plan zbierania wiedzy z wielu źródeł
 
