@@ -1,0 +1,64 @@
+TASK: targeted verification, round 2 (Deep Research). For EACH claim below find a SECOND, INDEPENDENT primary source that supports it, evidence that refutes it, or state plainly that none exists. Search in English (and other languages if relevant); WRITE THE REPORT IN POLISH.
+
+CONTEXT: "Fizjo AGV" is an open-source, evidence-graded knowledge base for aggressive inline skaters (AGV). A claim becomes 2/2 only with two independent primary sources. Our sources: https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/sources.md . Triage of round 1 (read the "Triage" sections): https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/research-raw/2026-11-04_batch3-uzupelnienia_deep-research.md and https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/research-raw/2026-11-04_batch1-B_deep-research.md
+
+LESSONS FROM EARLIER RUNS (do not repeat): swapped PMID/DOI/PMCID (up to 7 of 14); footnotes pointing to other papers than the bibliography; frameworks credited to the wrong paper; a crossover study called an RCT; a second NMA reported as "confirming" when its abstract said the opposite; sources without author or identifier; a candidate "second source" that was already included in the known review (not independent); claims about skaters supported by ski/snowboard data.
+
+INDEPENDENCE TEST (state the result for every candidate): (a) no shared authors with the known source (list first and senior authors); (b) the candidate is NOT one of the studies included in the known review/meta-analysis — open the review's included-studies list or say "nie sprawdzono"; (c) a review that includes the known primary study does not count as independent of it.
+
+CLAIMS — known sources (never return them as the second source)
+
+Group 1 — still without a second source
+C1. Ankle-GO <8 pts at 2 months after lateral ankle sprain → higher re-sprain risk (OR 8.6). Known: Picot 2023 (PMID 37434508), Picot 2024 (PMID 38453775). Exclude authors Picot, Hardy, Fourchet, Lopes, Rauline. Seek: external validation.
+C3. Syndesmotic injury: return to play longer after surgery than conservative care (70.9 vs 39.3 days). Known: Salameh 2022 (PMID 35601091). Seek: a cohort or review not included in Salameh.
+C4. Syndesmotic injury: vertical jump and FABQ-sport correlate with recovery time. Known: Sman 2014 (PMID 24002346). Seek: other prognostic tests for return time.
+D3. Single-leg heel-raise norms and reliability. Known: Bohannon 2022 (PMID 35784604), Hébert-Losier 2017 (PMID 28886865). Seek: norms with explicit protocol (cadence, incline, end criteria) next to each number. "Schrefl 2024" from round 1 had no identifier: find its real PMID/DOI or report it as not found.
+D4. Screening tests cannot predict injury in an individual (association ≠ prediction). Known: Bahr 2016 (PMID 27095747, critical review). Seek: a systematic review of predictive accuracy (sensitivity, specificity, AUC) of musculoskeletal screening; round 1 gave "a scoping review of 86 studies" without author/ID — identify it or drop it.
+D5. Chronic ankle instability (CAI): proprioception and balance deficits without difference in active ankle range of motion. Known: Alghadir 2020 (PMID 32718066). Seek: studies/reviews of dorsiflexion range in CAI vs controls, either result.
+D6. CAI: stiffer landing, less sagittal ankle motion, higher peak vertical GRF. Known: De Ridder 2015 (PMID 25887076). Seek: independent landing studies or reviews.
+D7. Mobilization with movement improves dorsiflexion in CAI. Known: Burton 2020 (PMID 33049708). Exclude Powden, Hoch. Seek: independent RCTs/reviews.
+D9. A short screening battery for landing/action sports. Known: none. Seek: any tested battery in skateboarding, BMX, snowboard, parkour, gymnastics, volleyball, with predictive results.
+A4. Terrain-park features differ in injury risk. Known: Russell 2014 (PMID 24184587). Exclude Russell, Hagel, Emery, Meeuwisse. Seek: feature-specific data from ski/snow parks or skateparks.
+
+Group 2 — second source found but only apparently independent or not the same claim
+D1. SEBT anterior asymmetry >4 cm → OR ≈ 2.5 for injury. Known: Plisky 2006 (PMID 17193868); Stiffler 2017 (PMID 28355980) is retrospective, knee/ankle only, no 4 cm cut-off; Sklempe Kokic 2023 (PMID 37505616) did not confirm anterior. Seek: PROSPECTIVE studies testing the 4 cm cut-off; report null results.
+D2. Weight-bearing lunge test MDC 1.9 cm intra / 1.6 cm inter-rater. Known: Powden 2015 (PMID 25704110, systematic review). Chisholm 2012 (PMID 23997389) gives different values and is probably included in Powden. Check Powden's included studies; seek reliability/MDC studies NOT in Powden.
+D8. Reduced dorsiflexion as risk factor for patellar tendinopathy. Known: Sprague 2018 review (PMID 30054341, evidence limited/conflicting); Backman 2011 (PMID 21917610, prospective, n=75) probably included in Sprague. Seek: prospective studies published after Sprague or not in it; either direction.
+C2b. Ankle BRACE (not tape) in CAI improves confidence but not functional tests. Known: only Picot 2025 (PMID 39916658, crossover). Tape is already 2/2 with Halim-Kertanegara 2017 — do not re-report tape. Seek: brace studies only.
+A1. AGV injury mechanism and body region. Known: Maudot 2014 (thesis, no PMID: obstacle contact 46.5%, landing 40.9%, upper limb > lower limb) vs Hilgert 2004 (PMID 15592983 = our S01: more knee/shin/ankle injuries). Seek: any other AGV / trick / skatepark inline skating injury data after 2000 that reports mechanism or body region; quote the exact numbers.
+A2/A3. Wrist guards: keep populations separate. Known: inline skating — Schieber 1996 (PMID 8929359, recreational skaters), Cheng 1995 (PMID 7500422, splint-top fractures, 4 cases), cadaver — Giacobetti 1997 (PMID 9079178, static load, no difference) and Lewis 1997 (PMID 9174522, drop test, protective); snowboard/ski — Russell 2007 (PMID 17414485), Twining 2022 (PMID 34587121). Seek: (i) inline/roller/skateboard studies of wrist-guard effect or splint-top fractures; (ii) further biomechanical tests. Label each finding with its population; ski/snowboard data cannot confirm a skating claim.
+
+Group 3 — tendon loading (batch B)
+B1. Patellar tendinopathy: eccentric vs heavy slow resistance (HSR) vs isometric. Known NMAs disagree: Li 2024 (PMID 39559237; Li, Sun, Fang, Lu, Shi, Liu G, Gu) ranks eccentric lowest; Liu 2026 (PMID 42192475; Liu Y, Li C, Yang F) finds no clear hierarchy. Seek: other NMAs/meta-analyses and head-to-head RCTs; report overlap of included trials; explain the disagreement only from the papers.
+B2. Achilles tendinopathy: HSR as effective as eccentric training. Known: Beyer 2015 RCT (PMID 26018970; Kjær, Magnusson group). Isometrics: Clifford 2020 meta-analysis (PMC7406028). Seek: independent RCTs or meta-analyses comparing HSR, eccentric and isometric loading for Achilles.
+B3. Collagen peptides + training for tendons. Known: Miyamoto 2025 (PMID 40623147; untrained men, NO training programme), Bischof 2024 (PMID 39060741; GRADE very low for tendon outcomes), Kirmse 2024 (PMID 39086044; no effect on connective protein synthesis). Seek: RCTs where collagen was combined with a structured training programme and tendon outcomes were measured (stiffness, CSA, tendinopathy symptoms).
+B4. Posterior tibial tendon dysfunction stage I–II: orthosis + exercise (83% success). Known: Alvarez 2006 (PMID 16442022, case series n=47), Kulig 2009 (PMID 19022863, RCT), Ross 2018 review (PMID 30271611; Vicenzino). Seek: RCTs/cohorts not by these groups and not in Ross 2018.
+B5. Pain-monitoring model (pain ≤5/10, back to baseline next morning) allows continued activity in Achilles tendinopathy. Known: Silbernagel 2007 (PMID 17307888); all validations from Silbernagel/Thomeé. Seek: any test of the model by another group, in any tendinopathy.
+B6. Patellar tendon load ranking of rehab exercises (decline squat high). Known: Scattone Silva 2024 (PMID 37847102; Baxter, Silbernagel). Seek: independent loading studies.
+B7. Immobilizing boot in plantarflexion reduces Achilles load. Known: Hullfish 2024 (PMID 39492878; Baxter). Seek: independent studies; stiff sport boots only as analogy.
+
+RULES (mandatory)
+1. PMID AND DOI copied from the PubMed page (pubmed.ncbi.nlm.nih.gov/<PMID>/), PMCID if shown; check PMID, DOI and PMCID separately against first author, year, title. If not opened or anything differs: "UNVERIFIED". Never guess an identifier. No source without author and identifier.
+2. Cite in text as [Autor rok, PMID] — no footnote numbers; each citation must match the bibliography.
+3. Study design exactly as the paper states it: RCT only if randomised to groups (crossover, cohort, cross-sectional, reliability, cadaver, lab ≠ RCT); narrative/critical review ≠ systematic review; expert opinion = {KONSENSUS}/{OPINIA}.
+4. Numbers only if in the cited paper, with location (abstract/full text, table); give n.
+5. Quotes only verbatim, in quotation marks, with location. Never attribute a framework, cut-off, population or equipment to a paper that does not contain it.
+6. Blogs, clinic pages, forums, unreviewed theses = {OPINIA}; they cannot make a claim 2/2.
+7. Nothing found → "NIE ZNALEZIONO" with databases and search terms. AI models are not sources.
+
+OUTPUT (Markdown, Polish, this order)
+## 1. Podsumowanie
+3–6 zdań: liczba werdyktów każdego rodzaju; ile UNVERIFIED.
+## 2. Twierdzenia (one block per claim, in the order above)
+### <ID>. <twierdzenie>
+| Źródło znane | Nowe źródło [Autor rok, PMID] | DOI | Typ badania (jak w pracy) | Populacja | n | Dosłowny cytat / liczba (lokalizacja) | Niezależność (a) autorzy (b) włączone do znanego przeglądu? |
+|---|---|---|---|---|---|---|---|
+**Werdykt:** potwierdzone (2/2) / obalone / częściowo (która część) / brak drugiego źródła — 1–2 zdania.
+## 3. Bibliografia (tylko nowe źródła)
+| # | Autorzy, rok, tytuł, czasopismo, tom:strony | Typ badania | n | PMID | DOI | PMCID |
+|---|---|---|---|---|---|---|
+## 4. Identifier check
+| Źródło | PMID | DOI | PMCID | Strona PubMed otwarta? | Zgodne autor+rok+tytuł? tak/nie/UNVERIFIED |
+|---|---|---|---|---|---|
+## 5. NIE ZNALEZIONO
+- <ID> — bazy i hasła
