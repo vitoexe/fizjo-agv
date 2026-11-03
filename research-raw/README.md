@@ -35,3 +35,7 @@ status_weryfikacji: "niezweryfikowane"    # → "w toku" → "zweryfikowane (has
 Pod nagłówkiem: pełny wynik modelu bez zmian, a pod nim sekcja `## Weryfikacja` (tabela ✔/✘/PARTIAL dla każdego PMID/DOI, błędy modelu, co weszło do bazy, hash commita).
 
 Uwaga: wszystko w tym repo jest publiczne — w nagłówku nie wpisujemy danych prywatnych (e-maili, nazw kont).
+
+## Lekcje
+
+- **3.11.2026, batch-1 A (Deep Research Preview):** model podał błędne lub niedopasowane DOI/PMID w **5 z 7 par** (identyfikatory prowadziły do zupełnie innych prac), a jego tabela „Identifier check” wszędzie miała „Tak”. Do tego przypisał pracy liczbę, której w niej nie ma (Giacobetti 1997: „−31,8% siły” — w rzeczywistości brak różnicy), oznaczył badanie na zwłokach jako RCT, a blogi i strony klinik jako {DOWÓD}. **Zasada: każdy PMID i DOI sprawdzamy w PubMed (efetch/esummary) i Crossref, zanim wejdzie do bazy; liczby tylko z abstraktu/pełnego tekstu, który sami przeczytaliśmy.** Self-check modelu nie jest weryfikacją.

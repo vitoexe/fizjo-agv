@@ -200,3 +200,21 @@ Pełna tabela weryfikacji: `research-raw/2026-11-03-argon-2-zmeczenie-tulow.md`.
 | S141 | de Noronha M, Lay EK, Mcphee MR, Mnatzaganian G, Nunes GS 2019. *Ankle sprain has higher occurrence during the latter parts of matches: systematic review with meta-analysis*. J Sport Rehabil 28(4):373–380 | meta-analiza, 8 badań, 500 skręceń | `{DOWÓD:przegląd}{ANALOGIA:sporty boiskowe}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/29809104/ |
 | S142 | Ekstrand J, Hägglund M, Waldén M 2011. *Injury incidence and injury patterns in professional football: the UEFA injury study*. Br J Sports Med 45(7):553–558 | prospektywna, 23 kluby, 7 sezonów | `{DOWÓD:obserwacyjne}{ANALOGIA:piłka nożna}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/19553225/ |
 | S143 | Zheng B i wsp. 2025. *Effects of mental fatigue on biomechanical characteristics and risk associated with non-contact ACL injuries during landing*. Front Bioeng Biotechnol 13:1582873 | laboratoryjne, n=36 | `{DOWÓD:obserwacyjne}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/40497248/ · PMC12148899 |
+
+## Batch-1 A — Deep Research Preview, wzorce urazów (dodane 3.11.2026)
+
+Surowy wynik i triage: `research-raw/2026-11-03_batch1-A_deep-research.md`. Model podał błędne DOI/PMID w 5 z 7 par — poniżej **wyłącznie identyfikatory sprawdzone przez nas** w PubMed (efetch) i Crossref.
+
+| ID | Źródło | Typ | Etykieta | Dotyczy AGV? | Status | Link |
+|---|---|---|---|---|---|---|
+| S144 | Maudot B. 2014. *Roller agressif : traumatismes du rider et place du masseur kinésithérapeute dans la prévention*. Travail écrit de fin d'études (dyplom fizjoterapeuty), IFM3R Pays de la Loire (Nantes); promotor F. Cercleron | **literatura szara** — praca dyplomowa, nierecenzowana; retrospektywna ankieta internetowa (FR+EN), n=133 riderów, 128 urazów w ciągu roku | `{DOWÓD:obserwacyjne}` (pojedyncza kohorta, literatura szara) | **tak** | ✔ pełny tekst (PDF) | https://kinedoc.org/work/kinedoc/83d7f643-5c7f-4f3c-88f9-ebe5fc47c590.pdf (brak DOI/PMID) |
+| S145 | Russell K, Meeuwisse WH, Nettel-Aguirre A, Emery CA, Wishart J, Romanow NT, Rowe BH, Goulet C, Hagel BE 2014. *Feature-specific terrain park-injury rates and risk factors in snowboarders: a case-control study*. Br J Sports Med 48(1):23–28 | case-control, 333 przypadki, 1261 kontroli | `{DOWÓD:obserwacyjne}{ANALOGIA:snowboard, terrain park}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/24184587/ · PMC3888610 · doi:10.1136/bjsports-2012-091912 |
+| S146 | Cheng SL, Rajaratnam K, Raskin KB, Hu RW, Axelrod TS 1995. *"Splint-top" fracture of the forearm: a description of an in-line skating injury associated with the use of protective wrist splints*. J Trauma 39(6):1194–1197 | seria przypadków, n=4 | `{DOWÓD:obserwacyjne}{ANALOGIA:rolki inline}` | nie (rolki inline) | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/7500422/ · doi:10.1097/00005373-199512000-00036 |
+| S147 | Russell K, Hagel B, Francescutti LH 2007. *The effect of wrist guards on wrist and arm injuries among snowboarders: a systematic review*. Clin J Sport Med 17(2):145–150 | przegląd systematyczny, 6 badań | `{DOWÓD:przegląd}{ANALOGIA:snowboard}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/17414485/ · doi:10.1097/JSM.0b013e31803f901b |
+| S148 | Giacobetti FB, Sharkey PF, Bos-Giacobetti MA, Hume EL, Taras JS 1997. *Biomechanical analysis of the effectiveness of in-line skating wrist guards for preventing wrist fractures*. Am J Sports Med 25(2):223–225 | biomechanika na zwłokach (40 przedramion z 20 zwłok), **nie RCT** | `{DOWÓD:obserwacyjne}` (laboratoryjne, kadawerowe) | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/9079178/ · doi:10.1177/036354659702500215 |
+
+Uwagi:
+- S145 i S147 mają wspólnych autorów (Russell, Hagel) — **nie są niezależne** od siebie. S147 i S04 (Schieber, CDC Atlanta) — niezależne grupy.
+- S148: Deep Research przypisał tej pracy „redukcję siły o co najmniej 31,8%” — **w abstrakcie tego nie ma**; wynik jest odwrotny (brak różnicy siły złamania: 2245 N bez vs 2285 N z ochraniaczem, nieistotne).
+- S145: liczby „77–79% urazów przy lądowaniu” podane przez model nie występują w abstrakcie — nie wpisujemy.
+

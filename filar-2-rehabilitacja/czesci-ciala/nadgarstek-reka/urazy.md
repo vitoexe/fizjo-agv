@@ -17,6 +17,11 @@ recenzent: ""
 - Brak ochraniaczy nadgarstków: iloraz szans urazu nadgarstka 10,4 (95% CI 2,9–36,9; skorygowany o wiek i płeć) vs osoby w ochraniaczach; urazy nadgarstka — 32% wszystkich urazów, złamania nadgarstka — 25%. Badanie: 161 rannych na SOR w USA 1992–93, **rolki rekreacyjne, nie AGV**. [S04] {DOWÓD:obserwacyjne} ✔ 1/2
 - Brak ochraniaczy łokci: iloraz szans urazu łokcia 9,5 (95% CI 2,6–34,4). [S04] {DOWÓD:obserwacyjne} ✔ 1/2
 - W AGV ochraniacze nadgarstków nosiło tylko 41% skaterów. [S01] {DOWÓD:obserwacyjne} ✔ 1/2
+- U snowboardzistów ochraniacze nadgarstków zmniejszały ryzyko urazu nadgarstka (RR 0,23; 95% CI 0,13–0,41) i złamania nadgarstka (RR 0,29; 95% CI 0,10–0,87); dane nieeksperymentalne sugerowały możliwy wzrost urazów palców i łokcia/barku. [S147] {DOWÓD:przegląd}{ANALOGIA:snowboard} ✔
+- Ochraniacze nadgarstków zmniejszają ryzyko urazu nadgarstka — rolki inline [S04] i snowboard [S147], niezależne grupy. {DOWÓD:obserwacyjne}{ANALOGIA:rolki rekreacyjne, snowboard} ✔ 2/2
+- Ograniczenie: w teście na zwłokach (40 przedramion) siła złamania z ochraniaczem i bez nie różniła się (2285 N vs 2245 N), wzór złamań też nie. [S148] {DOWÓD:obserwacyjne} ✔ 1/2 — sprzeczne z danymi epidemiologicznymi [S04][S147]; model kadawerowy nie oddaje upadku żywego człowieka. {WNIOSKOWANIE}
+- „Złamanie nad szyną” (splint-top): 4 przypadki otwartych złamań przedramienia na rolkach tuż nad górną krawędzią ochraniacza; autorzy sugerują, że szyna i przedramię działają jak dźwignia. [S146] {DOWÓD:obserwacyjne}{ANALOGIA:rolki inline} ✔ 1/2 *(seria 4 przypadków — sygnał, nie częstość)*
+- Ankieta AGV (praca dyplomowa): kończyna górna najczęściej uszkadzana (97 zajęć vs 82 kończyny dolnej); wg autorki najczęściej nadgarstek/ręka/palce i kolano; ochraniacze nadgarstków były najczęściej noszoną ochroną. [S144] {DOWÓD:obserwacyjne} ✔ 1/2 *(literatura szara)*
 
 ## Wnioskowanie biomechaniczne
 
@@ -32,10 +37,10 @@ recenzent: ""
 
 ## TODO / pytania do researchu
 
-- [ ] Czy dane S03/S04 (rekreacyjne inline) przenoszą się na AGV, gdzie typowy upadek to ześlizg na kolana?
+- [ ] Czy dane S03/S04 (rekreacyjne inline) przenoszą się na AGV? Jedyna ankieta AGV [S144] też wskazuje kończynę górną jako najczęściej uszkadzaną — potrzebne drugie niezależne źródło.
 - [ ] Typowe urazy: złamanie dalszej nasady promienia, łódeczkowata, kciuk — rehabilitacja i powrót.
 - [x] Technika upadania — zob. [`filar-1-przygotowanie/technika-upadania.md`](../../../filar-1-przygotowanie/technika-upadania.md) (filar 1, prewencja).
 
 ## Źródła
 
-[S01] [S03] [S04] — `sources.md`.
+[S01] [S03] [S04] [S144] [S146] [S147] [S148] — `sources.md`.

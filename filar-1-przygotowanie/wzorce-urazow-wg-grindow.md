@@ -19,7 +19,11 @@ Epidemiologia AGV:
 - W badaniu terenowym 66 skaterów AGV leczenie u lekarza było potrzebne średnio raz na 586 h jazdy agresywnej. [S01] {DOWÓD:obserwacyjne} ✔ 1/2
 - Wzorzec urazów przypominał jazdę fitness, ale z większym udziałem urazów kolana, piszczeli i okolicy kostki. [S01] {DOWÓD:obserwacyjne} ✔ 1/2
 - Ochraniacze: kolan 94%, nadgarstków 41%, komplet tylko 32% skaterów. [S01] {DOWÓD:obserwacyjne} ✔ 1/2
-- Typowy upadek w AGV to ześlizg na kolana i piszczele (wg researchu; nie ma tego w abstrakcie — sprawdzić w pełnym tekście, po niemiecku). [S01] {DOWÓD:obserwacyjne} ⏳ 1/2
+- *(Dotychczasowe twierdzenie, niepotwierdzone — zostawione z oryginalnym źródłem dla przejrzystości):* Typowy upadek w AGV to ześlizg na kolana i piszczele (wg researchu; nie ma tego w abstrakcie — sprawdzić w pełnym tekście, po niemiecku). [S01] {DOWÓD:obserwacyjne} ⏳ 1/2
+  - **Korekta (3.11.2026):** w jedynej znalezionej ankiecie urazów AGV po 2007 r. (133 riderów, 128 urazów w ciągu roku, praca dyplomowa — nierecenzowana) 46,5% urazów powstało przy kontakcie z przeszkodą (modułem), 40,9% przy lądowaniu; 59,8% urazów zdarzyło się w parku, 32,3% na streecie. Nie ma tam kategorii „ześlizg na kolana”, więc ta ankieta ani go nie potwierdza, ani nie obala — ale główne momenty urazu to kontakt z przeszkodą i lądowanie. [S144] {DOWÓD:obserwacyjne} ✔ 1/2 *(ograniczony dowód: jedno źródło, literatura szara, ankieta retrospektywna)*
+  - Ślizg na kolana w ochraniaczach to raczej **technika kontrolowanego upadku** (zob. `technika-upadania.md`) niż opis tego, jak powstają urazy. {WNIOSKOWANIE}
+- Kończyna górna była najczęściej uszkadzaną okolicą: 97 zajęć kończyny górnej vs 82 kończyny dolnej i 31 tułowia/głowy (127 opisanych urazów, część obejmowała kilka okolic). Autorka podsumowuje, że najczęściej dotknięte są nadgarstek/ręka/palce oraz kolano, a najczęściej uszkodzony jest aparat torebkowo-więzadłowy (38,6% urazów), przed kośćmi (30,7%). [S144] {DOWÓD:obserwacyjne} ✔ 1/2 *(jedno źródło, literatura szara)*
+- W tej samej ankiecie 30,7% urazów oznaczało przerwę >28 dni; w 67,7% odpowiedzi po urazie nie było żadnej rehabilitacji. [S144] {DOWÓD:obserwacyjne} ✔ 1/2
 
 Biomechanika stalli i grindów (pilotaż, 10 mężczyzn, stall i frontside grind na oprzyrządowanej rurze):
 - Siła pionowa przy wejściu na rurę malała wraz z doświadczeniem skatera (stall i grind, r = −0,84). [S02] {DOWÓD:obserwacyjne} ✔ 1/2
@@ -29,6 +33,10 @@ Biomechanika stalli i grindów (pilotaż, 10 mężczyzn, stall i frontside grind
 Rolki inline ogólnie (nie AGV):
 - Na rolkach inline 53% urazów w SOR (USA, 2002–2021) dotyczyło barku, ramienia, łokcia i nadgarstka. [S03] {DOWÓD:obserwacyjne} ✔ 1/2
 - Złamania stanowiły 41,2% urazów na rolkach inline. [S03] {DOWÓD:obserwacyjne} ✔ 1/2 *(uwaga: research podawał „41,2% złamań w kończynie górnej” — abstrakt mówi o odsetku złamań wśród wszystkich urazów inline)*
+
+Analogia ze snowboardu (terrain park, przeszkody podobne do skateparku):
+- W parku snowboardowym (Alberta, 333 rannych vs 1261 kontroli) urazy na 1000 zjazdów były najczęstsze na skoczniach i halfpipe (po 2,56), a najrzadsze na railach (0,43). W porównaniu z railami szanse urazu były wyższe dla halfpipe (OR 9,63), skoczni (OR 4,29), „mushroom” (OR 2,30) i kickerów (OR 1,99). Autorzy: większe ryzyko przy przeszkodach z fazą lotu lub dużym zeskokiem. [S145] {DOWÓD:obserwacyjne}{ANALOGIA:snowboard} ✔ 1/2
+- Dla AGV: to wspiera hipotezę, że ryzyko rośnie z wysokością lotu/zeskoku (gapy, schody, dropy z grindu), a nie z samym grindem na railu. {WNIOSKOWANIE}
 
 Analogia ze skateboardingu:
 - W ankiecie 197 skaterów z Hiszpanii kostka była najczęstszym miejscem urazu (39,3%), a skręcenie kostki najczęściej nawracało (70,1%). [S05] {DOWÓD:obserwacyjne}{ANALOGIA:skateboarding} ✔ 1/2
@@ -61,7 +69,7 @@ Poniższa tabela **nie jest wynikiem badań**. Wynika z ustawienia stopy w danym
 
 - [ ] Obejrzeć wideo The Blading Physio o soul grindzie [S24] i podcast [S26]; spisać ćwiczenia i ewentualne twierdzenia o urazach.
 
-- [ ] Czy istnieją nowsze (po 2007) badania epidemiologiczne AGV lub trick skatingu? Zawody (np. WRS), kluby, ankiety społeczności.
+- [x] Czy istnieją nowsze (po 2007) badania epidemiologiczne AGV? — jedna ankieta (praca dyplomowa) [S144]; szukać drugiego niezależnego źródła (zawody, kluby, ankiety społeczności).
 - [ ] Pomiary sił/kinematyki dla soul/topsoul/makio/royale/unity — czy ktokolwiek je mierzył (prace inżynierskie, magisterki)?
 - [ ] Rozkład urazów: ostre vs przeciążeniowe w AGV.
 - [ ] Wpływ sprzętu (twardy but, soul plate, frame, grind plate) na kostkę.
@@ -70,4 +78,4 @@ Poniższa tabela **nie jest wynikiem badań**. Wynika z ustawienia stopy w danym
 
 ## Źródła
 
-[S01] [S02] [S03] [S05] [S06] [S07] [S13] — pełne opisy w `sources.md`.
+[S01] [S02] [S03] [S05] [S06] [S07] [S13] [S144] [S145] — pełne opisy w `sources.md`.

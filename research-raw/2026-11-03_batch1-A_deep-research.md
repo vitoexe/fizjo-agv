@@ -9,7 +9,7 @@ czas_trwania: "ok. 19 min (start 15:46, odpowiedź 16:06 czasu warszawskiego; wg
 tokeny: "łącznie 1 132 045 (wejście 970 888, w tym cache 88 193; wyjście 25 552; myślenie 47 248; narzędzia 88 357)"
 ustawienia: "temperature 1.0, topP 0.95, Google Search + Browse jako narzędzia"
 eksport: "plik czatu AI Studio z Google Drive (JSON), pole odpowiedzi modelu; surowy JSON obok: 2026-11-03_batch1-A_deep-research.json"
-status_weryfikacji: "niezweryfikowane"
+status_weryfikacji: "zweryfikowane częściowo (3.11.2026): do bazy weszły tylko Maudot 2014 → S144, Russell 2014 → S145, Cheng 1995 → S146, Russell 2007 → S147, Giacobetti 1997 → S148, z identyfikatorami poprawionymi przez nas; 5/7 par DOI/PMID modelu było błędnych; reszta (blogi, strony klinik, Varlotta 2000, Williams 2010 jako 2/2) nie weszła"
 ---
 
 > Uwaga: to jest **Deep Research Preview**, nie Max. Prompt (9516 znaków w pliku czatu) jest identyczny z plikiem promptu z commita e9681a8. W pliku czatu jest też blok „myśli” modelu (plan i przebieg researchu, ok. 16,5 tys. znaków) — pominięty tutaj, jest w JSON. Poniżej pełna odpowiedź modelu bez zmian (linki w „Sources” to przekierowania vertexaisearch — rozwinięte w dodatku na końcu).
@@ -143,6 +143,21 @@ Zidentyfikowano następujące, obszerne luki w światowej literaturze medycznej,
 
 
 ---
+
+## Weryfikacja (nasza, 3.11.2026)
+
+| Źródło (wg modelu) | PMID modelu | DOI modelu | Wynik | Poprawne ID |
+|---|---|---|---|---|
+| Cheng 1995 | 7500422 ✔ | ✘ (inna praca: Benhaim 1995) | PARTIAL | doi:10.1097/00005373-199512000-00036 → **S146** |
+| Russell 2007 | 17414485 ✔ | ✘ (nie istnieje) | PARTIAL | doi:10.1097/JSM.0b013e31803f901b → **S147** |
+| Williams 2010 | 23015976 ✔ | ✔ | ✔ (przegląd, nie wchodzi jako niezależne 2/2) | — |
+| Giacobetti 1997 | 9079178 ✔ | ✘ (inna praca: Swenson 1997) | PARTIAL + **błędny wynik** (brak różnicy, nie −31,8%) | doi:10.1177/036354659702500215 → **S148** |
+| Varlotta 2000 (MSSE) | ✘ (Rowland 2000) | ✘ (Rowland 2000) | ✘ — w PubMed Varlotta 2000 to inna praca (Clin J Sport Med, PMID 10695847); nie wchodzi | — |
+| Russell 2014 | ✘ (Hopkins 2014) | ✘ (Herrmann 2012) | PARTIAL — praca istnieje, liczby 77–79% nie ma w abstrakcie | PMID 24184587, PMC3888610, doi:10.1136/bjsports-2012-091912 → **S145** |
+| Major 2007 | 17786694 ✔ | „UNVERIFIED” | ✔ (już S02) | doi:10.1080/02640410601129615 |
+| Maudot 2014 | — | — | ✔ PDF przeczytany: n=133, 128 urazów, 46,5% kontakt z modułem, 40,9% lądowanie, 59,8% park; kończyna górna 97 vs dolna 82 | **S144** (literatura szara) |
+
+Commit z wpisem do bazy: zob. historię `sources.md` (3.11.2026).
 
 ## Dodatek (nasz, nie model): rozwinięte linki „Sources”
 

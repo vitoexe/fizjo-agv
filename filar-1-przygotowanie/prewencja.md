@@ -17,9 +17,10 @@ Sprzęt ochronny:
 - Brak ochraniaczy nadgarstków: iloraz szans urazu nadgarstka 10,4 (95% CI 2,9–36,9; skorygowany o wiek i płeć). [S04] {DOWÓD:obserwacyjne} ✔ 1/2
 - Brak ochraniaczy łokci: iloraz szans urazu łokcia 9,5 (95% CI 2,6–34,4; skorygowany o liczbę lekcji i jazdę z trikami). [S04] {DOWÓD:obserwacyjne} ✔ 1/2
 - Ochraniacze kolan: brak istotnego efektu (surowy iloraz szans 2,2; 95% CI 0,7–7,2). Kasków nie dało się ocenić. [S04] {DOWÓD:obserwacyjne} ✔
-- Kontekst [S04]: 161 rannych na SOR w USA (XII 1992 – VII 1993), **rolki rekreacyjne, nie AGV**; 46% nie miało żadnego sprzętu. Upadek w AGV często kończy się ześlizgiem na kolanach w ochraniaczach — przeniesienie wyników na AGV jest niepewne. {WNIOSKOWANIE}
+- Kontekst [S04]: 161 rannych na SOR w USA (XII 1992 – VII 1993), **rolki rekreacyjne, nie AGV**; 46% nie miało żadnego sprzętu. Kontrolowany upadek w AGV to często ześlizg na kolanach w ochraniaczach, ale w jedynej ankiecie AGV urazy powstawały głównie przy kontakcie z przeszkodą (46,5%) i lądowaniu (40,9%) [S144] — przeniesienie wyników S04 na AGV jest niepewne. {WNIOSKOWANIE}
 - Uwaga: infografika z Deep Research G ([`research-raw/2026-11-02-G-schieber-ochraniacze-wykres.png`](../research-raw/2026-11-02-G-schieber-ochraniacze-wykres.png)) podpisuje wszystkie trzy wartości jako „adjusted for age and sex” — **to błąd** (kolano: surowe i nieistotne; łokieć: inne zmienne).
 - W AGV ochraniacze kolan nosiło 94%, nadgarstków 41%, komplet 32%. [S01] {DOWÓD:obserwacyjne} ✔
+- Ochraniacze nadgarstków zmniejszają ryzyko urazu nadgarstka: rolki inline [S04] i snowboard [S147] (niezależne grupy) {DOWÓD:obserwacyjne}{ANALOGIA:rolki rekreacyjne, snowboard} ✔ 2/2; opisano jednak złamania przedramienia tuż nad szyną ochraniacza (4 przypadki) [S146] ✔ 1/2. Szczegóły: `filar-2-rehabilitacja/czesci-ciala/nadgarstek-reka/urazy.md`.
 - Uwaga: w polskiej ankiecie osoby z ochraniaczami częściej zgłaszały urazy — korelacja (prawdopodobnie bardziej ryzykowna jazda), nie dowód szkodliwości. [S36] {DOWÓD:obserwacyjne} ✔
 
 Trening:
@@ -75,4 +76,4 @@ Wstrząśnienie mózgu (szczegóły: [`../filar-2-rehabilitacja/czesci-ciala/glo
 
 ## Źródła
 
-[S01] [S02] [S04] [S16] [S17] [S18] [S28] [S29] [S33] [S36] [S38] [S62] [S70] [S71] [S72] [S80] [S81] [S82] [S83] [S87] [S88] [S95] [S103] [S104] [S138] [S140] [S141] [S142] — `sources.md`.
+[S01] [S02] [S04] [S16] [S17] [S18] [S28] [S29] [S33] [S36] [S38] [S62] [S70] [S71] [S72] [S80] [S81] [S82] [S83] [S87] [S88] [S95] [S103] [S104] [S138] [S140] [S141] [S142] [S144] [S146] [S147] — `sources.md`.
