@@ -218,3 +218,19 @@ Uwagi:
 - S148: Deep Research przypisał tej pracy „redukcję siły o co najmniej 31,8%” — **w abstrakcie tego nie ma**; wynik jest odwrotny (brak różnicy siły złamania: 2245 N bez vs 2285 N z ochraniaczem, nieistotne).
 - S145: liczby „77–79% urazów przy lądowaniu” podane przez model nie występują w abstrakcie — nie wpisujemy.
 
+## Batch-1 C — Gemini Deep Research, powrót po urazie kostki (dodane 3.11.2026)
+
+Surowy wynik i triage: `research-raw/2026-11-03_batch1-C_gemini-deep-research.md`. Wszystkie identyfikatory sprawdzone przez nas w PubMed (esummary/efetch) i Crossref. Do bazy weszły tylko źródła, które tworzą twierdzenie 2/2 z niezależnych grup; pozostałe (Ankle-GO, ortezy w CAI) czekają w research-raw jako 1/2.
+
+| ID | Źródło | Typ | Etykieta | Dotyczy AGV? | Status | Link |
+|---|---|---|---|---|---|---|
+| S149 | Tassignon B, Verschueren J, Delahunt E, Smith M, Vicenzino B, Verhagen E, Meeusen R 2019. *Criteria-Based Return to Sport Decision-Making Following Lateral Ankle Sprain Injury: a Systematic Review and Narrative Synthesis*. Sports Med 49(4):601–619 | przegląd systematyczny + synteza narracyjna (0 badań spełniło kryteria) | `{DOWÓD:przegląd}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/30747379/ · doi:10.1007/s40279-019-01071-3 |
+| S150 | Wikstrom EA, Mueller C, Cain MS 2020. *Lack of Consensus on Return-to-Sport Criteria Following Lateral Ankle Sprain: A Systematic Review of Expert Opinions*. J Sport Rehabil 29(2):231–237 | przegląd systematyczny 11 prac eksperckich (poziom dowodu 5) | `{DOWÓD:przegląd}` (o stanie wiedzy) / `{KONSENSUS}` (o domenach) | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/31141438/ · doi:10.1123/jsr.2019-0038 |
+| S151 | Salameh M, Hantouly AT, Rayyan A, Dabbas J, Toubasi AA, Hartnett DA, Blankenhorn B 2022. *Return to Play After Isolated Syndesmotic Ligamentous Injury in Athletes: A Systematic Review and Meta-analysis*. Foot Ankle Orthop 7(2):24730114221096482 | przegląd systematyczny z metaanalizą, 18 prac, 1133 urazy | `{DOWÓD:przegląd}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/35601091/ · PMC9121478 · doi:10.1177/24730114221096482 |
+| S152 | Sman AD, Hiller CE, Rae K, Linklater J, Black DA, Refshauge KM 2014. *Prognosis of ankle syndesmosis injury*. Med Sci Sports Exerc 46(4):671–677 | kohorta prospektywna, n=63 (urazy więzadeł kostki potwierdzone MRI) | `{DOWÓD:obserwacyjne}` | nie | ✔ abstrakt | https://pubmed.ncbi.nlm.nih.gov/24002346/ · doi:10.1249/MSS.0000000000000151 |
+
+Uwagi:
+- S149 i S150 nie mają wspólnych autorów (Bruksela/Dublin/Queensland/Amsterdam vs Uniwersytet Karoliny Północnej) — **niezależne od siebie**. Ale autorzy obu prac (m.in. Tassignon, Meeusen, Delahunt, Wikstrom) współtworzą później model PAASS [S19] — **S149 i S150 nie są niezależnym potwierdzeniem S19**.
+- S151 nie podał PMID (model wpisał „BRAK DANYCH”) — PMID 35601091 znaleźliśmy sami po DOI. W S151 autorem seniorem jest Blankenhorn B (model podał Salameh).
+- S152: model przypisał tej pracy hokeistów, sztywne buty jako „dźwignię” i MRI jako słaby predyktor — **w abstrakcie tego nie ma** (kohorta z klubów i klinik w Australii, wiek 21 ± 3,2 r.); nie wpisujemy.
+- S20 (Mazzella 2025) był już w bazie; liczby podane przez model (87,1%, 134,5 dnia, do 720 dni, FAOS 85,6) zgadzają się z abstraktem — bez zmian w bazie.

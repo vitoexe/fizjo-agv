@@ -10,7 +10,7 @@ czas_trwania: "ok. 4 min (start ok. 18:30, gotowe do 18:34 czasu warszawskiego)"
 tokeny: "brak danych (aplikacja Gemini nie pokazuje); zużycie limitu: okno 10% → 31%, tydzień 2% → 3% — w tym samym czasie działał batch-1 B, więc to nie jest koszt samego C"
 ustawienia: "Deep Research w aplikacji Gemini, model Pro, tryb Rozszerzony"
 eksport: "Eksport do Google Docs → odczyt .docx z Drive (tylko odczyt) i konwersja do markdown; 2 symbole matematyczne zapisane w Doc jako obrazki odtworzone jako tekst („<8”, „≥”); poza tym tekst bez zmian"
-status_weryfikacji: "niezweryfikowane"
+status_weryfikacji: "zweryfikowane częściowo (3.11.2026): 8/8 źródeł istnieje, wszystkie PMID/DOI/PMC poprawne (PMID Salameh 2022 uzupełniony przez nas); do bazy weszły 2 twierdzenia 2/2: Tassignon 2019 → S149 + Wikstrom 2020 → S150 (brak zwalidowanych progów RTS po skręceniu bocznym), Salameh 2022 → S151 + Sman 2014 → S152 (dłuższy powrót po urazie więzozrostu); Ankle-GO (Picot 2023/2024), ortezy w CAI (Picot 2025) i reszta czekają jako 1/2 — szczegóły w sekcji Weryfikacja"
 ---
 
 ## Raport Badawczy: Kryteria Powrotu do Sportu po Urazach Stawu Skokowego w Kontekście Jazdy na Rolkach Agresywnych (AGV)
@@ -92,3 +92,69 @@ Zrzeczenie się odpowiedzialności technicznej: Część źródeł oznaczono jak
 |---|---|---|---|
 | The Achilles Doc (Kliniczny blog podologiczno-sportowy) | Wskazuje, że decyzja o bezpiecznym powrocie młodego sportowca do gry wymaga wielotorowej analizy opartej na ustąpieniu dolegliwości bólowych, kwestionariuszach oceny funkcjonalnej oraz strukturze weryfikacyjnej PAASS. Zwraca mocną uwagę na przechodzenie z decyzyjności czasowej w stronę skalowanych wyników, takich jak Ankle-GO. | https://www.theachillesdoc.com/post/when-can-a-young-athlete-return-to-sports-after-an-ankle-sprain | {OPINIA} |
 | Użytkownik "NewsBot" (Forum specjalistyczne Podiatry Arena) | Przytaczając nowe publikacje (w tym przegląd Mazzelli, 2025), dyskutanci podkreślają konieczność kontynuowania ścisłej, funkcjonalnej rehabilitacji sportowców po operacyjnym zespoleniu złamania kostki nawet powyżej okresu sześciu miesięcy celem odzyskania bezpiecznej dynamiki przed skokami. | https://podiatryarena.com/index.php?threads/rehabilitation-for-ankle-fractures.84028/page-2 | {OPINIA} |
+
+
+---
+
+## Weryfikacja (triage 3.11.2026, nasza — nie część raportu)
+
+Sprawdzone: PubMed esummary + efetch (abstrakty) dla wszystkich PMID, Crossref dla wszystkich DOI. Czytaliśmy abstrakty, nie pełne teksty.
+
+### Identyfikatory
+
+| Źródło (model) | PMID | DOI | PMC | Wynik |
+|---|---|---|---|---|
+| Tassignon 2019 | 30747379 ✔ | ✔ | brak w PubMed (model: BRAK DANYCH — zgodnie) | ✔ |
+| Wikstrom 2020 | 31141438 ✔ | ✔ | brak (zgodnie) | ✔ |
+| Picot 2023 (Sports Health) | 37434508 ✔ | ✔ | PMC10732116 ✔ | ✔ (online 2023, numer 16(1) 2024) |
+| Picot 2024 (Sports Med Open) | 38453775 ✔ | ✔ | PMC10920508 ✔ | ✔ — model oznaczył UNVERIFIED niepotrzebnie |
+| Picot 2025 (J Athl Train) | 39916658 ✔ | ✔ | PMC12360251 ✔ | ✔ |
+| Salameh 2022 | model: BRAK DANYCH → **35601091** (nasze, po DOI) | ✔ | PMC9121478 ✔ | ✔ (senior: Blankenhorn B, nie Salameh) |
+| Sman 2014 | 24002346 ✔ | ✔ | brak (zgodnie) | ✔ (lista autorów u modelu skrócona; n=63, model: BRAK DANYCH) |
+| Mazzella 2025 | 41158204 ✔ | ✔ | PMC12558590 ✔ | ✔ — już w bazie jako S20 |
+
+**0 zmyślonych / niedopasowanych identyfikatorów** (vs 5/7 błędnych par w batch-1 A). 4 źródła model oznaczył UNVERIFIED — wszystkie okazały się poprawne.
+
+### Treść vs abstrakty — błędy modelu
+
+- **PAASS przypisane Wikstrom 2020** (tw. 2 i sekcja 4) — błąd. PAASS to Smith 2021 [S19]. Wikstrom 2020 znalazł 8 domen: zgoda (≥75%) tylko co do ruchu specyficznego dla sportu (90,9%), częściowa: równowaga statyczna, ból/obrzęk, PRO, zakres ruchu, siła.
+- **LSI „≥80% w 2 z 11 paneli” i „LSI uznano za niewiarygodne / słaba rzetelność”** — w abstrakcie jest tylko przykład progu „80% zdrowej kończyny” i „brak zgody co do progów”. Liczby „2 z 11” i oceny rzetelności LSI nie ma → niezweryfikowane. Etykieta {DOWÓD:przegląd} dla opinii eksperckich (poziom 5) — za mocna.
+- **Picot 2023: „walidowany wobec nawrotu, AUC 0,77 dla bezpiecznego RTS”** — AUC 0,77 dotyczy powrotu na ten sam poziom po 4 mies., nie nawrotu. Wobec nawrotu: Picot 2024 (AUC 0,75; <8 pkt → OR 8,6; 95% CI 2–37,2; n=54). „8,6-krotnie wyższe ryzyko” to iloraz szans, nie ryzyko względne; szeroki CI.
+- **Picot 2025 oznaczone {DOWÓD:RCT}** — to badanie krzyżowe (crossover) w 3 warunkach, randomizacji abstrakt nie podaje → {DOWÓD:obserwacyjne}/eksperymentalne. „Ok. 40% po LAS rozwija CAI [Picot 2025]” — nie ma w abstrakcie.
+- **Salameh 2022**: liczby 52,32 / 70,94 / 39,33 dnia ✔. „11–17% wszystkich skręceń”, „hokej/narciarstwo”, „klasyfikacja West Point”, „CAM boot” — nie ma w abstrakcie → niezweryfikowane.
+- **Sman 2014**: „sztywny but działa jak dźwignia”, „profesjonalni hokeiści”, „MRI nie przewiduje powrotu na lód” — **nie ma w pracy** (kohorta 63 osób z klubów i klinik w Australii). Prawdziwe: mediana 62 dni (syndesmoza, leczenie zachowawcze) vs 15 dni (skręcenie boczne); VJ i FABQ umiarkowanie korelują z czasem powrotu (r = −0,47 i 0,46).
+- **Tw. 5 „2/2” (Salameh + Sman) dla podziału operacyjne/zachowawcze** — Sman nie bada leczenia operacyjnego; 2/2 jest tylko dla ogólnego „powrót po syndesmozie trwa tygodnie, dłużej niż po LAS”.
+- **Mazzella 2025**: liczby ✔; „wczesna i *agresywna* rehabilitacja” i „FORI” — w abstrakcie jest tylko „early rehabilitation”.
+- Sekcja 5 („sprzeczności”) **źle cytuje bazę**: nie twierdzimy, że RTS ma być oparty na czasie (`powrot-do-grindow.md`: „Mierz, nie licz dni”); progi ≥90% są w bazie jako `{KONSENSUS:protokół}` [S22][S23], nie jako dowód; cytat o ortezach z `prewencja.md` nie istnieje (jest tylko OR 0,38 nawrotu ze stabilizatorem [S17]). „1 na 5 wraca wg czasu” i „RTS wg czasu = patologiczny” — bez źródła.
+- Sekcja 6 (topsoul, „ponad 8–10 tygodni”, hardware po ORIF) — {WNIOSKOWANIE}/{SPEKULACJA} modelu; nie wchodzi.
+- Sekcja 10: blog kliniki i forum oznaczone {OPINIA} — zgodnie z zasadami.
+
+### Niezależność grup
+
+- Tassignon 2019 (VUB Bruksela, UCD Dublin, UQ, Amsterdam UMC) vs Wikstrom 2020 (UNC) — brak wspólnych autorów → **niezależne**. Ale Tassignon, Verschueren, Meeusen, Verhagen, Smith, Vicenzino, Delahunt i Wikstrom są współautorami PAASS [S19] → żadne z nich nie jest niezależnym potwierdzeniem S19.
+- Picot 2023, 2024, 2025 — ta sama grupa (Picot, Fourchet, Lopes, Rauline, Hardy; Fourchet współautorem PAASS) → Ankle-GO = **1/2**.
+- Salameh 2022 (Brown/Jordania/Katar) vs Sman 2014 (Sydney) — **niezależne**.
+
+### Sprzeczności z bazą
+
+- Brak twardej sprzeczności. Uzupełnienie: progi ≥90% w `powrot-do-grindow.md` są tylko protokołowe — teraz wprost zaznaczone [S149][S150].
+- Argon 2 (zmęczenie: skręcenia kostki częstsze pod koniec meczu [S141]) — C tego nie dotyczy, brak konfliktu.
+- S17 (stabilizator zmniejsza nawroty, OR 0,38) vs Picot 2025 (ortezy poprawiają tylko samoocenę w Ankle-GO) — **nie są sprzeczne** (inne pytanie: ryzyko nawrotu vs wynik testów); do opisania razem, jeśli Picot 2025 zyska drugie źródło.
+
+### Co weszło do bazy (commit w Tasks / run-state)
+
+| Twierdzenie | Źródła | Plik |
+|---|---|---|
+| Brak zwalidowanych kryteriów/progów RTS po skręceniu bocznym; progi ≥90% to protokoły | S149 + S150, ✔ 2/2 | `kostka/skrecenie.md`, `powrot-do-grindow.md` |
+| Powrót po urazie więzozrostu dłuższy (średnio 52 dni; mediana 62 vs 15 dni po LAS) | S151 + S152, ✔ 2/2 | `kostka/skrecenie.md` |
+
+### Co czeka (1/2 lub niepewne) — powód
+
+| Kandydat | Powód wstrzymania |
+|---|---|
+| Ankle-GO: <8 pkt po 2 mies. → OR 8,6 nawrotu w 2 lata (Picot 2024); <8 pkt → mało prawdopodobny powrót na ten sam poziom (Picot 2023) | jedna grupa badawcza; potrzebna niezależna walidacja |
+| Taping/orteza w CAI poprawia tylko samoocenę i pewność, nie testy funkcjonalne (Picot 2025, n=30, crossover) | jedno źródło, ta sama grupa co Ankle-GO |
+| Syndesmoza: operacyjnie 70,9 vs zachowawczo 39,3 dnia (Salameh 2022) | podział tylko w jednym źródle |
+| Syndesmoza: VJ i FABQ korelują z czasem powrotu (Sman 2014) | jedno źródło, korelacje umiarkowane |
+| Konsensus ekspertów: ruch specyficzny dla sportu (90,9%) (Wikstrom 2020) | autorzy pokrywają się z PAASS [S19] — nie podnosi S19 do 2/2 |
+| Mazzella 2025 — szczegóły | już w bazie (S20), liczby potwierdzone |

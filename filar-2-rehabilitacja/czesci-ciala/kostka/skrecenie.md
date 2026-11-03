@@ -20,6 +20,8 @@ recenzent: ""
 - W leczeniu ostrego skręcenia silne dowody dotyczą NLPZ i wczesnej mobilizacji, umiarkowane — ćwiczeń i terapii manualnej (ból, obrzęk, funkcja). [S17] {DOWÓD:przegląd} ✔ 1/2
 - Trening równowagi na jednej nodze (także na niestabilnym podłożu) zalecany przez całą rehabilitację. [S18] {KONSENSUS} ⏳ 1/2
 - Decyzja o powrocie do sportu po skręceniu: model PAASS (ból, stabilność, czucie, siła, funkcja sportowa). [S19] {KONSENSUS} ⏳ 1/2
+- Nie ma opublikowanych, zwalidowanych kryteriów (progów) powrotu do sportu po skręceniu bocznym: przegląd nie znalazł ani jednego badania prospektywnego stosującego kryteria, a przegląd 11 opinii eksperckich nie znalazł zgody co do konkretnych testów i progów. Dlatego progi typu „≥90% zdrowej strony” to zalecenia protokołów, nie wartości sprawdzone wobec nawrotu urazu. [S149][S150] {DOWÓD:przegląd} ✔ 2/2 (niezależne grupy: Bruksela i Karolina Północna; obie później współtworzą PAASS [S19])
+- Uraz więzozrostu piszczelowo-strzałkowego („wysokie skręcenie”) wymaga dłuższego powrotu niż typowe skręcenie boczne: średnio 52 dni do powrotu do gry w metaanalizie 1133 urazów u sportowców [S151], mediana 62 dni przy leczeniu zachowawczym (vs 15 dni po skręceniu bocznym) w kohorcie 63 osób [S152]. {DOWÓD:przegląd}{DOWÓD:obserwacyjne} ✔ 2/2 (niezależne grupy: Brown University/Jordania/Katar i Uniwersytet w Sydney)
 
 ## Wnioskowanie biomechaniczne
 
@@ -41,9 +43,9 @@ recenzent: ""
 
 - [ ] Czy sztywny but AGV działa jak stabilizator (analogia do S17)? Dane?
 - [ ] Mechanizm skręcenia w AGV: zsunięcie z rury, lądowanie na nierównym — opisy przypadków?
-- [ ] Skręcenie boczne vs przyśrodkowe vs syndesmoza w AGV.
+- [ ] Skręcenie boczne vs przyśrodkowe vs syndesmoza w AGV. (Czas powrotu po syndesmozie u sportowców ogólnie: [S151][S152]; brak danych z AGV.)
 - [ ] Sprawdzić OR 0,38/0,59 i „40%” w pełnych tekstach S17/S16.
 
 ## Źródła
 
-[S01] [S05] [S06] [S16] [S17] [S18] [S19] [S23] — `sources.md`.
+[S01] [S05] [S06] [S16] [S17] [S18] [S19] [S23] [S149] [S150] [S151] [S152] — `sources.md`.
