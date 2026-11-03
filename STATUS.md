@@ -1,8 +1,8 @@
 # Status projektu Fizjo AGV
 
-Ostatnia aktualizacja: 2026-11-04 00:36 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
+Ostatnia aktualizacja: 2026-11-04 00:45 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
 
-**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60%** (13 punktów planu)
+**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **61%** (13 punktów planu)
 
 | | Punkt planu | Postęp | % | Podpunkty |
 |---|---|---|---|---|
@@ -10,8 +10,8 @@ Ostatnia aktualizacja: 2026-11-04 00:36 (czas warszawski). Źródło: Google Tas
 | ✅ | [2. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)](#-2-dwa-filary-projektu-przygotowanie-do-grindów-główny-i-rehabilitacja-mniejszy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
 | ✅ | [3. Obecny research o grindach to zalążek bazy wiedzy](#-3-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
 | ✅ | [4. Publiczna strona statusu projektu Fizjo AGV](#-4-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% | 9 podp. |
-| 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 66% | 31 podp. |
-| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜ | 73% | 13 podp. |
+| 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 66% | 32 podp. |
+| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ | 77% | 13 podp. |
 | 🔄 | [7. Plan zbierania wiedzy z wielu źródeł](#-7-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% | 15 podp. |
 | 🔄 | [8. Baza fizjoterapeutów i blogów o rolkach i AGV](#-8-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% | 8 podp. |
 | 🔄 | [9. Struktura: najpierw uporządkowana baza, potem strona](#-9-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% | 6 podp. |
@@ -83,7 +83,7 @@ DECYZJE 2.11.2026 (dawna strona)
 
 ### 🔄 5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami
 
-`🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜` **66%**
+`🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜` **66%**
 
 Dodane 2.11.2026. Prompty partii 2 w repo (prompts/batch-2-przygotowanie): E pozycja przy grindach, F wzmacnianie i stabilizacja, G prewencja i periodyzacja. Odpalane w Google AI Studio (Gemini 3.1 Pro, temp 0,2, Grounding + URL context, Deep Research max).
 
@@ -135,12 +135,13 @@ Od 3.11.2026 research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, b
 - ✅ Partia 3: drugie niezależne źródła dla 17 odłożonych twierdzeń (A1–A4, C1–C4, D1–D9) — Deep Research Preview w AI Studio, prompt commit e3df3d0; surowy wynik i triage: research-raw/2026-11-04_batch3-uzupelnienia_deep-research.md
   - ✅ Do bazy weszło tylko C2 (2/2): S156 Picot 2025 + S157 Halim-Kertanegara 2017 — tejp w niestabilności kostki poprawia pewność i poczucie stabilności, nie wyniki testów (orteza tylko w S156)
   - ⬜ Czeka: SEBT przód (Stiffler 2017 potwierdza kierunek, nie próg 4 cm), WBLT (Chisholm 2012 — inne liczby, możliwe nakładanie z Powden 2015), zgięcie grzbietowe a rzepka (Backman 2011, możliwe nakładanie z Sprague 2018), ochraniacze nadgarstka: przeciwwagi Twining 2022 i Lewis 1997 (sprzeczne z Cheng/Giacobetti, nie obalenie); 8 twierdzeń bez drugiego źródła
-- 🔄 Partia 4 (runda 2 drugich źródeł), podzielona na 2a (kostka, screening, urazy) i 2b (ścięgna) po nieudanym pełnym przebiegu (commit f1e026d)
+- ✅ Partia 4 (runda 2 drugich źródeł), podzielona na 2a (kostka, screening, urazy) i 2b (ścięgna) po nieudanym pełnym przebiegu (commit f1e026d)
   - ✅ 2a w AI Studio (Deep Research Preview): surowy wynik i triage research-raw/2026-11-04_batch4-2a_deep-research.md; 1 nowe źródło, identyfikator poprawny; do bazy S158 Hébert-Losier 2017 + S159 Schrefl 2024 — test wspięć na jednej nodze jest powtarzalny (2/2, tylko powtarzalność, nie normy) — commit a699ed9
   - ✅ 2a w aplikacji Gemini: wspólny triage z AI Studio w research-raw/2026-11-04_batch4-2a_gemini-deep-research.md (commity e2dcf26, ba8309d); 1 PMID przypisany innej pracy, 1 błędny autor
     - ✅ Do bazy (2/2): S160+S161 mobilizacja z ruchem w CAI, S162+S163 ochraniacz nadgarstka na zwłokach, S164+S165 równowaga dynamiczna w CAI; S166 sprzeczność przy ortezie; 3 „obalenia” modelu nieprzyjęte
   - ⬜ Bez drugiego źródła po 3 przebiegach: C1, C2b, C3, C4, D1, D2, normy D3, D4, zakres ruchu w CAI, D6, D8, D9, A1, A2, A4
-  - 🔄 2b (ścięgna, B1–B7) — w toku w aplikacji Gemini
+  - ✅ 2b (ścięgna) w Gemini: triage research-raw/2026-11-04_batch4-2b_gemini-deep-research.md (f545f88); do bazy S167+S168 — przysiad na desce skośnej obciąża więzadło rzepki bardziej (2/2)
+  - ⬜ Bez 2. źródła: B1 (sprzeczne), B2, B3, B4, B5, B7, pełny ranking B6
 
 **Zasada**
 
@@ -148,7 +149,7 @@ Zapisujemy wszystko, łącznie z surowymi wynikami modeli (research-raw/).
 
 ### 🔄 6. Nakarmić go pełnym researchem z całego internetu
 
-`🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜` **73%**
+`🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜` **77%**
 
 Użyć wszystkich dostępnych narzędzi do researchu i wielu modeli.
 
@@ -171,7 +172,7 @@ Research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, bez kluczy API
 - ✅ Partia 1 C (powrót po kostce): zrobione, do bazy S149–S152 (szczegóły w punkcie 5)
 - ✅ Partia 1 D (screening fizjo): zrobione, do bazy S153–S155 (szczegóły w punkcie 5)
 - ✅ Partia 3 (drugie źródła dla 17 odłożonych twierdzeń): zrobione 3.11.2026 — do bazy S156–S157 (tejp w niestabilności kostki), reszta czeka, szczegóły w punkcie 5
-- 🔄 Partia 4 (runda 2): 2a z AI Studio i z aplikacji Gemini zrobione — do bazy S158–S165 (powtarzalność testu wspięć; mobilizacja z ruchem i równowaga dynamiczna w CAI; ochraniacz nadgarstka na zwłokach), S166 jako sprzeczność przy ortezie; 2b (ścięgna) w toku, szczegóły w punkcie 5
+- ✅ Partia 4 (runda 2): 2a z AI Studio i z aplikacji Gemini oraz 2b (ścięgna) zrobione 4.11.2026 — do bazy S158–S165 (powtarzalność testu wspięć; mobilizacja z ruchem i równowaga dynamiczna w CAI; ochraniacz nadgarstka na zwłokach), S166 jako sprzeczność przy ortezie, S167–S168 (przysiad na desce skośnej a obciążenie więzadła rzepki); reszta czeka, szczegóły w punkcie 5
 
 ### 🔄 7. Plan zbierania wiedzy z wielu źródeł
 
