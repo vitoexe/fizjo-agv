@@ -1,6 +1,6 @@
 # Status projektu Fizjo AGV
 
-Ostatnia aktualizacja: 2026-11-03 18:26 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
+Ostatnia aktualizacja: 2026-11-03 18:42 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
 
 **Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **59%** (13 punktów planu)
 
@@ -10,8 +10,8 @@ Ostatnia aktualizacja: 2026-11-03 18:26 (czas warszawski). Źródło: Google Tas
 | ✅ | [2. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)](#-2-dwa-filary-projektu-przygotowanie-do-grindów-główny-i-rehabilitacja-mniejszy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
 | ✅ | [3. Obecny research o grindach to zalążek bazy wiedzy](#-3-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
 | ✅ | [4. Publiczna strona statusu projektu Fizjo AGV](#-4-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% | 9 podp. |
-| 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 65% | 23 podp. |
-| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜ | 55% | 10 podp. |
+| 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 66% | 25 podp. |
+| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜ | 59% | 11 podp. |
 | 🔄 | [7. Plan zbierania wiedzy z wielu źródeł](#-7-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% | 15 podp. |
 | 🔄 | [8. Baza fizjoterapeutów i blogów o rolkach i AGV](#-8-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% | 8 podp. |
 | 🔄 | [9. Struktura: najpierw uporządkowana baza, potem strona](#-9-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% | 6 podp. |
@@ -83,7 +83,7 @@ DECYZJE 2.11.2026 (dawna strona)
 
 ### 🔄 5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami
 
-`🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜` **65%**
+`🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜` **66%**
 
 Dodane 2.11.2026. Prompty partii 2 w repo (prompts/batch-2-przygotowanie): E pozycja przy grindach, F wzmacnianie i stabilizacja, G prewencja i periodyzacja. Odpalane w Google AI Studio (Gemini 3.1 Pro, temp 0,2, Grounding + URL context, Deep Research max).
 
@@ -125,7 +125,10 @@ Od 3.11.2026 research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, b
   - ✅ Korekta „typowy upadek = ześlizg na kolana” (1/2, ograniczony dowód); ochraniacze nadgarstków zmniejszają urazy nadgarstka 2/2 (S04 + S147)
   - ✅ Lekcja: model podał błędne DOI/PMID w 5 z 7 par — każdy identyfikator sprawdzamy w PubMed/Crossref przed wpisem (research-raw/README.md)
 - 🔄 Partia 1 B: obciążanie ścięgien (Achilles, piszczelowy tylny) — prompt gotowy, z zaostrzonymi zasadami ID (prompts/batch-1/B-obciazanie-sciegien/1-deep-research.prompt.txt, commit 7ead303), czeka na uruchomienie
-- 🔄 Partia 1 C: powrót do sportu po urazie kostki (skręcenie, więzozrost, niestabilność, złamanie/ORIF) — prompt gotowy, zasady jak w B (prompts/batch-1/C-powrot-po-kostce/1-deep-research.prompt.txt, commit dad6195), czeka na uruchomienie
+- ✅ Partia 1 C: powrót do sportu po urazie kostki — Deep Research w aplikacji Gemini (Pro Rozszerzony), prompt commit dad6195; surowy wynik: research-raw/2026-11-03_batch1-C_gemini-deep-research.md (commit fb20207)
+  - ✅ Triage: 8/8 źródeł i wszystkie PMID/DOI/PMC poprawne; błędy w treści (PAASS przypisany innej pracy, zmyślone szczegóły o hokeistach i sztywnym bucie, crossover oznaczony jako RCT, źle zacytowana nasza baza)
+  - ✅ Do bazy weszły tylko twierdzenia 2/2: S149 Tassignon 2019 + S150 Wikstrom 2020 (brak zwalidowanych progów powrotu po skręceniu bocznym; progi ≥90% to protokoły), S151 Salameh 2022 + S152 Sman 2014 (dłuższy powrót po urazie więzozrostu) — commit 335ff82
+  - ⬜ Czeka (1/2, jedna grupa): Ankle-GO (<8 pkt → OR 8,6 nawrotu), ortezy w CAI poprawiają tylko samoocenę, podział operacyjne/zachowawcze przy więzozroście — potrzebne niezależne źródła
 - ⬜ Partia 1: D (niższy priorytet)
 
 **Zasada**
@@ -134,7 +137,7 @@ Zapisujemy wszystko, łącznie z surowymi wynikami modeli (research-raw/).
 
 ### 🔄 6. Nakarmić go pełnym researchem z całego internetu
 
-`🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜` **55%**
+`🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜` **59%**
 
 Użyć wszystkich dostępnych narzędzi do researchu i wielu modeli.
 
@@ -154,7 +157,8 @@ Research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, bez kluczy API
 - ✅ Partia 1 A (pilot): zrobione 3.11.2026 — do bazy S144–S148 (Maudot 2014 — pierwsza ankieta AGV po 2007, literatura szara; Russell 2014; Cheng 1995; Russell 2007; Giacobetti 1997), szczegóły w punkcie 5
   - ✅ Lekcja: Deep Research podał błędne DOI/PMID w 5 z 7 par — każdy identyfikator weryfikujemy w PubMed/Crossref
 - 🔄 Partia 1 B (ścięgna): prompt gotowy, czeka na uruchomienie
-- ⬜ Partia 1 C, D: prompty w prompts/batch-1, jeszcze nieodpalone
+- ✅ Partia 1 C (powrót po kostce): zrobione, do bazy S149–S152 (szczegóły w punkcie 5)
+- ⬜ Partia 1 D: prompt w prompts/batch-1, jeszcze nieodpalony
 
 ### 🔄 7. Plan zbierania wiedzy z wielu źródeł
 
