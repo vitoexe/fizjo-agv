@@ -125,3 +125,5 @@ Brak. B6 nie przeczy niczemu w bazie; B3 — sztywność ścięgna bez różnic 
 ### Czy runda dodała coś nowego
 
 Tak, mało: jedno nowe niezależne źródło (Zwerver 2007) zamknęło wąską część B6. Pozostałe kandydaty są nowe względem batch-1 B, ale nie spełniają reguły 2/2. Po tej rundzie bez drugiego niezależnego źródła: B1 (sprzeczne), B2, B3, B4, B5, B7 oraz pełny ranking B6.
+
+> Dopisek 4.11.2026: runda 3 dla tych twierdzeń (batch-5 b, aplikacja Gemini) i jej triage — `2026-11-04_batch5-b_gemini-deep-research.md` (do bazy nic; B3 kolagen teraz sprzeczne między niezależnymi grupami; B1 — porównane listy badań obu NMA).

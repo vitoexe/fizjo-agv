@@ -89,7 +89,7 @@ Model monitorowania bólu (Silbernagel, opracowany dla tendinopatii Achillesa) [
 
 ## TODO / pytania do researchu
 
-- [ ] Kolagen/żelatyna + witamina C przed wysiłkiem — badania (Shaw 2017 i nowsze), jakość dowodów. **Brak w zalążku.**
+- [ ] Kolagen/żelatyna + witamina C przed wysiłkiem — badania (Shaw 2017 i nowsze), jakość dowodów. **Brak w zalążku.** Stan po rundzie 3 (4.11.2026): RCT dwóch niezależnych grup dają niespójne wyniki (jedna: większy przyrost przekroju ścięgna, sztywność bez różnic; druga: większy przyrost sztywności, przekrój bez różnic) — sprzeczne, nie wpisujemy; zob. `research-raw/2026-11-04_batch5-b_gemini-deep-research.md`.
 - [ ] Model bólu dla piszczelowego tylnego — czy ktoś go stosował?
 - [x] Monitorowanie obciążenia w sportach skokowych (ACWR — kontrowersje) — [S92][S93][S94].
 - [ ] Badania liczby skoków a kolano skoczka (np. siatkówka, objętość treningu) — źródło pierwotne z liczbą skoków.

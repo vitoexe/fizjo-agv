@@ -9,7 +9,7 @@ url_czatu: "https://gemini.google.com/app/02256e4dbbd6fdfe"
 dokument_eksportu: "Google Doc 1lQxH8EmdUrhAmbJKPOFLoP_xn8bQhv-v6Yi3aMkDPNE („Tendon Loading Literature Verification”)"
 ustawienia: "Deep Research w aplikacji Gemini, model Pro, tryb Rozszerzony"
 eksport: "Eksport Google Docs → Markdown (Drive export, tylko odczyt); usunięte tylko znaki ucieczki Markdown (\\_, \\-, \\., \\[, \\], \\:, \\#, \\+, \\)); poza tym tekst bez zmian"
-status_weryfikacji: "niezweryfikowane"
+status_weryfikacji: "zweryfikowane (4.11.2026): 3 źródła × PMID/DOI/PMCID = 9 identyfikatorów (2 znane NMA + 1 nowe RCT) — wszystkie istnieją i zgadzają się z autorem, rokiem i tytułem; błędy opisu: Liu 2026 — „za wyższością ekscentryki” myli przeciążenie ekscentryczne (Frohm 2007) z klasyczną ekscentryką, autorzy Liu Y, Li C, Yang F (model: „pełna lista niedostępna”); Lee 2025 — „w przeglądzie: nie sprawdzono” (sprawdziliśmy: nie mogło być w Bischof 2024), model pominął wcześniejsze RCT tej samej grupy Lee 2023 (PMID 36776971); przypisy numerowane i blogi mimo zakazu; do bazy: nic — B3 sprzeczne między niezależnymi grupami (sztywność vs przekrój), B1 nadal sprzeczne (listy badań porównane), B2, B4–B7 bez nowych źródeł — szczegóły w sekcji Triage"
 ---
 
 # **Raport badawczy: Weryfikacja doniesień dotyczących obciążania ścięgien (Fizjo AGV)**
@@ -123,3 +123,49 @@ Manipulacja kątem natarcia i całkowitym unieruchomieniem stawu skokowego w kie
 > 11. Adult-Acquired Flatfoot Deformity - PMC, [https://pmc.ncbi.nlm.nih.gov/articles/PMC8696898/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8696898/)  
 > 12. (PDF) Adult-Acquired Flatfoot Deformity - ResearchGate, [https://www.researchgate.net/publication/330447900_Adult-Acquired_Flatfoot_Deformity](https://www.researchgate.net/publication/330447900_Adult-Acquired_Flatfoot_Deformity)  
 > 13. Achilles Tendinopathy Toolkit: Section A - Clinical Evaluation, [https://www.physio-pedia.com/Achilles_Tendinopathy_Toolkit:_Section_B_-_Clinical_Assessment](https://www.physio-pedia.com/Achilles_Tendinopathy_Toolkit:_Section_B_-_Clinical_Assessment)
+---
+
+## Triage (4.11.2026, Fizjo AGV)
+
+Runda 3 dla twierdzeń B1–B7 z batch-4 2b. Prompt b poszedł tylko do aplikacji Gemini. Model nie jest źródłem. Wszystkie identyfikatory sprawdziliśmy w PubMed (esummary/efetch) i Crossref. Treść porównaliśmy z abstraktami, a dla B1 i B3 z pełnymi tekstami PMC (tabele badań włączonych do obu NMA, wyniki Lee 2025). Niezależność sprawdziliśmy po autorach i po liście piśmiennictwa Bischof 2024 w Crossref. Model oddał wszystkie 5 sekcji, ale mimo zakazu użył numerowanych przypisów i stron typu blog/klinika (przypisy 3–7, 9–13 = `{OPINIA}`, nie sprawdzaliśmy). Akapity „wyjaśniające” przy B2, B4, B5, B6 i B7 (np. „paradoksalnie mogło zahamować…”, „absolutnej absorpcji do praktyki”) nie mają źródeł i nie wchodzą.
+
+### Identyfikatory
+
+| Źródło (wg modelu) | PMID | DOI | PMCID | Wynik sprawdzenia |
+|---|---|---|---|---|
+| Li 2024 (znane, Heliyon 10(21):e39171) | 39559237 ✔ | 10.1016/j.heliyon.2024.e39171 ✔ | PMC11570476 ✔ | ✔ autorzy, rok, tytuł; cytat „0.01 in Rank 1 and 0.06 in Rank 8” dosłownie z abstraktu. Model podał je jako „nowe źródło”, a to źródło znane |
+| Liu 2026 (znane, BMC Sports Sci Med Rehabil 18(1):296) | 42192475 ✔ | 10.1186/s13102-026-01743-4 ✔ | PMC13308153 ✔ | ✔ identyfikatory; ✘ model: autorzy „pełna lista niedostępna”, czasopismo „brak nazwy”. W rzeczywistości Liu Y, Li C, Yang F (Kunming, Kanton). Cytat dosłowny z abstraktu ✔ |
+| Lee J, Robshaw DC, Erskine RM 2025 (Exp Physiol 110(11):1551–1560; epub 29.08.2024) | 39207908 ✔ | 10.1113/EP092106 ✔ | PMC12576002 ✔ | ✔ autorzy, rok, tytuł, n=11; oba cytaty zgodne z pełnym tekstem (3.4.1 i post hoc). W pracy: „single-blind, single-centre, randomized controlled trial” |
+
+Razem: **9 identyfikatorów (3 PMID, 3 DOI, 3 PMCID; 2 źródła znane, 1 nowe)**. Wszystkie istnieją i zgadzają się z pierwszym autorem, rokiem i tytułem. **0 błędnych identyfikatorów.** Błędy opisu: brak autorów i czasopisma przy Liu 2026, źródła znane podane jako „nowe”, niezależność Lee 2025 niesprawdzona („nie sprawdzono”), pominięte wcześniejsze RCT tej samej grupy (Lee 2023), błędna interpretacja „ekscentryki” w B1 (niżej).
+
+### Treść, niezależność, populacja — twierdzenie po twierdzeniu
+
+| Tw. | Werdykt modelu | Nasz werdykt |
+|---|---|---|
+| B1 tendinopatia rzepki: ekscentryka vs HSR vs izometria (sprzeczne) | strony sporu; pokrycie „np. Jonsson 2005, Kongsgaard 2009” | **Nadal sprzeczne. Bez werdyktu, ale z porównaniem list badań (pełne teksty PMC).** Li 2024 (tab. 3) włączyło 7 badań: Jonsson 2005, Kongsgaard 2009, Gual 2016, Agergaard 2021, Breda 2021, Ruffino 2021, Knez 2023. Liu 2026: 17 RCT w syntezie jakościowej, 14 w szerszej analizie, 10 w głównej sieci (tab. 2–3): Jonsson 2005, Visnes 2005, Young 2005, Frohm 2007, Kongsgaard 2009, Agergaard 2021, Breda 2021, Ruffino 2021, Rieder 2022, Hjortshoej 2025. **Wspólne w głównych analizach: 5** (Jonsson, Kongsgaard, Agergaard, Breda, Ruffino). Tylko w Li: Gual 2016, czyli zawodnicy „not currently injured” z populacji „at risk” (opis w tab. 3 Li, tytuł Gual), a nie pacjenci z tendinopatią, oraz Knez 2023 (u Liu tylko w syntezie jakościowej). Tylko w głównej sieci Liu: Visnes, Young, Frohm, Rieder, Hjortshoej. Różnice metod według prac: Li szereguje metody prawdopodobieństwem rang (3 bazy). Liu: 11 baz do XII 2025, HSR jako odniesienie, wykluczone interwencje złożone, a rangi „exploratory”. **Błąd modelu:** Liu nie stwierdza „wyższości przeciążenia ekscentrycznego”. To węzeł *eccentric overload* (Frohm 2007), inny niż klasyczna ekscentryka na desce, z SMD 0,33 (95% CI −0,87 do 1,52) wobec HSR, czyli bez istotności. Klasyczna ekscentryka wobec HSR: SMD −0,23 (95% CI −1,02 do 0,56) (pełny tekst Liu, wyniki). Spór dotyczy więc rankingu (Li), a nie różnicy istotnej statystycznie (Liu). Do bazy nic — obie prace to NMA (przeglądy), nie źródła pierwotne. |
+| B2 Achilles: HSR ≈ ekscentryka | NIE ZNALEZIONO | **1/2** (S09) — bez zmian. |
+| B3 kolagen + trening a ścięgna | „częściowo potwierdzone” (Lee 2025) | **Sprzeczne między niezależnymi grupami. Nie 2/2.** Lee 2025 (Liverpool John Moores / UCL; Lee, Robshaw, Erskine) nie ma wspólnych autorów z Jerger 2022/2023 ani z Bischof 2024 i ukazało się po wyszukiwaniu Bischof 2024 (XII 2023), więc nie mogło być w nim włączone. **Jest niezależne.** Wynik jest jednak odwrotny niż u Jergera: u Lee 30 g kolagenu + 500 mg wit. C, 10 tyg. przedsezonowego treningu, 11 zawodowych piłkarek (6 vs 5). Sztywność więzadła rzepki +15,4% vs +4,6% i moduł Younga +14,2% vs +3,4% wzrosły bardziej niż przy placebo, a dla przekroju (CSA) był tylko efekt treningu, bez interakcji (P=0,934) (abstrakt, pełny tekst 3.4.1). U Jergera 2022/2023 (5 g/d, 14 tyg., aktywni mężczyźni) większy przyrost CSA przy kolagenie, a sztywność bez różnic. Model pominął wcześniejsze RCT tej samej grupy: **Lee J, Bridge JE, Clark DR, Stewart CE, Erskine RM 2023**, Front Physiol 14:1089971, PMID 36776971, doi:10.3389/fphys.2023.1089971, PMC9910607. To 17 piłkarek U21, a wynik jest ten sam co w Lee 2025 (sztywność +18,0% vs +5,1%, CSA bez zmian). Lee 2023 jest w piśmiennictwie Bischof 2024 (Crossref). Lee 2023 i Lee 2025 to jedna grupa, więc nie są od siebie niezależne. **Bilans:** sztywność ↑ — 1 grupa (Erskine, 2 RCT), przy zerowym wyniku drugiej grupy (König). CSA ↑ — 1 grupa (König, 2 RCT), przy zerowym wyniku drugiej (Erskine). Różnice według prac: dawka (30 g vs 5 g), płeć, poziom sportowy, rodzaj treningu (piłka + siła vs trening oporowy), czas (10 vs 14 tyg.). Bardzo małe grupy (n=11, 17). Etykieta populacji: `{ANALOGIA:piłkarki}` / `{ANALOGIA:aktywni mężczyźni}`, zdrowi, nie tendinopatia. **Odłożone jako sprzeczne.** |
+| B4 PTTD I–II: orteza + ćwiczenia | NIE ZNALEZIONO | **1/2** (S08) — bez zmian. Przypisy 10–12 to strony kliniczne i przegląd narracyjny (PMC8696898, nie sprawdzaliśmy), `{OPINIA}` / nie pierwotne. |
+| B5 model monitorowania bólu | NIE ZNALEZIONO | **1/2** (S11) — bez zmian. Kandydat Sancho 2019 z rundy 2 nadal czeka na sprawdzenie progu w pełnym tekście. |
+| B6 pełny ranking obciążenia więzadła rzepki | NIE ZNALEZIONO | **1/2** (S167) — bez zmian. Wąska część (deska skośna vs płasko) już 2/2 (S167 + S168). |
+| B7 but w zgięciu podeszwowym a obciążenie Achillesa | NIE ZNALEZIONO | **1/2** (Hullfish 2024) — bez zmian. Akapit o „przetwornikach obciążenia” i MRI bez źródła. |
+
+### Co weszło do bazy
+
+Nic. Żadne twierdzenie nie spełniło reguły 2/2 (dwa niezależne źródła pierwotne zgodne co do tego samego wyniku).
+
+### Co odłożono
+
+- **B3** — sprzeczne: Lee 2025 (+ Lee 2023, ta sama grupa) i Jerger 2022/2023 to niezależne grupy, ale z różnymi wynikami (sztywność vs przekrój). Potrzebne RCT trzeciej grupy, mierzące oba parametry. W bazie tylko dopisek przy TODO w `filar-1-przygotowanie/obciazenie-i-periodyzacja.md` (bez nowego twierdzenia).
+- **B1** — sprzeczne. Opisane listy badań i różnice metod. Rozstrzygnąć może tylko recenzja fizjoterapeuty albo nowe RCT, nie kolejna runda wyszukiwania.
+- B2, B4, B5, B6 (pełny ranking), B7 — **brak drugiego źródła** po 3 rundach (batch-1 B, batch-4 2b, batch-5 b; różne strategie: słowa kluczowe, a potem cytowania wstecz/w przód i bazy spoza głównego nurtu).
+
+### Sprzeczności z bazą
+
+Brak. Kolagenu nie ma w bazie jako twierdzenia (tylko TODO). B1 nie dotyczy żadnego wpisu w bazie (brak pliku tendinopatii rzepki). Dane o rzepce nie przenoszą się na `achilles/tendinopatia.md` (S09).
+
+### Czy runda dodała coś nowego
+
+Tak, ale nic do bazy. Jedno nowe niezależne RCT (Lee 2025) i jedno pominięte przez model (Lee 2023, ta sama grupa) zmieniły B3 z „jedna linia badań” na „sprzeczne między grupami”. Dla B1 mamy teraz porównanie list włączonych badań: 5 wspólnych, a różnice to Gual 2016 (osoby bez tendinopatii) u Li oraz 5 innych RCT u Liu. Model błędnie odczytał wynik Liu. B2, B4–B7: runda nic nie dołożyła, więc zgodnie z zasadą kończenia rund twierdzenia zostają w research-raw jako „brak drugiego źródła”.
+

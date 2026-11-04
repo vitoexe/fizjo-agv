@@ -314,3 +314,12 @@ Uwagi:
 - S167 (Philadelphia/Delaware; Baxter JR) i S168 (Groningen; Hof AL) — brak wspólnych autorów → **niezależne**; S168 starsze, nie mogło być częścią S167. 2/2 tylko dla tego, że przysiad jednonóż na desce skośnej obciąża więzadło rzepki bardziej niż na płaskim; pełny ranking i progi poziomów S167 — 1/2. Różne miary (wskaźnik złożony vs szczytowa siła ścięgna).
 - Odrzucone jako drugie źródło (nie niezależne lub za słabe): Jerger 2022 i 2023 (jedna grupa; König D też w Bischof 2024), Gómez-Jurado 2021 (przegląd, cytuje S08 i Alvarez 2006), Sancho 2019 (kohorta wykonalności n=15, nie test modelu bólu).
 
+## Batch-5 b — aplikacja Gemini (Deep Research), obciążanie ścięgien, drugie źródła runda 3 (dodane 4.11.2026)
+
+Surowy wynik i triage: `research-raw/2026-11-04_batch5-b_gemini-deep-research.md`. Identyfikatory sprawdzone przez nas w PubMed i Crossref (9/9 poprawne). **Bez nowych wpisów S###** — nic nie spełniło reguły 2/2.
+
+Uwagi (kandydaci sprawdzeni, nie wpisani):
+- Lee J, Robshaw DC, Erskine RM 2025, Exp Physiol 110(11):1551–1560, PMID 39207908, doi:10.1113/EP092106, PMC12576002 — RCT pojedynczo zaślepione, n=11 piłkarek; niezależne od Jerger 2022/2023 i Bischof 2024, ale wynik odwrotny (sztywność ↑, przekrój bez różnic) → B3 sprzeczne.
+- Lee J, Bridge JE, Clark DR, Stewart CE, Erskine RM 2023, Front Physiol 14:1089971, PMID 36776971, doi:10.3389/fphys.2023.1089971, PMC9910607 — RCT, n=17; ta sama grupa co Lee 2025, włączone do Bischof 2024 → nie jest niezależnym drugim źródłem.
+- Li 2024 (PMID 39559237) i Liu 2026 (PMID 42192475) — NMA (przeglądy), nie źródła pierwotne; 5 wspólnych RCT w głównych analizach; B1 nadal sprzeczne.
+
