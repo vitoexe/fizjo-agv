@@ -1,6 +1,6 @@
 # Status projektu Fizjo AGV
 
-Ostatnia aktualizacja: 2026-11-04 01:54 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
+Ostatnia aktualizacja: 2026-11-04 09:42 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
 
 **Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60%** (13 punktów planu)
 
@@ -10,8 +10,8 @@ Ostatnia aktualizacja: 2026-11-04 01:54 (czas warszawski). Źródło: Google Tas
 | ✅ | [2. Dwa filary projektu: przygotowanie do grindów (główny) i rehabilitacja (mniejszy)](#-2-dwa-filary-projektu-przygotowanie-do-grindów-główny-i-rehabilitacja-mniejszy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
 | ✅ | [3. Obecny research o grindach to zalążek bazy wiedzy](#-3-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
 | ✅ | [4. Publiczna strona statusu projektu Fizjo AGV](#-4-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% | 9 podp. |
-| 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 66% | 32 podp. |
-| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 64% | 21 podp. |
+| 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 72% | 32 podp. |
+| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% | 24 podp. |
 | 🔄 | [7. Plan zbierania wiedzy z wielu źródeł](#-7-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% | 15 podp. |
 | 🔄 | [8. Baza fizjoterapeutów i blogów o rolkach i AGV](#-8-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% | 8 podp. |
 | 🔄 | [9. Struktura: najpierw uporządkowana baza, potem strona](#-9-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% | 6 podp. |
@@ -83,7 +83,7 @@ DECYZJE 2.11.2026 (dawna strona)
 
 ### 🔄 5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami
 
-`🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜` **66%**
+`🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜` **72%**
 
 Dodane 2.11.2026. Prompty partii 2 w repo (prompts/batch-2-przygotowanie): E pozycja przy grindach, F wzmacnianie i stabilizacja, G prewencja i periodyzacja. Odpalane w Google AI Studio (Gemini 3.1 Pro, temp 0,2, Grounding + URL context, Deep Research max).
 
@@ -139,9 +139,9 @@ Od 3.11.2026 research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, b
   - ✅ 2a w AI Studio (Deep Research Preview): surowy wynik i triage research-raw/2026-11-04_batch4-2a_deep-research.md; 1 nowe źródło, identyfikator poprawny; do bazy S158 Hébert-Losier 2017 + S159 Schrefl 2024 — test wspięć na jednej nodze jest powtarzalny (2/2, tylko powtarzalność, nie normy) — commit a699ed9
   - ✅ 2a w aplikacji Gemini: wspólny triage z AI Studio w research-raw/2026-11-04_batch4-2a_gemini-deep-research.md (commity e2dcf26, ba8309d); 1 PMID przypisany innej pracy, 1 błędny autor
     - ✅ Do bazy (2/2): S160+S161 mobilizacja z ruchem w CAI, S162+S163 ochraniacz nadgarstka na zwłokach, S164+S165 równowaga dynamiczna w CAI; S166 sprzeczność przy ortezie; 3 „obalenia” modelu nieprzyjęte
-  - ⬜ Bez drugiego źródła po 3 przebiegach: C1, C2b, C3, C4, D1, D2, normy D3, D4, zakres ruchu w CAI, D6, D8, D9, A1, A2, A4
+  - ✅ Pozostałe z 2a poszły do rundy 3 (5a, obsłużona 4.11.2026) — wynik w pkt 6
   - ✅ 2b (ścięgna) w Gemini: triage research-raw/2026-11-04_batch4-2b_gemini-deep-research.md (f545f88); do bazy S167+S168 — przysiad na desce skośnej obciąża więzadło rzepki bardziej (2/2)
-  - ⬜ Bez 2. źródła: B1 (sprzeczne), B2, B3, B4, B5, B7, pełny ranking B6; runda 3 (5a, 5b): pkt 6
+  - ✅ Pozostałe z 2b poszły do rundy 3 (5b, obsłużona 4.11.2026) — wynik w pkt 6
 
 **Zasada**
 
@@ -149,7 +149,7 @@ Zapisujemy wszystko, łącznie z surowymi wynikami modeli (research-raw/).
 
 ### 🔄 6. Nakarmić go pełnym researchem z całego internetu
 
-`🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜` **64%**
+`🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜` **67%**
 
 Użyć wszystkich dostępnych narzędzi do researchu i wielu modeli.
 
@@ -178,12 +178,16 @@ Research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, bez kluczy API
 
 Rundy trwają, dopóki jest co domknąć (decyzja Tomasza 4.11.2026). Koniec, gdy runda nie wnosi nowych zweryfikowanych twierdzeń albo pozostałe luki są oznaczone jako niekluczowe dla praktyki. Opis strategii i plan: README.md, sekcje „Jak powstała baza” i „Co dalej”.
 
-- 🔄 Batch-5 (runda 3, bieżąca): 22 twierdzenia bez drugiego źródła, prompty a i b (commit 692c3ce) w aplikacji Gemini; potem triage
+- ✅ Batch-5 (runda 3): 22 twierdzenia bez drugiego źródła, prompty a i b (commit 692c3ce) w aplikacji Gemini; obie części obsłużone 4.11.2026
   - ✅ 5b (ścięgna): obsłużony 4.11.2026 — surowy wynik i triage research-raw/2026-11-04_batch5-b_gemini-deep-research.md (commity f1a995c, 1f90fe0); 9/9 identyfikatorów poprawnych; do bazy nic
     - ✅ B3 kolagen: teraz sprzeczne między niezależnymi grupami (Lee 2025 vs Jerger 2022/2023: sztywność vs przekrój)
     - ✅ B1: porównane listy RCT obu NMA (5 wspólnych); model błędnie odczytał Liu 2026
     - ⬜ Bez 2. źródła po 3 rundach: B2, B4, B5, B7, pełny ranking B6
-  - 🔄 5a (kostka, screening, urazy): w toku
+  - ✅ 5a (kostka, screening, urazy): obsłużony 4.11.2026 — research-raw/2026-11-04_batch5-a_gemini-deep-research.md; 10 identyfikatorów modelu, 1 błędny DOI, 3 istniejące oznaczone UNVERIFIED, zmyśleni autorzy w 1 przypisie
+    - ✅ Do bazy: D4 (2/2) — testy przesiewowe słabo przewidują uraz u pojedynczej osoby (S170 Smith 2015 + S171 Brumitt 2018; tło S173 Bahr 2016, S174 Choi 2026)
+    - ✅ D7: trzecie RCT mobilizacji z ruchem w CAI, efekt po 6 mies. (S172 Cruz-Díaz 2015)
+    - ✅ Sprzeczności opisane stronami sporu: orteza w CAI (S156+S169 vs S166), próg SEBT/YBT >4 cm (S153+S170 vs S171); „obalenie” D1 nieprzyjęte
+    - ⬜ Bez 2. źródła po 3 rundach: C1, C3, C4, D2, normy D3, D6, D9, A1, A2, A4; sprzeczne: C2b, D1, D5b, D8
 - ⬜ Ewentualny ręczny przegląd kluczowych twierdzeń w PubMed
 - ⬜ Zamrożenie wersji bazy: tag git (np. v0.1) z opisem stanu (źródła, twierdzenia 2/2, luki)
 - ⬜ Przegląd spójności i sprzeczności bazy (np. S156 vs S166: orteza w niestabilności kostki), zgodność etykiet i odsyłaczy z sources.md
