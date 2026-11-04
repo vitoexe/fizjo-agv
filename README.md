@@ -11,7 +11,7 @@ Dla kogo:
 <!-- STATUS:START -->
 ## Status projektu
 
-**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60%** (13 punktów planu) · ostatnia aktualizacja: 2026-11-04 09:42 (czas warszawski)
+**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60%** (13 punktów planu) · ostatnia aktualizacja: 2026-11-04 09:57 (czas warszawski)
 
 | | Punkt planu | Postęp | % |
 |---|---|---|---|
@@ -20,7 +20,7 @@ Dla kogo:
 | ✅ | [3. Obecny research o grindach to zalążek bazy wiedzy](STATUS.md#-3-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% |
 | ✅ | [4. Publiczna strona statusu projektu Fizjo AGV](STATUS.md#-4-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% |
 | 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](STATUS.md#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 72% |
-| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](STATUS.md#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% |
+| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](STATUS.md#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | 62% |
 | 🔄 | [7. Plan zbierania wiedzy z wielu źródeł](STATUS.md#-7-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% |
 | 🔄 | [8. Baza fizjoterapeutów i blogów o rolkach i AGV](STATUS.md#-8-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% |
 | 🔄 | [9. Struktura: najpierw uporządkowana baza, potem strona](STATUS.md#-9-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% |
@@ -211,13 +211,43 @@ Etapy odpowiadają punktom listy Google Tasks „Fizjo AGV”, a postęp jest w 
 
 | # | Etap | Punkt w Tasks | Gotowe, gdy… |
 |---|---|---|---|
-| 1 | **Domknięcie researchu:** triage wyniku batch-5; w razie potrzeby kolejna runda z inną strategią; ewentualne ręczne sprawdzenie kluczowych twierdzeń w PubMed | 5, 6 | runda nie wnosi nowych zweryfikowanych twierdzeń albo pozostałe luki są oznaczone jako niekluczowe dla praktyki |
+| 1 | **Domknięcie researchu:** triage wyniku batch-5 (zrobione 4.11.2026); ręczne sprawdzenie luk ważnych dla praktyki; lista niżej („Do domknięcia bazy”) | 5, 6 | runda nie wnosi nowych zweryfikowanych twierdzeń albo pozostałe luki są oznaczone jako niekluczowe dla praktyki |
 | 2 | **Zamrożenie wersji bazy** | 6 | jest tag git (np. `v0.1`) z opisem stanu: liczba źródeł, liczba twierdzeń 2/2, lista luk |
 | 3 | **Przegląd spójności i sprzeczności** | 6, 9 | każda sprzeczność (np. S156 vs S166: orteza w niestabilności kostki) jest opisana jako ⚠ ze stronami sporu; etykiety, statusy `1/2` / `2/2` i odsyłacze `[Sxx]` zgadzają się z `sources.md`; recenzja fizjoterapeuty zmienia status plików ze „szkic” |
 | 4 | **Pigułka wiedzy (1–2 strony A4 dla fizjoterapeuty i trenera), potem większy biuletyn lub newsletter** | 11 | trzon tworzą tylko twierdzenia 2/2; jest szkic pierwszego wydania i recenzja fizjoterapeuty przed publikacją |
 | 5 | **Strona dla rolkarza z kontuzją do pokazania fizjoterapeucie lub trenerowi** | 12 | strona jest osobna od STATUS.md, z działami według kontuzji i części ciała; jest czytelna na telefonie; zastrzeżenie „to nie jest porada medyczna” jest na każdej stronie; treść przeszła recenzję |
 | 6 | **Społeczność** | 10, 13 | są zasady dodawania i weryfikacji treści (`CONTRIBUTING.md`), szablon zgłoszenia (issue) z polem na źródło i identyfikator, ustalony proces recenzji, licencja i pierwszy wkład spoza projektu |
 | 7 | **Rzeczy odłożone** | 5, 8 | są pełne teksty Puddle 2013 (S46), S16 Vriend i Brenner 2007 (S98); S22, S23 i PhysioWorks sprawdzone z innego komputera, za zgodą Tomasza |
+
+### Do domknięcia bazy (stan 4.11.2026, po rundzie 3)
+
+Po trzech rundach modele nie dokładają już nowych twierdzeń, więc dalsze rundy z modelami nie są planowane. Pozostałe kroki:
+
+- [ ] **1. Ręczna weryfikacja w PubMed / Europe PMC, bez modeli AI, luk ważnych dla praktyki:**
+  - B2: ciężki wolny trening (HSR) działa jak ekscentryka w tendinopatii Achillesa; jedyne źródło to Beyer 2015 (S09);
+  - B5: model monitorowania bólu; są tylko prace grupy Silbernagel (S11);
+  - A2: złamania „splint-top” nad ochraniaczem nadgarstka; jedyne źródło to Cheng 1995;
+  - opcjonalnie C1: Ankle-GO; wszystkie prace pochodzą od jednej grupy (Picot).
+
+  Strategia:
+  - lista „cited by” od prac bazowych;
+  - filtr na RCT, a przy A2 na opisy przypadków;
+  - tylko inne grupy autorów;
+  - każdy PMID i abstrakt czytany u źródła.
+
+  *Gotowe, gdy* każde twierdzenie ma drugie niezależne źródło albo jest oznaczone „brak drugiego źródła po weryfikacji ręcznej”.
+- [ ] **2. Pozostałe luki oznaczone jako niekluczowe dla praktyki:** C3, C4, D2, D6, D9, A1, A4 i normy D3. D1 (próg SEBT >4 cm) zdegradowany przez D4, bo testy przesiewowe słabo przewidują uraz u pojedynczej osoby. *Gotowe, gdy* przy każdym z nich jest adnotacja w `research-raw/` i w pliku tematu.
+- [ ] **3. Sprzeczności do recenzji fizjoterapeuty, nie do rozstrzygania kolejnym wyszukiwaniem:**
+  - B1: ekscentryka vs HSR vs izometria w tendinopatii rzepki;
+  - B3: kolagen;
+  - C2b: orteza w niestabilności kostki, S156/S169 vs S166;
+  - D1: próg SEBT/YBT, S153/S170 vs S171;
+  - D5b: zakres ruchu w niestabilności kostki;
+  - D8: zgięcie grzbietowe a tendinopatia rzepki.
+
+  *Gotowe, gdy* recenzent zapisze stanowisko przy każdej z nich.
+- [ ] **4. Zamrożenie wersji v0.1:** tag git z opisem stanu: 174 źródła (S01–S174), lista luk i sprzeczności z punktów 1–3.
+- [ ] **5. Przegląd spójności po zamrożeniu.** Najpierw orteza (S156/S169 vs S166) i próg SEBT (S153/S170 vs S171), potem etykiety, statusy `1/2` / `2/2` i odsyłacze `[Sxx]` względem `sources.md`.
 
 > ⚠️ **To nie jest diagnoza ani porada medyczna.** Plan dotyczy porządkowania wiedzy. Przy bólu, obrzęku albo po urazie decyduje badanie u lekarza lub fizjoterapeuty.
 

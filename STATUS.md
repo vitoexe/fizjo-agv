@@ -1,6 +1,6 @@
 # Status projektu Fizjo AGV
 
-Ostatnia aktualizacja: 2026-11-04 09:42 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
+Ostatnia aktualizacja: 2026-11-04 09:57 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
 
 **Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60%** (13 punktów planu)
 
@@ -11,7 +11,7 @@ Ostatnia aktualizacja: 2026-11-04 09:42 (czas warszawski). Źródło: Google Tas
 | ✅ | [3. Obecny research o grindach to zalążek bazy wiedzy](#-3-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
 | ✅ | [4. Publiczna strona statusu projektu Fizjo AGV](#-4-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% | 9 podp. |
 | 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 72% | 32 podp. |
-| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% | 24 podp. |
+| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | 62% | 26 podp. |
 | 🔄 | [7. Plan zbierania wiedzy z wielu źródeł](#-7-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% | 15 podp. |
 | 🔄 | [8. Baza fizjoterapeutów i blogów o rolkach i AGV](#-8-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% | 8 podp. |
 | 🔄 | [9. Struktura: najpierw uporządkowana baza, potem strona](#-9-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% | 6 podp. |
@@ -149,7 +149,7 @@ Zapisujemy wszystko, łącznie z surowymi wynikami modeli (research-raw/).
 
 ### 🔄 6. Nakarmić go pełnym researchem z całego internetu
 
-`🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜` **67%**
+`🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **62%**
 
 Użyć wszystkich dostępnych narzędzi do researchu i wielu modeli.
 
@@ -188,9 +188,12 @@ Rundy trwają, dopóki jest co domknąć (decyzja Tomasza 4.11.2026). Koniec, gd
     - ✅ D7: trzecie RCT mobilizacji z ruchem w CAI, efekt po 6 mies. (S172 Cruz-Díaz 2015)
     - ✅ Sprzeczności opisane stronami sporu: orteza w CAI (S156+S169 vs S166), próg SEBT/YBT >4 cm (S153+S170 vs S171); „obalenie” D1 nieprzyjęte
     - ⬜ Bez 2. źródła po 3 rundach: C1, C3, C4, D2, normy D3, D6, D9, A1, A2, A4; sprzeczne: C2b, D1, D5b, D8
-- ⬜ Ewentualny ręczny przegląd kluczowych twierdzeń w PubMed
-- ⬜ Zamrożenie wersji bazy: tag git (np. v0.1) z opisem stanu (źródła, twierdzenia 2/2, luki)
-- ⬜ Przegląd spójności i sprzeczności bazy (np. S156 vs S166: orteza w niestabilności kostki), zgodność etykiet i odsyłaczy z sources.md
+- ⬜ Do domknięcia bazy (stan 4.11.2026, po rundzie 3; lista w README, „Co dalej”)
+  - ⬜ 1. Ręczna weryfikacja w PubMed/Europe PMC bez modeli: B2 (HSR ≈ ekscentryka, Achilles), B5 (model bólu), A2 (splint-top), opcjonalnie C1 (Ankle-GO); gotowe, gdy jest 2. niezależne źródło albo „brak drugiego źródła po weryfikacji ręcznej”
+  - ⬜ 2. Adnotacja „niekluczowe”: C3, C4, D2, D6, D9, A1, A4, normy D3; D1 zdegradowane przez D4
+  - ⬜ 3. Sprzeczności do recenzji fizjoterapeuty: B1, B3, C2b (S156/S169 vs S166), D1 (S153/S170 vs S171), D5b, D8
+  - ⬜ 4. Zamrożenie v0.1: tag git z opisem (174 źródła, luki, sprzeczności)
+  - ⬜ 5. Przegląd spójności po zamrożeniu (najpierw orteza i próg SEBT)
 - ✅ README: strategia researchu i plan „Co dalej”
 
 ### 🔄 7. Plan zbierania wiedzy z wielu źródeł
