@@ -1,6 +1,6 @@
 # Status projektu Fizjo AGV
 
-Ostatnia aktualizacja: 2026-11-04 00:57 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
+Ostatnia aktualizacja: 2026-11-04 01:54 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
 
 **Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60%** (13 punktów planu)
 
@@ -11,7 +11,7 @@ Ostatnia aktualizacja: 2026-11-04 00:57 (czas warszawski). Źródło: Google Tas
 | ✅ | [3. Obecny research o grindach to zalążek bazy wiedzy](#-3-obecny-research-o-grindach-to-zalążek-bazy-wiedzy) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | 100% | 3 podp. |
 | ✅ | [4. Publiczna strona statusu projektu Fizjo AGV](#-4-publiczna-strona-statusu-projektu-fizjo-agv) | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | 89% | 9 podp. |
 | 🔄 | [5. Runda researchu filaru przygotowania (E, F, G) + audyt innymi modelami](#-5-runda-researchu-filaru-przygotowania-e-f-g--audyt-innymi-modelami) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 66% | 32 podp. |
-| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 64% | 18 podp. |
+| 🔄 | [6. Nakarmić go pełnym researchem z całego internetu](#-6-nakarmić-go-pełnym-researchem-z-całego-internetu) | 🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜ | 64% | 21 podp. |
 | 🔄 | [7. Plan zbierania wiedzy z wielu źródeł](#-7-plan-zbierania-wiedzy-z-wielu-źródeł) | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | 30% | 15 podp. |
 | 🔄 | [8. Baza fizjoterapeutów i blogów o rolkach i AGV](#-8-baza-fizjoterapeutów-i-blogów-o-rolkach-i-agv) | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | 50% | 8 podp. |
 | 🔄 | [9. Struktura: najpierw uporządkowana baza, potem strona](#-9-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% | 6 podp. |
@@ -141,7 +141,7 @@ Od 3.11.2026 research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, b
     - ✅ Do bazy (2/2): S160+S161 mobilizacja z ruchem w CAI, S162+S163 ochraniacz nadgarstka na zwłokach, S164+S165 równowaga dynamiczna w CAI; S166 sprzeczność przy ortezie; 3 „obalenia” modelu nieprzyjęte
   - ⬜ Bez drugiego źródła po 3 przebiegach: C1, C2b, C3, C4, D1, D2, normy D3, D4, zakres ruchu w CAI, D6, D8, D9, A1, A2, A4
   - ✅ 2b (ścięgna) w Gemini: triage research-raw/2026-11-04_batch4-2b_gemini-deep-research.md (f545f88); do bazy S167+S168 — przysiad na desce skośnej obciąża więzadło rzepki bardziej (2/2)
-  - ⬜ Bez 2. źródła: B1 (sprzeczne), B2, B3, B4, B5, B7, pełny ranking B6
+  - ⬜ Bez 2. źródła: B1 (sprzeczne), B2, B3, B4, B5, B7, pełny ranking B6; runda 3 (5a, 5b): pkt 6
 
 **Zasada**
 
@@ -179,6 +179,11 @@ Research tylko w Gemini, w Google AI Studio w przeglądarce (Pro, bez kluczy API
 Rundy trwają, dopóki jest co domknąć (decyzja Tomasza 4.11.2026). Koniec, gdy runda nie wnosi nowych zweryfikowanych twierdzeń albo pozostałe luki są oznaczone jako niekluczowe dla praktyki. Opis strategii i plan: README.md, sekcje „Jak powstała baza” i „Co dalej”.
 
 - 🔄 Batch-5 (runda 3, bieżąca): 22 twierdzenia bez drugiego źródła, prompty a i b (commit 692c3ce) w aplikacji Gemini; potem triage
+  - ✅ 5b (ścięgna): obsłużony 4.11.2026 — surowy wynik i triage research-raw/2026-11-04_batch5-b_gemini-deep-research.md (commity f1a995c, 1f90fe0); 9/9 identyfikatorów poprawnych; do bazy nic
+    - ✅ B3 kolagen: teraz sprzeczne między niezależnymi grupami (Lee 2025 vs Jerger 2022/2023: sztywność vs przekrój)
+    - ✅ B1: porównane listy RCT obu NMA (5 wspólnych); model błędnie odczytał Liu 2026
+    - ⬜ Bez 2. źródła po 3 rundach: B2, B4, B5, B7, pełny ranking B6
+  - 🔄 5a (kostka, screening, urazy): w toku
 - ⬜ Ewentualny ręczny przegląd kluczowych twierdzeń w PubMed
 - ⬜ Zamrożenie wersji bazy: tag git (np. v0.1) z opisem stanu (źródła, twierdzenia 2/2, luki)
 - ⬜ Przegląd spójności i sprzeczności bazy (np. S156 vs S166: orteza w niestabilności kostki), zgodność etykiet i odsyłaczy z sources.md
