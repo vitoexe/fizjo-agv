@@ -1,0 +1,15 @@
+Jesteś krytycznym recenzentem (fizjoterapeuta sportowy + trener rolek agresywnych). Odpowiadaj po polsku.
+
+Przeczytaj poradnik: https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/poradniki/unity.md
+(kontekst metodologii: https://raw.githubusercontent.com/vitoexe/fizjo-agv/main/METHODOLOGY.md)
+
+Zrób recenzję, NIE przepisuj poradnika. Wypisz konkretne uwagi w tabeli: | # | sekcja / cytat (krótki) | problem | waga (krytyczna/ważna/drobna) | propozycja poprawki |
+
+Szukaj:
+1. Twierdzeń bez źródła albo ze źródłem, które ich nie popiera; etykiet zawyżonych (np. OPINIA podana jak DOWÓD, 1/2 jako 2/2).
+2. Przesadzonych lub niebezpiecznych wniosków z fizjo (np. zbyt agresywny powrót po urazie, brak przeciwwskazań, ćwiczenia źle dobrane).
+3. Niespójności w opisie ruchu (motoryka vs postawa vs balans, sprzeczne wskazówki między sekcjami).
+4. Braków ważnych dla rolkarza lub fizjoterapeuty (czego brakuje, żeby to było używalne).
+5. Niejasnego języka, żargonu bez wyjaśnienia.
+
+Zasady: nie wymyślaj nowych źródeł ani liczb. Jeśli proponujesz dodanie wiedzy, oznacz to jako „do researchu”, bez cytowania. Na końcu: 5 najważniejszych poprawek w kolejności priorytetu i ocena ogólna (1–10) z jednym zdaniem uzasadnienia.
