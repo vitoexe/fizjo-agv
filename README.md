@@ -103,6 +103,7 @@ Etykiety (zgodnie z `METHODOLOGY.md`):
 Status weryfikacji:
 - ✔ — liczba/teza sprawdzona w abstrakcie źródła; ⏳ — przeniesione z researchu, do sprawdzenia w pełnym tekście,
 - `1/2` / `2/2` — liczba niezależnych źródeł pierwotnych. **Twierdzenie jest „przyjęte” dopiero przy 2/2** (zasada z METHODOLOGY.md). Wersja 0.1 ma prawie wszędzie 1/2.
+- **Poradniki** mogą zawierać sekcję „Wskazówki do przetestowania (niepotwierdzone)” z niepotwierdzonymi radami technicznymi (z etykietą i oceną fizjo). Do bazy wiedzy trafiają dopiero po 2 niezależnych źródłach. Szczegóły: `METHODOLOGY.md`.
 
 W każdym pliku sekcje są rozdzielone: **Co wiemy z badań** → **Wnioskowanie biomechaniczne** → **Praktyka i opinie fizjo** → **Dla fizjoterapeuty** → **TODO** → **Źródła**.
 
@@ -154,7 +155,7 @@ Każdy wynik modelu przechodzi **ręczną weryfikację**:
 
 ### Reguły przyjęcia twierdzenia
 
-1. **Co najmniej 2 niezależne źródła pierwotne** (`2/2`). Dwa modele, które powtarzają to samo, to nie są dwa źródła.
+1. **Co najmniej 2 niezależne źródła pierwotne** (`2/2`). Dwa modele, które powtarzają to samo, to nie są dwa źródła. Poradniki mogą osobno zbierać niepotwierdzone rady techniczne w sekcji „Wskazówki do przetestowania”; do bazy nie wchodzą, dopóki nie mają 2/2 (zob. `METHODOLOGY.md`).
 2. **AI nie jest źródłem.** Cytujemy tylko pracę, którą otworzyliśmy i sprawdziliśmy.
 3. **Każdy identyfikator (PMID, DOI, PMCID) sprawdzamy osobno** pod kątem autora, roku i tytułu. Identyfikator niesprawdzony = `UNVERIFIED`, a takie źródło nie wchodzi do bazy.
 4. **Niezależność:**

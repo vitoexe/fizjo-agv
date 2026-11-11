@@ -29,6 +29,7 @@ Punkt odniesienia: research z 2.11.2026 (23 źródła o grindach) — zob. `sour
 ## Zasady
 
 1. **Min. 2 niezależne źródła pierwotne** na twierdzenie, zanim zostanie przyjęte (`2/2`). Dwa modele powtarzające to samo ≠ dwa źródła. Dwie prace tego samego zespołu też nie są w pełni niezależne (zaznacz w `sources.md`).
+   **Poradniki a baza (decyzja 11.11.2026).** Poradniki (`poradniki/`) mogą zawierać sekcję „Wskazówki do przetestowania (niepotwierdzone)” z radami technicznymi, które mają tylko jedno źródło, przekaz ustny albo niesprawdzone jeszcze wideo. Każda taka rada ma etykietę, liczbę źródeł i ocenę fizjo (albo „brak danych”). Do bazy wiedzy (`filar-*`, `sources.md`) twierdzenie wchodzi dopiero po 2 niezależnych źródłach pierwotnych (`2/2`).
 2. **Każde twierdzenie z cytowanym źródłem i linkiem** (DOI/PubMed preferowane).
 3. **Etykiety** (pełny opis w README):
    - `{DOWÓD:przegląd|RCT|obserwacyjne}` — dowód z badania,

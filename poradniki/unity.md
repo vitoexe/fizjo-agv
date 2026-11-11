@@ -16,10 +16,11 @@ recenzent: ""
 **Jak czytać:** `Treść. [źródło] {ETYKIETA} 1/2|2/2`.
 - `[Sxx]` — źródło z `sources.md` (zweryfikowane wcześniej).
 - `[Uxx]` — tymczasowe ID z `research-raw/2026-11-11_unity_claude-research.md` (strony otwarte, wideo z automatycznych napisów YouTube).
-- `[DRxx]` — numer źródła z `research-raw/2026-11-11_unity_ai-studio-deep-research.md` (lista „Sources”); użyte tylko tam, gdzie treść źródła sprawdzono (DR1, DR36); niesprawdzone (DR4, DR5, DR17) nie podpierają twierdzeń — są tylko w tabeli źródeł i w sekcji 9.
+- `[DRxx]` — numer źródła z `research-raw/2026-11-11_unity_ai-studio-deep-research.md` (lista „Sources”); treść źródła sprawdzono tylko dla DR1 i DR36. Niesprawdzone (DR4, DR5, DR17) nie podpierają twierdzeń. DR5 pojawia się w sekcji 9 wyłącznie jako przypisanie niezweryfikowane (wideo nieprzepisane); DR4 i DR17 zostają w tabeli źródeł.
 - `2/2` = co najmniej 2 niezależne źródła. Dla techniki to nadal opinie instruktorów, nie dowód.
 - Etykiety: `{DOWÓD:typ}`, `{KONSENSUS}`, `{OPINIA: kto, gdzie}`, `{WNIOSKOWANIE}`, `{ANALOGIA:sport}`, `{SPEKULACJA}`, `{PROPOZYCJA}` (propozycja projektu) — zob. `METHODOLOGY.md`.
 - Żargon (fakie, stall, wheel bite, backslide, torque…) — zob. **Słowniczek** niżej.
+- Sekcja 9, „Wskazówki do przetestowania (niepotwierdzone)”: rady techniczne z jednym źródłem albo przekazem ustnym, warte przetestowania. Nie wchodzą do bazy wiedzy aż do 2 niezależnych źródeł (`2/2`).
 
 ## TL;DR
 
@@ -30,6 +31,7 @@ recenzent: ""
 5. Rozkład ciężaru jest sporny: od 50/50 do 60/40 na przednią stopę. [U17][U18][U20][U22] {OPINIA: instruktorzy YouTube} 2/2 (co do sporu)
 6. Naturalne wyjście z front unity to fakie. Nie walcz z nim na etapie nauki. [U16][U17][U20][U21] {OPINIA: instruktorzy YouTube} 2/2
 7. Fizjo: pozycja prawdopodobnie obciąża rotację w kolanie i kostce przy zablokowanych rolkach. {WNIOSKOWANIE} — do recenzji fizjoterapeuty. Po urazie kostki unity dopiero w ostatnim etapie powrotu — to {PROPOZYCJA} bazy, nie wynik badań (zob. 6.5).
+8. Niepotwierdzone rady techniczne (m.in. palce w literę V, kolana szeroko) są w sekcji 9, „Wskazówki do przetestowania” — do ostrożnego testu, nie do bazy.
 
 ### Słowniczek (dla fizjoterapeuty)
 
@@ -111,7 +113,7 @@ recenzent: ""
 
 - Wybicie z obu nóg; obie stopy pokonują podobną drogę do pozycji. [U17][U22] {OPINIA: Witzemann; aggressivemall} 2/2
 - Wejście po kolei jedną, potem drugą stopą to zły nawyk. [S57] {OPINIA: r/AggressiveInline} — razem z [U17][U22] 2/2
-- Skacz od razu w pozę, nie najpierw wyprostowany. [U17] {OPINIA: Witzemann} 1/2
+- Skrzyżuj nogi w powietrzu i wyląduj od razu w pozycji unity (kolana ugięte), a nie najpierw na prostych nogach z poprawianiem pozycji już na przeszkodzie. Nogi krzyżujesz jeszcze w locie, więc na przeszkodę wchodzisz już ze stopami w rowkach i ugiętymi kolanami. Dobrze jest, gdy po lądowaniu nic nie musisz poprawiać. Typowy błąd to wskoczenie na prostych nogach i ustawianie się dopiero na przeszkodzie, co rozbija balans. [U17] {OPINIA: Witzemann, YouTube} 1/2
 - Wejście krokiem — spór: część uczy kroku jako etapu nauki [U15][U21], JAD mówi „definitely don't try stepping onto it”, bo przednia stopa ląduje w backslide [U16]. {OPINIA} — zob. sekcja 9.
 
 **Typowe błędy:** „wyrzucanie” jednej stopy przed drugą [U17]; wejście krokiem przy prędkości [U16]. {OPINIA} 1/2 każdy
@@ -120,12 +122,12 @@ recenzent: ""
 ### 2.3 Skrzyżowanie
 
 - Krzyżuj w powietrzu; stopy mają być w docelowej pozycji przed kontaktem. [U17][U22] {OPINIA: Witzemann; aggressivemall} 2/2
-- Drummond: „cross your legs at your ankles … more than at your knees” — stabilniej. [U20] {OPINIA: Drummond, YouTube} 1/2
-- ⚠ Inna rada (krzyżowanie w goleniach) przypisana Ricardo Lino nie jest sprawdzona — wideo [U11] nie zostało przepisane. Bez etykiety, do weryfikacji, zob. sekcja 9.
+- Drummond: „cross your legs at your ankles … more than at your knees” — stabilniej. [U20] {OPINIA: Drummond, YouTube} 1/2 — rozwinięcie i ocena fizjo: sekcja 9, „Wskazówki do przetestowania”.
+- ⚠ Inna rada (krzyżowanie w goleniach) przypisana Ricardo Lino nie jest sprawdzona — wideo [U11] nie zostało przepisane. Bez etykiety, do weryfikacji: sekcja 9, „Wskazówki do przetestowania”.
 - Back unity (nie front): wyskocz jak do acida/top stara i zmień stopę w trakcie opadania. [U19] {OPINIA: Acosta Blades} 1/2
 
 **Typowe błędy:** kolana zbite razem przy krzyżowaniu. [U20] {OPINIA: Drummond — „keep your knees further apart”} 1/2
-**Wskazówka:** „Krzyżuj nisko, kolana szeroko.” [U20] {OPINIA} 1/2
+**Wskazówka:** „Krzyżuj nisko, kolana szeroko.” [U20] {OPINIA} 1/2 — zob. też sekcja 9, „Wskazówki do przetestowania”.
 
 ### 2.4 Lądowanie na przeszkodzie (lock)
 
@@ -408,6 +410,50 @@ recenzent: ""
 - Do obejrzenia na obrazie: [U15] „soul grooves”, [U17] „back FRV”, [U23] „hips parallel”.
 - Pominięto tezy oznaczone w triage jako podejrzane (m.in. liczby bez weryfikowalnego źródła, niepotwierdzone imiona autorów kanałów, przypisania niezgodne z transkryptami, „trzy filary stylu”, przeciwwskazania kolanowe bez źródła). Szczegóły: `research-raw/2026-11-11_unity_ai-studio-deep-research.md`, sekcja „Triage”.
 
+### Wskazówki do przetestowania (niepotwierdzone)
+
+Decyzja z 11.11.2026: praktyczne rady instruktorów i trenerów — także z jednym źródłem albo z przekazu ustnego — zostają w poradniku jako rzeczy warte przetestowania. Nie są przyjęte do bazy wiedzy; do bazy twierdzenie wchodzi dopiero przy 2 niezależnych źródłach (`2/2`, zob. `METHODOLOGY.md`).
+
+To nie są potwierdzone zasady techniki. Testuj ostrożnie: mała prędkość, niska przeszkoda, jedna zmiana naraz. Przy bólu kolana, kostki albo „uciekaniu” stawu — przerwij i skonsultuj się ze specjalistą. **To nie jest diagnoza ani porada medyczna.**
+
+Każda wskazówka ma krótki nagłówek, 2–3 zdania rozwinięcia (co robisz, po czym poznasz, że dobrze, typowy błąd), źródło z etykietą oraz linijkę **Fizjo** opartą wyłącznie na źródłach już w tym poradniku (albo „brak danych”).
+
+#### Palce na zewnątrz, w literę V
+
+W pozycji unity ustaw stopy rozwarte, palcami na zewnątrz (litera V; „prostowanie stopy”). Szczegóły techniki — które stopy, jak mocno, w której fazie (najazd, lądowanie czy jazda) — nie zostały doprecyzowane; nie dopowiadamy ich. Dobrze jest, gdy pozycja jest stabilna i nic nie boli. Typowy błąd: wykręcanie stóp albo kolan na siłę, ponad zakres bioder.
+
+Źródło: przekaz ustny z zajęć — Gabriel Rozwadowski (ps. „Gabryś”), instruktor Rollschool, <https://rollschool.pl/instruktorzy/pokaz/36/>, listopad 2026, przekazane przez autora projektu. {OPINIA: instruktor, przekaz ustny} 1/2
+
+**Fizjo:** lądowanie na jednej nodze ze stopą skręconą na zewnątrz zwiększało moment koślawiący kolana (efekt mały) [S48] {DOWÓD:obserwacyjne}{ANALOGIA:zeskoki} 1/2. U tancerzy wymuszanie rotacji zewnętrznej stóp poza zakres bioder („compensated turnout”) wiązało się z większą liczbą urazów [U36][U37] {DOWÓD:obserwacyjne}{ANALOGIA:taniec} 2/2 (dla tancerzy, małe próby). {WNIOSKOWANIE}{ANALOGIA}: rotację bierz z biodra, nie wykręcaj kolana ani stopy na siłę; przy bólu kolana przerwij. Żadna z analogii nie dotyczy rolek ani unity.
+
+#### Kolana na zewnątrz / szeroko
+
+Trzymaj kolana szerzej, a nogi krzyżuj nisko, raczej w kostkach niż w kolanach. Pozycję można porównać do siadu skrzyżnego: kolana rozstawione, skrzyżowanie nisko — to tylko obraz pomocniczy, nie cytat ze źródła. Dobrze jest, gdy kolana nie zbijają się do środka i pozycja jest stabilna. Typowy błąd: kolana zbite razem przy krzyżowaniu.
+
+Źródło zweryfikowane: Brandon Drummond, *How to Unity Grind on Rollerblades*, YouTube, 2019 — „keep your knees further apart … cross at the ankles” [U20] {OPINIA: Drummond, YouTube} 1/2 (ta sama rada jest w 2.3).
+
+Raport Deep Research pisał też, że kolana idą „na zewnątrz” (odwiedzenie; osobno: wymuszona szpotawość nogi prowadzącej i koślawość tylnej, przypisane Witzemannowi i Lino). Triage uznał opis szpotawości/koślawości za dopisane wnioskowanie modelu — **niezweryfikowane**, to nie jest rada instruktora. Witzemann mówi coś innego: „bend your knees forward as if you were not crossing your legs at all” [U17] {OPINIA} 1/2. Zob. też uwagę 6 recenzji Argona w `research-raw/2026-11-11_unity_argon-recenzja.md`.
+
+**Fizjo:** brak pomiarów ustawienia kolan w unity. Rady „krzyżuj w kostkach” i „nie obracaj bioder w przód” mogą zmniejszać skręt w kolanie — {SPEKULACJA}, nikt tego nie mierzył (zob. 6.1). Hipoteza o momencie szpotawiącym i obciążeniu struktur bocznych kolana (LCL) przy „boot down” i wheel bite pochodzi z recenzji Argona (uwaga 7): {SPEKULACJA}, bez źródła, do researchu (niżej w tej sekcji). Przy bólu kolana (przyśrodkowego lub bocznego) przerwij i skonsultuj się ze specjalistą {WNIOSKOWANIE} z [U32][U33] (zob. 6.4).
+
+#### Krzyżowanie w goleniach (przypisywane Lino)
+
+Raport Deep Research przypisuje Ricardo Lino radę, by krzyżować nogi na wysokości górnych części goleni (piszczeli), a nie tylko w kostkach — głębiej, dla szerszej bazy podparcia. Wideo nie zostało przepisane ani obejrzane, więc nie potwierdzamy, że Lino to powiedział. Jeśli po sprawdzeniu wideo rada się potwierdzi, punktem orientacyjnym przy teście byłoby, czy skrzyżowanie jest stabilne i czy kolana nie zbijają się. Kontrast: Drummond uczy krzyżowania w kostkach, „more than at your knees” [U20].
+
+Źródło przypisania: raport DR [DR5] = wideo Ricardo Lino [U11] — **niezweryfikowane** (brak transkryptu). Bez etykiety `{OPINIA}` do czasu sprawdzenia wideo. Zob. 2.3 i sprzeczność 1 w tej sekcji.
+
+**Fizjo:** brak danych, która wysokość skrzyżowania (kostki vs golenie) jest korzystniejsza dla kolana. Nie rozstrzygamy sporu.
+
+#### Ciężar i wheel bite (przypisywane Lino)
+
+Raport Deep Research przypisuje Lino radę, by w ślizgu nie dociążać zbytnio palców: przednie kółka mają być lekko uniesione, bo nacisk na palce sprzyja wheel bite (nagłe zablokowanie kółek i wyrzucenie do przodu). Wideo nie zostało przepisane — **niezweryfikowane**. Pokrewna, sprawdzona rada: za głęboko na murku przednie kółka szorują o górę; zostań na wewnętrznej krawędzi [U16][U19] {OPINIA} 2/2. Typowy błąd z tutorialu JAD: stopy za blisko → wheel bite [U16] {OPINIA} 1/2.
+
+Źródło przypisania: [DR5][U11] — **niezweryfikowane**. Bez etykiety `{OPINIA}` do czasu sprawdzenia wideo.
+
+**Fizjo:** nagłe wheel bite przy skręconym tułowiu przypomina mechanizm „slip-catch” z narciarstwa [U33] {DOWÓD:obserwacyjne}{ANALOGIA:narciarstwo} 1/2 — {WNIOSKOWANIE}{ANALOGIA} z [U16][U20][U33] (zob. 6.1). Unikanie wheel bite jest więc ostrożniejsze; sama rada o nacisku na palce zostaje niezweryfikowana. Przy wheel bite Drummond radzi: niżej, kolana szerzej, wosk [U20] {OPINIA} 1/2.
+
+Raport Deep Research przypisuje Lino także sekwencję kątów najazdu (od prostopadłego do niemal równoległego, z podanymi stopniami). Konkretnych liczb tu nie powielamy: wideo nieprzepisane, triage uznał je za tezę bez sprawdzonego źródła. [DR5][U11] — **niezweryfikowane**.
+
 ### Do researchu (z recenzji Argona, 11.11.2026)
 
 Uwagi recenzji, które wymagają nowych źródeł. Bez źródeł nie wchodzą do treści. Numery = numery uwag w `research-raw/2026-11-11_unity_argon-recenzja.md`.
@@ -421,6 +467,7 @@ Uwagi recenzji, które wymagają nowych źródeł. Bez źródeł nie wchodzą do
 - [ ] (13) Setup kółek (flat vs anti-rocker) i sztywność cuffa a wheel bite i obciążenie kostki/kolana.
 - [ ] (14) Zeskok z unity do fakie: czy i kiedy nogi się rozplątują (analiza wideo).
 - [ ] (15) Definicje ze źródła: torque (pozycja stopy), coping, transition, switch-up, cess slide.
+- [ ] Palce w literę V (przekaz ustny, Gabriel Rozwadowski, Rollschool) — drugie niezależne źródło i doprecyzowanie szczegółów techniki.
 
 ---
 
@@ -520,6 +567,12 @@ Uwagi recenzji, które wymagają nowych źródeł. Bez źródeł nie wchodzą do
 | DR17 | r/AggressiveInline — wątek o nauce unity | https://www.reddit.com/r/AggressiveInline/comments/tpq742/does_anyone_have_any_tips_or_advice_for_learning/ (Reddit blokuje automat — niesprawdzony) |
 | DR36 | This Is Soul — *How to fall on inline skates* | https://www.thisissoul.com/blogs/skate-lessons/how-to-fall-on-inline-skates (✔ treść sprawdzona) |
 
+### Inne (nie w `sources.md`, nie z rund researchu)
+
+| Źródło | Link |
+|---|---|
+| Przekaz ustny: Gabriel Rozwadowski (ps. „Gabryś”), instruktor Rollschool; listopad 2026, przekazane przez autora projektu | https://rollschool.pl/instruktorzy/pokaz/36/ (strona otwarta 11.11.2026; imię i nazwisko jak na stronie) |
+
 ---
 
 ## Notka weryfikacji (Fizjo AGV, 11.11.2026)
@@ -530,6 +583,7 @@ Uwagi recenzji, które wymagają nowych źródeł. Bez źródeł nie wchodzą do
 - **Etykiety:** każde zdanie merytoryczne ma etykietę lub odsyłacz do sekcji z etykietą; zdania redakcyjne (zakres, luki) są bez etykiet.
 - **Triage:** w poradniku nie ma tez oznaczonych w triage jako podejrzane (29% / „Kurath”, Parachute, „NHS 2026”, Khakha, niepotwierdzone imiona autorów kanałów, kąty 90/75/50/30°, szpotawość/koślawość, przeciwwskazania MCL, „trzy filary stylu”, 90/90 i „maź”). Sprzeczność Lino vs Drummond (krzyżowanie w goleniach vs w kostkach) zostaje jako do sprawdzenia na wideo.
 - **Recenzja Argona (Gemini 4 Argon, AI Studio), 11.11.2026:** ocena 7,5/10, 15 uwag. Pełny tekst i decyzje (przyjęte / odrzucone / do researchu): `research-raw/2026-11-11_unity_argon-recenzja.md` ([GitHub](https://github.com/vitoexe/fizjo-agv/blob/main/research-raw/2026-11-11_unity_argon-recenzja.md)). Argon nie jest źródłem: poprawki to obniżenie etykiet, zastrzeżenia, ujednolicenia i słowniczek wyłącznie na źródłach z tej strony; słowniczek oparto na U06 i U07 (strony otwarte 11.11.2026). Uwagi wymagające nowej wiedzy — sekcja 9, „Do researchu”.
+- **11.11.2026 (wskazówki do przetestowania):** decyzja autora — niepotwierdzone rady techniczne zostają w poradniku (sekcja 9), z etykietą i oceną fizjo, ale nie wchodzą do bazy aż do 2/2. Nowa rada: palce w literę V, przekaz ustny Gabriela Rozwadowskiego (Rollschool; strona instruktora otwarta 11.11.2026, imię i nazwisko jak na stronie). Dopisano też rozwinięcie rady Drummonda o kolanach szeroko [U20] oraz niezweryfikowane rady przypisywane Lino (wideo [U11] nadal nieprzepisane). Tezy oznaczone w triage jako podejrzane o fabrykację (Kurath −29%, „NHS 2026”, nieistniejące cytaty) nie weszły do poradnika. W 2.2 poprawiono niejasne „Skacz od razu w pozę, nie najpierw wyprostowany”.
 - **Następny krok:** strona (Opus).
 
 > ⚠️ **To nie jest diagnoza ani porada medyczna.**
