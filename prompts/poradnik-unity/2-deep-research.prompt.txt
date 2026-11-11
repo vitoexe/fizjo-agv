@@ -1,0 +1,29 @@
+Deep research task (answer in Polish). Topic: the "unity" grind in aggressive inline skating (AGV) — technique and sports-physiotherapy, for a community knowledge base used by skaters, physiotherapists and coaches. This is not medical advice.
+
+GOAL: build an independent, source-cited body of evidence for a complete guide to the unity grind (incl. variants: backside unity, frontside/"true" unity, savannah vs unity, entries and exits):
+1. Definition and variants: exact foot placement, which part of each boot/frame/soul plate contacts the obstacle, how it differs from savannah, royale, fishbrain.
+2. Motor sequence step by step: approach (speed, angle), pop/jump vs step-on entry, crossing the legs, landing on the ledge/rail, holding the grind, exit/landing. Common mistakes and coaching cues for each phase.
+3. Posture segment by segment: foot, ankle (inversion/eversion, dorsiflexion), knee, hip (external/internal rotation), trunk, arms, gaze.
+4. Balance: centre of mass relative to the obstacle, weight distribution between front and back foot (sources disagree: 60/40 vs 50/50 — find more opinions), corrections.
+5. Style: what the AGV community considers a clean/stylish unity (depth of cross, upright posture, arms), with named skaters/coaches.
+6. Physiotherapy: which tissues are likely loaded (ankle ligaments, peroneals, tibialis posterior, knee under combined rotation, hip), preparation (hip rotation mobility, ankle mobility, strength, balance/proprioception), a short unity-specific warm-up, contraindications, return-to-sport after ankle sprain or knee injury, how to bail/fall safely when slipping out (incl. whether to catch yourself with the hand). Use PubMed/Europe PMC and analogies from other sports (landing with rotation, skateboarding, snowboarding, ski ACL mechanisms, dance turnout, ankle sprain mechanisms).
+7. Learning progression: floor/carpet, curb, low ledge, rail; drills.
+
+SEARCH SPECIFICALLY (gaps from a previous round):
+- Ricardo Lino unity tutorials/interviews; Becci Sotelo; AMALL "Trick Tips: Coping Grinds"; Be-Mag, ONE Blademag, Rollerblade, USD, Them Skates, Kizer, Valo; skate schools and coaching websites; Reddit r/rollerblading and r/aggressiveinline threads on unity technique and injuries; trick glossaries (e.g. toxboe, rollernews); Polish and other non-English skating sources.
+- Any measurement (engineering thesis, master's thesis, motion capture) of crossed-leg grinds (unity, royale, savannah) or of grinds other than stall/frontside (Major 2007 covered only stall and frontside).
+- Injury reports or case series linked to unity/crossed grinds.
+
+RULES (mandatory):
+- Every claim must have a real, working URL; research papers must have PMID or DOI. Never invent authors, numbers, quotes or papers. If nothing is found, write "BRAK ŹRÓDŁA".
+- Label every claim: {DOWÓD:study-type}, {KONSENSUS}, {OPINIA} (name the coach/skater/physio and where), {WNIOSKOWANIE} (biomechanical reasoning), {ANALOGIA} (other sport), {SPEKULACJA}.
+- Separate evidence from opinion. Technique will mostly be {OPINIA} — that is fine, but name who said it.
+- For each claim, say whether you found at least 2 INDEPENDENT sources (different authors/organisations). Mark "1/2" or "2/2".
+- When sources disagree (weight distribution, approach angle, step vs pop entry, squat depth, "stay over the obstacle", hand when falling) present the disagreement; do not force a verdict.
+- Quote video content only if you can see it in a transcript/description; say so.
+
+OUTPUT (Polish), sections 1–7 above, then:
+8. Source table: id (D01…), type, author/org, title, URL, PMID/DOI.
+9. Claims table: claim, label, sources, 1/2 or 2/2.
+10. Gaps and contradictions.
+Start with: "To nie jest diagnoza ani porada medyczna."
