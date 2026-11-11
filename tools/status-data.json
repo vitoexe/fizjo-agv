@@ -79,10 +79,10 @@
       "position": "00000000000000000010"
     },
     {
-      "title": "12. Strona dla rolkarzy do pokazania fizjo lub trenerowi",
-      "notes": "Każdy rolkarz z kontuzją, naciągnięciem albo przed wizytą u fizjoterapeuty lub trenera personalnego może mu ją pokazać; strona pozwala przeczytać i zapoznać się z materiałem, żeby móc prowadzić tego zawodnika.\n\nDALEJ\n- ⬜ Strona z treścią bazy (osobna od STATUS.md), działy według kontuzji i części ciała\n- ⬜ Czytelna na telefonie, do pokazania w gabinecie\n- ⬜ Zastrzeżenie „to nie jest porada medyczna” na każdej stronie\n- ⬜ Treść po recenzji fizjoterapeuty",
+      "title": "🔄 12. Strona dla rolkarzy do pokazania fizjo lub trenerowi",
+      "notes": "Każdy rolkarz z kontuzją, naciągnięciem albo przed wizytą u fizjoterapeuty lub trenera personalnego może mu ją pokazać; strona pozwala przeczytać i zapoznać się z materiałem, żeby móc prowadzić tego zawodnika.\n\nSTATUS\n- ✅ Poradnik unity: research (Claude + Deep Research) — research-raw/2026-11-11_unity_*\n- ✅ Poradnik unity: tekst napisany przez Opusa i zweryfikowany — poradniki/unity.md\n- ✅ Poradnik unity: recenzja Argona (7,5/10), poprawki naniesione — commit ca97032\n- 🔄 Poradnik unity: strona strona/unity.html (Opus, prompt prompts/poradnik-unity/5-opus-strona.prompt.md)\n- ⬜ Poradnik unity: luki „Do researchu” z recenzji (kolano/ACL, varus/LCL, Lino goleń vs kostki)\n\nDALEJ\n- ⬜ Strona z treścią bazy (osobna od STATUS.md), działy według kontuzji i części ciała\n- ⬜ Czytelna na telefonie, do pokazania w gabinecie\n- ⬜ Zastrzeżenie „to nie jest porada medyczna” na każdej stronie\n- ⬜ Treść po recenzji fizjoterapeuty",
       "status": "needsAction",
-      "updated": "2026-11-03T17:13:49.732Z",
+      "updated": "2026-11-11T12:02:17.314Z",
       "position": "00000000000000000011"
     },
     {

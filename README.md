@@ -11,7 +11,7 @@ Dla kogo:
 <!-- STATUS:START -->
 ## Status projektu
 
-**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60%** (13 punktów planu) · ostatnia aktualizacja: 2026-11-04 09:57 (czas warszawski)
+**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **63%** (13 punktów planu) · ostatnia aktualizacja: 2026-11-11 13:02 (czas warszawski)
 
 | | Punkt planu | Postęp | % |
 |---|---|---|---|
@@ -26,7 +26,7 @@ Dla kogo:
 | 🔄 | [9. Struktura: najpierw uporządkowana baza, potem strona](STATUS.md#-9-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% |
 | 🔄 | [10. Open source dla społeczności](STATUS.md#-10-open-source-dla-społeczności) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 71% |
 | ⬜ | [11. „Pigułka wiedzy” albo większy biuletyn dla fizjoterapeutów o AGV](STATUS.md#-11-pigułka-wiedzy-albo-większy-biuletyn-dla-fizjoterapeutów-o-agv) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | 0% |
-| ⬜ | [12. Strona dla rolkarzy do pokazania fizjo lub trenerowi](STATUS.md#-12-strona-dla-rolkarzy-do-pokazania-fizjo-lub-trenerowi) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | 0% |
+| 🔄 | [12. Strona dla rolkarzy do pokazania fizjo lub trenerowi](STATUS.md#-12-strona-dla-rolkarzy-do-pokazania-fizjo-lub-trenerowi) | 🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜ | 39% |
 | 🔄 | [13. Społeczność może dodawać i weryfikować treści](STATUS.md#-13-społeczność-może-dodawać-i-weryfikować-treści) | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | 40% |
 
 Szczegóły i podpunkty → [STATUS.md](STATUS.md) · 🟩 zrobione · 🟨 w toku · ⬜ do zrobienia. Blok generowany przez `tools/build_status_md.py` z listy Google Tasks „Fizjo AGV” — nie edytuj ręcznie.

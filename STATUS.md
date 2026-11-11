@@ -1,8 +1,8 @@
 # Status projektu Fizjo AGV
 
-Ostatnia aktualizacja: 2026-11-04 09:57 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
+Ostatnia aktualizacja: 2026-11-11 13:02 (czas warszawski). Źródło: Google Tasks, lista „Fizjo AGV” — plik generowany przez `tools/build_status_md.py`, nie edytuj ręcznie.
 
-**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **60%** (13 punktów planu)
+**Postęp łącznie:** `🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜` **63%** (13 punktów planu)
 
 | | Punkt planu | Postęp | % | Podpunkty |
 |---|---|---|---|---|
@@ -17,7 +17,7 @@ Ostatnia aktualizacja: 2026-11-04 09:57 (czas warszawski). Źródło: Google Tas
 | 🔄 | [9. Struktura: najpierw uporządkowana baza, potem strona](#-9-struktura-najpierw-uporządkowana-baza-potem-strona) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 67% | 6 podp. |
 | 🔄 | [10. Open source dla społeczności](#-10-open-source-dla-społeczności) | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | 71% | 7 podp. |
 | ⬜ | [11. „Pigułka wiedzy” albo większy biuletyn dla fizjoterapeutów o AGV](#-11-pigułka-wiedzy-albo-większy-biuletyn-dla-fizjoterapeutów-o-agv) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | 0% | 4 podp. |
-| ⬜ | [12. Strona dla rolkarzy do pokazania fizjo lub trenerowi](#-12-strona-dla-rolkarzy-do-pokazania-fizjo-lub-trenerowi) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | 0% | 4 podp. |
+| 🔄 | [12. Strona dla rolkarzy do pokazania fizjo lub trenerowi](#-12-strona-dla-rolkarzy-do-pokazania-fizjo-lub-trenerowi) | 🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜ | 39% | 9 podp. |
 | 🔄 | [13. Społeczność może dodawać i weryfikować treści](#-13-społeczność-może-dodawać-i-weryfikować-treści) | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | 40% | 5 podp. |
 
 ## Szczegóły
@@ -317,11 +317,19 @@ Jak leczyć, jak przygotować i jak prowadzić zawodnika AGV.
 - ⬜ Szkic pierwszego wydania
 - ⬜ Recenzja fizjoterapeuty przed publikacją
 
-### ⬜ 12. Strona dla rolkarzy do pokazania fizjo lub trenerowi
+### 🔄 12. Strona dla rolkarzy do pokazania fizjo lub trenerowi
 
-`⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜` **0%**
+`🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜` **39%**
 
 Każdy rolkarz z kontuzją, naciągnięciem albo przed wizytą u fizjoterapeuty lub trenera personalnego może mu ją pokazać; strona pozwala przeczytać i zapoznać się z materiałem, żeby móc prowadzić tego zawodnika.
+
+**Status**
+
+- ✅ Poradnik unity: research (Claude + Deep Research) — research-raw/2026-11-11_unity_*
+- ✅ Poradnik unity: tekst napisany przez Opusa i zweryfikowany — poradniki/unity.md
+- ✅ Poradnik unity: recenzja Argona (7,5/10), poprawki naniesione — commit ca97032
+- 🔄 Poradnik unity: strona strona/unity.html (Opus, prompt prompts/poradnik-unity/5-opus-strona.prompt.md)
+- ⬜ Poradnik unity: luki „Do researchu” z recenzji (kolano/ACL, varus/LCL, Lino goleń vs kostki)
 
 **Dalej**
 
