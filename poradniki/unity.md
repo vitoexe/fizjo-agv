@@ -97,90 +97,200 @@ recenzent: ""
 ## 2. Motoryka krok po kroku
 
 > Wszystko w tej sekcji to {OPINIA} instruktorów z YouTube i stron. Cytaty z wideo pochodzą z automatycznych napisów. Badań brak.
+>
+> Każdy punkt ma krótki nagłówek, a pod nim rozwinięcie: co robisz, po czym poznasz, że dobrze, i najczęstszy błąd. Rozwinięcia to tłumaczenie i wnioski z tych samych źródeł co punkt — dlatego mają etykietę {WNIOSKOWANIE}.
 
 ### 2.1 Najazd
 
-- Prędkość: taka, przy której czujesz się pewnie; można zwolnić. [U01][U15][U17] {OPINIA: toxboe; In-line at the Border; Witzemann} 2/2
-- Stopy przy najeździe równolegle, ciężar po równo. [U17] {OPINIA: Witzemann, YouTube} 1/2
-- Kąt: lekki, nie równolegle; pomaga mieć biodra nad przeszkodą. [U17][U18] {OPINIA: Witzemann; Acosta Blades — YouTube} 2/2
-- Inni: bardziej równolegle na długim murku w back unity [U22]; prawie na wprost [U16]. {OPINIA: aggressivemall; JAD — YouTube} — sprzeczność, zob. sekcja 9.
-- Jedyny pomiar kąta dotyczy frontside grindu: autorzy sugerują, że równowagę daje pęd z ukośnego najazdu. [S02] {DOWÓD:obserwacyjne} 1/2
+- **Prędkość, przy której czujesz się pewnie.** Prędkość: taka, przy której czujesz się pewnie; można zwolnić. [U01][U15][U17] {OPINIA: toxboe; In-line at the Border; Witzemann} 2/2
 
-**Typowe błędy:** zbyt równoległy wjazd w back unity — biodra nie wchodzą nad przeszkodę. [U17] {OPINIA: Witzemann} 1/2
+  Jedziesz tak szybko, jak ci wygodnie — źródła mówią wprost, że możesz zwolnić. Dobrze jest, gdy na najeździe się nie spinasz i masz głowę wolną na wybicie. Błąd: dokładanie prędkości, zanim pozycja na przeszkodzie jest pewna; prędkość dochodzi dopiero w późniejszych etapach (sekcja 7). {WNIOSKOWANIE} z [U01][U15][U17]
+
+- **Stopy równolegle, ciężar po równo.** Stopy przy najeździe równolegle, ciężar po równo. [U17] {OPINIA: Witzemann, YouTube} 1/2
+
+  Na najeździe jedziesz na obu stopach ustawionych równolegle i rozkładasz ciężar równo między nie. Poznasz, że dobrze, gdy wybicie wychodzi z obu nóg naraz. Błąd: jazda na jednej nodze przed wybiciem — wtedy łatwo „wyrzucić” jedną stopę przed drugą (zob. 2.2). {WNIOSKOWANIE} z [U17]
+
+- **Lekki kąt, nie równolegle.** Kąt: lekki, nie równolegle; pomaga mieć biodra nad przeszkodą. [U17][U18] {OPINIA: Witzemann; Acosta Blades — YouTube} 2/2
+
+  Podjeżdżasz do przeszkody pod lekkim kątem, a nie wzdłuż niej. Dobrze jest, gdy po wejściu biodra są nad przeszkodą i zwrócone do niej. Błąd: wjazd prawie równoległy — Witzemann nazywa go częstym błędem (w back unity), bo biodra nie wchodzą wtedy nad przeszkodę. {WNIOSKOWANIE} z [U17][U18]
+
+- **Inne kąty — sprzeczność.** Inni: bardziej równolegle na długim murku w back unity [U22]; prawie na wprost [U16]. {OPINIA: aggressivemall; JAD — YouTube} — sprzeczność, zob. sekcja 9.
+- **Jedyny pomiar (frontside, nie unity).** Jedyny pomiar kąta dotyczy frontside grindu: autorzy sugerują, że równowagę daje pęd z ukośnego najazdu. [S02] {DOWÓD:obserwacyjne} 1/2
+
+**Typowe błędy:**
+
+- **Zbyt równoległy wjazd (back unity).** zbyt równoległy wjazd w back unity — biodra nie wchodzą nad przeszkodę. [U17] {OPINIA: Witzemann} 1/2
+
+  Jeśli wjeżdżasz prawie wzdłuż przeszkody, biodra zostają obok niej, a nie nad nią, i trudno zablokować obie rolki. Poprawka: lekki kąt najazdu (wyżej). {WNIOSKOWANIE} z [U17]
+
 **Wskazówka trenerska:** „Lekki kąt. Prędkość, przy której się nie spinasz.” [U17][U18] {OPINIA} 2/2
 
 ### 2.2 Wejście (wybicie)
 
-- Wybicie z obu nóg; obie stopy pokonują podobną drogę do pozycji. [U17][U22] {OPINIA: Witzemann; aggressivemall} 2/2
-- Wejście po kolei jedną, potem drugą stopą to zły nawyk. [S57] {OPINIA: r/AggressiveInline} — razem z [U17][U22] 2/2
-- Skrzyżuj nogi w powietrzu i wyląduj od razu w pozycji unity (kolana ugięte), a nie najpierw na prostych nogach z poprawianiem pozycji już na przeszkodzie. Nogi krzyżujesz jeszcze w locie, więc na przeszkodę wchodzisz już ze stopami w rowkach i ugiętymi kolanami. Dobrze jest, gdy po lądowaniu nic nie musisz poprawiać. Typowy błąd to wskoczenie na prostych nogach i ustawianie się dopiero na przeszkodzie, co rozbija balans. [U17] {OPINIA: Witzemann, YouTube} 1/2
-- Wejście krokiem — spór: część uczy kroku jako etapu nauki [U15][U21], JAD mówi „definitely don't try stepping onto it”, bo przednia stopa ląduje w backslide [U16]. {OPINIA} — zob. sekcja 9.
+- **Wybicie z obu nóg.** Wybicie z obu nóg; obie stopy pokonują podobną drogę do pozycji. [U17][U22] {OPINIA: Witzemann; aggressivemall} 2/2
 
-**Typowe błędy:** „wyrzucanie” jednej stopy przed drugą [U17]; wejście krokiem przy prędkości [U16]. {OPINIA} 1/2 każdy
+  Odbijasz się obiema nogami jednocześnie, a obie stopy pokonują w powietrzu mniej więcej tę samą drogę do pozycji. Dobrze jest, gdy obie rolki łapią rowki w tym samym momencie („lock in both your feet at the same time” [U22]). Błąd: jedna stopa „wyrzucona” przed drugą [U17]. {WNIOSKOWANIE} z [U17][U22]
+
+- **Nie wchodź stopa po stopie.** Wejście po kolei jedną, potem drugą stopą to zły nawyk. [S57] {OPINIA: r/AggressiveInline} — razem z [U17][U22] 2/2
+
+  Na przeszkodę nie stawiasz najpierw jednej, a potem drugiej stopy — obie lądują razem. Poznasz, że dobrze, gdy nie ma chwili stania na jednej rolce. To ten sam błąd co „wyrzucanie” jednej stopy. {WNIOSKOWANIE} z [S57][U17][U22]
+
+- **Od razu w pozycję.** Skrzyżuj nogi w powietrzu i wyląduj od razu w pozycji unity (kolana ugięte), a nie najpierw na prostych nogach z poprawianiem pozycji już na przeszkodzie. [U17] {OPINIA: Witzemann, YouTube} 1/2
+
+  Nogi krzyżujesz jeszcze w locie, więc na przeszkodę wchodzisz już ze stopami w rowkach i ugiętymi kolanami. Dobrze jest, gdy po lądowaniu nic nie musisz poprawiać. Typowy błąd to wskoczenie na prostych nogach i ustawianie się dopiero na przeszkodzie, co rozbija balans. {WNIOSKOWANIE} z [U17]
+
+- **Wejście krokiem — spór.** Wejście krokiem — spór: część uczy kroku jako etapu nauki [U15][U21], JAD mówi „definitely don't try stepping onto it”, bo przednia stopa ląduje w backslide [U16]. {OPINIA} — zob. sekcja 9.
+
+**Typowe błędy:**
+
+- **Jedna stopa przed drugą; krok przy prędkości.** „wyrzucanie” jednej stopy przed drugą [U17]; wejście krokiem przy prędkości [U16]. {OPINIA} 1/2 każdy
+
+  „Wyrzucona” stopa łapie rowek wcześniej niż druga, a przy wejściu krokiem przednia stopa ląduje w backslide, co JAD uważa za dużo trudniejsze niż samo unity. Poznasz, że dobrze, gdy obie stopy lądują razem. {WNIOSKOWANIE} z [U16][U17]
+
 **Wskazówka:** „Obie stopy naraz, prosto w pozę.” [U17][U22] {OPINIA} 2/2
 
 ### 2.3 Skrzyżowanie
 
-- Krzyżuj w powietrzu; stopy mają być w docelowej pozycji przed kontaktem. [U17][U22] {OPINIA: Witzemann; aggressivemall} 2/2
-- Drummond: „cross your legs at your ankles … more than at your knees” — stabilniej. [U20] {OPINIA: Drummond, YouTube} 1/2 — rozwinięcie i ocena fizjo: sekcja 9, „Wskazówki do przetestowania”.
-- ⚠ Inna rada (krzyżowanie w goleniach) przypisana Ricardo Lino nie jest sprawdzona — wideo [U11] nie zostało przepisane. Bez etykiety, do weryfikacji: sekcja 9, „Wskazówki do przetestowania”.
-- Back unity (nie front): wyskocz jak do acida/top stara i zmień stopę w trakcie opadania. [U19] {OPINIA: Acosta Blades} 1/2
+- **Krzyżuj w powietrzu.** Krzyżuj w powietrzu; stopy mają być w docelowej pozycji przed kontaktem. [U17][U22] {OPINIA: Witzemann; aggressivemall} 2/2
 
-**Typowe błędy:** kolana zbite razem przy krzyżowaniu. [U20] {OPINIA: Drummond — „keep your knees further apart”} 1/2
+  Nogi zakładasz jedną za drugą jeszcze w locie, tak żeby w chwili kontaktu stopy były już tam, gdzie mają zostać. Dobrze jest, gdy po lądowaniu nie przestawiasz stóp. Błąd: krzyżowanie dopiero na przeszkodzie — wtedy poprawiasz pozycję w trakcie ślizgu. {WNIOSKOWANIE} z [U17][U22]
+
+- **Krzyżuj w kostkach (Drummond).** Drummond: „cross your legs at your ankles … more than at your knees” — stabilniej. [U20] {OPINIA: Drummond, YouTube} 1/2 — rozwinięcie i ocena fizjo: sekcja 9, „Wskazówki do przetestowania”.
+- **Krzyżowanie w goleniach — niesprawdzone.** ⚠ Inna rada (krzyżowanie w goleniach) przypisana Ricardo Lino nie jest sprawdzona — wideo [U11] nie zostało przepisane. Bez etykiety, do weryfikacji: sekcja 9, „Wskazówki do przetestowania”.
+- **Back unity: zmiana stopy w opadaniu.** Back unity (nie front): wyskocz jak do acida/top stara i zmień stopę w trakcie opadania. [U19] {OPINIA: Acosta Blades} 1/2
+
+  W back unity wyskakujesz tak jak do acida albo top stara i dopiero opadając przestawiasz jedną stopę do pozycji unity. Dobrze jest, gdy obie rolki trafiają w rowki naraz. Ta rada dotyczy tylko back unity — nie przenoś jej na front. {WNIOSKOWANIE} z [U19]
+
+**Typowe błędy:**
+
+- **Kolana zbite razem.** kolana zbite razem przy krzyżowaniu. [U20] {OPINIA: Drummond — „keep your knees further apart”} 1/2
+
+  Przy krzyżowaniu kolana zbliżają się do siebie i pozycja robi się wąska. Drummond radzi trzymać kolana szerzej i krzyżować nisko, raczej w kostkach — mówi, że tak jest stabilniej. Poznasz, że dobrze, gdy kolana nie schodzą się do środka. {WNIOSKOWANIE} z [U20]
+
 **Wskazówka:** „Krzyżuj nisko, kolana szeroko.” [U20] {OPINIA} 1/2 — zob. też sekcja 9, „Wskazówki do przetestowania”.
 
 ### 2.4 Lądowanie na przeszkodzie (lock)
 
-- Obie stopy blokują się w rowkach jednocześnie. [U16][U22] {OPINIA: JAD; aggressivemall} 2/2
-- „It is easier if you land in the groove.” [U02] {OPINIA: toxboe} 1/2
-- Kolana ugięte; wyprostowane nogi = utrata równowagi i zaczepianie kółek. [U16][U22] {OPINIA: JAD; aggressivemall} 2/2
-- Badanie AGV: większe ugięcie kolana przy wejściu na **stall** = mniejsza szczytowa siła uderzenia (r = −0,65). [S02] {DOWÓD:obserwacyjne} 1/2
-- Siła pionowa przy wejściu malała z doświadczeniem skatera (stall i grind, r = −0,84). [S02] {DOWÓD:obserwacyjne} 1/2 — n=10, bez unity.
+- **Obie stopy naraz w rowkach.** Obie stopy blokują się w rowkach jednocześnie. [U16][U22] {OPINIA: JAD; aggressivemall} 2/2
+
+  Lądujesz tak, żeby obie rolki weszły w rowki H-blocka w tym samym momencie. Poznasz, że dobrze, gdy nie musisz dociskać żadnej stopy osobno. Błąd: jedna rolka w rowku, druga obok — trik nie jest wtedy zablokowany. {WNIOSKOWANIE} z [U16][U22]
+
+- **Celuj w rowek.** „It is easier if you land in the groove.” [U02] {OPINIA: toxboe} 1/2
+
+  Celujesz rowkiem H-blocka prosto w krawędź przeszkody, zamiast lądować obok i dopiero wsuwać rolkę. Toxboe pisze to przy savannah, na tej samej stronie i u tego samego autora co unity. {WNIOSKOWANIE} z [U02]
+
+- **Kolana ugięte.** Kolana ugięte; wyprostowane nogi = utrata równowagi i zaczepianie kółek. [U16][U22] {OPINIA: JAD; aggressivemall} 2/2
+
+  Na przeszkodę wchodzisz już ugięty i zostajesz ugięty przez cały grind. Dobrze jest, gdy kolana amortyzują i nie bujasz się w przód ani w tył. Błąd: proste nogi — AMALL mówi o utracie równowagi w przód lub w tył i zaczepianiu kółek. {WNIOSKOWANIE} z [U16][U22]
+
+- **Ugięcie a siła (pomiar, stall).** Badanie AGV: większe ugięcie kolana przy wejściu na **stall** = mniejsza szczytowa siła uderzenia (r = −0,65). [S02] {DOWÓD:obserwacyjne} 1/2
+- **Doświadczenie a siła (pomiar).** Siła pionowa przy wejściu malała z doświadczeniem skatera (stall i grind, r = −0,84). [S02] {DOWÓD:obserwacyjne} 1/2 — n=10, bez unity.
 
 **Typowe błędy** [U01][U16][U19][U22] {OPINIA}:
-- za nisko → rolki wysuwają się z rowka albo „spłaszczasz” się na bucie i wychodzi „unity cess slide” [U01][U16] 2/2;
-- za wysoko, nogi proste → utrata równowagi [U16][U22] 2/2;
-- za głęboko na murku → przednie kółka szorują o górę; zostań na wewnętrznej krawędzi [U16][U19] 2/2;
-- stopy za blisko → wheel bite i bolesny upadek; za daleko → „you're just gonna flop off” [U16] 1/2.
+
+- **Za nisko.** za nisko → rolki wysuwają się z rowka albo „spłaszczasz” się na bucie i wychodzi „unity cess slide” [U01][U16] 2/2;
+
+  Gdy przysiadasz za głęboko, rolki wychodzą z rowka albo kładziesz się na bucie i zamiast grindu wychodzi ślizg na boku buta. Szukaj wysokości, przy której rowek trzyma, a bok buta tylko dotyka przeszkody („boot down”). {WNIOSKOWANIE} z [U01][U16]
+
+- **Za wysoko, nogi proste.** za wysoko, nogi proste → utrata równowagi [U16][U22] 2/2;
+
+  Proste nogi nie amortyzują, więc łatwo stracić równowagę w przód albo w tył. Poprawka: ugnij się, zanim dotkniesz przeszkody (wskazówka niżej). {WNIOSKOWANIE} z [U16][U22]
+
+- **Za głęboko na murku.** za głęboko na murku → przednie kółka szorują o górę; zostań na wewnętrznej krawędzi [U16][U19] 2/2;
+
+  Jeśli stoisz za bardzo „na” murku, przednie kółka zahaczają o jego górę. Trzymaj się wewnętrznej krawędzi przeszkody — Acosta ostrzega, że inaczej łatwo o wheel bite. {WNIOSKOWANIE} z [U16][U19]
+
+- **Stopy za blisko albo za daleko.** stopy za blisko → wheel bite i bolesny upadek; za daleko → „you're just gonna flop off” [U16] 1/2.
+
+  Za mały odstęp między stopami kończy się wheel bite i bolesnym upadkiem, za duży — zsunięciem z przeszkody. JAD podaje jako punkt odniesienia odstęp około jednej stopy (zob. sekcja 3). {WNIOSKOWANIE} z [U16]
 
 **Wskazówka:** „Ugnij się zanim dotkniesz. Rowek plus bok buta.” [U16][U17][U20] {OPINIA} 2/2
 
 ### 2.5 Jazda w grindzie
 
-- Najpierw stall, dopiero potem ślizg. [U15][U16][U18][U20] {OPINIA: 4 instruktorów} 2/2
-- Bez wosku nie ma ślizgu. [U18][U20][U21][U23] {OPINIA: Acosta; Drummond; Back to Blading; aggressivemall} 2/2
-- Biodra zostają zwrócone do przeszkody; obracanie ich w kierunku jazdy wykręca stopy, zwykle spada tylna. [U16][U17] {OPINIA: JAD; Witzemann — YouTube} 2/2
-- Wzrok na koniec przeszkody — „biggest balance tip”. [U20] {OPINIA: Drummond} 1/2
-- Przednia stopa się zsuwa (wychodzi pornstar) → ustaw barki równolegle do murka. [U21] {OPINIA: Back to Blading, vlog} 1/2
+- **Najpierw stall.** Najpierw stall, dopiero potem ślizg. [U15][U16][U18][U20] {OPINIA: 4 instruktorów} 2/2
+
+  Zanim zaczniesz się ślizgać, ćwiczysz samo wejście w pozycję i zatrzymanie na przeszkodzie (stall), wiele razy. Dobrze jest, gdy stall trzymasz pewnie i schodzisz z niego pod kontrolą — kryteria są w sekcji 7. Błąd: od razu pełny grind z prędkością. {WNIOSKOWANIE} z [U15][U16][U18][U20]
+
+- **Wosk.** Bez wosku nie ma ślizgu. [U18][U20][U21][U23] {OPINIA: Acosta; Drummond; Back to Blading; aggressivemall} 2/2
+
+  Przeszkodę nacierasz woskiem, zanim spróbujesz ślizgu. Poznasz, że jest dość wosku, gdy rolki suną, a nie stają w miejscu. Drummond wymienia wosk także jako poprawkę przy wheel bite (sekcja 4). {WNIOSKOWANIE} z [U18][U20][U21][U23]
+
+- **Biodra do przeszkody.** Biodra zostają zwrócone do przeszkody; obracanie ich w kierunku jazdy wykręca stopy, zwykle spada tylna. [U16][U17] {OPINIA: JAD; Witzemann — YouTube} 2/2
+
+  Przez cały grind biodra zostają skierowane do przeszkody, a w kierunku jazdy patrzysz tylko przez ramię. Dobrze jest, gdy obie stopy zostają w rowkach do końca. Błąd: obrót bioder przodem do kierunku jazdy — stopy wykręcają się z pozycji i zwykle spada tylna. {WNIOSKOWANIE} z [U16][U17]
+
+- **Wzrok na koniec przeszkody.** Wzrok na koniec przeszkody — „biggest balance tip”. [U20] {OPINIA: Drummond} 1/2
+
+  Patrzysz na koniec rury lub murka, a nie pod nogi. Drummond nazywa to najważniejszą radą na balans; gdy nie dojeżdżasz do końca, dodaje do niej barki nad stopami (sekcja 4, Korekty). {WNIOSKOWANIE} z [U20]
+
+- **Przednia stopa się zsuwa.** Przednia stopa się zsuwa (wychodzi pornstar) → ustaw barki równolegle do murka. [U21] {OPINIA: Back to Blading, vlog} 1/2
+
+  Jeśli przednia rolka wypada z rowka i grind zamienia się w pornstara, ustaw barki bardziej równolegle do murka. Autor pisze, że pomogło mu też ćwiczenie wyjścia fakie. To relacja z własnej nauki, nie instruktaż. {WNIOSKOWANIE} z [U21]
 
 **Wskazówka:** „Biodra do murka, wzrok na koniec.” [U17][U20] {OPINIA} 2/2
 
 ### 2.6 Wyjście / zeskok
 
-- Z front unity naturalne wyjście to fakie: biodra się „rozkręcają”. „Don't fight it.” [U16][U17][U20][U21] {OPINIA: 4 instruktorów} 2/2
-- Inne wyjścia: w przód, 270 out. [U18] {OPINIA: Acosta} 1/2
-- Na etapie nauki nie rozplątuj nóg w trakcie grindu — to „more of an advanced step”. [U20] {OPINIA: Drummond} 1/2
-- Back unity (nie front): najpierw zdejmij stopę backside, potem obrót → fakie. [U22] {OPINIA: aggressivemall} 1/2
-- ⚠ Najbardziej ryzykowny wydaje się zeskok, zanim nogi się rozplączą: kontakt z ziemią ze skrzyżowanymi nogami przy jeździe tyłem. Na etapie nauki wychodź nisko i wolno, pozwalając biodrom się „rozkręcić” [U16][U17][U20]; mechanizmy z analogii — sekcja 6.1. {WNIOSKOWANIE} — nikt tego nie mierzył, do recenzji fizjoterapeuty.
-- Lądowanie blisko i równolegle do przeszkody = trik był dobrze zablokowany; lądowanie daleko = „sketchy”. [U17] {OPINIA: Witzemann} 1/2
-- Zeskok: pochylenie tułowia przy lądowaniu zmniejsza pionową siłę reakcji podłoża (zeskoki, nie AGV). [S44][S45][S124] {DOWÓD:obserwacyjne}{ANALOGIA:zeskoki} 2/2
+- **Fakie — nie walcz z nim.** Z front unity naturalne wyjście to fakie: biodra się „rozkręcają”. „Don't fight it.” [U16][U17][U20][U21] {OPINIA: 4 instruktorów} 2/2
 
-**Typowe błędy:** w back unity lądowanie w przód lub z obrotem w złą stronę — biodra nie były zablokowane. [U17] {OPINIA: Witzemann} 1/2
+  Pod koniec front unity biodra same się odkręcają i ciało chce wyjść do jazdy tyłem — pozwól na to. Dobrze jest, gdy zeskok idzie w tę stronę, w którą ciągną biodra, bez dodatkowego obrotu. Błąd: wychodzenie na siłę w przód na etapie nauki. {WNIOSKOWANIE} z [U16][U17][U20][U21]
+
+- **Inne wyjścia.** Inne wyjścia: w przód, 270 out. [U18] {OPINIA: Acosta} 1/2
+
+  Acosta pokazuje też wyjście w przód i 270 out. Na etapie nauki źródła radzą zostać przy fakie (wyżej). {WNIOSKOWANIE} z [U18][U20]
+
+- **Nie rozplątuj nóg w grindzie.** Na etapie nauki nie rozplątuj nóg w trakcie grindu — to „more of an advanced step”. [U20] {OPINIA: Drummond} 1/2
+
+  Do końca grindu trzymasz nogi skrzyżowane; rozplątanie w trakcie Drummond uważa za krok zaawansowany. Poznasz, że dobrze, gdy pozycja nie zmienia się aż do zeskoku. {WNIOSKOWANIE} z [U20]
+
+- **Back unity: najpierw stopa backside.** Back unity (nie front): najpierw zdejmij stopę backside, potem obrót → fakie. [U22] {OPINIA: aggressivemall} 1/2
+
+  W back unity przy wyjściu najpierw zdejmujesz stopę z backside, co rozplątuje nogi, a dopiero potem obracasz się do fakie. Dotyczy tylko back unity. {WNIOSKOWANIE} z [U22]
+
+- **⚠ Zeskok ze skrzyżowanymi nogami.** ⚠ Najbardziej ryzykowny wydaje się zeskok, zanim nogi się rozplączą: kontakt z ziemią ze skrzyżowanymi nogami przy jeździe tyłem. Na etapie nauki wychodź nisko i wolno, pozwalając biodrom się „rozkręcić” [U16][U17][U20]; mechanizmy z analogii — sekcja 6.1. {WNIOSKOWANIE} — nikt tego nie mierzył, do recenzji fizjoterapeuty.
+- **Ląduj blisko przeszkody.** Lądowanie blisko i równolegle do przeszkody = trik był dobrze zablokowany; lądowanie daleko = „sketchy”. [U17] {OPINIA: Witzemann} 1/2
+
+  Po zeskoku sprawdź, gdzie wylądowałeś: blisko i równolegle do przeszkody znaczy, że trik był dobrze zablokowany. Lądowanie daleko od przeszkody to sygnał, że biodra lub stopy nie były zablokowane. {WNIOSKOWANIE} z [U17]
+
+- **Pochylenie tułowia przy zeskoku (analogia).** Zeskok: pochylenie tułowia przy lądowaniu zmniejsza pionową siłę reakcji podłoża (zeskoki, nie AGV). [S44][S45][S124] {DOWÓD:obserwacyjne}{ANALOGIA:zeskoki} 2/2
+
+**Typowe błędy:**
+
+- **Lądowanie w przód (back unity).** w back unity lądowanie w przód lub z obrotem w złą stronę — biodra nie były zablokowane. [U17] {OPINIA: Witzemann} 1/2
+
+  Jeśli po back unity lądujesz przodem albo obracasz się w złą stronę, biodra nie były w pełni zablokowane w grindzie. Poprawka zaczyna się wcześniej — w ustawieniu bioder podczas grindu. {WNIOSKOWANIE} z [U17]
+
 **Wskazówka:** „Wychodź tam, gdzie ciało chce — fakie. Ląduj na ugiętych nogach.” [U17][U20][S02] {OPINIA}+{DOWÓD:obserwacyjne} 2/2 (opinia) / 1/2 (pomiar)
 
 ---
 
 ## 3. Postawa segment po segmencie
 
-| Segment | Co mówią źródła | Etykieta |
-|---|---|---|
-| **Stopa** | w rowkach, „boot down” (bok buta przy przeszkodzie) [U16][U17][U20]; odstęp ok. „a foot in between your feet” (~30 cm) [U16] | {OPINIA: JAD, Witzemann, Drummond} 2/2; odstęp 1/2 |
-| **Kostka** | brak opisu kostki w unity w żadnym źródle; pośrednio z royale: „push your ankle over”, czyli przechylenie rolki na zewnętrzną krawędź [U03] | {OPINIA: toxboe} 1/2; co to znaczy dla stawu w sztywnym bucie — {WNIOSKOWANIE}, brak pomiarów [S02] |
-| **Kolano** | ugięte (wszystkie źródła); „bend your knees forward as if you were not crossing your legs at all” [U17]; na murku niżej niż na rurze [U20] | {OPINIA} 2/2 (ugięcie); szczegóły 1/2 |
-| **Biodro** | „95% fully towards the spot”, nie obracać w przód [U17]; „nice turn in your hips” w back unity [U19] | {OPINIA: Witzemann; Acosta} 2/2 |
-| **Tułów / barki** | barki nad stopami, przodem do rury [U20]; barki równolegle do murka [U21]; ciało lekko skręcone [U16] | {OPINIA: Drummond; Back to Blading; JAD} 2/2 |
-| **Ręce** | ręce w górze jako punkt balansu, „you stay centered” [U18]; w back unity „hands to be out” [U19] | {OPINIA: Acosta Blades} 1/2 |
-| **Wzrok** | na koniec przeszkody [U20]; w kierunku jazdy, przez bark [U17]; ogólnie przy grindach — przed siebie / na miejsce lądowania [S59][S60] | {OPINIA} 2/2 |
+- **Stopa.** w rowkach, „boot down” (bok buta przy przeszkodzie) [U16][U17][U20]; odstęp ok. „a foot in between your feet” (~30 cm) [U16] — {OPINIA: JAD, Witzemann, Drummond} 2/2; odstęp 1/2
+
+  Obie rolki są w rowkach, a bok buta lekko dotyka przeszkody. Dobrze jest, gdy odstęp między stopami to mniej więcej jedna stopa; za blisko grozi wheel bite, za daleko zsunięciem (zob. 2.4). {WNIOSKOWANIE} z [U16][U17][U20]
+
+- **Kostka.** brak opisu kostki w unity w żadnym źródle; pośrednio z royale: „push your ankle over”, czyli przechylenie rolki na zewnętrzną krawędź [U03] — {OPINIA: toxboe} 1/2; co to znaczy dla stawu w sztywnym bucie — {WNIOSKOWANIE}, brak pomiarów [S02]
+- **Kolano.** ugięte (wszystkie źródła); „bend your knees forward as if you were not crossing your legs at all” [U17]; na murku niżej niż na rurze [U20] — {OPINIA} 2/2 (ugięcie); szczegóły 1/2
+
+  Kolana uginasz do przodu, tak jakbyś w ogóle nie krzyżował nóg. Na murku zwykle schodzisz niżej niż na rurze. Błąd: proste nogi albo kolana zbite razem (zob. 2.3 i 2.4). {WNIOSKOWANIE} z [U17][U20]
+
+- **Biodro.** „95% fully towards the spot”, nie obracać w przód [U17]; „nice turn in your hips” w back unity [U19] — {OPINIA: Witzemann; Acosta} 2/2
+
+  Biodra są prawie całkiem skierowane do przeszkody i nie obracasz ich aktywnie w kierunku jazdy. Poznasz to po tym, że w kierunku jazdy patrzysz tylko przez ramię. W back unity Acosta mówi o wyraźnym skręcie bioder — to inna sytuacja niż front. {WNIOSKOWANIE} z [U17][U19]
+
+- **Tułów / barki.** barki nad stopami, przodem do rury [U20]; barki równolegle do murka [U21]; ciało lekko skręcone [U16] — {OPINIA: Drummond; Back to Blading; JAD} 2/2
+
+  Barki trzymasz nad stopami i przodem do przeszkody, a ciało jest lekko skręcone, nie ustawione na wprost kierunku jazdy. Gdy zsuwa się przednia stopa, ustaw barki bardziej równolegle do murka (zob. 2.5). {WNIOSKOWANIE} z [U16][U20][U21]
+
+- **Ręce.** ręce w górze jako punkt balansu, „you stay centered” [U18]; w back unity „hands to be out” [U19] — {OPINIA: Acosta Blades} 1/2
+
+  Ręce trzymasz w górze albo rozłożone — to punkt balansu, który pomaga zostać na środku. Przy zablokowanych stopach korekty balansu idą głównie z rąk, bioder i tułowia (zob. sekcja 4, Korekty). {WNIOSKOWANIE} z [U18][U19]
+
+- **Wzrok.** na koniec przeszkody [U20]; w kierunku jazdy, przez bark [U17]; ogólnie przy grindach — przed siebie / na miejsce lądowania [S59][S60] — {OPINIA} 2/2
+
+  Patrzysz na koniec przeszkody albo w kierunku jazdy przez ramię, nie pod nogi. Gdy nie dojeżdżasz do końca, Drummond radzi właśnie wzrok na koniec i barki nad stopami. {WNIOSKOWANIE} z [U17][U20]
 
 - Raport Deep Research opisuje kąty kostki (inwersja/ewersja) i ustawienie kolan (szpotawość/koślawość) jako opinie instruktorów. Triage uznał to za dopisane wnioskowanie modelu. Pominięte.
 
@@ -202,41 +312,75 @@ recenzent: ""
 
 {OPINIA} — obie rundy researchu zgodne co do liczb; zgodność co do **istnienia sporu** 2/2, co do wartości brak.
 
-- Nikt nie mierzył rozkładu ciężaru w unity. [S02] {DOWÓD:obserwacyjne} 1/2 (badanie AGV bez unity)
-- Praktycznie: zacznij bliżej 50/50, a przy niepewności dociąż przednią stopę (zob. niżej). {WNIOSKOWANIE} z [U18][U20]
+- **Nikt tego nie mierzył.** Nikt nie mierzył rozkładu ciężaru w unity. [S02] {DOWÓD:obserwacyjne} 1/2 (badanie AGV bez unity)
+- **Zacznij bliżej 50/50.** Praktycznie: zacznij bliżej 50/50, a przy niepewności dociąż przednią stopę (zob. niżej). {WNIOSKOWANIE} z [U18][U20]
 
 ### Przód / tył
 
-- Pochylaj się na przednią stopę: „the bail for sticking forward is much safer than the bail for slipping back”. [U20] {OPINIA: Drummond} 1/2
-- Odchylenie do tyłu kończy się ześlizgiem i upadkiem. [U18][U20] {OPINIA: Acosta (pokazany upadek); Drummond} 2/2
-- Na copingu odwrotnie: „lean back into the quarter”, myśl o lądowaniu w transition. [U20] {OPINIA: Drummond} 1/2
+- **Pochylaj się na przednią stopę.** Pochylaj się na przednią stopę: „the bail for sticking forward is much safer than the bail for slipping back”. [U20] {OPINIA: Drummond} 1/2
+
+  Ciężar trzymasz raczej nad przednią stopą niż za nią — Drummond mówi „stay on top of your feet”. Jeśli coś pójdzie źle, upadek w przód jest według niego bezpieczniejszy niż ześlizg w tył. Błąd: odchylanie się do tyłu (niżej). {WNIOSKOWANIE} z [U20]
+
+- **Nie odchylaj się do tyłu.** Odchylenie do tyłu kończy się ześlizgiem i upadkiem. [U18][U20] {OPINIA: Acosta (pokazany upadek); Drummond} 2/2
+
+  Gdy tułów ucieka za stopy, rolki wyjeżdżają spod ciebie i upadasz w tył — Acosta pokazuje taki upadek na nagraniu. Poznasz, że dobrze, gdy barki są nad stopami. {WNIOSKOWANIE} z [U18][U20]
+
+- **Na copingu odwrotnie.** Na copingu odwrotnie: „lean back into the quarter”, myśl o lądowaniu w transition. [U20] {OPINIA: Drummond} 1/2
+
+  Na copingu rampy Drummond radzi pochylić się w stronę rampy i myśleć o lądowaniu w transition — inaczej niż na rurze czy murku. To jedno źródło i inna przeszkoda niż w reszcie poradnika. {WNIOSKOWANIE} z [U20]
 
 ### Środek masy względem przeszkody
 
-- Instruktorzy: bądź „na” przeszkodzie, barki nad stopami. [U20][U22] {OPINIA: Drummond; aggressivemall} 2/2
-- Ale: nie za bardzo nad murkiem [U16]; trzymaj się wewnętrznej krawędzi [U19]. {OPINIA: JAD; Acosta} 2/2
-- Pomiar (frontside grind, nie unity): środek masy nigdy nie przechodził nad podstawą podparcia na rurze. [S02] {DOWÓD:obserwacyjne} 1/2
-- Rada „bądź nad przeszkodą” może więc opisywać odczucie, a nie faktyczne położenie środka masy. {WNIOSKOWANIE} z [S02]; niesprawdzone dla unity.
+- **Bądź „na” przeszkodzie.** Instruktorzy: bądź „na” przeszkodzie, barki nad stopami. [U20][U22] {OPINIA: Drummond; aggressivemall} 2/2
+
+  Barki trzymasz nad stopami, tak żeby ciało było nad przeszkodą, a nie obok niej. Poznasz, że dobrze, gdy nie zsuwasz się z przeszkody na żadną stronę. Uwaga na pomiar niżej: to może być odczucie, a nie faktyczne położenie środka masy. {WNIOSKOWANIE} z [U20][U22]
+
+- **Ale nie za bardzo nad murkiem.** Ale: nie za bardzo nad murkiem [U16]; trzymaj się wewnętrznej krawędzi [U19]. {OPINIA: JAD; Acosta} 2/2
+
+  Na murku pochylasz się trochę, ale nie za mocno, i trzymasz się jego wewnętrznej krawędzi. Błąd: za bardzo nad murkiem — przednie kółka szorują o górę (zob. 2.4). {WNIOSKOWANIE} z [U16][U19]
+
+- **Pomiar (frontside, nie unity).** Pomiar (frontside grind, nie unity): środek masy nigdy nie przechodził nad podstawą podparcia na rurze. [S02] {DOWÓD:obserwacyjne} 1/2
+- **Odczucie a pomiar.** Rada „bądź nad przeszkodą” może więc opisywać odczucie, a nie faktyczne położenie środka masy. {WNIOSKOWANIE} z [S02]; niesprawdzone dla unity.
 
 ### Korekty
 
-- W stallach skaterzy używali strategii kostkowej, biodrowej albo wielostawowej. [S02] {DOWÓD:obserwacyjne} 1/2
-- Przy stopach zablokowanych w rowkach i skrzyżowanych nogach strategia kostkowa jest prawdopodobnie ograniczona; korekty idą z bioder, tułowia i rąk. {WNIOSKOWANIE} z [S02][U18][U19] 1/2
-- Nie dojeżdżasz do końca → barki nad stopy, wzrok na koniec. [U20] {OPINIA: Drummond} 1/2
-- Wheel bite → niżej, kolana szerzej, wosk. [U20] {OPINIA: Drummond} 1/2
+- **Strategie balansu (pomiar, stall).** W stallach skaterzy używali strategii kostkowej, biodrowej albo wielostawowej. [S02] {DOWÓD:obserwacyjne} 1/2
+- **Korekty z bioder, tułowia i rąk.** Przy stopach zablokowanych w rowkach i skrzyżowanych nogach strategia kostkowa jest prawdopodobnie ograniczona; korekty idą z bioder, tułowia i rąk. {WNIOSKOWANIE} z [S02][U18][U19] 1/2
+- **Nie dojeżdżasz do końca.** Nie dojeżdżasz do końca → barki nad stopy, wzrok na koniec. [U20] {OPINIA: Drummond} 1/2
+
+  Gdy grind gaśnie przed końcem przeszkody, przesuń barki nad stopy i patrz na koniec przeszkody. Odchylenie się w tym momencie do tyłu zwykle kończy się ześlizgiem (zob. wyżej). {WNIOSKOWANIE} z [U20]
+
+- **Wheel bite.** Wheel bite → niżej, kolana szerzej, wosk. [U20] {OPINIA: Drummond} 1/2
+
+  Gdy kółka zaczepiają o przeszkodę, zejdź niżej, rozstaw kolana szerzej i dołóż wosku. Wheel bite to nagłe zablokowanie kółka i ryzyko upadku (zob. Słowniczek), więc nie ignoruj go przy kolejnych próbach. {WNIOSKOWANIE} z [U20]
 
 ---
 
 ## 5. Styl
 
-- Brak kryteriów sędziowskich dla unity w żadnym źródle. [U01–U26] — luka.
-- Skrzyżowane stopy robią wrażenie także na osobach, które nie jeżdżą. [U11] {OPINIA: Ricardo Lino, Rollernews} 1/2
-- „Boot down” na obu rolkach i lądowanie blisko, równolegle do przeszkody — znak dobrze zablokowanego triku. [U17] {OPINIA: Witzemann} 1/2
-- Obrót bioder w back unity „makes it look better”. [U19] {OPINIA: Acosta} 1/2
-- Stopy za blisko „won't look great”. [U16] {OPINIA: JAD} 1/2
-- Wejście z pornstara „looks the best”. [U20] {OPINIA: Drummond} 1/2
-- Back unity „a lot more stylish”. [U22] {OPINIA: aggressivemall} 1/2
-- Unity otwiera wiele switch-upów i wariantów. [U16][U17] {OPINIA: JAD; Witzemann} 2/2
+- **Brak kryteriów sędziowskich.** Brak kryteriów sędziowskich dla unity w żadnym źródle. [U01–U26] — luka.
+- **Skrzyżowane stopy robią wrażenie.** Skrzyżowane stopy robią wrażenie także na osobach, które nie jeżdżą. [U11] {OPINIA: Ricardo Lino, Rollernews} 1/2
+
+  Sama pozycja ze skrzyżowanymi stopami jest według Lino efektowna. To zdanie z jego tekstu na Rollernews; wideo nie zostało przepisane. {WNIOSKOWANIE} z [U11]
+
+- **„Boot down” i lądowanie blisko.** „Boot down” na obu rolkach i lądowanie blisko, równolegle do przeszkody — znak dobrze zablokowanego triku. [U17] {OPINIA: Witzemann} 1/2
+
+  Czyste unity to obie rolki w rowkach z bokiem buta przy przeszkodzie, a po zeskoku lądowanie blisko i równolegle do niej. Witzemann przedstawia to jako cel dla tych, którzy chcą zrobić trik perfekcyjnie. {WNIOSKOWANIE} z [U17]
+
+- **Obrót bioder w back unity.** Obrót bioder w back unity „makes it look better”. [U19] {OPINIA: Acosta} 1/2
+
+  W back unity wyraźny skręt bioder „otwiera” trik i według Acosty poprawia jego wygląd. Dotyczy back unity, nie front. {WNIOSKOWANIE} z [U19]
+
+- **Stopy nie za blisko.** Stopy za blisko „won't look great”. [U16] {OPINIA: JAD} 1/2
+
+  Stopy za blisko siebie wyglądają gorzej, a do tego grożą wheel bite (zob. 2.4). {WNIOSKOWANIE} z [U16]
+
+- **Wejście z pornstara.** Wejście z pornstara „looks the best”. [U20] {OPINIA: Drummond} 1/2
+
+  Drummond uczy wejścia z pornstara, bo jest łatwiejsze i jego zdaniem najlepiej wygląda (zob. sekcja 1). {WNIOSKOWANIE} z [U20]
+
+- **Back unity bardziej stylowe.** Back unity „a lot more stylish”. [U22] {OPINIA: aggressivemall} 1/2
+- **Furtka do switch-upów.** Unity otwiera wiele switch-upów i wariantów. [U16][U17] {OPINIA: JAD; Witzemann} 2/2
 
 ---
 
