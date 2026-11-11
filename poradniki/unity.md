@@ -11,24 +11,42 @@ recenzent: ""
 
 > ⚠️ **To nie jest diagnoza ani porada medyczna.** Poradnik porządkuje opinie instruktorów i dane z innych sportów. Nie zastępuje badania przez lekarza ani fizjoterapeutę. Obrzęk, ból nocny, ból narastający mimo odpoczynku, „uciekanie” kolana lub kostki = wizyta u specjalisty.
 
-**Dla kogo:** rolkarz, fizjoterapeuta, trener. **Status:** szkic, bez recenzji. Część fizjo jest **do recenzji fizjoterapeuty**.
+**Dla kogo:** rolkarz, fizjoterapeuta, trener. **Status:** szkic po recenzji AI (Argon, 11.11.2026), bez recenzji człowieka. Część fizjo jest **do recenzji fizjoterapeuty**.
 
 **Jak czytać:** `Treść. [źródło] {ETYKIETA} 1/2|2/2`.
 - `[Sxx]` — źródło z `sources.md` (zweryfikowane wcześniej).
 - `[Uxx]` — tymczasowe ID z `research-raw/2026-11-11_unity_claude-research.md` (strony otwarte, wideo z automatycznych napisów YouTube).
-- `[DRxx]` — numer źródła z `research-raw/2026-11-11_unity_ai-studio-deep-research.md` (lista „Sources”); użyte tylko tam, gdzie triage ich nie odrzucił.
+- `[DRxx]` — numer źródła z `research-raw/2026-11-11_unity_ai-studio-deep-research.md` (lista „Sources”); użyte tylko tam, gdzie treść źródła sprawdzono (DR1, DR36); niesprawdzone (DR4, DR5, DR17) nie podpierają twierdzeń — są tylko w tabeli źródeł i w sekcji 9.
 - `2/2` = co najmniej 2 niezależne źródła. Dla techniki to nadal opinie instruktorów, nie dowód.
-- Etykiety: `{DOWÓD:typ}`, `{KONSENSUS}`, `{OPINIA: kto, gdzie}`, `{WNIOSKOWANIE}`, `{ANALOGIA:sport}`, `{SPEKULACJA}` — zob. `METHODOLOGY.md`.
+- Etykiety: `{DOWÓD:typ}`, `{KONSENSUS}`, `{OPINIA: kto, gdzie}`, `{WNIOSKOWANIE}`, `{ANALOGIA:sport}`, `{SPEKULACJA}`, `{PROPOZYCJA}` (propozycja projektu) — zob. `METHODOLOGY.md`.
+- Żargon (fakie, stall, wheel bite, backslide, torque…) — zob. **Słowniczek** niżej.
 
 ## TL;DR
 
-1. Unity to grind na H-blocku obu rolek ze skrzyżowanymi nogami; samo „unity” zwykle znaczy wersję frontside. [U01][U06][U17][U20] {KONSENSUS} 2/2
+1. Unity to grind na H-blocku obu rolek ze skrzyżowanymi nogami; samo „unity” zwykle znaczy wersję frontside. [U01][U06][U17][U20] {OPINIA: glosariusze i instruktorzy} 2/2
 2. Nie ma żadnego badania biomechaniki ani urazów w unity. Technika to opinie instruktorów, fizjo to wnioskowanie i analogie. [S02] {DOWÓD:obserwacyjne} 1/2
 3. Kolejność nauki: poza na ziemi → stall → krótki grind → prędkość. Wosk na przeszkodę. [U15][U16][U17][U20] {OPINIA: instruktorzy YouTube} 2/2
 4. Kolana ugięte, biodra zwrócone do przeszkody (nie w kierunku jazdy), nie odchylaj się do tyłu. [U16][U17][U18][U20] {OPINIA: instruktorzy YouTube} 2/2
 5. Rozkład ciężaru jest sporny: od 50/50 do 60/40 na przednią stopę. [U17][U18][U20][U22] {OPINIA: instruktorzy YouTube} 2/2 (co do sporu)
 6. Naturalne wyjście z front unity to fakie. Nie walcz z nim na etapie nauki. [U16][U17][U20][U21] {OPINIA: instruktorzy YouTube} 2/2
-7. Fizjo: pozycja prawdopodobnie obciąża rotację w kolanie i kostce przy zablokowanych rolkach. Po urazie kostki unity dopiero w ostatnim etapie powrotu. {WNIOSKOWANIE} — do recenzji fizjoterapeuty.
+7. Fizjo: pozycja prawdopodobnie obciąża rotację w kolanie i kostce przy zablokowanych rolkach. {WNIOSKOWANIE} — do recenzji fizjoterapeuty. Po urazie kostki unity dopiero w ostatnim etapie powrotu — to {PROPOZYCJA} bazy, nie wynik badań (zob. 6.5).
+
+### Słowniczek (dla fizjoterapeuty)
+
+| Termin | Znaczenie | Źródło |
+|---|---|---|
+| H-block (groove) | wycięcie we frame'ie między środkowymi kółkami; nim rolka „zaczepia” o przeszkodę w grindach groove | [U06][U07] {OPINIA: glosariusz SkaMiDan; Wikipedia} 2/2 |
+| soul plate | twarda, płaska płyta na spodzie buta między butem a frame'em; powierzchnia do grindów soul | [U06][U07] {OPINIA: glosariusz; Wikipedia} 2/2 |
+| backslide plate / „boot down” | powierzchnia ślizgowa na bucie, przy środku podeszwy; w unity bok buta dotyka przeszkody | [U07]; [U16][U17][U20] {OPINIA} 2/2 |
+| stall | krótkie zatrzymanie, stanie na przeszkodzie bez ślizgu | [U06] {OPINIA: glosariusz SkaMiDan} 1/2 |
+| fakie | jazda tyłem; „wyjście fakie” = zeskok z triku do jazdy tyłem | [U06] {OPINIA: glosariusz SkaMiDan} 1/2 |
+| wheel bite | nagłe zablokowanie kółka o przeszkodę w trakcie grindu lub lądowania; gwałtowne zatrzymanie, ryzyko upadku | [U06] {OPINIA: glosariusz SkaMiDan} 1/2 |
+| flat / anti-rocker | flat: 4 kółka tej samej wielkości; anti-rocker: małe, twarde kółka w środku frame'u, łatwiejszy dostęp do H-blocka | [U06][U07] {OPINIA: glosariusz; Wikipedia} 2/2 |
+| backslide / torque (pozycja stopy) | ustawienie stopy zapożyczone od nazw innych grindów; w unity stopa prowadząca jak w backslide, tylna jak w torque | [U18][U22] {OPINIA} 2/2; dokładne kąty stopy — do researchu |
+| pornstar, top acid, royale | inne grindy, z których wchodzi się w unity | [U17][U20] {OPINIA} 2/2 |
+| coping, transition, switch-up, cess slide | bez definicji ze źródła w tym poradniku (glosariusz U06 używa „transition” w innym znaczeniu niż „wygięta część rampy”) | do researchu |
+
+**Nogi w tym poradniku:** „prowadząca/przednia” = stopa z przodu w kierunku jazdy w grindzie (pozycja backslide), „tylna” = druga stopa (pozycja torque). [U18][U22] {OPINIA} 2/2. Źródła nie opisują stron względem przeszkody (bliższa/dalsza) — do researchu.
 
 ---
 
@@ -37,10 +55,10 @@ recenzent: ""
 ### Definicja
 
 - Unity = grind w rowkach H-blocka obu rolek ze skrzyżowanymi nogami; „jak frontside, tylko z nogami skrzyżowanymi”. [U01][U20] {OPINIA: toxboe.net; Brandon Drummond, YouTube} 2/2
-- H-block to część frame'a między środkowymi kółkami, która zaczepia o przeszkodę. [U07] {KONSENSUS} (encyklopedia) 1/2
+- H-block to część frame'a między środkowymi kółkami, która zaczepia o przeszkodę. [U06][U07] {OPINIA: glosariusz SkaMiDan; Wikipedia} 2/2
 - Unity należy do grindów „groove” (tylko H-block, bez soul plate). [U06] {OPINIA: SkaMiDan, glosariusz} 1/2
 - Poza rowkiem but dotyka przeszkody bokiem („boot down”, „backside plate”). [U16][U17][U20] {OPINIA: JAD, Witzemann, Drummond — YouTube} 2/2
-- Stopa prowadząca jest w pozycji backslide, tylna w pozycji torque. [U18][U22][DR4] {OPINIA: Acosta Blades, aggressivemall — YouTube; stuntworlds.nl} 2/2
+- Stopa prowadząca jest w pozycji backslide, tylna w pozycji torque. [U18][U22] {OPINIA: Acosta Blades, aggressivemall — YouTube} 2/2
 - Drummond opisuje dwa sposoby wejścia: z pornstara (stopa soul przechodzi do H-blocka) albo z top acida. Uczy wersji z pornstara, bo jest „much easier”. [U20] {OPINIA: Drummond, YouTube} 1/2
 - Poziom: średniozaawansowany, nie pierwszy grind. [U05][U17] {OPINIA: SkaMiDan; Witzemann, YouTube} 2/2
 
@@ -57,12 +75,12 @@ recenzent: ""
 
 ### Unity vs savannah — spór (bez werdyktu)
 
-Źródła używają dwóch konwencji. Obie są w obiegu. [U01][U02][U05][U08][U10][U18][U24] {KONSENSUS} co do istnienia sporu 2/2
+Źródła używają dwóch konwencji. Obie są w obiegu. [U01][U02][U05][U08][U10][U18][U24] {OPINIA} 2/2 (co do istnienia sporu)
 
 | | Konwencja pozycyjna | Konwencja kierunkowa |
 |---|---|---|
 | Co rozstrzyga | która noga jest skrzyżowana przed którą | kierunek jazdy przy tym samym ustawieniu stóp |
-| Unity | stopa tylnej nogi idzie przed drugą | jedziesz w kierunku stopy w backslide |
+| Unity | stopa tylnej nogi idzie przed drugą (określenia „przednia/tylna” za źródłami; nie definiują ich względem przeszkody) | jedziesz w kierunku stopy w backslide |
 | Savannah | przednia noga krzyżuje się nad tylną, „odwrotnie niż unity” | to samo ustawienie, jazda w drugą stronę; = alley-oop unity |
 | Kto | toxboe [U01][U02]; Roll Minnesota [U24]; komentarz A. Cherry-Garrarda [U10] | Acosta Blades [U18]; SkaMiDan („Savannah Grind (Alleyoop Unity Grind)”) [U05]; część czytelników ONE blademag [U08][U10] |
 
@@ -70,6 +88,7 @@ recenzent: ""
 - W ankiecie ONE blademag (285 osób) ponad 70% uznało, że savannah nie musi być backside (parafraza z raportu). [U08] {OPINIA: ankieta czytelników} 1/2
 - Spór nie zmienia techniki: „Just make sure you land it whatever you're calling it”. [U10] {OPINIA: Neil Bates, komentarz ONE blademag} 1/2
 - **Ten poradnik** opisuje frontside unity w znaczeniu domyślnym (stopa prowadząca w backslide, tylna w torque). Savannah i alley-oop unity — poza zakresem.
+- **Back unity** pojawia się tylko jako oznaczone wtrącenia („Back unity:”, „w back unity”). Nie przenoś tych wskazówek 1:1 na front unity — źródła opisują w nim inny kąt najazdu [U17][U22], pracę bioder [U19] i wyjście [U22]. {OPINIA} 2/2
 
 ---
 
@@ -102,8 +121,8 @@ recenzent: ""
 
 - Krzyżuj w powietrzu; stopy mają być w docelowej pozycji przed kontaktem. [U17][U22] {OPINIA: Witzemann; aggressivemall} 2/2
 - Drummond: „cross your legs at your ankles … more than at your knees” — stabilniej. [U20] {OPINIA: Drummond, YouTube} 1/2
-- Raport Deep Research przypisuje Ricardo Lino odwrotną radę (krzyżować w goleniach). Wideo Lino nie zostało przepisane. ⚠ sprzeczność, zob. sekcja 9. [U11][DR5] {OPINIA} 1/2
-- Back unity: wyskocz jak do acida/top stara i zmień stopę w trakcie opadania. [U19] {OPINIA: Acosta Blades} 1/2
+- ⚠ Inna rada (krzyżowanie w goleniach) przypisana Ricardo Lino nie jest sprawdzona — wideo [U11] nie zostało przepisane. Bez etykiety, do weryfikacji, zob. sekcja 9.
+- Back unity (nie front): wyskocz jak do acida/top stara i zmień stopę w trakcie opadania. [U19] {OPINIA: Acosta Blades} 1/2
 
 **Typowe błędy:** kolana zbite razem przy krzyżowaniu. [U20] {OPINIA: Drummond — „keep your knees further apart”} 1/2
 **Wskazówka:** „Krzyżuj nisko, kolana szeroko.” [U20] {OPINIA} 1/2
@@ -128,7 +147,7 @@ recenzent: ""
 
 - Najpierw stall, dopiero potem ślizg. [U15][U16][U18][U20] {OPINIA: 4 instruktorów} 2/2
 - Bez wosku nie ma ślizgu. [U18][U20][U21][U23] {OPINIA: Acosta; Drummond; Back to Blading; aggressivemall} 2/2
-- Biodra zostają zwrócone do przeszkody; obracanie ich w kierunku jazdy wykręca stopy, zwykle spada tylna. [U16][U17][DR17] {OPINIA: JAD; Witzemann; r/AggressiveInline} 2/2
+- Biodra zostają zwrócone do przeszkody; obracanie ich w kierunku jazdy wykręca stopy, zwykle spada tylna. [U16][U17] {OPINIA: JAD; Witzemann — YouTube} 2/2
 - Wzrok na koniec przeszkody — „biggest balance tip”. [U20] {OPINIA: Drummond} 1/2
 - Przednia stopa się zsuwa (wychodzi pornstar) → ustaw barki równolegle do murka. [U21] {OPINIA: Back to Blading, vlog} 1/2
 
@@ -139,7 +158,8 @@ recenzent: ""
 - Z front unity naturalne wyjście to fakie: biodra się „rozkręcają”. „Don't fight it.” [U16][U17][U20][U21] {OPINIA: 4 instruktorów} 2/2
 - Inne wyjścia: w przód, 270 out. [U18] {OPINIA: Acosta} 1/2
 - Na etapie nauki nie rozplątuj nóg w trakcie grindu — to „more of an advanced step”. [U20] {OPINIA: Drummond} 1/2
-- Back unity: najpierw zdejmij stopę backside, potem obrót → fakie. [U22] {OPINIA: aggressivemall} 1/2
+- Back unity (nie front): najpierw zdejmij stopę backside, potem obrót → fakie. [U22] {OPINIA: aggressivemall} 1/2
+- ⚠ Najbardziej ryzykowny wydaje się zeskok, zanim nogi się rozplączą: kontakt z ziemią ze skrzyżowanymi nogami przy jeździe tyłem. Na etapie nauki wychodź nisko i wolno, pozwalając biodrom się „rozkręcić” [U16][U17][U20]; mechanizmy z analogii — sekcja 6.1. {WNIOSKOWANIE} — nikt tego nie mierzył, do recenzji fizjoterapeuty.
 - Lądowanie blisko i równolegle do przeszkody = trik był dobrze zablokowany; lądowanie daleko = „sketchy”. [U17] {OPINIA: Witzemann} 1/2
 - Zeskok: pochylenie tułowia przy lądowaniu zmniejsza pionową siłę reakcji podłoża (zeskoki, nie AGV). [S44][S45][S124] {DOWÓD:obserwacyjne}{ANALOGIA:zeskoki} 2/2
 
@@ -225,9 +245,10 @@ recenzent: ""
 ### 6.1 Co obciąża
 
 - Kontekst AGV: w ankiecie 133 riderów 46,5% urazów powstało przy kontakcie z przeszkodą, a 40,9% przy lądowaniu. [S144] {DOWÓD:obserwacyjne} 1/2 (literatura szara)
-- Biodro: rotacja i przywiedzenie nogi skrzyżowanej pod obciążeniem. {WNIOSKOWANIE} z [U16][U17][U20] (opis pozycji)
+- Biodro: rotacja nogi skrzyżowanej pod obciążeniem. Czy biodro jest w przywiedzeniu, czy bliżej odwiedzenia, zależy od ustawienia kolan, a rady są różne: „keep your knees further apart” [U20] vs kolana w przód „as if you were not crossing” [U17]. Której nogi (backslide czy torque) to dotyczy bardziej — nikt nie opisał. {WNIOSKOWANIE} z [U16][U17][U20] (opis pozycji); rozbicie na nogi — do researchu.
 - Kolano: zgięcie plus moment rotacyjny, gdy stopa jest zablokowana w rowku, a tułów się obraca. {WNIOSKOWANIE} z [U17]
 - Kostka: rolka przechylona na bok przy zablokowanym frame'ie; ile ruchu przejmuje sztywny but — brak danych. {WNIOSKOWANIE} z [U03][S02]
+- Kolano w płaszczyźnie czołowej: analogie niżej opisują koślawienie (valgus). Czy w unity przy „boot down” lub wheel bite przeważa koślawienie, czy szpotawienie (varus, struktury boczne) — brak danych, do researchu.
 
 **Kostka — analogia:**
 - Skręcenia w sportach halowych: głównie nagła inwersja (65%) i rotacja wewnętrzna (33%). [U31] {DOWÓD:obserwacyjne}{ANALOGIA:sporty halowe} 1/2 (wspólny autor z [U30])
@@ -261,12 +282,12 @@ recenzent: ""
 > Brak programu „pod unity” w żadnym źródle. Poniżej mapowanie treści bazy na wymagania pozycji — {WNIOSKOWANIE}, do recenzji fizjoterapeuty.
 
 **Mobilność**
-- Biodro: rotacja wewnętrzna i zewnętrzna, przywiedzenie; test bierny w leżeniu, porównanie stron. {WNIOSKOWANIE} z [U34][U35][U36][U37]
+- Biodro: rotacja wewnętrzna i zewnętrzna, przywiedzenie i odwiedzenie (zob. 6.1 — ustawienie kolan jest sporne); test bierny w leżeniu, porównanie stron. {WNIOSKOWANIE} z [U34][U35][U36][U37]
 - Kostka: zgięcie grzbietowe dla głębokiego ugięcia kolan; związek z lądowaniem to w bazie {SPEKULACJA} (`../filar-1-przygotowanie/mobilnosc.md`). [S02] 1/2
 
 **Siła**
 - Ewertory i inwertory kostki: przy przewlekłej niestabilności są słabsze niż u zdrowych. [S79] {DOWÓD:przegląd} 1/2 — program: `../filar-1-przygotowanie/wzmacnianie.md`.
-- Łydka: wspięcia obunóż, potem jednonóż. [S07] {KONSENSUS:protokół} 1/2
+- Łydka: wspięcia obunóż, potem jednonóż. [S07] {OPINIA: materiał NHS dla pacjentów z tendinopatią mięśnia piszczelowego tylnego}{ANALOGIA:rehabilitacja tendinopatii} 1/2 — źródło dla zdrowych sportowców: do researchu.
 - Test wspięć na jednej nodze jest powtarzalny przy tym samym protokole. [S158][S159] {DOWÓD:obserwacyjne} 2/2
 - Samo wzmacnianie biodra słabo zmienia koślawienie kolana. [S106][S108] {DOWÓD:przegląd} 2/2
 - Programy łączone (technika lądowania + plyometria + core) poprawiają mechanikę lądowania. [S113][S114][S115] {DOWÓD:przegląd} 2/2
@@ -295,28 +316,32 @@ recenzent: ""
 - Ostrożność przy świeżym skręceniu lub niestabilności kostki (mechanizm: inwersja + rotacja). {WNIOSKOWANIE} z [U30][U31]
 - Ostrożność po urazie lub rekonstrukcji ACL (rotacja + koślawienie). {WNIOSKOWANIE} z [U32][U33]
 - Ostrożność przy ograniczonej rotacji biodra. {WNIOSKOWANIE} z [U34][U35]
-- Ostrożność przy bólu przyśrodkowej części kolana przy skręcie. {WNIOSKOWANIE} z [U32]
+- Ból kolana (po stronie przyśrodkowej lub bocznej) albo bocznej części kostki w pozycji lub przy skręcie: przerwij i skonsultuj się ze specjalistą — nie diagnozuj sam, co boli. {WNIOSKOWANIE} z [U30][U31] (kostka) i [U32][U33] (kolano: rotacja + obciążenie w płaszczyźnie czołowej)
 - Nie na początku sesji bez rozgrzewki. [S29] {OPINIA: dr Kyle Brown}{ANALOGIA:skateboarding} 1/2
 - Nie ucz nowego triku szybciej ani na trudniejszej przeszkodzie, niż pozwala technika. [S33] {OPINIA: Ben Rowles, CSP Frontline}{ANALOGIA:skateboarding} 1/2
 
 ### 6.5 Powrót po urazie
 
-- Etapy i kryteria: `../filar-2-rehabilitacja/powrot-do-grindow.md`. Unity jest w **etapie 5** (razem z topside, royale, zeskokami): testy skoków ≥90% zdrowej strony, gotowość psychiczna, zgoda lekarza. [S22][S23] {KONSENSUS:protokół} 1/2 — przypisanie trików do etapów to propozycja bazy, nie wynik badań.
+- Etapy i kryteria: `../filar-2-rehabilitacja/powrot-do-grindow.md` (dotyczy **urazu kostki**). Kryteria ostatniego etapu: testy skoków ≥90% zdrowej strony, gotowość psychiczna, zgoda lekarza. [S22][S23] {KONSENSUS:protokół} 1/2 — protokoły po złamaniu (ORIF) i urazach kostki; w bazie oznaczone ⏳ (linki nie sprawdzone ręcznie). Po urazie kolana lub ACL — kryteria do researchu, ten poradnik ich nie podaje.
+- Unity jest w **etapie 5** (razem z topside, royale, zeskokami). {PROPOZYCJA} bazy — przypisanie trików do etapów nie jest wynikiem badań.
+- Nie wracaj za szybko; wielu skaterów doznaje ponownego urazu, bo wraca za wcześnie. [S29] {OPINIA: dr Kyle Brown}{ANALOGIA:skateboarding} 1/2
+- Kryterium wcześniejszych etapów to m.in. brak bólu i obrzęku po ćwiczeniach [S22] {KONSENSUS:protokół} 1/2. Jeśli po sesji z unity wraca ból lub obrzęk — cofnij się o etap i skonsultuj z fizjoterapeutą. {WNIOSKOWANIE} z [S22]
 - Po skręceniu bocznym nie ma zwalidowanych progów powrotu do sportu. [S149][S150] {DOWÓD:przegląd} 2/2
 - Decyzję opieraj na kryteriach (ból, stabilność, czucie, siła, funkcja). [S19] {KONSENSUS} 1/2
-- W etapie 5 stopniuj unity jak przy nauce: poza na ziemi → stall z miejsca → stall z wyskoku → „tap” → krótki grind → pełny grind. {WNIOSKOWANIE} z [U15][U17][U20]
+- W etapie 5 stopniuj unity jak przy nauce, od początku: poza na ziemi → stall z miejsca → stall z wyskoku → „tap” → krótki grind → pełny grind; najpierw niska przeszkoda i mała prędkość. {WNIOSKOWANIE} z [U15][U17][U20]
 - Ćwiczenia specyficzne dla sportu poprawiają pewność przy powrocie. [S29] {OPINIA}{ANALOGIA:skateboarding} 1/2
 
 ### 6.6 Wyjście przy zsunięciu i upadanie
 
 - Pochylaj się w przód; upadek w przód jest bezpieczniejszy niż ześlizg w tył. [U20] {OPINIA: Drummond} 1/2
 - Jeśli możesz, złap rurę. [U20] {OPINIA: Drummond} 1/2
+  - ⚠ Złapanie przeszkody to podparcie się ręką w trakcie upadku. Brak ochraniaczy nadgarstków wiązał się z urazami nadgarstka [S04], a „klepnięcie” dłonią nie zmniejszało obciążenia przy upadku [S70]. Traktuj tę radę ostrożnie, zwłaszcza przy większej prędkości i na wyższej przeszkodzie. {WNIOSKOWANIE} z [S04][S70] — do recenzji fizjoterapeuty.
 - W back unity „if you miss you sit on your butt”. [U21] {OPINIA: Back to Blading} 1/2
 - Przy nauce zakładaj ochraniacze. [U19] {OPINIA: Acosta} 1/2
 - Brak ochraniaczy nadgarstków: iloraz szans urazu nadgarstka 10,4 (rolki rekreacyjne). [S04] {DOWÓD:obserwacyjne} 1/2
 - ⚠ Acosta pokazuje upadek z podparciem ręką: „kick your legs out put your hand down sit down”. [U18] {OPINIA} 1/2. W metaanalizie „klepnięcie” dłonią nie zmniejszało obciążenia przy upadku, a przewrót i przysiad przy upadku w tył — zmniejszały. [S70] {DOWÓD:przegląd}{ANALOGIA:upadki zamierzone} 1/2
 - This Is Soul: przy upadku w bok ugnij kolana, sprowadź się do ziemi, jedną ręką prowadź ciało i usiądź „jak syrenka na skale” („mermaid”); przy upadku w tył skręć barki i zamień go w upadek w bok, nie podpieraj się rękami z tyłu. [DR36] {OPINIA: This Is Soul, poradnik ogólny, nie AGV} 1/2
-- Przy skrzyżowanych nogach rozplątanie przed lądowaniem jest trudniejsze. Ćwicz „wyjście na siad” i chwytanie rury na niskiej przeszkodzie, na miękkim. {WNIOSKOWANIE} z [U20][S70] — do recenzji.
+- Przy skrzyżowanych nogach rozplątanie przed lądowaniem jest trudniejsze. Ćwicz „wyjście na siad”, a chwytanie rury tylko na niskiej przeszkodzie, przy małej prędkości, na miękkim. {WNIOSKOWANIE} z [U20][S04][S70] — do recenzji.
 - Technika upadania ogólnie: `../filar-1-przygotowanie/technika-upadania.md`.
 
 ---
@@ -345,13 +370,13 @@ recenzent: ""
 
 - **Dowody:** brak badań unity. Jedyne badanie grindów AGV: n=10, stall i frontside. [S02] 1/2
 - **Pozycja:** H-block obu rolek + bok buta; nogi skrzyżowane; kolana ugięte; biodra do przeszkody. [U16][U17][U20] {OPINIA} 2/2
-- **Prawdopodobne obciążenie:** rotacja kolana przy zablokowanej stopie; kostka przechylona na bok; biodro w rotacji i przywiedzeniu. {WNIOSKOWANIE} — do recenzji.
+- **Prawdopodobne obciążenie:** rotacja kolana przy zablokowanej stopie; kostka przechylona na bok; biodro w rotacji (przywiedzenie czy odwiedzenie — zależy od ustawienia kolan, zob. 6.1). {WNIOSKOWANIE} — do recenzji. Valgus vs varus w unity — brak danych.
 - **Mechanizmy z analogii:** inwersja + rotacja wewnętrzna (kostka) [U30][U31]; koślawienie + rotacja, „slip-catch”, lądowanie z ciężarem do tyłu (kolano) [U32][U33]. {ANALOGIA} 1/2
 - **Obserwuj:** czy biodra uciekają w kierunku jazdy; czy zawodnik odchyla się do tyłu; ugięcie kolan przy wejściu i zeskoku; ustawienie kolana przy zeskoku fakie. [U17][U20][S02] {OPINIA}/{DOWÓD:obserwacyjne}
 - **Testuj:** bierne rotacje biodra (strony); zgięcie grzbietowe kostki; wspięcia jednonóż (ten sam protokół [S158][S159] 2/2); równowaga jednonóż [S16][S18] 2/2.
 - **Trenuj:** równowaga, technika lądowania + plyometria + core [S113][S114][S115] 2/2; ewertory/inwertory [S79] 1/2; pochylenie tułowia przy zeskoku [S44][S45][S124] 2/2.
-- **Powrót:** unity w etapie 5 `powrot-do-grindow.md`; brak zwalidowanych progów po skręceniu [S149][S150] 2/2.
-- **Upadek:** w przód, nie w tył [U20]; nie uczyć podpierania ręką jako głównej techniki [S70] 1/2; ochraniacze nadgarstków [S04] 1/2.
+- **Powrót (po urazie kostki):** unity w etapie 5 `powrot-do-grindow.md` ({PROPOZYCJA}); brak zwalidowanych progów po skręceniu [S149][S150] 2/2; po kolanie/ACL — do researchu.
+- **Upadek:** w przód, nie w tył [U20]; nie uczyć podpierania ręką (także „łapania rury”) jako głównej techniki [S70] 1/2; ochraniacze nadgarstków [S04] 1/2.
 
 ---
 
@@ -359,8 +384,8 @@ recenzent: ""
 
 ### Sprzeczności (bez werdyktu)
 
-1. **Gdzie krzyżować nogi.** Drummond: w kostkach, bardziej niż w kolanach [U20]. Raport DR przypisuje Ricardo Lino krzyżowanie w goleniach [DR5]. Wideo Lino [U11] nie zostało przepisane. Witzemann: kolana „forward as if you were not crossing” [U17]. **Do sprawdzenia na wideo.** {OPINIA} 1/2 każda strona
-2. **Unity vs savannah.** Konwencja pozycyjna vs kierunkowa (sekcja 1). {KONSENSUS} co do sporu 2/2
+1. **Gdzie krzyżować nogi.** Drummond: w kostkach, bardziej niż w kolanach [U20]. Raport DR przypisuje Ricardo Lino krzyżowanie w goleniach [DR5] — niesprawdzone, bez etykiety. Wideo Lino [U11] nie zostało przepisane. Witzemann: kolana „forward as if you were not crossing” [U17]. **Do sprawdzenia na wideo.** {OPINIA} 1/2 (Drummond, Witzemann); Lino — niesprawdzone
+2. **Unity vs savannah.** Konwencja pozycyjna vs kierunkowa (sekcja 1). {OPINIA} 2/2 (co do istnienia sporu)
 3. **Rozkład ciężaru.** 50/50 vs 55/45 vs 60/40 (sekcja 4). {OPINIA} 2/2 co do sporu
 4. **Kąt najazdu.** Lekki kąt [U17][U18] vs bardziej równolegle na długim murku [U22] vs większy kąt w alley-oop unity [U23] vs prawie na wprost [U16].
 5. **Wejście krokiem czy skokiem.** Krok jako etap nauki [U15][U21] vs „definitely don't try stepping onto it” [U16]; obie stopy naraz [U17][U22][S57].
@@ -382,6 +407,20 @@ recenzent: ""
 - Nieprzepisane wideo: Ricardo Lino [U11], AMALL *Coping Grinds* [U25], Becci Sotelo [U12].
 - Do obejrzenia na obrazie: [U15] „soul grooves”, [U17] „back FRV”, [U23] „hips parallel”.
 - Pominięto tezy oznaczone w triage jako podejrzane (m.in. liczby bez weryfikowalnego źródła, niepotwierdzone imiona autorów kanałów, przypisania niezgodne z transkryptami, „trzy filary stylu”, przeciwwskazania kolanowe bez źródła). Szczegóły: `research-raw/2026-11-11_unity_ai-studio-deep-research.md`, sekcja „Triage”.
+
+### Do researchu (z recenzji Argona, 11.11.2026)
+
+Uwagi recenzji, które wymagają nowych źródeł. Bez źródeł nie wchodzą do treści. Numery = numery uwag w `research-raw/2026-11-11_unity_argon-recenzja.md`.
+
+- [ ] (4) Opis nóg względem przeszkody (bliższa/dalsza) w unity i savannah.
+- [ ] (6) Ustawienie bioder i kolan osobno dla nogi backslide i torque (przywiedzenie/odwiedzenie, rotacja).
+- [ ] (7) Obciążenie kolana w płaszczyźnie czołowej przy „boot down” i wheel bite: koślawienie czy szpotawienie (LCL, struktury boczne).
+- [ ] (9) Ból boczny kolana i kostki (np. zatoka stępu) w AGV — źródła kliniczne.
+- [ ] (10) Program wzmacniania łydki dla zdrowych sportowców (zamiast materiału NHS o tendinopatii).
+- [ ] (11) Kryteria powrotu po urazie kolana / ACL; ręczne sprawdzenie S22 i S23.
+- [ ] (13) Setup kółek (flat vs anti-rocker) i sztywność cuffa a wheel bite i obciążenie kostki/kolana.
+- [ ] (14) Zeskok z unity do fakie: czy i kiedy nogi się rozplątują (analiza wideo).
+- [ ] (15) Definicje ze źródła: torque (pozycja stopy), coping, transition, switch-up, cess slide.
 
 ---
 
@@ -490,6 +529,7 @@ recenzent: ""
 - **Linki:** 35/40 adresów WWW odpowiada (200); wideo YouTube U11, U15–U25 — tytuły i kanały zgodne (oEmbed). Automat nie sprawdził: Reddit (S57, S58, DR17 — 403), Sanford Health (S23 — 403), Boston Sports Medicine (S22 — brak odpowiedzi), treści stuntworlds.nl (DR4). Źródła `S` były weryfikowane wcześniej.
 - **Etykiety:** każde zdanie merytoryczne ma etykietę lub odsyłacz do sekcji z etykietą; zdania redakcyjne (zakres, luki) są bez etykiet.
 - **Triage:** w poradniku nie ma tez oznaczonych w triage jako podejrzane (29% / „Kurath”, Parachute, „NHS 2026”, Khakha, niepotwierdzone imiona autorów kanałów, kąty 90/75/50/30°, szpotawość/koślawość, przeciwwskazania MCL, „trzy filary stylu”, 90/90 i „maź”). Sprzeczność Lino vs Drummond (krzyżowanie w goleniach vs w kostkach) zostaje jako do sprawdzenia na wideo.
-- **Następny krok:** recenzja Argonem, potem strona (Opus).
+- **Recenzja Argona (Gemini 4 Argon, AI Studio), 11.11.2026:** ocena 7,5/10, 15 uwag. Pełny tekst i decyzje (przyjęte / odrzucone / do researchu): `research-raw/2026-11-11_unity_argon-recenzja.md` ([GitHub](https://github.com/vitoexe/fizjo-agv/blob/main/research-raw/2026-11-11_unity_argon-recenzja.md)). Argon nie jest źródłem: poprawki to obniżenie etykiet, zastrzeżenia, ujednolicenia i słowniczek wyłącznie na źródłach z tej strony; słowniczek oparto na U06 i U07 (strony otwarte 11.11.2026). Uwagi wymagające nowej wiedzy — sekcja 9, „Do researchu”.
+- **Następny krok:** strona (Opus).
 
 > ⚠️ **To nie jest diagnoza ani porada medyczna.**
